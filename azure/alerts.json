@@ -1,0 +1,16 @@
+{
+    "emails": [
+        {
+            "actionName": "P2P",
+            "email": "ecommpathtopurchase@alaskaair.onmicrosoft.com"
+        }
+    ],
+    "sms": [
+    ],
+    "webhooks": [
+        {
+            "actionName": "P2PTeams",
+            "url": "https://outlook.office.com/webhook/02b261d7-eaf6-41e0-b69c-190cbb9d44d9@0f44c5d4-42b0-45c2-bf55-d0fea8430d33/IncomingWebhook/0eb17dd240d747b1be8a82fbb0bf6db5/c2085482-5d3f-4d55-befc-21e9bcd26636"
+        }
+    ]
+}

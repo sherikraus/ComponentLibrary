@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ETMeals>
+  <Meal Code="B" Description="Breakfast"/>
+  <Meal Code="K" Description="Breakfast"/>
+  <Meal Code="D" Description="Dinner"/>
+  <Meal Code="L" Description="Lunch"/>
+  <Meal Code="S" Description="Snack"/>
+  <Meal Code="F" Description="Food for Purchase"/>
+  <Meal Code="V" Description=""/>
+  <Meal Code="R" Description=""/>
+  <Meal Code="G" Description="Food for Purchase" />
+  <Meal Code="O" Description="Food Served"/>
+  <Meal Code="H" Description="Food Served"/>
+  <Meal Code="M" Description="Food Served"/>
+  <Meal Code="P" Description=""/>
+  <Meal Code="C" Description=""/>
+  <Meal Code="N" Description="No Meal Served"/>
+  <Meal Code="X" Description=""/>
+
+  <!--Meal descriptions coming from ITA-->
+  <ITAMeals>
+    <Meal Description="Breakfast" Code="B"/>
+    <Meal Description="Continental Breakfast" Code="K"/>
+    <Meal Description="Dinner" Code="D"/>
+    <Meal Description="Lunch" Code="L"/>
+    <Meal Description="Snack" Code="S"/>
+    <Meal Description="Snack or Brunch" Code="S"/>
+    <Meal Description="Food for Purchase" Code="F"/>
+    <Meal Description="Refreshments for Purchase" Code="V"/>
+    <Meal Description="Refreshments" Code="R"/>
+    <Meal Description="Food and Beverages for Purchase" Code="G"/>
+    <Meal Description="Cold Meal" Code="O"/>
+    <Meal Description="Hot Meal" Code="H"/>
+    <Meal Description="Meal" Code="M"/>
+    <Meal Description="Alcoholic Beverages for Purchase" Code="P"/>
+    <Meal Description="Alcoholic Beverages - Complimentary" Code="C"/>
+    <Meal Description="No Meal" Code="N"/>
+  </ITAMeals>
+</ETMeals>

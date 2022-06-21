@@ -1,0 +1,1010 @@
+<?xml version="1.0" standalone="yes"?>
+<ETAirports Version="1.0" Date="May 19 2020 10:24PM">
+  <Airport Code="AUH" Type="APT" Name="Abu Dhabi" Region="AE" Country="AE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Abu Dhabi Intl." />
+  <Airport Code="DXB" Type="APT" Name="Dubai" Region="AE" Country="AE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dubai" />
+  <Airport Code="KBL" Type="APT" Name="Kabul" Region="AF" Country="AF" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kabul" />
+  <Airport Code="ANU" Type="APT" Name="Antigua" Region="AG" Country="AG" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Antigua" />
+  <Airport Code="TIA" Type="APT" Name="Tirana" Region="AL" Country="AL" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tirana" />
+  <Airport Code="LAD" Type="APT" Name="Luanda" Region="AO" Country="AO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Luanda" />
+  <Airport Code="EZE" Type="APT" Name="Buenos Aires" Region="AR" Country="AR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Buenos Aires (E" />
+  <Airport Code="INN" Type="APT" Name="Innsbruck" Region="AT" Country="AT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Innsbruck" />
+  <Airport Code="SZG" Type="APT" Name="Salzburg" Region="AT" Country="AT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Salzburg" />
+  <Airport Code="VIE" Type="APT" Name="Vienna" Region="AT" Country="AT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Vienna" />
+  <Airport Code="ADL" Type="APT" Name="Adelaide" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Adelaide" />
+  <Airport Code="ABX" Type="APT" Name="Albury" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Albury" />
+  <Airport Code="ASP" Type="APT" Name="Alice Springs" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Alice Springs" />
+  <Airport Code="ARM" Type="APT" Name="Armidale" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Armidale" />
+  <Airport Code="AYQ" Type="APT" Name="Ayers Rock" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ayers Rock" />
+  <Airport Code="BNK" Type="APT" Name="Ballina" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Ballina" />
+  <Airport Code="BCI" Type="APT" Name="Barcaldine" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Barcaldine" />
+  <Airport Code="BXG" Type="APT" Name="Bendigo" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bendigo" />
+  <Airport Code="BKQ" Type="APT" Name="Blackall" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Blackall" />
+  <Airport Code="BNE" Type="APT" Name="Brisbane" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Brisbane" />
+  <Airport Code="BME" Type="APT" Name="Broome" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Broome" />
+  <Airport Code="BDB" Type="APT" Name="Bundaberg" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bundaberg" />
+  <Airport Code="CNS" Type="APT" Name="Cairns" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cairns" />
+  <Airport Code="CBR" Type="APT" Name="Canberra" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Canberra" />
+  <Airport Code="CTL" Type="APT" Name="Charleville" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Charleville" />
+  <Airport Code="CNJ" Type="APT" Name="Cloncurry" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Cloncurry" />
+  <Airport Code="CFS" Type="APT" Name="Coffs Harbour" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Coffs Harbour" />
+  <Airport Code="DRW" Type="APT" Name="Darwin" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Darwin" />
+  <Airport Code="DPO" Type="APT" Name="Devonport" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Devonport" />
+  <Airport Code="DBO" Type="APT" Name="Dubbo" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Dubbo" />
+  <Airport Code="EMD" Type="APT" Name="Emerald" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Emerald" />
+  <Airport Code="GET" Type="APT" Name="Geraldton" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Geraldton" />
+  <Airport Code="GLT" Type="APT" Name="Gladstone" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Gladstone" />
+  <Airport Code="OOL" Type="APT" Name="Gold Coast" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Gold Coast" />
+  <Airport Code="HTI" Type="APT" Name="Hamilton Island" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hamilton Island" />
+  <Airport Code="HVB" Type="APT" Name="Hervey Bay" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Hervey Bay" />
+  <Airport Code="HBA" Type="APT" Name="Hobart" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hobart" />
+  <Airport Code="HID" Type="APT" Name="Horn Island" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Horn Island" />
+  <Airport Code="KGI" Type="APT" Name="Kalgoorlie" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kalgoorlie" />
+  <Airport Code="KTA" Type="APT" Name="Karratha" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Karratha" />
+  <Airport Code="KGC" Type="APT" Name="Kingscote" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kingscote" />
+  <Airport Code="LST" Type="APT" Name="Launceston" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Launceston" />
+  <Airport Code="LEA" Type="APT" Name="Learmonth" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Learmonth" />
+  <Airport Code="LRE" Type="APT" Name="Longreach" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Longreach" />
+  <Airport Code="LDH" Type="APT" Name="Lord Howe Island" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Lord Howe Islan" />
+  <Airport Code="MKY" Type="APT" Name="Mackay" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Mackay" />
+  <Airport Code="MEL" Type="APT" Name="Melbourne, AU" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Melbourne" />
+  <Airport Code="MQL" Type="APT" Name="Mildura" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Mildura" />
+  <Airport Code="MOV" Type="APT" Name="Moranbah" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Moranbah" />
+  <Airport Code="MRZ" Type="APT" Name="Moree" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Moree" />
+  <Airport Code="ISA" Type="APT" Name="Mount Isa" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Mount Isa" />
+  <Airport Code="NTL" Type="APT" Name="Newcastle, AU" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Newcastle Willi" />
+  <Airport Code="ZNE" Type="APT" Name="Newman" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Newman" />
+  <Airport Code="OAG" Type="APT" Name="Orange" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Orange" />
+  <Airport Code="PBO" Type="APT" Name="Paraburdoo" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Paraburdoo" />
+  <Airport Code="PER" Type="APT" Name="Perth" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Perth" />
+  <Airport Code="PHE" Type="APT" Name="Port Hedland" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Port Hedland" />
+  <Airport Code="PLO" Type="APT" Name="Port Lincoln" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Port Lincoln" />
+  <Airport Code="PQQ" Type="APT" Name="Port Macquarie" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Port Macquarie" />
+  <Airport Code="ROK" Type="APT" Name="Rockhampton" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Rockhampton" />
+  <Airport Code="RMA" Type="APT" Name="Roma" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Roma" />
+  <Airport Code="MCY" Type="APT" Name="Sunshine Coast" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Sunshine Coast" />
+  <Airport Code="SYD" Type="APT" Name="Sydney" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sydney Kingsfor" />
+  <Airport Code="TMW" Type="APT" Name="Tamworth" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tamworth" />
+  <Airport Code="TSV" Type="APT" Name="Townsville" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Townsville" />
+  <Airport Code="WGA" Type="APT" Name="Wagga Wagga" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Wagga Wagga" />
+  <Airport Code="WEI" Type="APT" Name="Weipa" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Weipa" />
+  <Airport Code="WYA" Type="APT" Name="Whyalla" Region="AU" Country="AU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Whyalla" />
+  <Airport Code="AUA" Type="APT" Name="Aruba" Region="AW" Country="AW" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Aruba" />
+  <Airport Code="BGI" Type="APT" Name="Barbados" Region="BB" Country="BB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Barbados" />
+  <Airport Code="DAC" Type="APT" Name="Dhaka" Region="BD" Country="BD" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dhaka" />
+  <Airport Code="BRU" Type="APT" Name="Brussels" Region="BE" Country="BE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Brussels Nation" />
+  <Airport Code="BOJ" Type="APT" Name="Bourgas" Region="BG" Country="BG" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bourgas" />
+  <Airport Code="SOF" Type="APT" Name="Sofia" Region="BG" Country="BG" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Sofia" />
+  <Airport Code="BAH" Type="APT" Name="Bahrain" Region="BH" Country="BH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bahrain" />
+  <Airport Code="BDA" Type="APT" Name="Bermuda" Region="BM" Country="BM" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bermuda Intl." />
+  <Airport Code="BWN" Type="APT" Name="Bandar Seri Begawan" Region="BN" Country="BN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bandar Seri Beg" />
+  <Airport Code="LPB" Type="APT" Name="La Paz, BO" Region="BO" Country="BO" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="La Paz" />
+  <Airport Code="BON" Type="APT" Name="Bonaire" Region="BQ" Country="BQ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bonaire" />
+  <Airport Code="BSB" Type="APT" Name="Brasilia" Region="BR" Country="BR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Brasilia" />
+  <Airport Code="MAO" Type="APT" Name="Manaus" Region="BR" Country="BR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Manaus" />
+  <Airport Code="GIG" Type="APT" Name="Rio de Janeiro" Region="BR" Country="BR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Rio de Janeiro " />
+  <Airport Code="GRU" Type="APT" Name="Sao Paulo" Region="BR" Country="BR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sao Paulo (GRU)" />
+  <Airport Code="FPO" Type="APT" Name="Freeport" Region="BS" Country="BS" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Freeport" />
+  <Airport Code="GGT" Type="APT" Name="George Town" Region="BS" Country="BS" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="George Town" />
+  <Airport Code="MHH" Type="APT" Name="Marsh Harbour" Region="BS" Country="BS" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Marsh Harbour" />
+  <Airport Code="NAS" Type="APT" Name="Nassau" Region="BS" Country="BS" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nassau Intl." />
+  <Airport Code="ELH" Type="APT" Name="North Eleuthera" Region="BS" Country="BS" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="North Eleuthera" />
+  <Airport Code="BZE" Type="APT" Name="Belize City" Region="BZ" Country="BZ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Belize City Gol" />
+  <Airport Code="YYC" Type="APT" Name="Calgary" Region="AB" Country="CA" AS="false" QX="true" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="false" ITMName="Calgary" />
+  <Airport Code="YEG" Type="APT" Name="Edmonton" Region="AB" Country="CA" AS="false" QX="true" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="false" ITMName="Edmonton" />
+  <Airport Code="YLW" Type="APT" Name="Kelowna" Region="BC" Country="CA" AS="false" QX="true" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="false" ITMName="Kelowna" />
+  <Airport Code="YVR" Type="APT" Name="Vancouver" Region="BC" Country="CA" AS="true" QX="true" Effective="06/01/2020" LowFrequency="false" Map="true" eBP="true" ITMName="Vancouver" />
+  <Airport Code="YYJ" Type="APT" Name="Victoria" Region="BC" Country="CA" AS="false" QX="true" Effective="06/01/2020" LowFrequency="false" Map="true" eBP="false" ITMName="Victoria, BC" />
+  <Airport Code="YWG" Type="APT" Name="Winnipeg" Region="MB" Country="CA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Winnipeg" />
+  <Airport Code="YHZ" Type="APT" Name="Halifax" Region="NS" Country="CA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Halifax" />
+  <Airport Code="YXU" Type="APT" Name="London, ON" Region="ON" Country="CA" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="London, ON" />
+  <Airport Code="YOW" Type="APT" Name="Ottawa" Region="ON" Country="CA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ottawa" />
+  <Airport Code="YYZ" Type="APT" Name="Toronto" Region="ON" Country="CA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Toronto" />
+  <Airport Code="YUL" Type="APT" Name="Montreal" Region="QC" Country="CA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Montreal" />
+  <Airport Code="YQB" Type="APT" Name="Quebec" Region="QC" Country="CA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Quebec" />
+  <Airport Code="YXE" Type="APT" Name="Saskatoon" Region="SK" Country="CA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Saskatoon" />
+  <Airport Code="YXY" Type="APT" Name="Whitehorse" Region="YT" Country="CA" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Whitehorse" />
+  <Airport Code="BSL" Type="APT" Name="Euroairport" Region="CH" Country="CH" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Euroairport (BS" />
+  <Airport Code="GVA" Type="APT" Name="Geneva" Region="CH" Country="CH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Geneva" />
+  <Airport Code="ZRH" Type="APT" Name="Zurich" Region="CH" Country="CH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Zurich" />
+  <Airport Code="ABJ" Type="APT" Name="Abidjan" Region="CI" Country="CI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Abidjan" />
+  <Airport Code="SCL" Type="APT" Name="Santiago, CL" Region="CL" Country="CL" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Santiago Arturo" />
+  <Airport Code="AQG" Type="APT" Name="Anqing" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Anqing" />
+  <Airport Code="PEK" Type="APT" Name="Beijing" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Beijing (PEK)" />
+  <Airport Code="CGQ" Type="APT" Name="Changchun" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Changchun" />
+  <Airport Code="CSX" Type="APT" Name="Changsha" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Changsha" />
+  <Airport Code="CTU" Type="APT" Name="Chengdu" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Chengdu" />
+  <Airport Code="CKG" Type="APT" Name="Chongqing" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Chongqing" />
+  <Airport Code="DLC" Type="APT" Name="Dalian" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dalian" />
+  <Airport Code="DYG" Type="APT" Name="Dayong" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Dayong" />
+  <Airport Code="DOY" Type="APT" Name="Dongying" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Dongying" />
+  <Airport Code="FOC" Type="APT" Name="Fuzhou" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Fuzhou" />
+  <Airport Code="CAN" Type="APT" Name="Guangzhou" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Guangzhou" />
+  <Airport Code="KWL" Type="APT" Name="Guilin" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Guilin" />
+  <Airport Code="KWE" Type="APT" Name="Guiyang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Guiyang" />
+  <Airport Code="HAK" Type="APT" Name="Haikou" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Haikou" />
+  <Airport Code="HLD" Type="APT" Name="Hailar" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Hailar" />
+  <Airport Code="HGH" Type="APT" Name="Hangzhou" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hangzhou" />
+  <Airport Code="HZG" Type="APT" Name="Hanzhong" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hanzhong" />
+  <Airport Code="HRB" Type="APT" Name="Harbin" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Harbin" />
+  <Airport Code="HFE" Type="APT" Name="Hefei" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hefei" />
+  <Airport Code="HNY" Type="APT" Name="Hengyang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Hengyang" />
+  <Airport Code="HET" Type="APT" Name="Hohhot" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Hohhot" />
+  <Airport Code="JMU" Type="APT" Name="Jiamusi" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Jiamusi" />
+  <Airport Code="TNA" Type="APT" Name="Jinan" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jinan" />
+  <Airport Code="KHG" Type="APT" Name="Kashi" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kashi" />
+  <Airport Code="KMG" Type="APT" Name="Kunming" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kunming" />
+  <Airport Code="LHW" Type="APT" Name="Lanzhou" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lanzhou" />
+  <Airport Code="LYG" Type="APT" Name="Lianyungang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Lianyungang" />
+  <Airport Code="NZH" Type="APT" Name="Manzhouli" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Manzhouli (NZH)" />
+  <Airport Code="MIG" Type="APT" Name="Mian Yang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Mian Yang" />
+  <Airport Code="MDG" Type="APT" Name="Mudanjiang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Mudanjiang" />
+  <Airport Code="KHN" Type="APT" Name="Nanchang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nanchang" />
+  <Airport Code="NKG" Type="APT" Name="Nanjing" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nanjing" />
+  <Airport Code="NNG" Type="APT" Name="Nanning" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nanning" />
+  <Airport Code="NGB" Type="APT" Name="Ningbo" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ningbo" />
+  <Airport Code="TAO" Type="APT" Name="Qingdao" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Qingdao" />
+  <Airport Code="SYX" Type="APT" Name="Sanya" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sanya" />
+  <Airport Code="PVG" Type="APT" Name="Shanghai, CN" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Shanghai (PVG)" />
+  <Airport Code="SHA" Type="APT" Name="Shanghai, CN" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Shanghai Hongqi" />
+  <Airport Code="SHE" Type="APT" Name="Shenyang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Shenyang" />
+  <Airport Code="SZX" Type="APT" Name="Shenzhen" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Shenzhen" />
+  <Airport Code="SJW" Type="APT" Name="Shijiazhuang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Shijiazhuang" />
+  <Airport Code="TYN" Type="APT" Name="Taiyuan" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Taiyuan" />
+  <Airport Code="TVS" Type="APT" Name="Tangshan" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tangshan (TVS)" />
+  <Airport Code="TSN" Type="APT" Name="Tianjin" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tianjin" />
+  <Airport Code="URC" Type="APT" Name="Urumqi" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Urumqi" />
+  <Airport Code="WEF" Type="APT" Name="Weifang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Weifang" />
+  <Airport Code="WEH" Type="APT" Name="Weihai" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Weihai" />
+  <Airport Code="WNZ" Type="APT" Name="Wenzhou" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Wenzhou" />
+  <Airport Code="WUA" Type="APT" Name="Wuhai" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Wuhai (WUA)" />
+  <Airport Code="WUH" Type="APT" Name="Wuhan" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Wuhan" />
+  <Airport Code="XIY" Type="APT" Name="Xi an" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Xi an (XIY)" />
+  <Airport Code="XMN" Type="APT" Name="Xiamen" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Xiamen" />
+  <Airport Code="XNN" Type="APT" Name="Xining" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Xining" />
+  <Airport Code="XUZ" Type="APT" Name="Xuzhou" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Xuzhou" />
+  <Airport Code="ENY" Type="APT" Name="Yan an" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Yan an" />
+  <Airport Code="YNJ" Type="APT" Name="Yanji" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Yanji" />
+  <Airport Code="YNT" Type="APT" Name="Yantai" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Yantai" />
+  <Airport Code="YIH" Type="APT" Name="Yichang" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Yichang" />
+  <Airport Code="CGO" Type="APT" Name="Zhengzhou" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Zhengzhou" />
+  <Airport Code="ZUH" Type="APT" Name="Zhuhai" Region="CN" Country="CN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Zhuhai" />
+  <Airport Code="BAQ" Type="APT" Name="Barranquilla" Region="CO" Country="CO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Barranquilla" />
+  <Airport Code="BOG" Type="APT" Name="Bogota" Region="CO" Country="CO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bogota" />
+  <Airport Code="CLO" Type="APT" Name="Cali" Region="CO" Country="CO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cali" />
+  <Airport Code="CTG" Type="APT" Name="Cartagena" Region="CO" Country="CO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cartagena" />
+  <Airport Code="CRC" Type="APT" Name="Cartago" Region="CO" Country="CO" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Cartago" />
+  <Airport Code="MDE" Type="APT" Name="Medellin" Region="CO" Country="CO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Medellin Jose M" />
+  <Airport Code="PEI" Type="APT" Name="Pereira" Region="CO" Country="CO" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Pereira" />
+  <Airport Code="LIR" Type="APT" Name="Liberia" Region="CR" Country="CR" AS="true" QX="false" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="false" ITMName="Liberia" />
+  <Airport Code="SJO" Type="APT" Name="San Jose, CR" Region="CR" Country="CR" AS="true" QX="false" Effective="06/02/2020" LowFrequency="false" Map="false" eBP="false" ITMName="San Jose Juan S" />
+  <Airport Code="PRN" Type="APT" Name="Pristina" Region="CS" Country="CS" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Pristina" />
+  <Airport Code="HAV" Type="APT" Name="Havana" Region="CU" Country="CU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Havana" />
+  <Airport Code="HOG" Type="APT" Name="Holguin" Region="CU" Country="CU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Holguin" />
+  <Airport Code="VRA" Type="APT" Name="Varadero" Region="CU" Country="CU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Varadero Juan G" />
+  <Airport Code="CUR" Type="APT" Name="Curacao" Region="CW" Country="CW" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Curacao" />
+  <Airport Code="LCA" Type="APT" Name="Larnaca" Region="CY" Country="CY" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Larnaca" />
+  <Airport Code="PFO" Type="APT" Name="Paphos" Region="CY" Country="CY" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Paphos" />
+  <Airport Code="PRG" Type="APT" Name="Prague" Region="CZ" Country="CZ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Prague" />
+  <Airport Code="BER" Type="CITY" Name="Berlin, US" Region="DE " Country="DE" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Berlin (SXF)" />
+  <Airport Code="BER" Type="CITY" Name="Berlin, US" Region="DE " Country="DE" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Berlin (TXL)" />
+  <Airport Code="SXF" Type="APT" Name="Berlin-Berlin Schonefeld" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Berlin (SXF)" />
+  <Airport Code="TXL" Type="APT" Name="Berlin-Berlin Tegel" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Berlin (TXL)" />
+  <Airport Code="BRE" Type="APT" Name="Bremen" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bremen" />
+  <Airport Code="CGN" Type="APT" Name="Cologne" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Cologne/Bonn K." />
+  <Airport Code="DUS" Type="APT" Name="Dusseldorf" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dusseldorf Rhei" />
+  <Airport Code="FRA" Type="APT" Name="Frankfurt" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Frankfurt Intl." />
+  <Airport Code="FDH" Type="APT" Name="Friedrichshafen" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Friedrichshafen" />
+  <Airport Code="HAM" Type="APT" Name="Hamburg" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hamburg Fuhlsbu" />
+  <Airport Code="HAJ" Type="APT" Name="Hanover" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Hanover" />
+  <Airport Code="LEJ" Type="APT" Name="Leipzig/Halle" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Leipzig/Halle" />
+  <Airport Code="MUC" Type="APT" Name="Munich" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Munich Intl." />
+  <Airport Code="NUE" Type="APT" Name="Nuremberg" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Nuremberg" />
+  <Airport Code="STR" Type="APT" Name="Stuttgart" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Stuttgart Echte" />
+  <Airport Code="GWT" Type="APT" Name="Westerland" Region="DE" Country="DE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Westerland" />
+  <Airport Code="BLL" Type="APT" Name="Billund" Region="DK" Country="DK" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Billund" />
+  <Airport Code="CPH" Type="APT" Name="Copenhagen" Region="DK" Country="DK" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Copenhagen" />
+  <Airport Code="POP" Type="APT" Name="Puerto Plata" Region="DO" Country="DO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Puerto Plata" />
+  <Airport Code="PUJ" Type="APT" Name="Punta Cana" Region="DO" Country="DO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Punta Cana" />
+  <Airport Code="STI" Type="APT" Name="Santiago, DO" Region="DO" Country="DO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Santiago" />
+  <Airport Code="SDQ" Type="APT" Name="Santo Domingo" Region="DO" Country="DO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Santo Domingo L" />
+  <Airport Code="ALG" Type="APT" Name="Algiers" Region="DZ" Country="DZ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Algiers" />
+  <Airport Code="OCC" Type="APT" Name="Coca" Region="EC" Country="EC" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Coca" />
+  <Airport Code="CUE" Type="APT" Name="Cuenca" Region="EC" Country="EC" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Cuenca" />
+  <Airport Code="GPS" Type="APT" Name="Galapagos Islands" Region="EC" Country="EC" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Galapagos Islan" />
+  <Airport Code="GYE" Type="APT" Name="Guayaquil" Region="EC" Country="EC" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Guayaquil" />
+  <Airport Code="MEC" Type="APT" Name="Manta" Region="EC" Country="EC" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Manta" />
+  <Airport Code="UIO" Type="APT" Name="Quito" Region="EC" Country="EC" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Quito" />
+  <Airport Code="SCY" Type="APT" Name="San Cristobal" Region="EC" Country="EC" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="San Cristobal" />
+  <Airport Code="TLL" Type="APT" Name="Tallinn" Region="EE" Country="EE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tallinn" />
+  <Airport Code="TAY" Type="APT" Name="Tartu" Region="EE" Country="EE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tartu" />
+  <Airport Code="CAI" Type="APT" Name="Cairo" Region="EG" Country="EG" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cairo" />
+  <Airport Code="HRG" Type="APT" Name="Hurghada" Region="EG" Country="EG" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Hurghada" />
+  <Airport Code="RMF" Type="APT" Name="Marsa Alam" Region="EG" Country="EG" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Marsa Alam" />
+  <Airport Code="ALC" Type="APT" Name="Alicante" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Alicante" />
+  <Airport Code="LEI" Type="APT" Name="Almeria" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Almeria" />
+  <Airport Code="BCN" Type="APT" Name="Barcelona" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Barcelona" />
+  <Airport Code="BIO" Type="APT" Name="Bilbao" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bilbao" />
+  <Airport Code="FUE" Type="APT" Name="Fuerteventura" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Fuerteventura" />
+  <Airport Code="IBZ" Type="APT" Name="Ibiza" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Ibiza" />
+  <Airport Code="XRY" Type="APT" Name="Jerez de la Frontera" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Jerez de la Fro" />
+  <Airport Code="ACE" Type="APT" Name="Lanzarote" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Lanzarote" />
+  <Airport Code="LPA" Type="APT" Name="Las Palmas" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Las Palmas" />
+  <Airport Code="MAD" Type="APT" Name="Madrid" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Madrid Barajas" />
+  <Airport Code="AGP" Type="APT" Name="Malaga" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Malaga" />
+  <Airport Code="MAH" Type="APT" Name="Menorca" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Menorca" />
+  <Airport Code="PMI" Type="APT" Name="Palma Mallorca" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Palma Mallorca" />
+  <Airport Code="EAS" Type="APT" Name="San Sebastian" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="San Sebastian" />
+  <Airport Code="SPC" Type="APT" Name="Santa Cruz de la Palma" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Santa Cruz de l" />
+  <Airport Code="SCQ" Type="APT" Name="Santiago de Compostela" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Santiago de Com" />
+  <Airport Code="SVQ" Type="APT" Name="Seville" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Seville" />
+  <Airport Code="TCI" Type="CITY" Name="Tenerife" Region="ES" Country="ES" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Tenerife (TFS)" />
+  <Airport Code="TFS" Type="APT" Name="Tenerife-Tenerife Sur Reina Sofia" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tenerife (TFS)" />
+  <Airport Code="VLC" Type="APT" Name="Valencia" Region="ES" Country="ES" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Valencia" />
+  <Airport Code="ADD" Type="APT" Name="Addis Ababa" Region="ET" Country="ET" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Addis Ababa" />
+  <Airport Code="HEL" Type="APT" Name="Helsinki" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Helsinki" />
+  <Airport Code="IVL" Type="APT" Name="Ivalo" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Ivalo" />
+  <Airport Code="JOE" Type="APT" Name="Joensuu" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Joensuu" />
+  <Airport Code="JYV" Type="APT" Name="Jyvaskyla" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jyvaskyla" />
+  <Airport Code="KAJ" Type="APT" Name="Kajaani" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kajaani" />
+  <Airport Code="KEM" Type="APT" Name="Kemi/Tornio" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kemi/Tornio" />
+  <Airport Code="KTT" Type="APT" Name="Kittila" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kittila" />
+  <Airport Code="KOK" Type="APT" Name="Kokkola/Pietarsaari" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kokkola/Pietars" />
+  <Airport Code="KUO" Type="APT" Name="Kuopio" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kuopio" />
+  <Airport Code="KAO" Type="APT" Name="Kuusamo" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kuusamo" />
+  <Airport Code="MHQ" Type="APT" Name="Mariehamn" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Mariehamn" />
+  <Airport Code="OUL" Type="APT" Name="Oulu" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Oulu" />
+  <Airport Code="RVN" Type="APT" Name="Rovaniemi" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Rovaniemi" />
+  <Airport Code="TMP" Type="APT" Name="Tampere" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tampere" />
+  <Airport Code="TKU" Type="APT" Name="Turku" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Turku" />
+  <Airport Code="VAA" Type="APT" Name="Vaasa" Region="FI" Country="FI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Vaasa" />
+  <Airport Code="ICI" Type="APT" Name="Cicia" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Cicia" />
+  <Airport Code="KDV" Type="APT" Name="Kandavu" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kandavu" />
+  <Airport Code="KXF" Type="APT" Name="Koro Island" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Koro Island" />
+  <Airport Code="LBS" Type="APT" Name="Labasa" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Labasa" />
+  <Airport Code="LKB" Type="APT" Name="Lakeba" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Lakeba" />
+  <Airport Code="NAN" Type="APT" Name="Nadi" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nadi" />
+  <Airport Code="RTA" Type="APT" Name="Rotuma Island" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Rotuma Island" />
+  <Airport Code="SVU" Type="APT" Name="Savusavu" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Savusavu" />
+  <Airport Code="SUV" Type="APT" Name="Suva" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Suva" />
+  <Airport Code="TVU" Type="APT" Name="Taveuni" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Taveuni" />
+  <Airport Code="VBV" Type="APT" Name="Vanuabalavu" Region="FJ" Country="FJ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Vanuabalavu" />
+  <Airport Code="BIA" Type="APT" Name="Bastia" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bastia" />
+  <Airport Code="EGC" Type="APT" Name="Bergerac" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bergerac" />
+  <Airport Code="BOD" Type="APT" Name="Bordeaux" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bordeaux" />
+  <Airport Code="CMF" Type="APT" Name="Chambery" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Chambery" />
+  <Airport Code="FSC" Type="APT" Name="Figari" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Figari" />
+  <Airport Code="GNB" Type="APT" Name="Lyon, FR" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Lyon (GNB)" />
+  <Airport Code="LYS" Type="APT" Name="Lyon, FR" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Lyon Saint Exup" />
+  <Airport Code="MRS" Type="APT" Name="Marseille" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Marseille" />
+  <Airport Code="MPL" Type="APT" Name="Montpellier" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Montpellier" />
+  <Airport Code="NTE" Type="APT" Name="Nantes" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Nantes Atlantiq" />
+  <Airport Code="NCE" Type="APT" Name="Nice" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nice" />
+  <Airport Code="PAR" Type="CITY" Name="Paris" Region="FR " Country="FR" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Paris (CDG)" />
+  <Airport Code="CDG" Type="APT" Name="Paris-Paris Charles de Gaulle" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Paris (CDG)" />
+  <Airport Code="PGF" Type="APT" Name="Perpignan" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Perpignan" />
+  <Airport Code="UIP" Type="APT" Name="Quimper" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Quimper" />
+  <Airport Code="RNS" Type="APT" Name="Rennes" Region="FR" Country="FR" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Rennes St. Jacq" />
+  <Airport Code="TLN" Type="APT" Name="Toulon" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Toulon" />
+  <Airport Code="TLS" Type="APT" Name="Toulouse" Region="FR" Country="FR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Toulouse Blagna" />
+  <Airport Code="ABZ" Type="APT" Name="Aberdeen, GB" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Aberdeen" />
+  <Airport Code="BHD" Type="APT" Name="Belfast" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Belfast (BHD)" />
+  <Airport Code="BHX" Type="APT" Name="Birmingham, GB" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Birmingham Intl" />
+  <Airport Code="BRS" Type="APT" Name="Bristol" Region="GB" Country="GB" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Bristol" />
+  <Airport Code="CBG" Type="APT" Name="Cambridge" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Cambridge" />
+  <Airport Code="CWL" Type="APT" Name="Cardiff" Region="GB" Country="GB" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Cardiff" />
+  <Airport Code="EDI" Type="APT" Name="Edinburgh" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Edinburgh" />
+  <Airport Code="EXT" Type="APT" Name="Exeter" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Exeter" />
+  <Airport Code="GLA" Type="APT" Name="Glasgow" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Glasgow Intl." />
+  <Airport Code="INV" Type="APT" Name="Inverness" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Inverness" />
+  <Airport Code="IOM" Type="APT" Name="Isle Of Man" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Isle Of Man" />
+  <Airport Code="JER" Type="APT" Name="Jersey" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Jersey" />
+  <Airport Code="LBA" Type="APT" Name="Leeds Bradford" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Leeds Bradford" />
+  <Airport Code="LON" Type="CITY" Name="London, GB" Region="GB" Country="GB" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="London (LCY)" />
+  <Airport Code="LON" Type="CITY" Name="London, GB" Region="GB" Country="GB" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="London (LGW)" />
+  <Airport Code="LON" Type="CITY" Name="London, GB" Region="GB" Country="GB" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="London (LHR)" />
+  <Airport Code="LON" Type="CITY" Name="London, GB" Region="GB" Country="GB" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="London (STN)" />
+  <Airport Code="LGW" Type="APT" Name="London-Gatwick" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="London (LGW)" />
+  <Airport Code="LHR" Type="APT" Name="London-Heathrow" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="London (LHR)" />
+  <Airport Code="LCY" Type="APT" Name="London-London City" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="London (LCY)" />
+  <Airport Code="STN" Type="APT" Name="London-London Stansted" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="London (STN)" />
+  <Airport Code="MAN" Type="APT" Name="Manchester, GB" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Manchester Intl" />
+  <Airport Code="NCL" Type="APT" Name="Newcastle, GB" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Newcastle" />
+  <Airport Code="NQY" Type="APT" Name="Newquay" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Newquay" />
+  <Airport Code="SOU" Type="APT" Name="Southampton" Region="GB" Country="GB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Southampton" />
+  <Airport Code="GND" Type="APT" Name="Grenada" Region="GD" Country="GD" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Grenada" />
+  <Airport Code="ACC" Type="APT" Name="Accra" Region="GH" Country="GH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Accra" />
+  <Airport Code="GIB" Type="APT" Name="Gibraltar" Region="GI" Country="GI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Gibraltar" />
+  <Airport Code="CKY" Type="APT" Name="Conakry" Region="GN" Country="GN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Conakry" />
+  <Airport Code="PTP" Type="APT" Name="Pointe-a-Pitre" Region="GP" Country="GP" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Pointe-a-Pitre" />
+  <Airport Code="AXD" Type="APT" Name="Alexandroupolis" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Alexandroupolis" />
+  <Airport Code="JTY" Type="APT" Name="Astypalaia Island" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Astypalaia Isla" />
+  <Airport Code="ATH" Type="APT" Name="Athens" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Athens Elefther" />
+  <Airport Code="CHQ" Type="APT" Name="Chania" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Chania" />
+  <Airport Code="JKH" Type="APT" Name="Chios" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Chios" />
+  <Airport Code="HER" Type="APT" Name="Heraklion" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Heraklion" />
+  <Airport Code="JIK" Type="APT" Name="Ikaria Island" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Ikaria Island" />
+  <Airport Code="IOA" Type="APT" Name="Ioannina" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Ioannina" />
+  <Airport Code="KLX" Type="APT" Name="Kalamata" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kalamata" />
+  <Airport Code="AOK" Type="APT" Name="Karpathos" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Karpathos" />
+  <Airport Code="KSJ" Type="APT" Name="Kasos Island" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kasos Island" />
+  <Airport Code="KSO" Type="APT" Name="Kastoria" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kastoria" />
+  <Airport Code="KVA" Type="APT" Name="Kavala" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kavala" />
+  <Airport Code="EFL" Type="APT" Name="Kefallinia" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kefallinia" />
+  <Airport Code="CFU" Type="APT" Name="Kerkyra" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kerkyra" />
+  <Airport Code="KIT" Type="APT" Name="Kithira" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kithira" />
+  <Airport Code="KGS" Type="APT" Name="Kos" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kos" />
+  <Airport Code="KZI" Type="APT" Name="Kozani" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kozani" />
+  <Airport Code="LRS" Type="APT" Name="Leros" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Leros" />
+  <Airport Code="LXS" Type="APT" Name="Limnos" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Limnos" />
+  <Airport Code="JMK" Type="APT" Name="Mikonos" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Mikonos" />
+  <Airport Code="MLO" Type="APT" Name="Milos" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Milos" />
+  <Airport Code="MJT" Type="APT" Name="Mytilene" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Mytilene" />
+  <Airport Code="JNX" Type="APT" Name="Naxos Is" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Naxos Is" />
+  <Airport Code="PAS" Type="APT" Name="Paros" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Paros" />
+  <Airport Code="PVK" Type="APT" Name="Preveza/Lefkas" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Preveza/Lefkas" />
+  <Airport Code="RHO" Type="APT" Name="Rhodes" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Rhodes" />
+  <Airport Code="SMI" Type="APT" Name="Samos" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Samos" />
+  <Airport Code="JSH" Type="APT" Name="Sitia" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Sitia" />
+  <Airport Code="JSI" Type="APT" Name="Skiathos" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Skiathos" />
+  <Airport Code="SKU" Type="APT" Name="Skiros" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Skiros" />
+  <Airport Code="JSY" Type="APT" Name="Syros Island" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Syros Island" />
+  <Airport Code="SKG" Type="APT" Name="Thessaloniki" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Thessaloniki" />
+  <Airport Code="JTR" Type="APT" Name="Thira" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Thira" />
+  <Airport Code="VOL" Type="APT" Name="Volos" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Volos" />
+  <Airport Code="ZTH" Type="APT" Name="Zakinthos" Region="GR" Country="GR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Zakinthos" />
+  <Airport Code="GUA" Type="APT" Name="Guatemala City" Region="GT" Country="GT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Guatemala City" />
+  <Airport Code="GUM" Type="APT" Name="Guam" Region="GU" Country="GU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Guam Antonio B " />
+  <Airport Code="GEO" Type="APT" Name="Georgetown" Region="GY" Country="GY" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Georgetown" />
+  <Airport Code="HKG" Type="APT" Name="Hong Kong" Region="HK" Country="HK" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hong Kong Intl." />
+  <Airport Code="RTB" Type="APT" Name="Roatan" Region="HN" Country="HN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Roatan" />
+  <Airport Code="SAP" Type="APT" Name="San Pedro Sula" Region="HN" Country="HN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="San Pedro Sula" />
+  <Airport Code="TGU" Type="APT" Name="Tegucigalpa" Region="HN" Country="HN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tegucigalpa" />
+  <Airport Code="DBV" Type="APT" Name="Dubrovnik" Region="HR" Country="HR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Dubrovnik" />
+  <Airport Code="PUY" Type="APT" Name="Pula" Region="HR" Country="HR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Pula" />
+  <Airport Code="RJK" Type="APT" Name="Rijeka" Region="HR" Country="HR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Rijeka" />
+  <Airport Code="SPU" Type="APT" Name="Split" Region="HR" Country="HR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Split" />
+  <Airport Code="ZAD" Type="APT" Name="Zadar" Region="HR" Country="HR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Zadar" />
+  <Airport Code="ZAG" Type="APT" Name="Zagreb" Region="HR" Country="HR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Zagreb" />
+  <Airport Code="CAP" Type="APT" Name="Cap Haitien" Region="HT" Country="HT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cap Haitien" />
+  <Airport Code="PAP" Type="APT" Name="Port au Prince" Region="HT" Country="HT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Port au Prince" />
+  <Airport Code="BUD" Type="APT" Name="Budapest" Region="HU" Country="HU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Budapest" />
+  <Airport Code="DPS" Type="APT" Name="Denpasar Bali" Region="ID" Country="ID" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Denpasar Bali" />
+  <Airport Code="CGK" Type="APT" Name="Jakarta" Region="ID" Country="ID" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jakarta (CGK)" />
+  <Airport Code="SUB" Type="APT" Name="Surabaya" Region="ID" Country="ID" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Surabaya" />
+  <Airport Code="ORK" Type="APT" Name="Cork" Region="IE" Country="IE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Cork" />
+  <Airport Code="CFN" Type="APT" Name="Donegal" Region="IE" Country="IE" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Donegal" />
+  <Airport Code="DUB" Type="APT" Name="Dublin" Region="IE" Country="IE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dublin" />
+  <Airport Code="KIR" Type="APT" Name="Kerry County" Region="IE" Country="IE" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Kerry County" />
+  <Airport Code="NOC" Type="APT" Name="Knock" Region="IE" Country="IE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Knock" />
+  <Airport Code="SNN" Type="APT" Name="Shannon" Region="IE" Country="IE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Shannon" />
+  <Airport Code="TLV" Type="APT" Name="Tel Aviv" Region="IL" Country="IL" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tel Aviv Ben Gu" />
+  <Airport Code="AMD" Type="APT" Name="Ahmedabad" Region="IN" Country="IN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ahmedabad" />
+  <Airport Code="BLR" Type="APT" Name="Bangalore" Region="IN" Country="IN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bangalore" />
+  <Airport Code="MAA" Type="APT" Name="Chennai" Region="IN" Country="IN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Chennai" />
+  <Airport Code="DEL" Type="APT" Name="Delhi" Region="IN" Country="IN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Delhi" />
+  <Airport Code="HYD" Type="APT" Name="Hyderabad" Region="IN" Country="IN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hyderabad" />
+  <Airport Code="COK" Type="APT" Name="Kochi, IN" Region="IN" Country="IN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kochi" />
+  <Airport Code="CCU" Type="APT" Name="Kolkata" Region="IN" Country="IN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kolkata" />
+  <Airport Code="BOM" Type="APT" Name="Mumbai" Region="IN" Country="IN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Mumbai" />
+  <Airport Code="TRV" Type="APT" Name="Thiruvananthapuram" Region="IN" Country="IN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Thiruvananthapu" />
+  <Airport Code="BGW" Type="APT" Name="Baghdad" Region="IQ" Country="IQ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Baghdad Al Muth" />
+  <Airport Code="BSR" Type="APT" Name="Basra" Region="IQ" Country="IQ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Basra" />
+  <Airport Code="IKA" Type="APT" Name="Tehran" Region="IR" Country="IR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tehran" />
+  <Airport Code="KEF" Type="APT" Name="Reykjavik" Region="IS" Country="IS" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Reykjavik (KEF)" />
+  <Airport Code="AHO" Type="APT" Name="Alghero" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Alghero" />
+  <Airport Code="BRI" Type="APT" Name="Bari" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bari" />
+  <Airport Code="BLQ" Type="APT" Name="Bologna" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bologna" />
+  <Airport Code="BDS" Type="APT" Name="Brindisi" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Brindisi" />
+  <Airport Code="CAG" Type="APT" Name="Cagliari" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Cagliari" />
+  <Airport Code="CTA" Type="APT" Name="Catania" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Catania" />
+  <Airport Code="FLR" Type="APT" Name="Florence, IT" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Florence Amerig" />
+  <Airport Code="GOA" Type="APT" Name="Genoa" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Genoa" />
+  <Airport Code="SUF" Type="APT" Name="Lamezia Terme" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Lamezia Terme" />
+  <Airport Code="MIL" Type="CITY" Name="Milan, IT" Region="IT" Country="IT" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Milan (BGY)" />
+  <Airport Code="MIL" Type="CITY" Name="Milan, IT" Region="IT" Country="IT" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Milan (LIN)" />
+  <Airport Code="MIL" Type="CITY" Name="Milan, IT" Region="IT" Country="IT" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Milan (MXP)" />
+  <Airport Code="LIN" Type="APT" Name="Milan-Milan Linate" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Milan (LIN)" />
+  <Airport Code="MXP" Type="APT" Name="Milan-Milan Malpensa" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Milan (MXP)" />
+  <Airport Code="BGY" Type="APT" Name="Milan-Milan Orio al Serio" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Milan (BGY)" />
+  <Airport Code="NAP" Type="APT" Name="Naples" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Naples Capodich" />
+  <Airport Code="OLB" Type="APT" Name="Olbia" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Olbia" />
+  <Airport Code="PMO" Type="APT" Name="Palermo" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Palermo" />
+  <Airport Code="PEG" Type="APT" Name="Perugia" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Perugia" />
+  <Airport Code="PSA" Type="APT" Name="Pisa" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Pisa (PSA)" />
+  <Airport Code="FCO" Type="APT" Name="Rome" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Rome (FCO)" />
+  <Airport Code="TRS" Type="APT" Name="Trieste" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Trieste" />
+  <Airport Code="TRN" Type="APT" Name="Turin" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Turin Citta di " />
+  <Airport Code="VCE" Type="APT" Name="Venice" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Venice Marco Po" />
+  <Airport Code="VRN" Type="APT" Name="Verona" Region="IT" Country="IT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Verona" />
+  <Airport Code="KIN" Type="APT" Name="Kingston" Region="JM" Country="JM" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kingston Norman" />
+  <Airport Code="MBJ" Type="APT" Name="Montego Bay" Region="JM" Country="JM" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Montego Bay" />
+  <Airport Code="AMM" Type="APT" Name="Amman" Region="JO" Country="JO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Amman Queen Ali" />
+  <Airport Code="AXT" Type="APT" Name="Akita" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Akita" />
+  <Airport Code="ASJ" Type="APT" Name="Amami O Shima" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Amami O Shima" />
+  <Airport Code="AOJ" Type="APT" Name="Aomori" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Aomori" />
+  <Airport Code="AKJ" Type="APT" Name="Asahikawa" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Asahikawa" />
+  <Airport Code="FUK" Type="APT" Name="Fukuoka" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Fukuoka" />
+  <Airport Code="HKD" Type="APT" Name="Hakodate" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hakodate" />
+  <Airport Code="HNA" Type="APT" Name="Hanamaki" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hanamaki" />
+  <Airport Code="HIJ" Type="APT" Name="Hiroshima" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hiroshima Intl." />
+  <Airport Code="IZO" Type="APT" Name="Izumo" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Izumo" />
+  <Airport Code="KOJ" Type="APT" Name="Kagoshima" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kagoshima" />
+  <Airport Code="KKX" Type="APT" Name="Kikaiga Shima" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kikaiga Shima" />
+  <Airport Code="KKJ" Type="APT" Name="Kita Kyushu" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kita Kyushu" />
+  <Airport Code="KCZ" Type="APT" Name="Kochi, JP" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kochi" />
+  <Airport Code="KMQ" Type="APT" Name="Komatsu" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Komatsu" />
+  <Airport Code="KMJ" Type="APT" Name="Kumamoto" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kumamoto" />
+  <Airport Code="KUH" Type="APT" Name="Kushiro" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kushiro" />
+  <Airport Code="MMJ" Type="APT" Name="Matsumoto" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Matsumoto" />
+  <Airport Code="MYJ" Type="APT" Name="Matsuyama" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Matsuyama" />
+  <Airport Code="MMB" Type="APT" Name="Memambetsu" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Memambetsu" />
+  <Airport Code="MSJ" Type="APT" Name="Misawa" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Misawa" />
+  <Airport Code="KMI" Type="APT" Name="Miyazaki" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Miyazaki" />
+  <Airport Code="NGS" Type="APT" Name="Nagasaki" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nagasaki" />
+  <Airport Code="NGO" Type="APT" Name="Nagoya" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nagoya" />
+  <Airport Code="SHM" Type="APT" Name="Nanki Shirahama" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nanki Shirahama" />
+  <Airport Code="KIJ" Type="APT" Name="Niigata" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Niigata" />
+  <Airport Code="OBO" Type="APT" Name="Obihiro" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Obihiro" />
+  <Airport Code="OIT" Type="APT" Name="Oita" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Oita" />
+  <Airport Code="OKJ" Type="APT" Name="Okayama" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Okayama" />
+  <Airport Code="OKI" Type="APT" Name="Oki Island" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Oki Island" />
+  <Airport Code="OKA" Type="APT" Name="Okinawa" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Okinawa Naha" />
+  <Airport Code="OKE" Type="APT" Name="Okino Erabu" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Okino Erabu" />
+  <Airport Code="OIR" Type="APT" Name="Okushiri" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Okushiri" />
+  <Airport Code="ITM" Type="APT" Name="Osaka, JP" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Osaka (ITM)" />
+  <Airport Code="KIX" Type="APT" Name="Osaka, JP" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Osaka (KIX)" />
+  <Airport Code="RIS" Type="APT" Name="Rishiri" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Rishiri" />
+  <Airport Code="CTS" Type="APT" Name="Sapporo, JP" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sapporo (CTS)" />
+  <Airport Code="OKD" Type="APT" Name="Sapporo, JP" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sapporo (OKD)" />
+  <Airport Code="SDJ" Type="APT" Name="Sendai" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sendai" />
+  <Airport Code="TAK" Type="APT" Name="Takamatsu" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Takamatsu" />
+  <Airport Code="TNE" Type="APT" Name="Tanegashima" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tanegashima" />
+  <Airport Code="TKN" Type="APT" Name="Tokunoshima" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tokunoshima" />
+  <Airport Code="TKS" Type="APT" Name="Tokushima" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tokushima" />
+  <Airport Code="TYO" Type="CITY" Name="Tokyo, JP" Region="JP " Country="JP" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Tokyo (HND)" />
+  <Airport Code="TYO" Type="CITY" Name="Tokyo, JP" Region="JP " Country="JP" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Tokyo (NRT)" />
+  <Airport Code="HND" Type="APT" Name="Tokyo-Tokyo Haneda" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tokyo (HND)" />
+  <Airport Code="NRT" Type="APT" Name="Tokyo-Tokyo Narita" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tokyo (NRT)" />
+  <Airport Code="TJH" Type="APT" Name="Toyooka" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Toyooka" />
+  <Airport Code="UBJ" Type="APT" Name="Ube" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ube" />
+  <Airport Code="KUM" Type="APT" Name="Yakushima" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Yakushima" />
+  <Airport Code="GAJ" Type="APT" Name="Yamagata" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Yamagata" />
+  <Airport Code="RNJ" Type="APT" Name="Yoronjima" Region="JP" Country="JP" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Yoronjima" />
+  <Airport Code="MBA" Type="APT" Name="Mombasa" Region="KE" Country="KE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Mombasa" />
+  <Airport Code="NBO" Type="APT" Name="Nairobi" Region="KE" Country="KE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nairobi Jomo Ke" />
+  <Airport Code="PNH" Type="APT" Name="Phnom Penh" Region="KH" Country="KH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Phnom Penh" />
+  <Airport Code="CXI" Type="APT" Name="Christmas Island" Region="KI" Country="KI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Christmas Islan" />
+  <Airport Code="TRW" Type="APT" Name="Tarawa" Region="KI" Country="KI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tarawa" />
+  <Airport Code="SKB" Type="APT" Name="St. Kitts" Region="KN" Country="KN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="St. Kitts" />
+  <Airport Code="CJJ" Type="APT" Name="Cheongju" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cheongju" />
+  <Airport Code="TAE" Type="APT" Name="Daegu" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Daegu" />
+  <Airport Code="KUV" Type="APT" Name="Gunsan" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Gunsan" />
+  <Airport Code="KWJ" Type="APT" Name="Gwangju" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Gwangju" />
+  <Airport Code="CJU" Type="APT" Name="Jeju" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jeju Intl." />
+  <Airport Code="HIN" Type="APT" Name="Jinju" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jinju" />
+  <Airport Code="KPO" Type="APT" Name="Pohang" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Pohang" />
+  <Airport Code="PUS" Type="APT" Name="Pusan" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Pusan" />
+  <Airport Code="SEL" Type="CITY" Name="Seoul, KR" Region="KR" Country="KR" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Seoul (GMP)" />
+  <Airport Code="SEL" Type="CITY" Name="Seoul, KR" Region="KR" Country="KR" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Seoul (ICN)" />
+  <Airport Code="GMP" Type="APT" Name="Seoul-Seoul Gimpo Intl." Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Seoul (GMP)" />
+  <Airport Code="ICN" Type="APT" Name="Seoul-Seoul Incheon Intl." Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Seoul (ICN)" />
+  <Airport Code="USN" Type="APT" Name="Ulsan" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ulsan" />
+  <Airport Code="WJU" Type="APT" Name="Won-ju" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Won-ju" />
+  <Airport Code="RSU" Type="APT" Name="Yeosu" Region="KR" Country="KR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Yeosu" />
+  <Airport Code="KWI" Type="APT" Name="Kuwait" Region="KW" Country="KW" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kuwait" />
+  <Airport Code="GCM" Type="APT" Name="Grand Cayman Island" Region="KY" Country="KY" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Grand Cayman Is" />
+  <Airport Code="BEY" Type="APT" Name="Beirut" Region="LB" Country="LB" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Beirut" />
+  <Airport Code="UVF" Type="APT" Name="St. Lucia" Region="LC" Country="LC" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="St. Lucia (UVF)" />
+  <Airport Code="CMB" Type="APT" Name="Colombo" Region="LK" Country="LK" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Colombo Bandara" />
+  <Airport Code="VNO" Type="APT" Name="Vilnius" Region="LT" Country="LT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Vilnius" />
+  <Airport Code="LUX" Type="APT" Name="Luxembourg" Region="LU" Country="LU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Luxembourg" />
+  <Airport Code="RIX" Type="APT" Name="Riga" Region="LV" Country="LV" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Riga" />
+  <Airport Code="AGA" Type="APT" Name="Agadir" Region="MA" Country="MA" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Agadir" />
+  <Airport Code="CMN" Type="APT" Name="Casablanca" Region="MA" Country="MA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Casablanca (CMN" />
+  <Airport Code="RAK" Type="APT" Name="Marrakech" Region="MA" Country="MA" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Marrakech" />
+  <Airport Code="TGD" Type="APT" Name="Podgorica" Region="ME" Country="ME" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Podgorica" />
+  <Airport Code="TIV" Type="APT" Name="Tivat" Region="ME" Country="ME" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tivat" />
+  <Airport Code="RGN" Type="APT" Name="Yangon" Region="MM" Country="MM" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Yangon" />
+  <Airport Code="ULN" Type="APT" Name="Ulaanbaatar" Region="MN" Country="MN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Ulaanbaatar" />
+  <Airport Code="FDF" Type="APT" Name="Fort de France" Region="MQ" Country="MQ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Fort de France" />
+  <Airport Code="MLA" Type="APT" Name="Malta" Region="MT" Country="MT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Malta" />
+  <Airport Code="MRU" Type="APT" Name="Mauritius" Region="MU" Country="MU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Mauritius" />
+  <Airport Code="MLE" Type="APT" Name="Male" Region="MV" Country="MV" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Male" />
+  <Airport Code="AGU" Type="APT" Name="Aguascalientes" Region="AGS" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Aguascaliente" />
+  <Airport Code="MXL" Type="APT" Name="Mexicali" Region="BCN" Country="MX" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Mexicali" />
+  <Airport Code="TIJ" Type="APT" Name="Tijuana" Region="BCN" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tijuana" />
+  <Airport Code="SJD" Type="APT" Name="Cabo San Lucas/Los Cabos" Region="BCS" Country="MX" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Los Cabos" />
+  <Airport Code="LAP" Type="APT" Name="La Paz, MX" Region="BCS" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="La Paz" />
+  <Airport Code="CPE" Type="APT" Name="Campeche" Region="CAM" Country="MX" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Campeche" />
+  <Airport Code="CME" Type="APT" Name="Ciudad Del Carmen" Region="CAM" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ciudad Del Carm" />
+  <Airport Code="CUU" Type="APT" Name="Chihuahua" Region="CHIH" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Chihuahua" />
+  <Airport Code="CJS" Type="APT" Name="Ciudad Juarez" Region="CHIH" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ciudad Juarez" />
+  <Airport Code="TAP" Type="APT" Name="Tapachula" Region="CHIS" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tapachula" />
+  <Airport Code="TGZ" Type="APT" Name="Tuxtla Gutierrez" Region="CHIS" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tuxtla Gutierre" />
+  <Airport Code="MAM" Type="APT" Name="Matamoros" Region="COAH" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Matamoros" />
+  <Airport Code="TRC" Type="APT" Name="Torreon" Region="COAH" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Torreon" />
+  <Airport Code="ZLO" Type="APT" Name="Manzanillo" Region="COL" Country="MX" AS="true" QX="false" Effective="06/03/2020" LowFrequency="true" Map="false" eBP="false" ITMName="Manzanillo" />
+  <Airport Code="MTT" Type="APT" Name="Minatitlan" Region="COL" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Minatitlan" />
+  <Airport Code="DGO" Type="APT" Name="Durango, MX" Region="DGO" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Durango" />
+  <Airport Code="ACA" Type="APT" Name="Acapulco" Region="GRO" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Acapulco" />
+  <Airport Code="ZIH" Type="APT" Name="Ixtapa/Zihuatanejo" Region="GRO" Country="MX" AS="true" QX="false" Effective="06/02/2020" LowFrequency="false" Map="false" eBP="false" ITMName="Ixtapa" />
+  <Airport Code="BJX" Type="APT" Name="Leon" Region="GTO" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Leon" />
+  <Airport Code="LTO" Type="APT" Name="Loreto" Region="GTO" Country="MX" AS="true" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Loreto" />
+  <Airport Code="GDL" Type="APT" Name="Guadalajara" Region="JAL" Country="MX" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Guadalajara" />
+  <Airport Code="PVR" Type="APT" Name="Puerto Vallarta/Riviera Nayarit" Region="JAL" Country="MX" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="PTO Vallarta" />
+  <Airport Code="MEX" Type="APT" Name="Mexico City" Region="MEX" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Mexico City" />
+  <Airport Code="MLM" Type="APT" Name="Morelia" Region="MICH" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Morelia" />
+  <Airport Code="MTY" Type="APT" Name="Monterrey" Region="NL" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Monterrey" />
+  <Airport Code="HUX" Type="APT" Name="Huatulco" Region="OAX" Country="MX" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Huatulco" />
+  <Airport Code="OAX" Type="APT" Name="Oaxaca" Region="OAX" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Oaxaca" />
+  <Airport Code="PBC" Type="APT" Name="Puebla" Region="PUE" Country="MX" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Puebla" />
+  <Airport Code="QRO" Type="APT" Name="Queretaro" Region="QRO" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Queretaro" />
+  <Airport Code="CUN" Type="APT" Name="Cancun" Region="QROO" Country="MX" AS="true" QX="false" Effective="10/08/2020" LowFrequency="false" Map="false" eBP="false" ITMName="Cancun" />
+  <Airport Code="CTM" Type="APT" Name="Chetumal" Region="QROO" Country="MX" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Chetumal" />
+  <Airport Code="CZM" Type="APT" Name="Cozumel" Region="QROO" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cozumel" />
+  <Airport Code="CUL" Type="APT" Name="Culiacan" Region="SIN" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Culiacan" />
+  <Airport Code="LMM" Type="APT" Name="Los Mochis" Region="SIN" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Los Mochis" />
+  <Airport Code="MZT" Type="APT" Name="Mazatlan" Region="SIN" Country="MX" AS="true" QX="false" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="false" ITMName="Mazatlan" />
+  <Airport Code="SLP" Type="APT" Name="San Luis Potosi" Region="SLP" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="San Luis Potosi" />
+  <Airport Code="CEN" Type="APT" Name="Ciudad Obregon" Region="SON" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ciudad Obregon" />
+  <Airport Code="HMO" Type="APT" Name="Hermosillo" Region="SON" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hermosillo" />
+  <Airport Code="VSA" Type="APT" Name="Villahermosa" Region="TAB" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Villahermosa" />
+  <Airport Code="NLD" Type="APT" Name="Nuevo Laredo" Region="TAMPS" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nuevo Laredo" />
+  <Airport Code="REX" Type="APT" Name="Reynosa" Region="TAMPS" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Reynosa" />
+  <Airport Code="TAM" Type="APT" Name="Tampico" Region="TAMPS" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tampico" />
+  <Airport Code="VER" Type="APT" Name="Veracruz" Region="VER" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Veracruz" />
+  <Airport Code="MID" Type="APT" Name="Merida" Region="YUC" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Merida" />
+  <Airport Code="ZCL" Type="APT" Name="Zacatecas" Region="ZAC" Country="MX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Zacatecas" />
+  <Airport Code="KUL" Type="APT" Name="Kuala Lumpur" Region="MY" Country="MY" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kuala Lumpur In" />
+  <Airport Code="PEN" Type="APT" Name="Penang" Region="MY" Country="MY" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Penang" />
+  <Airport Code="WDH" Type="APT" Name="Windhoek" Region="NA" Country="NA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Windhoek Hosea " />
+  <Airport Code="NOU" Type="APT" Name="Noumea" Region="NC" Country="NC" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Noumea Tontouta" />
+  <Airport Code="NLK" Type="APT" Name="Norfolk Island" Region="NF" Country="NF" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Norfolk Island" />
+  <Airport Code="ABV" Type="APT" Name="Abuja" Region="NG" Country="NG" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Abuja" />
+  <Airport Code="LOS" Type="APT" Name="Lagos" Region="NG" Country="NG" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lagos" />
+  <Airport Code="MGA" Type="APT" Name="Managua" Region="NI" Country="NI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Managua" />
+  <Airport Code="AMS" Type="APT" Name="Amsterdam" Region="NL" Country="NL" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Amsterdam" />
+  <Airport Code="RTM" Type="APT" Name="Rotterdam" Region="NL" Country="NL" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Rotterdam" />
+  <Airport Code="BGO" Type="APT" Name="Bergen" Region="NO" Country="NO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bergen" />
+  <Airport Code="BOO" Type="APT" Name="Bodo" Region="NO" Country="NO" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bodo" />
+  <Airport Code="OSL" Type="CITY" Name="Oslo" Region="NO " Country="NO" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Oslo" />
+  <Airport Code="OSL" Type="APT" Name="Oslo-Oslo" Region="NO" Country="NO" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Oslo" />
+  <Airport Code="TOS" Type="APT" Name="Tromso" Region="NO" Country="NO" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tromso" />
+  <Airport Code="TRD" Type="APT" Name="Trondheim" Region="NO" Country="NO" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Trondheim Vaern" />
+  <Airport Code="KTM" Type="APT" Name="Kathmandu" Region="NP" Country="NP" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kathmandu" />
+  <Airport Code="AKL" Type="APT" Name="Auckland" Region="NZ" Country="NZ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Auckland Intl." />
+  <Airport Code="CHT" Type="APT" Name="Chatham Island" Region="NZ" Country="NZ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Chatham Island" />
+  <Airport Code="CHC" Type="APT" Name="Christchurch" Region="NZ" Country="NZ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Christchurch" />
+  <Airport Code="PPQ" Type="APT" Name="Paraparaumu" Region="NZ" Country="NZ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Paraparaumu" />
+  <Airport Code="ZQN" Type="APT" Name="Queenstown" Region="NZ" Country="NZ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Queenstown" />
+  <Airport Code="WGN" Type="APT" Name="Waitangi" Region="NZ" Country="NZ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Waitangi" />
+  <Airport Code="WAG" Type="APT" Name="Wanganui" Region="NZ" Country="NZ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Wanganui" />
+  <Airport Code="WLG" Type="APT" Name="Wellington" Region="NZ" Country="NZ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Wellington" />
+  <Airport Code="WHK" Type="APT" Name="Whakatane" Region="NZ" Country="NZ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Whakatane" />
+  <Airport Code="MCT" Type="APT" Name="Muscat" Region="OM" Country="OM" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Muscat" />
+  <Airport Code="PTY" Type="APT" Name="Panama City, PA" Region="PA" Country="PA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Panama City Toc" />
+  <Airport Code="LIM" Type="APT" Name="Lima" Region="PE" Country="PE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lima" />
+  <Airport Code="POM" Type="APT" Name="Port Moresby" Region="PG" Country="PG" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Port Moresby" />
+  <Airport Code="CEB" Type="APT" Name="Cebu" Region="PH" Country="PH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cebu" />
+  <Airport Code="CRK" Type="APT" Name="Luzon Island" Region="PH" Country="PH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Luzon Island (C" />
+  <Airport Code="MNL" Type="APT" Name="Manila" Region="PH" Country="PH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Manila Ninoy Aq" />
+  <Airport Code="ISB" Type="APT" Name="Islamabad" Region="PK" Country="PK" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Islamabad" />
+  <Airport Code="KHI" Type="APT" Name="Karachi" Region="PK" Country="PK" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Karachi" />
+  <Airport Code="LHE" Type="APT" Name="Lahore" Region="PK" Country="PK" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Lahore" />
+  <Airport Code="PEW" Type="APT" Name="Peshawar" Region="PK" Country="PK" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Peshawar" />
+  <Airport Code="SKT" Type="APT" Name="Sialkot" Region="PK" Country="PK" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Sialkot" />
+  <Airport Code="GDN" Type="APT" Name="Gdansk" Region="PL" Country="PL" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Gdansk" />
+  <Airport Code="KRK" Type="APT" Name="Krakow" Region="PL" Country="PL" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Krakow" />
+  <Airport Code="WAW" Type="APT" Name="Warsaw" Region="PL" Country="PL" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Warsaw" />
+  <Airport Code="SJU" Type="APT" Name="San Juan" Region="PR" Country="PR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="San Juan Luis M" />
+  <Airport Code="FAO" Type="APT" Name="Faro" Region="PT" Country="PT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Faro" />
+  <Airport Code="FNC" Type="APT" Name="Funchal" Region="PT" Country="PT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Funchal" />
+  <Airport Code="LIS" Type="APT" Name="Lisbon" Region="PT" Country="PT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lisbon" />
+  <Airport Code="OPO" Type="APT" Name="Porto" Region="PT" Country="PT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Porto" />
+  <Airport Code="DOH" Type="APT" Name="Doha" Region="QA" Country="QA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Doha" />
+  <Airport Code="OTP" Type="APT" Name="Bucharest" Region="RO" Country="RO" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bucharest (OTP" />
+  <Airport Code="CLJ" Type="APT" Name="Cluj" Region="RO" Country="RO" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Cluj" />
+  <Airport Code="SBZ" Type="APT" Name="Sibiu" Region="RO" Country="RO" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Sibiu" />
+  <Airport Code="IKT" Type="APT" Name="Irkutsk" Region="RU" Country="RU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Irkutsk" />
+  <Airport Code="MOW" Type="CITY" Name="Moscow, RU" Region="RU " Country="RU" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Moscow (DME)" />
+  <Airport Code="MOW" Type="CITY" Name="Moscow, RU" Region="RU " Country="RU" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Moscow (SVO)" />
+  <Airport Code="DME" Type="APT" Name="Moscow-Moscow Domodedovo" Region="RU" Country="RU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Moscow (DME)" />
+  <Airport Code="SVO" Type="APT" Name="Moscow-Moscow Sheremetyevo" Region="RU" Country="RU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Moscow (SVO)" />
+  <Airport Code="LED" Type="APT" Name="St. Petersburg" Region="RU" Country="RU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="St. Petersburg " />
+  <Airport Code="VVO" Type="APT" Name="Vladivostok" Region="RU" Country="RU" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Vladivostok" />
+  <Airport Code="DMM" Type="APT" Name="Dammam" Region="SA" Country="SA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dammam" />
+  <Airport Code="JED" Type="APT" Name="Jeddah" Region="SA" Country="SA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jeddah" />
+  <Airport Code="MED" Type="APT" Name="Madinah" Region="SA" Country="SA" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Madinah" />
+  <Airport Code="RUH" Type="APT" Name="Riyadh" Region="SA" Country="SA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Riyadh" />
+  <Airport Code="HIR" Type="APT" Name="Honiara" Region="SB" Country="SB" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Honiara" />
+  <Airport Code="SEZ" Type="APT" Name="Mahe Island" Region="SC" Country="SC" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Mahe Island" />
+  <Airport Code="KRT" Type="APT" Name="Khartoum" Region="SD" Country="SD" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Khartoum" />
+  <Airport Code="GOT" Type="APT" Name="Gothenburg" Region="SE" Country="SE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Gothenburg Land" />
+  <Airport Code="STO" Type="CITY" Name="Stockholm, SE" Region="SE" Country="SE" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Stockholm (ARN)" />
+  <Airport Code="STO" Type="CITY" Name="Stockholm, SE" Region="SE" Country="SE" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Stockholm (BMA)" />
+  <Airport Code="ARN" Type="APT" Name="Stockholm-Stockholm Arlanda" Region="SE" Country="SE" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Stockholm (ARN)" />
+  <Airport Code="BMA" Type="APT" Name="Stockholm-Stockholm Bromma" Region="SE" Country="SE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Stockholm (BMA)" />
+  <Airport Code="UME" Type="APT" Name="Umea" Region="SE" Country="SE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Umea" />
+  <Airport Code="VBY" Type="APT" Name="Visby" Region="SE" Country="SE" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Visby" />
+  <Airport Code="SIN" Type="APT" Name="Singapore" Region="SG" Country="SG" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Singapore Chang" />
+  <Airport Code="LJU" Type="APT" Name="Ljubljana" Region="SI" Country="SI" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Ljubljana" />
+  <Airport Code="SAL" Type="APT" Name="San Salvador" Region="SV" Country="SV" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="San Salvador" />
+  <Airport Code="SXM" Type="APT" Name="St. Maarten" Region="SX" Country="SX" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="St. Maarten" />
+  <Airport Code="PLS" Type="APT" Name="Providenciales" Region="TC" Country="TC" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Providenciales" />
+  <Airport Code="BKK" Type="APT" Name="Bangkok" Region="TH" Country="TH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bangkok" />
+  <Airport Code="CNX" Type="APT" Name="Chiang Mai" Region="TH" Country="TH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Chiang Mai" />
+  <Airport Code="HKT" Type="APT" Name="Phuket" Region="TH" Country="TH" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Phuket" />
+  <Airport Code="TUN" Type="APT" Name="Tunis" Region="TN" Country="TN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tunis" />
+  <Airport Code="TBU" Type="APT" Name="Nuku'Alofa" Region="TO" Country="TO" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Nuku'Alofa" />
+  <Airport Code="VAV" Type="APT" Name="Vava'u" Region="TO" Country="TO" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Vava'u" />
+  <Airport Code="AYT" Type="APT" Name="Antalya" Region="TR" Country="TR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Antalya" />
+  <Airport Code="BJV" Type="APT" Name="Bodrum" Region="TR" Country="TR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Bodrum (BJV)" />
+  <Airport Code="DLM" Type="APT" Name="Dalaman" Region="TR" Country="TR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Dalaman" />
+  <Airport Code="IST" Type="APT" Name="Istanbul" Region="TR" Country="TR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Istanbul" />
+  <Airport Code="ADB" Type="APT" Name="Izmir" Region="TR" Country="TR" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Izmir (ADB)" />
+  <Airport Code="SAW" Type="APT" Name="Sabiha Gokcen" Region="TR" Country="TR" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sabiha Gokcen" />
+  <Airport Code="POS" Type="APT" Name="Port of Spain" Region="TT" Country="TT" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Port of Spain" />
+  <Airport Code="TAB" Type="APT" Name="Tobago" Region="TT" Country="TT" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tobago" />
+  <Airport Code="FUN" Type="APT" Name="Funafuti Atol" Region="TV" Country="TV" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Funafuti Atol" />
+  <Airport Code="KHH" Type="APT" Name="Kaohsiung" Region="TW" Country="TW" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kaohsiung" />
+  <Airport Code="TPE" Type="APT" Name="Taipei, TW" Region="TW" Country="TW" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Taipei (TPE)" />
+  <Airport Code="TSA" Type="APT" Name="Taipei, TW" Region="TW" Country="TW" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Taipei (TSA)" />
+  <Airport Code="DAR" Type="APT" Name="Dar Es Salaam" Region="TZ" Country="TZ" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dar Es Salaam" />
+  <Airport Code="JRO" Type="APT" Name="Kilimanjaro" Region="TZ" Country="TZ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kilimanjaro" />
+  <Airport Code="ZNZ" Type="APT" Name="Zanzibar" Region="TZ" Country="TZ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Zanzibar" />
+  <Airport Code="EBB" Type="APT" Name="Entebbe/Kampala" Region="UG" Country="UG" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Entebbe/Kampala" />
+  <Airport Code="ADK" Type="APT" Name="Adak Island" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Adak" />
+  <Airport Code="ANC" Type="APT" Name="Anchorage" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Anchorage" />
+  <Airport Code="BRW" Type="APT" Name="Barrow" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Barrow" />
+  <Airport Code="BET" Type="APT" Name="Bethel" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Bethel" />
+  <Airport Code="CDB" Type="APT" Name="Cold Bay" Region="AK" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Cold Bay" />
+  <Airport Code="CDV" Type="APT" Name="Cordova" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Cordova" />
+  <Airport Code="DLG" Type="APT" Name="Dillingham" Region="AK" Country="US" AS="true" QX="false" Effective="06/01/2020" LowFrequency="true" Map="false" eBP="false" ITMName="Dillingham" />
+  <Airport Code="DUT" Type="APT" Name="Dutch Harbor" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Dutch Harbor" />
+  <Airport Code="FAI" Type="APT" Name="Fairbanks" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Fairbanks" />
+  <Airport Code="GST" Type="APT" Name="Glacier Bay/Gustavus" Region="AK" Country="US" AS="true" QX="false" Effective="06/04/2020" LowFrequency="true" Map="false" eBP="false" ITMName="Gustavus" />
+  <Airport Code="JNU" Type="APT" Name="Juneau" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Juneau" />
+  <Airport Code="KTN" Type="APT" Name="Ketchikan" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Ketchikan" />
+  <Airport Code="AKN" Type="APT" Name="King Salmon" Region="AK" Country="US" AS="true" QX="false" Effective="06/01/2020" LowFrequency="true" Map="false" eBP="false" ITMName="King Salmon" />
+  <Airport Code="ADQ" Type="APT" Name="Kodiak" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="true" Map="true" eBP="false" ITMName="Kodiak" />
+  <Airport Code="OTZ" Type="APT" Name="Kotzebue" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Kotzebue" />
+  <Airport Code="OME" Type="APT" Name="Nome" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="true" Map="false" eBP="true" ITMName="Nome" />
+  <Airport Code="PSG" Type="APT" Name="Petersburg" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Petersburg" />
+  <Airport Code="SCC" Type="APT" Name="Prudhoe Bay" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Prudhoe Bay" />
+  <Airport Code="SIT" Type="APT" Name="Sitka" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Sitka" />
+  <Airport Code="WRG" Type="APT" Name="Wrangell" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Wrangell" />
+  <Airport Code="YAK" Type="APT" Name="Yakutat" Region="AK" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Yakutat" />
+  <Airport Code="BHM" Type="APT" Name="Birmingham, AL" Region="AL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Birmingham" />
+  <Airport Code="DHN" Type="APT" Name="Dothan" Region="AL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dothan" />
+  <Airport Code="HSV" Type="APT" Name="Huntsville" Region="AL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Huntsville" />
+  <Airport Code="MOB" Type="APT" Name="Mobile" Region="AL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Mobile" />
+  <Airport Code="MGM" Type="APT" Name="Montgomery" Region="AL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Montgomery" />
+  <Airport Code="XNA" Type="APT" Name="Fayetteville, AR" Region="AR" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Fayetteville" />
+  <Airport Code="FSM" Type="APT" Name="Fort Smith" Region="AR" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Fort Smith" />
+  <Airport Code="LIT" Type="APT" Name="Little Rock" Region="AR" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Little Rock" />
+  <Airport Code="TXK" Type="APT" Name="Texarkana" Region="AR" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Texarkana" />
+  <Airport Code="FLG" Type="APT" Name="Flagstaff" Region="AZ" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Flagstaff" />
+  <Airport Code="PHX" Type="APT" Name="Phoenix" Region="AZ" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Phoenix" />
+  <Airport Code="TUS" Type="APT" Name="Tucson" Region="AZ" Country="US" AS="true" QX="false" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="true" ITMName="Tucson" />
+  <Airport Code="YUM" Type="APT" Name="Yuma" Region="AZ" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Yuma" />
+  <Airport Code="BFL" Type="APT" Name="Bakersfield" Region="CA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bakersfield" />
+  <Airport Code="BA3" Type="CITY" Name="Bay Area, CA" Region="CA" Country="US" AS="true" QX="true" LowFrequency="false" Map="true" eBP="true" ITMName="Oakland" />
+  <Airport Code="BA3" Type="CITY" Name="Bay Area, CA" Region="CA" Country="US" AS="true" QX="true" LowFrequency="false" Map="true" eBP="true" ITMName="San Francisco" />
+  <Airport Code="BA3" Type="CITY" Name="Bay Area, CA" Region="CA" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="true" ITMName="San Jose" />
+  <Airport Code="BUR" Type="APT" Name="Burbank" Region="CA" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Burbank" />
+  <Airport Code="FAT" Type="APT" Name="Fresno/Yosemite" Region="CA" Country="US" AS="true" QX="true" Effective="06/01/2020" LowFrequency="false" Map="true" eBP="true" ITMName="Fresno" />
+  <Airport Code="LGB" Type="APT" Name="Long Beach" Region="CA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Long Beach" />
+  <Airport Code="LA5" Type="CITY" Name="Los Angeles, CA" Region="CA" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="true" ITMName="Burbank" />
+  <Airport Code="LA5" Type="CITY" Name="Los Angeles, CA" Region="CA" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="true" ITMName="Long Beach" />
+  <Airport Code="LA5" Type="CITY" Name="Los Angeles, CA" Region="CA" Country="US" AS="true" QX="true" LowFrequency="false" Map="true" eBP="true" ITMName="Los Angeles" />
+  <Airport Code="LA5" Type="CITY" Name="Los Angeles, CA" Region="CA" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="true" ITMName="Ontario" />
+  <Airport Code="LA5" Type="CITY" Name="Los Angeles, CA" Region="CA" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="true" ITMName="Santa Ana" />
+  <Airport Code="LAX" Type="APT" Name="Los Angeles, CA" Region="CA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Los Angeles" />
+  <Airport Code="MRY" Type="APT" Name="Monterey" Region="CA" Country="US" AS="true" QX="true" Effective="06/18/2020" LowFrequency="false" Map="false" eBP="true" ITMName="Monterey" />
+  <Airport Code="OAK" Type="APT" Name="Oakland" Region="CA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Oakland" />
+  <Airport Code="ONT" Type="APT" Name="Ontario" Region="CA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Ontario" />
+  <Airport Code="SNA" Type="APT" Name="Orange County/Santa Ana" Region="CA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Santa Ana" />
+  <Airport Code="PSP" Type="APT" Name="Palm Springs" Region="CA" Country="US" AS="true" QX="true" Effective="06/01/2020" LowFrequency="false" Map="true" eBP="true" ITMName="Palm Springs" />
+  <Airport Code="SMF" Type="APT" Name="Sacramento" Region="CA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Sacramento" />
+  <Airport Code="SAN" Type="APT" Name="San Diego" Region="CA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="San Diego" />
+  <Airport Code="SFO" Type="APT" Name="San Francisco" Region="CA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="San Francisco" />
+  <Airport Code="SJC" Type="APT" Name="San Jose, CA" Region="CA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="San Jose" />
+  <Airport Code="SBP" Type="APT" Name="San Luis Obispo" Region="CA" Country="US" AS="true" QX="true" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="false" ITMName="San Luis Obispo" />
+  <Airport Code="SBA" Type="APT" Name="Santa Barbara" Region="CA" Country="US" AS="true" QX="true" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="true" ITMName="Santa Barbara" />
+  <Airport Code="STS" Type="APT" Name="Santa Rosa/Sonoma County" Region="CA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Santa Rosa" />
+  <Airport Code="ASE" Type="APT" Name="Aspen" Region="CO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Aspen" />
+  <Airport Code="COS" Type="APT" Name="Colorado Springs" Region="CO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Colorado Spring" />
+  <Airport Code="GUC" Type="APT" Name="Crested Butte/Gunnison" Region="CO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Crested Butte" />
+  <Airport Code="DEN" Type="APT" Name="Denver" Region="CO" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Denver" />
+  <Airport Code="DRO" Type="APT" Name="Durango, CO" Region="CO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Durango" />
+  <Airport Code="GJT" Type="APT" Name="Grand Junction" Region="CO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Grand Junction" />
+  <Airport Code="MTJ" Type="APT" Name="Montrose" Region="CO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Montrose" />
+  <Airport Code="HDN" Type="APT" Name="Steamboat Springs" Region="CO" Country="US" AS="true" QX="true" Effective="12/19/2020" LowFrequency="false" Map="false" eBP="false" ITMName="Steamboat Sprng" />
+  <Airport Code="EGE" Type="APT" Name="Vail" Region="CO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Vail" />
+  <Airport Code="BDL" Type="APT" Name="Hartford" Region="CT" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hartford" />
+  <Airport Code="HVN" Type="APT" Name="New Haven" Region="CT" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="New Haven" />
+  <Airport Code="WAS" Type="CITY" Name="Washington, DC" Region="DC" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="true" ITMName="Baltimore" />
+  <Airport Code="WAS" Type="CITY" Name="Washington, DC" Region="DC" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Wash DC-Dulles" />
+  <Airport Code="WAS" Type="CITY" Name="Washington, DC" Region="DC" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="true" ITMName="Wash DC-Reagan" />
+  <Airport Code="IAD" Type="APT" Name="Washington, DC-Dulles" Region="DC" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Wash DC-Dulles" />
+  <Airport Code="DCA" Type="APT" Name="Washington, DC-Reagan National" Region="DC" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Wash DC-Reagan" />
+  <Airport Code="DAB" Type="APT" Name="Daytona Beach" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Daytona Beach" />
+  <Airport Code="FLL" Type="APT" Name="Fort Lauderdale" Region="FL" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Ft Lauderdale" />
+  <Airport Code="RSW" Type="APT" Name="Fort Myers" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Fort Myers" />
+  <Airport Code="VPS" Type="APT" Name="Fort Walton Beach" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ft Walton Beach" />
+  <Airport Code="GNV" Type="APT" Name="Gainesville" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Gainesville" />
+  <Airport Code="JAX" Type="APT" Name="Jacksonville, FL" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jacksonville" />
+  <Airport Code="EYW" Type="APT" Name="Key West" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Key West" />
+  <Airport Code="MLB" Type="APT" Name="Melbourne, FL" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Melbourne" />
+  <Airport Code="MI3" Type="CITY" Name="Miami, FL" Region="FL" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="true" ITMName="Ft Lauderdale" />
+  <Airport Code="MI3" Type="CITY" Name="Miami, FL" Region="FL" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Miami" />
+  <Airport Code="MI3" Type="CITY" Name="Miami, FL" Region="FL" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="West Palm Beach" />
+  <Airport Code="MIA" Type="APT" Name="Miami, FL" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Miami" />
+  <Airport Code="MCO" Type="APT" Name="Orlando" Region="FL" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Orlando" />
+  <Airport Code="ECP" Type="APT" Name="Panama City, FL" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Panama City" />
+  <Airport Code="PNS" Type="APT" Name="Pensacola" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Pensacola" />
+  <Airport Code="SRQ" Type="APT" Name="Sarasota" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sarasota" />
+  <Airport Code="TLH" Type="APT" Name="Tallahassee" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tallahassee" />
+  <Airport Code="TPA" Type="APT" Name="Tampa" Region="FL" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Tampa" />
+  <Airport Code="PBI" Type="APT" Name="West Palm Beach" Region="FL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="West Palm Beach" />
+  <Airport Code="ABY" Type="APT" Name="Albany, GA" Region="GA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Albany" />
+  <Airport Code="ATL" Type="APT" Name="Atlanta" Region="GA" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Atlanta" />
+  <Airport Code="AGS" Type="APT" Name="Augusta" Region="GA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Augusta" />
+  <Airport Code="BQK" Type="APT" Name="Brunswick" Region="GA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Brunswick" />
+  <Airport Code="CSG" Type="APT" Name="Columbus, GA" Region="GA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Columbus" />
+  <Airport Code="SAV" Type="APT" Name="Savannah" Region="GA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Savannah" />
+  <Airport Code="VLD" Type="APT" Name="Valdosta" Region="GA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Valdosta" />
+  <Airport Code="HNL" Type="APT" Name="Honolulu" Region="HI" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Honolulu" />
+  <Airport Code="OGG" Type="APT" Name="Kahului/Maui" Region="HI" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Kahului" />
+  <Airport Code="KOA" Type="APT" Name="Kailua/Kona" Region="HI" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Kailua-Kona" />
+  <Airport Code="LIH" Type="APT" Name="Lihue" Region="HI" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Lihue" />
+  <Airport Code="CID" Type="APT" Name="Cedar Rapids" Region="IA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cedar Rapids" />
+  <Airport Code="DSM" Type="APT" Name="Des Moines" Region="IA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Des Moines" />
+  <Airport Code="DBQ" Type="APT" Name="Dubuque" Region="IA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dubuque" />
+  <Airport Code="SUX" Type="APT" Name="Sioux City" Region="IA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sioux City" />
+  <Airport Code="ALO" Type="APT" Name="Waterloo" Region="IA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Waterloo" />
+  <Airport Code="BOI" Type="APT" Name="Boise" Region="ID" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Boise" />
+  <Airport Code="IDA" Type="APT" Name="Idaho Falls" Region="ID" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Idaho Falls" />
+  <Airport Code="LWS" Type="APT" Name="Lewiston" Region="ID" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Lewiston" />
+  <Airport Code="PIH" Type="APT" Name="Pocatello" Region="ID" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Pocatello" />
+  <Airport Code="SUN" Type="APT" Name="Sun Valley" Region="ID" Country="US" AS="false" QX="true" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="true" ITMName="Sun Valley" />
+  <Airport Code="TWF" Type="APT" Name="Twin Falls" Region="ID" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Twin Falls" />
+  <Airport Code="BMI" Type="APT" Name="Bloomington" Region="IL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bloomington" />
+  <Airport Code="CMI" Type="APT" Name="Champaign/Urbana" Region="IL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Champaign" />
+  <Airport Code="CHI" Type="CITY" Name="Chicago, IL" Region="IL" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Chicago-Midway" />
+  <Airport Code="CHI" Type="CITY" Name="Chicago, IL" Region="IL" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="true" ITMName="Chicago-OHare" />
+  <Airport Code="MDW" Type="APT" Name="Chicago-Midway" Region="IL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Chicago-Midway" />
+  <Airport Code="ORD" Type="APT" Name="Chicago-O'Hare" Region="IL" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Chicago-OHare" />
+  <Airport Code="MLI" Type="APT" Name="Moline" Region="IL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Moline" />
+  <Airport Code="PIA" Type="APT" Name="Peoria" Region="IL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Peoria" />
+  <Airport Code="SPI" Type="APT" Name="Springfield, IL" Region="IL" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Springfield" />
+  <Airport Code="EVV" Type="APT" Name="Evansville" Region="IN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Evansville" />
+  <Airport Code="FWA" Type="APT" Name="Fort Wayne" Region="IN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Fort Wayne" />
+  <Airport Code="IND" Type="APT" Name="Indianapolis" Region="IN" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Indianapolis" />
+  <Airport Code="SBN" Type="APT" Name="South Bend" Region="IN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="South Bend" />
+  <Airport Code="GCK" Type="APT" Name="Garden City" Region="KS" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Garden City" />
+  <Airport Code="MHK" Type="APT" Name="Manhattan" Region="KS" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Manhattan" />
+  <Airport Code="ICT" Type="APT" Name="Wichita" Region="KS" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="false" ITMName="Wichita" />
+  <Airport Code="LEX" Type="APT" Name="Lexington" Region="KY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lexington" />
+  <Airport Code="SDF" Type="APT" Name="Louisville" Region="KY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Louisville" />
+  <Airport Code="AEX" Type="APT" Name="Alexandria" Region="LA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Alexandria" />
+  <Airport Code="BTR" Type="APT" Name="Baton Rouge" Region="LA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Baton Rouge" />
+  <Airport Code="LFT" Type="APT" Name="Lafayette" Region="LA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lafayette" />
+  <Airport Code="LCH" Type="APT" Name="Lake Charles" Region="LA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lake Charles" />
+  <Airport Code="MLU" Type="APT" Name="Monroe" Region="LA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Monroe" />
+  <Airport Code="MSY" Type="APT" Name="New Orleans" Region="LA" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="New Orleans" />
+  <Airport Code="SHV" Type="APT" Name="Shreveport" Region="LA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Shreveport" />
+  <Airport Code="BOS" Type="APT" Name="Boston" Region="MA" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Boston" />
+  <Airport Code="MVY" Type="APT" Name="Martha's Vineyard" Region="MA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Martha's Vineya" />
+  <Airport Code="ACK" Type="APT" Name="Nantucket" Region="MA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Nantucket" />
+  <Airport Code="ORH" Type="APT" Name="Worcester" Region="MA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Worcester" />
+  <Airport Code="BWI" Type="APT" Name="Baltimore-Baltimore Washington" Region="MD" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="true" ITMName="Baltimore" />
+  <Airport Code="SBY" Type="APT" Name="Salisbury-Ocean City" Region="MD" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Salisbury-Ocean" />
+  <Airport Code="BGR" Type="APT" Name="Bangor" Region="ME" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bangor" />
+  <Airport Code="PWM" Type="APT" Name="Portland, ME" Region="ME" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Portland, ME" />
+  <Airport Code="APN" Type="APT" Name="Alpena" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Alpena" />
+  <Airport Code="DTW" Type="APT" Name="Detroit" Region="MI" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Detroit" />
+  <Airport Code="ESC" Type="APT" Name="Escanaba" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Escanaba" />
+  <Airport Code="FNT" Type="APT" Name="Flint" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Flint" />
+  <Airport Code="GRR" Type="APT" Name="Grand Rapids" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Grand Rapids" />
+  <Airport Code="IMT" Type="APT" Name="Iron Mountain" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Iron Mountain" />
+  <Airport Code="AZO" Type="APT" Name="Kalamazoo" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Kalamazoo" />
+  <Airport Code="LAN" Type="APT" Name="Lansing" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lansing" />
+  <Airport Code="MQT" Type="APT" Name="Marquette" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Marquette" />
+  <Airport Code="PLN" Type="APT" Name="Pellston" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Pellston" />
+  <Airport Code="MBS" Type="APT" Name="Saginaw" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Saginaw" />
+  <Airport Code="CIU" Type="APT" Name="Sault Ste Marie" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sault Ste Marie" />
+  <Airport Code="TVC" Type="APT" Name="Traverse City" Region="MI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Traverse City" />
+  <Airport Code="BJI" Type="APT" Name="Bemidji" Region="MN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bemidji" />
+  <Airport Code="BRD" Type="APT" Name="Brainerd" Region="MN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Brainerd" />
+  <Airport Code="DLH" Type="APT" Name="Duluth" Region="MN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Duluth" />
+  <Airport Code="HIB" Type="APT" Name="Hibbing" Region="MN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hibbing" />
+  <Airport Code="INL" Type="APT" Name="International Falls" Region="MN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Intl Falls" />
+  <Airport Code="MSP" Type="APT" Name="Minneapolis" Region="MN" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Minneapolis" />
+  <Airport Code="RST" Type="APT" Name="Rochester, MN" Region="MN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Rochester, MN" />
+  <Airport Code="COU" Type="APT" Name="Columbia, MO" Region="MO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Columbia, MO" />
+  <Airport Code="JLN" Type="APT" Name="Joplin" Region="MO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Joplin" />
+  <Airport Code="MCI" Type="APT" Name="Kansas City" Region="MO" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Kansas City" />
+  <Airport Code="SGF" Type="APT" Name="Springfield, MO" Region="MO" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Springfield" />
+  <Airport Code="STL" Type="APT" Name="St. Louis" Region="MO" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="St. Louis" />
+  <Airport Code="GPT" Type="APT" Name="Biloxi" Region="MS" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Gulfport" />
+  <Airport Code="GTR" Type="APT" Name="Columbus, MS" Region="MS" Country="US" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Columbus, MS" />
+  <Airport Code="GPT" Type="APT" Name="Gulfport" Region="MS" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Gulfport" />
+  <Airport Code="JAN" Type="APT" Name="Jackson" Region="MS" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jackson, MS" />
+  <Airport Code="PIB" Type="APT" Name="Laurel" Region="MS" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Laurel" />
+  <Airport Code="MEI" Type="APT" Name="Meridian" Region="MS" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Meridian" />
+  <Airport Code="BIL" Type="APT" Name="Billings" Region="MT" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Billings" />
+  <Airport Code="BZN" Type="APT" Name="Bozeman" Region="MT" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Bozeman" />
+  <Airport Code="BTM" Type="APT" Name="Butte" Region="MT" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Butte" />
+  <Airport Code="GTF" Type="APT" Name="Great Falls" Region="MT" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Great Falls" />
+  <Airport Code="HLN" Type="APT" Name="Helena" Region="MT" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Helena" />
+  <Airport Code="FCA" Type="APT" Name="Kalispell" Region="MT" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Kalispell" />
+  <Airport Code="MSO" Type="APT" Name="Missoula" Region="MT" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Missoula" />
+  <Airport Code="WYS" Type="APT" Name="West Yellowstone" Region="MT" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="W Yellowstone" />
+  <Airport Code="AVL" Type="APT" Name="Asheville" Region="NC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Asheville" />
+  <Airport Code="CLT" Type="APT" Name="Charlotte" Region="NC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Charlotte" />
+  <Airport Code="FAY" Type="APT" Name="Fayetteville, NC" Region="NC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Fayetteville" />
+  <Airport Code="GSO" Type="APT" Name="Greensboro" Region="NC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Greensboro" />
+  <Airport Code="PGV" Type="APT" Name="Greenville, NC" Region="NC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Greenville" />
+  <Airport Code="OAJ" Type="APT" Name="Jacksonville, NC" Region="NC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jacksonville" />
+  <Airport Code="EWN" Type="APT" Name="New Bern" Region="NC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="New Bern" />
+  <Airport Code="RDU" Type="APT" Name="Raleigh" Region="NC" Country="US" AS="true" QX="false" Effective="10/01/2015" LowFrequency="false" Map="false" eBP="false" ITMName="Raleigh" />
+  <Airport Code="ILM" Type="APT" Name="Wilmington" Region="NC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Wilmington" />
+  <Airport Code="BIS" Type="APT" Name="Bismarck" Region="ND" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Bismarck" />
+  <Airport Code="FAR" Type="APT" Name="Fargo" Region="ND" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Fargo" />
+  <Airport Code="GFK" Type="APT" Name="Grand Forks" Region="ND" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Grand Forks" />
+  <Airport Code="MOT" Type="APT" Name="Minot" Region="ND" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Minot" />
+  <Airport Code="GRI" Type="APT" Name="Grand Island" Region="NE" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Grand Island" />
+  <Airport Code="LNK" Type="APT" Name="Lincoln" Region="NE" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lincoln" />
+  <Airport Code="OMA" Type="APT" Name="Omaha" Region="NE" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="true" ITMName="Omaha" />
+  <Airport Code="MHT" Type="APT" Name="Manchester, NH" Region="NH" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Manchester" />
+  <Airport Code="EWR" Type="APT" Name="Newark-Newark Intl." Region="NJ" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="NY-Newark" />
+  <Airport Code="ABQ" Type="APT" Name="Albuquerque" Region="NM" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Albuquerque" />
+  <Airport Code="ROW" Type="APT" Name="Roswell" Region="NM" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Roswell" />
+  <Airport Code="SAF" Type="APT" Name="Santa Fe" Region="NM" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Santa Fe" />
+  <Airport Code="EKO" Type="APT" Name="Elko" Region="NV" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Elko" />
+  <Airport Code="LAS" Type="APT" Name="Las Vegas" Region="NV" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Las Vegas" />
+  <Airport Code="RNO" Type="APT" Name="Reno" Region="NV" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Reno" />
+  <Airport Code="ALB" Type="APT" Name="Albany, NY" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Albany" />
+  <Airport Code="BGM" Type="APT" Name="Binghamton" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Binghamton" />
+  <Airport Code="BUF" Type="APT" Name="Buffalo" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Buffalo" />
+  <Airport Code="ELM" Type="APT" Name="Elmira" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Elmira" />
+  <Airport Code="ISP" Type="APT" Name="Islip" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Islip" />
+  <Airport Code="ITH" Type="APT" Name="Ithaca" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ithaca" />
+  <Airport Code="NYC" Type="CITY" Name="New York, NY" Region="NY" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="NY-Kennedy" />
+  <Airport Code="NYC" Type="CITY" Name="New York, NY" Region="NY" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="NY-LaGuardia" />
+  <Airport Code="NYC" Type="CITY" Name="New York, NY" Region="NY" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="true" ITMName="NY-Newark" />
+  <Airport Code="JFK" Type="APT" Name="New York-Kennedy" Region="NY" Country="US" AS="true" QX="false" Effective="09/16/2015" LowFrequency="false" Map="false" eBP="false" ITMName="NY-Kennedy" />
+  <Airport Code="LGA" Type="APT" Name="New York-LaGuardia" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="NY-LaGuardia" />
+  <Airport Code="EWR" Type="APT" Name="New York-Newark Intl." Region="NY" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="NY-Newark" />
+  <Airport Code="SWF" Type="APT" Name="Newburgh" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Newburgh" />
+  <Airport Code="ROC" Type="APT" Name="Rochester, NY" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Rochester, NY" />
+  <Airport Code="SYR" Type="APT" Name="Syracuse" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Syracuse" />
+  <Airport Code="ART" Type="APT" Name="Watertown" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Watertown" />
+  <Airport Code="HPN" Type="APT" Name="White Plains" Region="NY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="White Plains" />
+  <Airport Code="CAK" Type="APT" Name="Akron/Canton" Region="OH" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Akron/Canton" />
+  <Airport Code="CVG" Type="APT" Name="Cincinnati" Region="OH" Country="US" AS="true" QX="false" Effective="08/18/2020" LowFrequency="false" Map="false" eBP="false" ITMName="Cincinnati" />
+  <Airport Code="CLE" Type="APT" Name="Cleveland" Region="OH" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cleveland" />
+  <Airport Code="CMH" Type="APT" Name="Columbus, OH" Region="OH" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Columbus, OH" />
+  <Airport Code="DAY" Type="APT" Name="Dayton" Region="OH" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dayton" />
+  <Airport Code="TOL" Type="APT" Name="Toledo" Region="OH" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Toledo" />
+  <Airport Code="LAW" Type="APT" Name="Lawton" Region="OK" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lawton" />
+  <Airport Code="OKC" Type="APT" Name="Oklahoma City" Region="OK" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Oklahoma City" />
+  <Airport Code="SWO" Type="APT" Name="Stillwater" Region="OK" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Stillwater" />
+  <Airport Code="TUL" Type="APT" Name="Tulsa" Region="OK" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tulsa" />
+  <Airport Code="EUG" Type="APT" Name="Eugene" Region="OR" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Eugene" />
+  <Airport Code="MFR" Type="APT" Name="Medford" Region="OR" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Medford" />
+  <Airport Code="PDX" Type="APT" Name="Portland, OR" Region="OR" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Portland, OR" />
+  <Airport Code="RDM" Type="APT" Name="Redmond/Bend" Region="OR" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Redmond/Bend" />
+  <Airport Code="ABE" Type="APT" Name="Allentown" Region="PA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Allentown" />
+  <Airport Code="ERI" Type="APT" Name="Erie" Region="PA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Erie" />
+  <Airport Code="MDT" Type="APT" Name="Harrisburg" Region="PA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Harrisburg" />
+  <Airport Code="PHL" Type="APT" Name="Philadelphia" Region="PA" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Philadelphia" />
+  <Airport Code="PIT" Type="APT" Name="Pittsburgh" Region="PA" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Pittsburgh" />
+  <Airport Code="SCE" Type="APT" Name="State College" Region="PA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="State College" />
+  <Airport Code="AVP" Type="APT" Name="Wilkes-Barre" Region="PA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Wilkes-Barre" />
+  <Airport Code="IPT" Type="APT" Name="Williamsport" Region="PA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Williamsport" />
+  <Airport Code="PVD" Type="APT" Name="Providence" Region="RI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Providence" />
+  <Airport Code="CHS" Type="APT" Name="Charleston, SC" Region="SC" Country="US" AS="true" QX="false" Effective="11/16/2015" LowFrequency="false" Map="false" eBP="false" ITMName="Charleston" />
+  <Airport Code="CAE" Type="APT" Name="Columbia, SC" Region="SC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Columbia, SC" />
+  <Airport Code="FLO" Type="APT" Name="Florence, SC" Region="SC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Florence" />
+  <Airport Code="GSP" Type="APT" Name="Greenville, SC" Region="SC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Greenville" />
+  <Airport Code="HHH" Type="APT" Name="Hilton Head Island" Region="SC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hilton Head Isl" />
+  <Airport Code="MYR" Type="APT" Name="Myrtle Beach" Region="SC" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Myrtle Beach" />
+  <Airport Code="ABR" Type="APT" Name="Aberdeen, SD" Region="SD" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Aberdeen" />
+  <Airport Code="RAP" Type="APT" Name="Rapid City" Region="SD" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Rapid City" />
+  <Airport Code="FSD" Type="APT" Name="Sioux Falls" Region="SD" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Sioux Falls" />
+  <Airport Code="CHA" Type="APT" Name="Chattanooga" Region="TN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Chattanooga" />
+  <Airport Code="TYS" Type="APT" Name="Knoxville" Region="TN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Knoxville" />
+  <Airport Code="MEM" Type="APT" Name="Memphis" Region="TN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Memphis" />
+  <Airport Code="BNA" Type="APT" Name="Nashville" Region="TN" Country="US" AS="true" QX="false" Effective="09/23/2015" LowFrequency="false" Map="false" eBP="false" ITMName="Nashville" />
+  <Airport Code="TRI" Type="APT" Name="Tri-City" Region="TN" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tri-City" />
+  <Airport Code="ABI" Type="APT" Name="Abilene" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Abilene" />
+  <Airport Code="AMA" Type="APT" Name="Amarillo" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Amarillo" />
+  <Airport Code="AUS" Type="APT" Name="Austin" Region="TX" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Austin" />
+  <Airport Code="BPT" Type="APT" Name="Beaumont" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Beaumont" />
+  <Airport Code="BRO" Type="APT" Name="Brownsville" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Brownsville" />
+  <Airport Code="CLL" Type="APT" Name="College Station" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="College Station" />
+  <Airport Code="CRP" Type="APT" Name="Corpus Christi" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Corpus Christi" />
+  <Airport Code="DAL" Type="APT" Name="Dallas" Region="TX" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Dallas-Love Fld" />
+  <Airport Code="DF2" Type="CITY" Name="Dallas-Ft. Worth, TX" Region="TX" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="true" ITMName="Dallas-Ft Worth" />
+  <Airport Code="DF2" Type="CITY" Name="Dallas-Ft. Worth, TX" Region="TX" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="false" ITMName="Dallas-Love Fld" />
+  <Airport Code="DFW" Type="APT" Name="Dallas-Ft. Worth, TX" Region="TX" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Dallas-Ft Worth" />
+  <Airport Code="DRT" Type="APT" Name="Del Rio" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Del Rio Intl." />
+  <Airport Code="ELP" Type="APT" Name="El Paso" Region="TX" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="false" ITMName="El Paso" />
+  <Airport Code="HRL" Type="APT" Name="Harlingen" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Harlingen" />
+  <Airport Code="HO2" Type="CITY" Name="Houston, TX" Region="TX" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Houston-Hobby" />
+  <Airport Code="HO2" Type="CITY" Name="Houston, TX" Region="TX" Country="US" AS="true" QX="false" LowFrequency="false" Map="false" eBP="true" ITMName="Houston-Itl" />
+  <Airport Code="HOU" Type="APT" Name="Houston, TX" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Houston-Hobby" />
+  <Airport Code="IAH" Type="APT" Name="Houston, TX" Region="TX" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Houston-Itl" />
+  <Airport Code="GRK" Type="APT" Name="Killeen" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Killeen (GRK)" />
+  <Airport Code="LRD" Type="APT" Name="Laredo" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Laredo" />
+  <Airport Code="GGG" Type="APT" Name="Longview" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Longview" />
+  <Airport Code="LBB" Type="APT" Name="Lubbock" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lubbock" />
+  <Airport Code="MFE" Type="APT" Name="McAllen" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="McAllen" />
+  <Airport Code="MAF" Type="APT" Name="Midland" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Midland" />
+  <Airport Code="SJT" Type="APT" Name="San Angelo" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="San Angelo" />
+  <Airport Code="SAT" Type="APT" Name="San Antonio" Region="TX" Country="US" AS="true" QX="false" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="San Antonio" />
+  <Airport Code="TYR" Type="APT" Name="Tyler" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Tyler" />
+  <Airport Code="ACT" Type="APT" Name="Waco" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Waco" />
+  <Airport Code="SPS" Type="APT" Name="Wichita Falls" Region="TX" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Wichita Falls" />
+  <Airport Code="CDC" Type="APT" Name="Cedar City" Region="UT" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cedar City" />
+  <Airport Code="SLC" Type="APT" Name="Salt Lake City" Region="UT" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Salt Lake City" />
+  <Airport Code="SGU" Type="APT" Name="St. George" Region="UT" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="St. George" />
+  <Airport Code="CHO" Type="APT" Name="Charlottesville" Region="VA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Charlottesville" />
+  <Airport Code="LYH" Type="APT" Name="Lynchburg" Region="VA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lynchburg" />
+  <Airport Code="PHF" Type="APT" Name="Newport News" Region="VA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Newport News" />
+  <Airport Code="ORF" Type="APT" Name="Norfolk" Region="VA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Norfolk" />
+  <Airport Code="RIC" Type="APT" Name="Richmond" Region="VA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Richmond" />
+  <Airport Code="ROA" Type="APT" Name="Roanoke" Region="VA" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Roanoke" />
+  <Airport Code="BTV" Type="APT" Name="Burlington" Region="VT" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Burlington" />
+  <Airport Code="BLI" Type="APT" Name="Bellingham" Region="WA" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Bellingham" />
+  <Airport Code="PAE" Type="APT" Name="Everett" Region="WA" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="false" ITMName="Everett" />
+  <Airport Code="PSC" Type="APT" Name="Pasco/Tri-Cities" Region="WA" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Pasco" />
+  <Airport Code="CRC" Type="APT" Name="Pseudo, CO" Region="WA" Country="US" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Seattle" />
+  <Airport Code="GCT" Type="APT" Name="Pseudo, WA" Region="WA" Country="US" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Seattle" />
+  <Airport Code="HDQ" Type="APT" Name="Pseudo, WA" Region="WA" Country="US" AS="false" QX="false" LowFrequency="false" Map="false" eBP="false" ITMName="Seattle" />
+  <Airport Code="PUW" Type="APT" Name="Pullman/Moscow" Region="WA" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Pullman/Moscow " />
+  <Airport Code="SEA" Type="APT" Name="Seattle" Region="WA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="true" eBP="true" ITMName="Seattle" />
+  <Airport Code="SA2" Type="CITY" Name="Seattle Area, WA" Region="WA" Country="US" AS="true" QX="true" LowFrequency="false" Map="false" eBP="false" ITMName="Everett" />
+  <Airport Code="SA2" Type="CITY" Name="Seattle Area, WA" Region="WA" Country="US" AS="true" QX="true" LowFrequency="false" Map="true" eBP="true" ITMName="Seattle" />
+  <Airport Code="GEG" Type="APT" Name="Spokane" Region="WA" Country="US" AS="true" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Spokane" />
+  <Airport Code="ALW" Type="APT" Name="Walla Walla" Region="WA" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Walla Walla" />
+  <Airport Code="EAT" Type="APT" Name="Wenatchee" Region="WA" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Wenatchee" />
+  <Airport Code="YKM" Type="APT" Name="Yakima" Region="WA" Country="US" AS="false" QX="true" Effective="" LowFrequency="false" Map="false" eBP="true" ITMName="Yakima" />
+  <Airport Code="ATW" Type="APT" Name="Appleton" Region="WI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Appleton" />
+  <Airport Code="GRB" Type="APT" Name="Green Bay" Region="WI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Green Bay" />
+  <Airport Code="LSE" Type="APT" Name="La Crosse" Region="WI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="La Crosse" />
+  <Airport Code="MSN" Type="APT" Name="Madison" Region="WI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Madison" />
+  <Airport Code="MKE" Type="APT" Name="Milwaukee" Region="WI" Country="US" AS="true" QX="false" Effective="06/01/2020" LowFrequency="false" Map="false" eBP="true" ITMName="Milwaukee" />
+  <Airport Code="RHI" Type="APT" Name="Rhinelander" Region="WI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Rhinelander" />
+  <Airport Code="CWA" Type="APT" Name="Wausau" Region="WI" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Wausau" />
+  <Airport Code="CRW" Type="APT" Name="Charleston, WV" Region="WV" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Charleston" />
+  <Airport Code="HTS" Type="APT" Name="Huntington" Region="WV" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Huntington" />
+  <Airport Code="CPR" Type="APT" Name="Casper" Region="WY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Casper" />
+  <Airport Code="CYS" Type="APT" Name="Cheyenne" Region="WY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cheyenne Munici" />
+  <Airport Code="COD" Type="APT" Name="Cody" Region="WY" Country="US" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Cody" />
+  <Airport Code="JAC" Type="APT" Name="Jackson Hole" Region="WY" Country="US" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Jackson Hole" />
+  <Airport Code="MVD" Type="APT" Name="Montevideo" Region="UY" Country="UY" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Montevideo" />
+  <Airport Code="TAS" Type="APT" Name="Tashkent" Region="UZ" Country="UZ" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Tashkent" />
+  <Airport Code="SVD" Type="APT" Name="St. Vincent" Region="VC" Country="VC" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="St. Vincent" />
+  <Airport Code="STX" Type="APT" Name="St. Croix Island" Region="VI" Country="VI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="St. Croix Henry" />
+  <Airport Code="STT" Type="APT" Name="St. Thomas Island" Region="VI" Country="VI" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="St. Thomas Cyri" />
+  <Airport Code="DAD" Type="APT" Name="Da Nang" Region="VN" Country="VN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Da Nang" />
+  <Airport Code="DLI" Type="APT" Name="Dalat" Region="VN" Country="VN" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Dalat" />
+  <Airport Code="HAN" Type="APT" Name="Hanoi" Region="VN" Country="VN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Hanoi" />
+  <Airport Code="SGN" Type="APT" Name="Ho Chi Minh City" Region="VN" Country="VN" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Ho Chi Minh Cit" />
+  <Airport Code="VLI" Type="APT" Name="Port Vila" Region="VU" Country="VU" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Port Vila" />
+  <Airport Code="APW" Type="APT" Name="Apia" Region="WS" Country="WS" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="Apia Faleolo" />
+  <Airport Code="CPT" Type="APT" Name="Cape Town" Region="ZA" Country="ZA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Cape Town" />
+  <Airport Code="DUR" Type="APT" Name="Durban" Region="ZA" Country="ZA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Durban Intl." />
+  <Airport Code="ELS" Type="APT" Name="East London" Region="ZA" Country="ZA" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="East London" />
+  <Airport Code="GRJ" Type="APT" Name="George" Region="ZA" Country="ZA" AS="false" QX="false" Effective="" LowFrequency="true" Map="false" eBP="false" ITMName="George" />
+  <Airport Code="JNB" Type="APT" Name="Johannesburg" Region="ZA" Country="ZA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Johannesburg In" />
+  <Airport Code="HLA" Type="APT" Name="Lanseria" Region="ZA" Country="ZA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lanseria" />
+  <Airport Code="PLZ" Type="APT" Name="Port Elizabeth" Region="ZA" Country="ZA" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Port Elizabeth" />
+  <Airport Code="LVI" Type="APT" Name="Livingstone" Region="ZM" Country="ZM" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Livingstone" />
+  <Airport Code="LUN" Type="APT" Name="Lusaka" Region="ZM" Country="ZM" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Lusaka" />
+  <Airport Code="HRE" Type="APT" Name="Harare" Region="ZW" Country="ZW" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Harare" />
+  <Airport Code="VFA" Type="APT" Name="Victoria Falls" Region="ZW" Country="ZW" AS="false" QX="false" Effective="" LowFrequency="false" Map="false" eBP="false" ITMName="Victoria Falls" />
+</ETAirports>

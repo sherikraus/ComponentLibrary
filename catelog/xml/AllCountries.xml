@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<AllCountries Version="1.0" Date="2002-12-10T08:15:35.710">
+	<Country Code="AF" Name="Afghanistan" PhoneCode="93"/>
+	<Country Code="AL" Name="Albania" PhoneCode="355"/>
+	<Country Code="DZ" Name="Algeria" PhoneCode="213"/>
+	<Country Code="AS" Name="American Samoa" PhoneCode="1"/>
+	<Country Code="AD" Name="Andorra" PhoneCode="376"/>
+	<Country Code="AO" Name="Angola" PhoneCode="244"/>
+	<Country Code="AI" Name="Anguilla" PhoneCode="1"/>
+	<Country Code="AQ" Name="Antarctica" PhoneCode="672"/>
+	<Country Code="AG" Name="Antigua And Barbuda" PhoneCode="1"/>
+	<Country Code="AR" Name="Argentina" PhoneCode="54"/>
+	<Country Code="AM" Name="Armenia" PhoneCode="374"/>
+	<Country Code="AW" Name="Aruba" PhoneCode="297"/>
+	<Country Code="AU" Name="Australia" PhoneCode="61"/>
+	<Country Code="AT" Name="Austria" PhoneCode="43"/>
+	<Country Code="AZ" Name="Azerbaijan" PhoneCode="994"/>
+	<Country Code="BS" Name="Bahamas" PhoneCode="1"/>
+	<Country Code="BH" Name="Bahrain" PhoneCode="973"/>
+	<Country Code="BD" Name="Bangladesh" PhoneCode="880"/>
+	<Country Code="BB" Name="Barbados" PhoneCode="1"/>
+	<Country Code="BY" Name="Belarus" PhoneCode="375"/>
+	<Country Code="BE" Name="Belgium" PhoneCode="32"/>
+	<Country Code="BZ" Name="Belize" PhoneCode="501"/>
+	<Country Code="BJ" Name="Benin" PhoneCode="229"/>
+	<Country Code="BM" Name="Bermuda" PhoneCode="1"/>
+	<Country Code="BT" Name="Bhutan" PhoneCode="975"/>
+	<Country Code="BO" Name="Bolivia" PhoneCode="591"/>
+  <Country Code="BQ" Name="Bonaire, Saint Eustatius and Saba" PhoneCode="599"/>
+	<Country Code="BA" Name="Bosnia And Herzegovina" PhoneCode="387"/>
+	<Country Code="BW" Name="Botswana" PhoneCode="267"/>
+	<Country Code="BR" Name="Brazil" PhoneCode="55"/>
+	<Country Code="IO" Name="British Indian Ocean Territory" PhoneCode="1"/>
+	<Country Code="VG" Name="British Virgin Islands" PhoneCode="1"/>
+	<Country Code="BN" Name="Brunei Darussalam" PhoneCode="673"/>
+	<Country Code="BG" Name="Bulgaria" PhoneCode="359"/>
+	<Country Code="BF" Name="Burkina Faso" PhoneCode="226"/>
+	<Country Code="BI" Name="Burundi" PhoneCode="257"/>
+	<Country Code="KH" Name="Cambodia" PhoneCode="855"/>
+	<Country Code="CM" Name="Cameroon" PhoneCode="237"/>
+	<Country Code="CA" Name="Canada" PhoneCode="1"/>
+	<Country Code="CV" Name="Cape Verde" PhoneCode="238"/>
+	<Country Code="KY" Name="Cayman Islands" PhoneCode="1"/>
+	<Country Code="CF" Name="Central African Republic" PhoneCode="236"/>
+	<Country Code="TD" Name="Chad" PhoneCode="235"/>
+	<Country Code="CL" Name="Chile" PhoneCode="56"/>
+	<Country Code="CN" Name="China" PhoneCode="86"/>
+	<Country Code="CX" Name="Christmas Island" PhoneCode="61"/>
+	<Country Code="CC" Name="Cocos (Keeling) Islands" PhoneCode="61"/>
+	<Country Code="CO" Name="Colombia" PhoneCode="57"/>
+	<Country Code="KM" Name="Comoros" PhoneCode="269"/>
+	<Country Code="CG" Name="Congo" PhoneCode="242"/>
+	<Country Code="CD" Name="Congo (DRC)" PhoneCode="243"/>
+	<Country Code="CK" Name="Cook Islands" PhoneCode="682"/>
+	<Country Code="CR" Name="Costa Rica" PhoneCode="506"/>
+	<Country Code="CI" Name="Cote D`ivoire" PhoneCode="225"/>
+	<Country Code="HR" Name="Croatia" PhoneCode="385"/>
+	<Country Code="CU" Name="Cuba" PhoneCode="53"/>
+  <Country Code="CW" Name="Curacao" PhoneCode="599"/>
+  <Country Code="CY" Name="Cyprus" PhoneCode="357"/>
+	<Country Code="CZ" Name="Czech Republic" PhoneCode="420"/>
+	<Country Code="DK" Name="Denmark" PhoneCode="45"/>
+	<Country Code="DJ" Name="Djibouti" PhoneCode="253"/>
+	<Country Code="DM" Name="Dominica" PhoneCode="1"/>
+	<Country Code="DO" Name="Dominican Republic" PhoneCode="1"/>
+	<Country Code="TP" Name="East Timor" PhoneCode="670"/>
+	<Country Code="EC" Name="Ecuador" PhoneCode="593"/>
+	<Country Code="EG" Name="Egypt" PhoneCode="20"/>
+	<Country Code="SV" Name="El Salvador" PhoneCode="503"/>
+	<Country Code="GQ" Name="Equatorial Guinea" PhoneCode="240"/>
+	<Country Code="ER" Name="Eritrea" PhoneCode="291"/>
+	<Country Code="EE" Name="Estonia" PhoneCode="372"/>
+	<Country Code="ET" Name="Ethiopia" PhoneCode="251"/>
+	<Country Code="FK" Name="Falkland Islands (Malvinas)" PhoneCode="500"/>
+	<Country Code="FO" Name="Faroe Islands" PhoneCode="298"/>
+	<Country Code="FJ" Name="Fiji" PhoneCode="679"/>
+	<Country Code="FI" Name="Finland" PhoneCode="358"/>
+	<Country Code="FR" Name="France" PhoneCode="33"/>
+	<Country Code="GF" Name="French Guiana" PhoneCode="594"/>
+	<Country Code="PF" Name="French Polynesia" PhoneCode="689"/>
+	<Country Code="GA" Name="Gabon" PhoneCode="241"/>
+	<Country Code="GM" Name="Gambia" PhoneCode="220"/>
+	<Country Code="GE" Name="Georgia" PhoneCode="995"/>
+	<Country Code="DE" Name="Germany" PhoneCode="49"/>
+	<Country Code="GH" Name="Ghana" PhoneCode="233"/>
+	<Country Code="GI" Name="Gibraltar" PhoneCode="350"/>
+	<Country Code="GR" Name="Greece" PhoneCode="30"/>
+	<Country Code="GL" Name="Greenland" PhoneCode="299"/>
+	<Country Code="GD" Name="Grenada" PhoneCode="1"/>
+	<Country Code="GP" Name="Guadeloupe" PhoneCode="590"/>
+	<Country Code="GU" Name="Guam" PhoneCode="1"/>
+	<Country Code="GT" Name="Guatemala" PhoneCode="502"/>
+	<Country Code="GN" Name="Guinea" PhoneCode="224"/>
+	<Country Code="GW" Name="Guinea-Bissau" PhoneCode="245"/>
+	<Country Code="GY" Name="Guyana" PhoneCode="592"/>
+	<Country Code="HT" Name="Haiti" PhoneCode="509"/>
+	<Country Code="VA" Name="Holy See (Vatican City State)" PhoneCode="379"/>
+	<Country Code="HN" Name="Honduras" PhoneCode="504"/>
+	<Country Code="HK" Name="Hong Kong" PhoneCode="852"/>
+	<Country Code="HU" Name="Hungary" PhoneCode="36"/>
+	<Country Code="IS" Name="Iceland" PhoneCode="354"/>
+	<Country Code="IN" Name="India" PhoneCode="91"/>
+	<Country Code="ID" Name="Indonesia" PhoneCode="62"/>
+	<Country Code="IQ" Name="Iraq" PhoneCode="964"/>
+	<Country Code="IE" Name="Ireland" PhoneCode="353"/>
+	<Country Code="IR" Name="Islamic Republic Of Iran" PhoneCode="98"/>
+	<Country Code="IL" Name="Israel" PhoneCode="972"/>
+	<Country Code="IT" Name="Italy" PhoneCode="39"/>
+	<Country Code="JM" Name="Jamaica" PhoneCode="1"/>
+	<Country Code="JP" Name="Japan" PhoneCode="81"/>
+	<Country Code="JO" Name="Jordan" PhoneCode="962"/>
+	<Country Code="KZ" Name="Kazakhstan" PhoneCode="7"/>
+	<Country Code="KE" Name="Kenya" PhoneCode="254"/>
+	<Country Code="KI" Name="Kiribati" PhoneCode="686"/>
+	<Country Code="KP" Name="Korea (DPRK)" PhoneCode="850"/>
+	<Country Code="KR" Name="Korea (ROK)" PhoneCode="82"/>
+	<Country Code="CS" Name="Kosovo" PhoneCode="381"/>
+	<Country Code="KW" Name="Kuwait" PhoneCode="965"/>
+	<Country Code="KG" Name="Kyrgyzstan" PhoneCode="996"/>
+	<Country Code="LA" Name="Laos" PhoneCode="856"/>
+	<Country Code="LV" Name="Latvia" PhoneCode="371"/>
+	<Country Code="LB" Name="Lebanon" PhoneCode="961"/>
+	<Country Code="LS" Name="Lesotho" PhoneCode="266"/>
+	<Country Code="LR" Name="Liberia" PhoneCode="231"/>
+	<Country Code="LY" Name="Libya" PhoneCode="218"/>
+	<Country Code="LI" Name="Liechtenstein" PhoneCode="423"/>
+	<Country Code="LT" Name="Lithuania" PhoneCode="370"/>
+	<Country Code="LU" Name="Luxembourg" PhoneCode="352"/>
+	<Country Code="MO" Name="Macao" PhoneCode="853"/>
+	<Country Code="MK" Name="Macedonia" PhoneCode="389"/>
+	<Country Code="MG" Name="Madagascar" PhoneCode="261"/>
+	<Country Code="MW" Name="Malawi" PhoneCode="265"/>
+	<Country Code="MY" Name="Malaysia" PhoneCode="60"/>
+	<Country Code="MV" Name="Maldives" PhoneCode="960"/>
+	<Country Code="ML" Name="Mali" PhoneCode="223"/>
+	<Country Code="MT" Name="Malta" PhoneCode="356"/>
+	<Country Code="MH" Name="Marshall Islands" PhoneCode="692"/>
+	<Country Code="MQ" Name="Martinique" PhoneCode="596"/>
+	<Country Code="MR" Name="Mauritania" PhoneCode="222"/>
+	<Country Code="MU" Name="Mauritius" PhoneCode="230"/>
+	<Country Code="YT" Name="Mayotte" PhoneCode="262"/>
+	<Country Code="MX" Name="Mexico" PhoneCode="52"/>
+	<Country Code="FM" Name="Micronesia" PhoneCode="691"/>
+	<Country Code="MD" Name="Moldova, Republic Of" PhoneCode="373"/>
+	<Country Code="MC" Name="Monaco" PhoneCode="377"/>
+	<Country Code="MN" Name="Mongolia" PhoneCode="976"/>
+	<Country Code="MS" Name="Montserrat" PhoneCode="1"/>
+	<Country Code="ME" Name="Montenegro" PhoneCode="382"/>
+	<Country Code="MA" Name="Morocco" PhoneCode="212"/>
+	<Country Code="MZ" Name="Mozambique" PhoneCode="258"/>
+	<Country Code="MM" Name="Myanmar" PhoneCode="95"/>
+	<Country Code="NA" Name="Namibia" PhoneCode="264"/>
+	<Country Code="NR" Name="Nauru" PhoneCode="674"/>
+	<Country Code="NP" Name="Nepal" PhoneCode="977"/>
+	<Country Code="NL" Name="Netherlands" PhoneCode="31"/>
+	<Country Code="NC" Name="New Caledonia" PhoneCode="687"/>
+	<Country Code="NZ" Name="New Zealand" PhoneCode="64"/>
+	<Country Code="NI" Name="Nicaragua" PhoneCode="505"/>
+	<Country Code="NE" Name="Niger" PhoneCode="227"/>
+	<Country Code="NG" Name="Nigeria" PhoneCode="234"/>
+	<Country Code="NU" Name="Niue" PhoneCode="683"/>
+	<Country Code="NF" Name="Norfolk Island" PhoneCode="672"/>
+	<Country Code="MP" Name="Northern Mariana Islands" PhoneCode="1"/>
+	<Country Code="NO" Name="Norway" PhoneCode="47"/>
+	<Country Code="OM" Name="Oman" PhoneCode="968"/>
+	<Country Code="PK" Name="Pakistan" PhoneCode="92"/>
+	<Country Code="PW" Name="Palau" PhoneCode="680"/>
+	<Country Code="PA" Name="Panama" PhoneCode="507"/>
+	<Country Code="PG" Name="Papua New Guinea" PhoneCode="675"/>
+	<Country Code="PY" Name="Paraguay" PhoneCode="595"/>
+	<Country Code="PE" Name="Peru" PhoneCode="51"/>
+	<Country Code="PH" Name="Philippines" PhoneCode="63"/>
+	<Country Code="PN" Name="Pitcairn" PhoneCode="872"/>
+	<Country Code="PL" Name="Poland" PhoneCode="48"/>
+	<Country Code="PT" Name="Portugal" PhoneCode="351"/>
+	<Country Code="PR" Name="Puerto Rico" PhoneCode="1"/>
+	<Country Code="QA" Name="Qatar" PhoneCode="974"/>
+	<Country Code="RE" Name="Reunion" PhoneCode="262"/>
+	<Country Code="RO" Name="Romania" PhoneCode="40"/>
+	<Country Code="RU" Name="Russian Federation" PhoneCode="7"/>
+	<Country Code="RW" Name="Rwanda" PhoneCode="250"/>
+	<Country Code="WS" Name="Samoa" PhoneCode="685"/>
+	<Country Code="SM" Name="San Marino" PhoneCode="378"/>
+	<Country Code="ST" Name="Sao Tome And Principe" PhoneCode="239"/>
+	<Country Code="SA" Name="Saudi Arabia" PhoneCode="966"/>
+	<Country Code="SN" Name="Senegal" PhoneCode="221"/>
+	<Country Code="RS" Name="Serbia" PhoneCode="381"/>
+	<Country Code="SC" Name="Seychelles" PhoneCode="248"/>
+	<Country Code="SL" Name="Sierra Leone" PhoneCode="232"/>
+	<Country Code="SG" Name="Singapore" PhoneCode="65"/>
+	<Country Code="SK" Name="Slovakia" PhoneCode="421"/>
+	<Country Code="SI" Name="Slovenia" PhoneCode="386"/>
+	<Country Code="SB" Name="Solomon Islands" PhoneCode="677"/>
+	<Country Code="SO" Name="Somalia" PhoneCode="252"/>
+	<Country Code="ZA" Name="South Africa" PhoneCode="27"/>
+	<Country Code="ES" Name="Spain" PhoneCode="34"/>
+	<Country Code="LK" Name="Sri Lanka" PhoneCode="94"/>
+	<Country Code="SH" Name="St. Helena" PhoneCode="290"/>
+	<Country Code="KN" Name="St. Kitts And Nevis" PhoneCode="1"/>
+	<Country Code="LC" Name="St. Lucia" PhoneCode="1"/>
+  <Country Code="SX" Name="St. Maarten" PhoneCode="599"/>
+	<Country Code="PM" Name="St. Pierre And Miquelon" PhoneCode="508"/>
+	<Country Code="VC" Name="St. Vincent And The Grenadines" PhoneCode="1"/>
+	<Country Code="SD" Name="Sudan" PhoneCode="249"/>
+	<Country Code="SR" Name="Suriname" PhoneCode="597"/>
+	<Country Code="SZ" Name="Swaziland" PhoneCode="268"/>
+	<Country Code="SE" Name="Sweden" PhoneCode="46"/>
+	<Country Code="CH" Name="Switzerland" PhoneCode="41"/>
+	<Country Code="SY" Name="Syrian Arab Republic" PhoneCode="963"/>
+	<Country Code="TW" Name="Taiwan, R.O.C." PhoneCode="886"/>
+	<Country Code="TJ" Name="Tajikistan" PhoneCode="992"/>
+	<Country Code="TH" Name="Thailand" PhoneCode="66"/>
+	<Country Code="TG" Name="Togo" PhoneCode="228"/>
+	<Country Code="TK" Name="Tokelau" PhoneCode="690"/>
+	<Country Code="TO" Name="Tonga" PhoneCode="676"/>
+	<Country Code="TT" Name="Trinidad And Tobago" PhoneCode="1"/>
+	<Country Code="TN" Name="Tunisia" PhoneCode="216"/>
+	<Country Code="TR" Name="Turkey" PhoneCode="90"/>
+	<Country Code="TM" Name="Turkmenistan" PhoneCode="993"/>
+	<Country Code="TC" Name="Turks And Caicos Islands" PhoneCode="1"/>
+	<Country Code="TV" Name="Tuvalu" PhoneCode="688"/>
+	<Country Code="UM" Name="U.S. Minor Outlying Islands" PhoneCode="1"/>
+	<Country Code="VI" Name="U.S. Virgin Islands" PhoneCode="1"/>
+	<Country Code="UG" Name="Uganda" PhoneCode="256"/>
+	<Country Code="UA" Name="Ukraine" PhoneCode="380"/>
+	<Country Code="AE" Name="United Arab Emirates" PhoneCode="971"/>
+	<Country Code="GB" Name="United Kingdom" PhoneCode="44"/>
+	<Country Code="TZ" Name="United Republic Of Tanzania" PhoneCode="255"/>
+	<Country Code="US" Name="United States" PhoneCode="1"/>
+	<Country Code="UY" Name="Uruguay" PhoneCode="598"/>
+	<Country Code="UZ" Name="Uzbekistan" PhoneCode="998"/>
+	<Country Code="VU" Name="Vanuatu" PhoneCode="678"/>
+	<Country Code="VE" Name="Venezuela" PhoneCode="58"/>
+	<Country Code="VN" Name="Viet Nam" PhoneCode="84"/>
+	<Country Code="WF" Name="Wallis And Futuna" PhoneCode="681"/>
+	<Country Code="EH" Name="Western Sahara" PhoneCode="212"/>
+	<Country Code="YE" Name="Yemen" PhoneCode="967"/>
+	<Country Code="ZM" Name="Zambia" PhoneCode="260"/>
+	<Country Code="ZW" Name="Zimbabwe" PhoneCode="263"/>
+</AllCountries>

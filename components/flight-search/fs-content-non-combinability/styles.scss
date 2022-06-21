@@ -1,0 +1,26 @@
+.tooltip{
+    width: 358px;
+    height: 236px;
+    padding: var(--auro-size-sm);
+
+    header{
+        margin-bottom: var(--auro-size-xs);
+        font-size: var(--auro-text-heading-400-px);
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    main{
+        margin-bottom: var(--auro-size-xs);
+    }
+
+    hr{
+        border: 1px solid var(--auro-color-border-disabled-on-light);
+        margin-top: var(--auro-size-md);
+        margin-bottom: var(--auro-size-md);
+    }
+
+    footer{
+        float: right;
+    }
+}

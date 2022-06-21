@@ -1,0 +1,194 @@
+@import '../../../shared/auro.scss';
+
+:host {
+    font-family: var(--auro-font-family-default);
+}
+
+.imageCallout {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-image: 
+    linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+    url("https://www.alaskaair.com/-/media/1D50A6D372664CE6BEC21E01FABBE47B");
+    @include auro_breakpoint--sm {
+        background-image: 
+        linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+        url("https://www.alaskaair.com/-/media/293BCD3B131249CFB3763C9FF893634B");
+    }
+
+    &.Saver {
+        @include auro_breakpoint--sm {
+            background-image: 
+            linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+            url("https://www.alaskaair.com/-/media/32B8BF70CF214D0E927AA5BD3980912F");
+        }
+        background-image: 
+        linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+        url("https://www.alaskaair.com/-/media/77F90D67D0F3463A94E6A0FE1CB91DD4");
+    }
+    &.Main {
+        @include auro_breakpoint--sm {
+            background-image: 
+            linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+            url("https://www.alaskaair.com/-/media/E7F9032D064F4DF2AE41F7EB2E9F0CAE");
+        }
+        background-image: 
+        linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+        url("https://www.alaskaair.com/-/media/05A0BA72BDA344E4B5EA62F407FDD125");
+    }
+    &.First {
+        @include auro_breakpoint--sm {
+            background-image: 
+            linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+            url("https://www.alaskaair.com/-/media/F1B14C5451024DA18FCA207D73F7209B");
+        }
+        background-image: 
+        linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+        url("https://www.alaskaair.com/-/media/F96A9E1C3EAB4219B540E3828E935C30");
+    }
+    &.Compare {
+        @include auro_breakpoint--sm {
+            background-image: 
+            linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+            url("https://www.alaskaair.com/-/media/293BCD3B131249CFB3763C9FF893634B");
+        }
+        background-image: 
+        linear-gradient(180deg, rgba(34, 34, 34, 0.0001) 7.4%, #00274A 86.95%),
+        url("https://www.alaskaair.com/-/media/5397C86C9DBE49B8A8E16389301AEC0E");
+    }
+}
+
+.modal-container {
+    overflow-x: hidden;
+}
+
+.modal-body {
+    min-height: 350px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right:10px;
+}
+
+.modal-header-container {
+    position: absolute;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    bottom: 0;
+    left: 0;
+}
+
+.modal-header {
+    color: var(--auro-color-text-primary-on-dark);
+    font-size: 28px;
+    line-height: 36px;
+    padding-bottom: 2px;
+}
+
+.modal-subheader {
+    color: var(--auro-color-text-primary-on-dark);
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+.tab-group {
+    margin-left: -16px!important;
+}
+
+.content-heading {
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: var(--auro-color-text-primary-on-light);
+}
+
+.class-product-container {
+    display: inline-flex;
+    max-width: 100%;
+    padding-right: 28px;
+    padding-bottom: 16px;
+    @include auro_breakpoint--sm {
+        max-width: 220px;
+    }
+
+    & auro-icon {
+        padding-right: 8px;
+    }
+}
+.class-product-containers {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    flex-direction: column;
+
+    @include auro_breakpoint--sm {
+        flex-direction: row;
+    }
+}
+
+.class-product-heading {
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--auro-color-text-primary-on-light);
+    padding-bottom: 4px;
+}
+
+.class-product-details {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--auro-color-text-secondary-on-light);
+}
+
+.action-button {
+    float: right;
+}
+.footnotes-container {
+    padding-left: 32px;
+}
+
+slot[name=collapsed-content] {
+    display: block;
+   }
+   
+   slot[name=accordion-icon] svg {
+     padding-left: 3px;
+     transition: transform 0.3s;
+     position: absolute;
+     & path {
+        fill: var(--auro-color-text-link-on-light);
+     }
+   }
+   
+   slot[name=accordion-icon].open svg {
+     transition: transform 0.3s;
+     transform: rotate(-180deg);
+   }
+   
+   slot[name=title] {
+    font-family: var(--auro-font-family-default);
+    font-size: 16px;
+    transition: transform 0.3s;
+    color: var(--auro-color-text-link-on-light);
+   }
+   
+   .collapsed-content-container {
+     display: flex;
+     transition: max-height 0.3s ease-in-out;
+     overflow: hidden;
+     color: var(--auro-color-text-secondary-on-light);
+   }
+   
+   .collapsed-content-container.closed {
+     transition: max-height 0.3s ease-in-out;
+     max-height: 0;
+     display: none;
+   }

@@ -1,0 +1,52 @@
+.flight-container {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(33, 33, 33, 0.12);
+    border-radius: 6px;
+    padding: 40px;
+    margin-bottom: 32px;
+}
+
+.selection-container {
+    margin-top: 32px;
+}
+
+.flight-list {
+    background: #F9FBFC;
+    border-radius: 0px 0px 6px 6px;
+    padding: 40px;
+}
+
+.action-container {
+    margin-top:32px;
+}
+
+hr {
+    background-color: #E2EAEF;
+    border-bottom: 2px dashed #E2EAEF;
+    border-top: none;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+.footer-container {
+    list-style: none;
+    padding-inline-start: unset;
+    margin-block-start: unset;
+    margin-block-end: unset;
+  }
+  .footer-container li {
+    display: flex;
+  }
+.closer {
+    margin-left: -4px;
+    margin-top:-4px;
+}
+
+.advisories {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue {
+    color: var(--auro-color-text-link-on-light);
+}

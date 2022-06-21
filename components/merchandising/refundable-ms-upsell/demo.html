@@ -1,0 +1,27 @@
+<refundable-ms-upsell priceDifference="261"></refundable-ms-upsell>
+
+<br/>
+
+<refundable-ms-upsell priceDifference="50" maxBonusMiles="75"></refundable-ms-upsell>
+
+<br/>
+
+<refundable-ms-upsell priceDifference="200" maxBonusMiles="50"></refundable-ms-upsell>
+
+<br />
+
+<h1 style="font-size: 200%">How to reset a refundable component ...</h1>
+
+<refundable-ms-upsell id="resettableComponent" priceDifference="1111" maxBonusMiles="22"></refundable-ms-upsell>
+<br/>
+<auro-button onClick="resetComponent('resettableComponent')">Reset last component</auro-button>
+
+<script>
+    const upsell = document.getElementById(`resettableComponent`);
+    resetComponent = (id) => {
+      let currentlyReset = upsell.getAttribute('reset');
+      currentlyReset = currentlyReset === 'true' ? 'false' : 'true';
+      upsell.setAttribute("reset", currentlyReset);
+    }
+  </script>
+  

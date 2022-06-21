@@ -1,0 +1,46 @@
+<saver-to-main-success></saver-to-main-success>
+
+<br/>
+
+<!-- Heavily customized example upsell -->
+<style>
+  .message-list {
+    margin: 0px;
+    font-weight: 300;
+    font-family: 'ASCircular-Book';
+    font-size: 24px;
+    padding-left: 1.3rem;
+    list-style-type: disc;
+  }
+
+  .message-list span {
+    font-size: 16px;
+  }
+</style>
+<saver-to-main-success imageright >
+  <span slot="title-icon">
+    <svg width="26" height="26">
+        <circle cx="16" cy="16" r="8" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+</span>
+  <span slot="title">Custom title message</span>
+  <img slot="image-right" src="https://images.pexels.com/photos/12829/pexels-photo-12829.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="300"/>
+  <div slot="content">
+    Now you'll enjoy this custom message:
+    <ul class="message-list">
+      <li>
+        <span>
+          Earier boarding and free hotdogs
+        </span>
+      </li>
+      <li>
+        <span>
+          Flight changes never happen...
+        </span>
+      </li>
+    </ul>
+    <br/>
+    Select "Next" to continue to seat thingy...
+  </div>
+  <span slot="disclaimer">*Additional frees and your first born child</span>
+</saver-to-main-success>

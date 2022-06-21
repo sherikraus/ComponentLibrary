@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "es6",
+      "target": "es5",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+    },
+    "exclude": [
+      "components/*/dist/",
+      "catelog/assets/",
+      "dist/",
+      "components/shared/p2p-webcomponents-bundle.js",
+      "components/shared/p2p-webcomponents-ce.js",
+      "scripts/*",
+      "./**/*-css.js",
+      "tests/*",
+    ]
+}

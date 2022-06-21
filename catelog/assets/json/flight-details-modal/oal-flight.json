@@ -1,0 +1,40 @@
+[{
+    "Carrier":"AA",
+    "FlightNumber":2302,
+    "DepartureStation":"LGA",
+    "ArrivalStation":"ORD",
+    "Duration":"2h 43m",
+    "Distance":731,
+    "DepartureTime":"10:30 am",
+    "ArrivalTime":"12:13 pm",
+    "DepartureDay":"Tue, Jul 7",
+    "ArrivalDay":"Tue, Jul 7",
+    "NextDayArrival":false,
+    "NextDayDeparture":false,
+    "Performance":[
+       {
+          "CanceledPercentage":0,
+          "ChronicallyDelayed":false,
+          "EquipmentCode":"738",
+          "EquipmentName":"Boeing 737-800",
+          "PercentLate30Plus":0,
+          "PercentOntime":0,
+          "DepartureAirportCode":"LGA",
+          "ArrivalAirportCode":"ORD",
+          "ChangeOfPlane":false
+       }
+    ],
+    "StopoverInformation":[
+       "3h",
+       "2m"
+    ],
+    "SubjectToGovernmentApproval":false,
+    "Equipment":"738",
+    "FirstClassUpgradeAvailable":false,
+    "FirstClassUpgradeUnavailable":false,
+    "Amenities":[
+       "wifi",
+       "power",
+       "ife"
+    ]
+}]

@@ -1,0 +1,105 @@
+<h1>
+    If your flight is ineligible for pre-order food reservations
+</h1>
+<food-preorder></food-preorder>
+<h1>Unauthenticated guests</h1>
+<food-preorder preOrderEligible menuEligible></food-preorder>
+<h1>
+    If the guest is authenticated and can place a pre-order, send them to the microsite!
+</h1>
+<food-preorder menuEligible preOrderEligible pnr="ABCDEF" lastName="Naughton"></food-preorder>
+
+<auro-dialog nano md>
+
+    <span slot="header">Inflight Food Menu</span>
+    <food-menu slot="content" main='[
+{
+   "mealId":"a66c1b0a-4970-43f3-a7e1-5a59741dc13d",
+   "mealCode":"40013",
+   "title":"Signature Fruit & Cheese Platter",
+   "description":"Enjoy two wedges of Beechers Flagship cheese along with Tillamook® Sharp Cheddar & Brie. Your cheese platter includes fresh fruit, Partners® crackers, & a Seattle Chocolate Truffle. ",
+   "nutrition":"534 calories, 31g fat, 40g carbohydrate, 21g protein, 665mg sodium, 26g sugar",
+   "allergies":"Coconut, Milk, Soy, Wheat.",
+   "displayPrice":"$8.50",
+   "price":8.5,
+   "imageThumbnail":"https://s3.us-west-2.amazonaws.com/asa-prod-usw2-storage-public/products/100x100-FruitCheesePlatter_97903aed-b88b-4e9c-94cd-d8a86c2a68c2.jpg",
+   "imageLarge":"https://s3.us-west-2.amazonaws.com/asa-prod-usw2-storage-public/products/540x400-FruitCheesePlatter_0857d1ca-c53f-4a31-95b9-f3d8f3f7c80f.jpg",
+   "canPreorder":false,
+   "isOfferedInflight":false,
+   "isOfferedPreflight":true
+},
+{
+   "mealId":"50857c57-5a1c-426c-9360-c067783e7a0d",
+   "mealCode":"40079",
+   "title":"  Eggs & Ham Breakfast Wrap",
+   "description":"Cage-free, hard boiled eggs dressed in a mustard herb dressing with crisp baby greens and fresh tomato, black forest ham, and caramelized onion cream cheese spread. Served with fresh grapes and apples",
+   "nutrition":"500 calories, 32g fat, 63g carbohydrate, 23g protein, 376mg sodium, 17g sugar",
+   "allergies":"Egg, Wheat, Soy, Milk",
+   "displayPrice":"$8.50",
+   "price":8.5,
+   "imageThumbnail":"https://s3.us-west-2.amazonaws.com/asa-prod-usw2-storage-public/products/100x100-EggsHamBreakfastWrap_a7d9d32f-be75-48a3-a8e2-bd5b58606de3.jpg",
+   "imageLarge":"https://s3.us-west-2.amazonaws.com/asa-prod-usw2-storage-public/products/540x400-EggsHamBreakfastWrap_c7c77d01-0bff-4a33-a7f6-328fedf93958.jpg",
+   "canPreorder":false,
+   "isOfferedInflight":false,
+   "isOfferedPreflight":true
+}
+]'
+
+first='
+[
+    {
+       "mealId":"e47dd643-2911-4615-99a4-381ee8903cde",
+       "mealCode":"20891",
+       "title":"Cheddar Cheese Omelet",
+       "description":"Aged cheddar cheese omelet with roasted herb tri-colored potatoes, and crisp turkey bacon",
+       "nutrition":null,
+       "allergies":null,
+       "displayPrice":"Complimentary",
+       "price":0,
+       "imageThumbnail":null,
+       "imageLarge":null,
+       "canPreorder":false,
+       "isOfferedInflight":false,
+       "isOfferedPreflight":true
+    },
+    {
+       "mealId":"6037dac1-f7b0-4865-8354-9dd67471524e",
+       "mealCode":"18000",
+       "title":"Fruit & Cheese Plate",
+       "description":"It’s an all-star cast for our Fruit & Cheese plate. Beecher’s® Flagship cheese, Tillamook® sharp cheddar and brie, Partners® crackers, and finished with a Seattle Chocolate truffle.",
+       "nutrition":null,
+       "allergies":null,
+       "displayPrice":"Complimentary",
+       "price":0,
+       "imageThumbnail":null,
+       "imageLarge":null,
+       "canPreorder":false,
+       "isOfferedInflight":false,
+       "isOfferedPreflight":true
+    },
+    {
+       "mealId":"a301fba4-bcf6-4bd6-bc76-652fc7556578",
+       "mealCode":"20871",
+       "title":"Pulled Pork Breakfast Bowl",
+       "description":"Pulled Roasted Pork Shoulder, and marinated Black beans on a bed of creamy scrambled cage free eggs. Topped with fresh Pico de Gallo, and shredded Monterey jack cheese",
+       "nutrition":null,
+       "allergies":null,
+       "displayPrice":"Complimentary",
+       "price":0,
+       "imageThumbnail":null,
+       "imageLarge":null,
+       "canPreorder":false,
+       "isOfferedInflight":false,
+       "isOfferedPreflight":true
+    }
+ ]'
+ class="First Class"
+></food-menu>
+</auro-dialog>
+
+<script>
+    window.addEventListener('menuClicked', evt => {
+        var dialog = document.querySelector('auro-dialog');
+        dialog.setAttribute('open', true);
+    })
+</script>

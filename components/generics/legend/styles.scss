@@ -1,0 +1,250 @@
+@import "../../shared/auro.scss";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
+
+:host {
+  font-family: var(--auro-font-family-default);
+}
+
+.legend-advisory{
+  display: flex;
+  flex-direction: row;
+  padding-top: var(--auro-size-xs);
+}
+
+.legend-icon {
+  width: 12px;
+  height: 12px;
+  padding-right: 8px;
+}
+
+#terms-link{
+  padding-left: 3px;
+  color: var(--auro-color-text-link-on-light);
+}
+
+#legacy-route-pending{
+  color: rgb(107, 22, 22);
+  text-align: center;
+}
+
+#legacy-route-pending:after {
+  content: "";
+  display: block;
+  margin-top: -5px;
+  font-size: 15px;
+  border-bottom: 2px dotted rgb(107, 22, 22);
+}
+
+slot[name=collapsed-content] {
+  display: block;
+  color: var(--auro-color-text-secondary-on-light);
+  font-size: 12px;
+  font-family: var(--auro-font-family-default);
+}
+  
+slot[name=accordion-icon] svg {
+  margin-top: 3px;
+  padding-left: 3px;
+  transition: transform 0.3s;
+  position: absolute;
+}
+
+slot[name=accordion-icon].open svg {
+  transition: transform 0.3s;
+  transform: rotate(-180deg);
+}
+
+slot[name=title] {
+  font-size: 20px;
+  line-height: 28px;        
+  letter-spacing: -0.2px;
+  transition: transform 0.3s;
+  color: #222222;
+  font-weight: 500;
+}
+
+.collapsed-content-container {
+  padding-bottom: var(--auro-size-lg);
+  font-family: ASCircular;
+  font-size: 12px;
+  line-height: 16px;    
+}
+
+.collapsed-content-container.closed {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+  display: none;
+}
+
+:host([tile]),
+:host([table]){
+  height: 100%;
+  min-width: 144px;
+  justify-content: center;
+
+  .value-tile-legend{
+    color: var(--auro-color-text-secondary-on-light);
+    line-height: 16px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .table{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--auro-color-text-secondary-on-light);
+    text-align: left;
+
+    @include auro_breakpoint($max: $auro-breakpoint-md){
+      line-height: 20px;
+      font-size: 16px;
+
+      .icon{
+        width: 20px;
+      }
+
+    }
+
+    @include auro_breakpoint($min: $auro-breakpoint-md){
+      line-height: 24px;
+      font-size: 16px;
+
+      .icon{
+        width: 24px;
+      }
+
+    }
+    
+    .description{
+      padding-left: 4px;
+    }
+  }
+
+  .tile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: var(--auro-color-text-secondary-on-light);
+    line-height: 16px;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+
+    &.center-advisory-content{
+      align-items: center;
+    }
+
+    //valuetile mobile size
+    @media screen and (max-width: $auro-breakpoint-sm) {
+      .description{
+        padding-left: var(--auro-size-sm);
+      }      
+    }
+
+    //tablet size, just higher than mobile
+    @media screen and (min-width: $auro-breakpoint-sm) and (max-width: 690px) {
+      .description{
+        padding-left: var(--auro-size-xxs);
+      }
+    }
+
+    //adjustment for mixed cabin
+    @media screen and (min-width: 691px) {
+      .mixed-cabin-advisory-title{
+        align-items: center;
+        line-height: 0px;
+      }
+
+      .description{
+        padding-left: var(--auro-size-xxxs);
+      }
+    }
+
+    .icon{
+      width: 16px;
+
+      &.mixed-cabin{
+        position: relative;
+        top: -1px;
+      }
+    }
+
+ 
+  }
+  
+  .icon{
+    &.fc-upgrade{
+      color: var(--auro-color-brand-midnight-400);
+    }
+  
+    &.pc-upgrade{
+      color: var(--auro-color-brand-alpine-400);
+    }
+  
+    &.atlas{
+      color: var(--auro-color-brand-atlas-400);
+    }
+  
+    &.goldcoast-400{
+      color: var(--auro-color-brand-goldcoast-400);
+    }
+  
+    &.goldcoast-500{
+      color: var(--auro-color-brand-goldcoast-500);
+    }
+  
+    &.alert-on-success-dark{
+      color: var(--auro-color-alert-success-on-dark);
+    }
+  
+    &.text-error-on-light{
+      color: var(--auro-color-text-error-on-light);
+    }
+  }
+}
+
+:host([tile]){
+  &:host[ondark],
+  &:host([ondark]),
+  &:host[ondark=true],
+  &:host([ondark=true]){
+    & .icon{
+      color: var(--auro-color-text-primary-on-dark) !important;
+
+      &.fc-upgrade{
+        color: var(--auro-color-text-primary-on-dark) !important;
+      }
+    
+      &.pc-upgrade{
+        color: var(--auro-color-text-primary-on-dark) !important;
+      }
+    
+      &.atlas{
+        color: var(--auro-color-text-primary-on-dark) !important;
+      }
+    
+      &.goldcoast-400{
+        color: var(--auro-color-text-primary-on-dark) !important;
+      }
+    
+      &.goldcoast-500{
+        color: var(--auro-color-text-primary-on-dark) !important;
+      }
+    
+      &.alert-on-success-dark{
+        color: var(--auro-color-text-primary-on-dark) !important;
+      }
+    
+      &.text-error-on-light{
+        color: var(--auro-color-text-primary-on-dark) !important;
+      }
+    }
+
+    & div{
+      color: var(--auro-color-text-primary-on-dark) !important;
+    }
+  }
+}

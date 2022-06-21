@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ASAirportOverrides>
+<AltNames>
+	<Airport Code="ACV">
+		<Name>Arcata/Eureka</Name>
+		<Name>Eureka/Arcata</Name>
+	</Airport>
+	<Airport Code="ONT">
+		<Name>Ontario, CA, US</Name>
+	</Airport>
+	<Airport Code="OTH">
+		<Name>North Bend/Coos Bay, OR</Name>
+		<Name>Coos Bay/North Bend, OR</Name>
+	</Airport>
+	<Airport Code="PDX">
+		<Name>Portland, OR</Name>
+	</Airport>
+	<Airport Code="PSC">
+		<Name>Kennewick/Pasco</Name>
+		<Name>Pasco/Kennewick</Name>
+	</Airport>
+	<Airport Code="PUW">
+		<Name>Moscow, ID/Pullman, WA</Name>
+		<Name>Pullman, WA/Moscow, ID</Name>
+	</Airport>
+	<Airport Code="PVR">
+		<Name>Puerto Vallarta</Name>
+		<Name>Riviera Nayarit</Name>
+	</Airport>
+	<Airport Code="RDM">
+		<Name>Bend/Redmond, OR</Name>
+		<Name>Redmond/Bend, OR</Name>
+	</Airport>
+	<Airport Code="SNA">
+		<Name>Orange County/Santa Ana</Name>
+		<Name>Santa Ana/Orange County</Name>
+	</Airport>
+	<Airport Code="STS">
+		<Name>Sonoma County/Santa Rosa</Name>
+		<Name>Santa Rosa/Sonoma County</Name>
+	</Airport>
+	<Airport Code="SJD">
+		<Name>Cabo San Lucas</Name>
+		<Name>Los Cabos</Name>
+		<Name>San Jose del Cabo</Name>
+	</Airport>
+	<Airport Code="YVR">
+		<Name>Vancouver, BC</Name>
+	</Airport>
+	<Airport Code="ZIH">
+		<Name>Ixtapa/Zihuatanejo</Name>
+		<Name>Zihuatanejo/Ixtapa</Name>
+	</Airport>
+</AltNames>
+<PsuedoAirports>
+	<Airport PsuedoCode="DPT" Code="PHX" Description="AS PTA Desk" />
+	<Airport PsuedoCode="NET" Code="SEA" Description="AS Internet, US" />
+	<Airport PsuedoCode="PXX" Code="SEA" Description="AS TBM" />
+	<Airport PsuedoCode="QXQ" Code="SEA" Description="QX Reservations" />
+	<Airport PsuedoCode="VRV" Code="SEA" Description="AS Vacation"/>
+	<Airport PsuedoCode="OBZ" Code="SEA" Description="AS Vacation"/>
+</PsuedoAirports>
+<PsuedoMetroCities>
+  <City PsuedoCode="BA3" PrimaryAirportCode="SFO" />
+  <City PsuedoCode="LA5" PrimaryAirportCode="LAX" />
+  <City PsuedoCode="HO2" PrimaryAirportCode="IAH" />
+  <City PsuedoCode="DF2" PrimaryAirportCode="DFW" />
+  <City PsuedoCode="MI3" PrimaryAirportCode="FLL" />
+  <City PsuedoCode="SA2" PrimaryAirportCode="SEA" />
+</PsuedoMetroCities>
+<LegitimateMetroCities>
+  <City PsuedoCode="BER" PrimaryAirportCode="TXL" />
+  <City PsuedoCode="CHI" PrimaryAirportCode="ORD" />
+  <City PsuedoCode="LON" PrimaryAirportCode="LHR" />
+  <City PsuedoCode="MIL" PrimaryAirportCode="MXP" />
+  <City PsuedoCode="MOW" PrimaryAirportCode="LED" />
+  <City PsuedoCode="NYC" PrimaryAirportCode="EWR" />
+  <City PsuedoCode="PAR" PrimaryAirportCode="CDG" />
+  <City PsuedoCode="OSL" PrimaryAirportCode="OSL" />
+  <City PsuedoCode="SEL" PrimaryAirportCode="ICN" />
+  <City PsuedoCode="STO" PrimaryAirportCode="ARN" />
+  <City PsuedoCode="TCI" PrimaryAirportCode="TFS" />
+  <City PsuedoCode="TYO" PrimaryAirportCode="NRT" />
+  <City PsuedoCode="WAS" PrimaryAirportCode="DCA" />
+</LegitimateMetroCities>
+</ASAirportOverrides>

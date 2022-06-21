@@ -1,0 +1,18 @@
+<script>
+  function log(msg) {
+    console.warn(msg);
+  }
+
+  setTimeout(() => {
+    document.querySelector("#signup-form").onEnroll = log;
+    document.querySelector("#signup-form").onError = log;
+  }, 0);
+
+
+</script>
+<signup-form
+  id="signup-form"
+  buttonText="Next"
+  enrollEndpoint="http://localhost:3001/api/mp-enroll"
+  channel="RAIN"
+></signup-form>

@@ -1,0 +1,129 @@
+<style>
+  main.column { padding: 0px; }
+</style>
+<section class="hero is-medium is-info is-bold">
+  <div class="hero-body" style="background-image: url('/assets/hangar.jpg');background-position: left;background-size: cover;">
+    <div class="container">
+      <div id="home-emoji" class="is-pulled-right is-size-1 fade-out"></div>
+      <h1 class="title">
+        Triple C: Components, CDN & Cool as heck
+      </h1>
+      <h2 class="subtitle">
+         A complete list of all (non-auro) components created by Alaska Air!
+      </h2>
+    </div>
+  </div>
+</section>
+
+<div class="columns has-text-centered is-marginless" style="height: auto; padding: 1em 0px;">
+  <div class="bd-focus-item column has-text-centered has-padding">
+    <p class="title is-4">
+      <strong>Modular</strong>
+    </p>
+    <p class="subtitle is-6">
+      Easily import only what you <strong>need</strong><br/>
+      <strong>anywhere</strong> you need it<br/><br/>
+    </p>
+    <figure class="bd-focus-icon is-size-1">
+      <i class="far fa-boxes" style="color:#23d160"></i>
+    </figure>
+  </div>
+  <div class="bd-focus-item column has-text-centered has-padding">
+    <p class="title is-4">
+      <strong>Blazing Fast</strong>
+    </p>
+    <p class="subtitle is-6">
+      All components are <strong>minified</strong>, <strong>compressed</strong>, <strong>cached</strong> and <strong>chunked</strong><br/>
+      (the filesizes are very small)
+    </p>
+    <figure class="bd-focus-icon is-size-1">
+      <i class="fad fa-meteor" style="color:#ff470f"></i>
+    </figure>
+  </div>
+  <div class="bd-focus-item column has-text-centered has-padding">
+    <p class="title is-4">
+      <strong>Mobile In Mind</strong>
+    </p>
+    <p class="subtitle is-6">
+      Components are built with mobile in mind and aim to look good on <strong>all</strong> screens
+    </p>
+    <figure class="bd-focus-icon is-size-1">
+      <i class="far fa-phone-laptop" style="color:#3273dc"></i>
+    </figure>
+  </div>
+  <div class="bd-focus-item column has-text-centered has-padding">
+    <p class="title is-4">
+      <strong>Accessible</strong>
+    </p>
+    <p class="subtitle is-6">
+      All components pass tests for accessiblity before they hit production.<br/>
+      We ❤️ <a href="https://www.deque.com/axe/">Axe</a>
+    </p>
+    <figure class="bd-focus-icon is-size-1">
+      <i class="far fa-universal-access" style="color:#FF9800"></i>
+    </figure>
+  </div>
+</div>
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <i class="fad fa-rocket-launch" style="color: #3273dc;"></i> Instant updates wherever you are
+      </h1>
+      <h2 class="subtitle">
+        With the <strong class="has-text-info">Content Delivery Service</strong> all components can be <strong class="has-text-success">instantly updated</strong> across all platforms.
+        No waiting for individual product releases.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<style>
+  #home-emoji {
+    transition: ease all 1s;
+    opacity: 1;
+  }
+
+  #home-emoji.fade-out {
+    opacity: 0;
+  }
+</style>
+<script>
+  // Emoji rotation on home page for fun
+  const emoji = document.querySelector('#home-emoji');
+  const emojisList = [
+    'atom',
+    'alien-monster',
+    'cat-space',
+    'comet',
+    'computer-classic',
+    'galaxy',
+    'jedi',
+    'laptop-code',
+    'robot',
+    'raygun',
+    'solar-system',
+    'space-shuttle',
+    'user-astronaut',
+    'ufo',
+    'swords-laser',
+    'starfighter',
+    'portal-exit',
+    'space-station-moon-alt'
+  ];
+  const emojis = emojisList.sort(function() { return .5 - Math.random(); });
+  let i = 1;
+  const changeEmoji = function () {
+    emoji.innerHTML = "<i class=\"fad fa-" + emojis[i] + "\"></i>";
+    i++;
+    if(i === emojis.length) i = 0;
+    emoji.classList.remove('fade-out');
+    setTimeout(function() {
+      emoji.classList.add('fade-out');
+      setTimeout(function() { changeEmoji(); }, 1000);
+    }, 3000);
+  }
+
+  changeEmoji();
+</script>

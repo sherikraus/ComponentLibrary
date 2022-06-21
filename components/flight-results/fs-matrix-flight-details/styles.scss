@@ -1,0 +1,442 @@
+@import "../../shared/auro.scss";
+  
+:host {    
+  font-size: 16px;
+}
+
+.displayHidden {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.next-day-container{
+    display: inline;
+    padding-left: 8px;
+    border-left: 1px solid var(--auro-color-text-secondary-on-light);
+    color:  var(--auro-color-brand-canyon-500);
+  }  
+
+  .total-duration-container {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--auro-color-text-secondary-on-light);
+    padding-bottom: 8px;
+
+    @include auro_breakpoint--sm {
+    padding-bottom: 32px;
+    }
+  }
+
+  .depart-origin-container {
+    color: var(--auro-color-text-secondary-on-light);
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+
+  .flight-time-container {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 2px;
+    color: var(--auro-color-text-primary-on-light);
+  }
+
+  .flight-date-container {
+    font-size: 16px;
+    padding-bottom: 2px;
+    color: var(--auro-color-text-secondary-on-light);
+  }
+  
+  .flight-date-container-next-day {
+    font-size: 16px;
+    padding-bottom: 2px;
+    color: var(--auro-color-brand-canyon-500);
+  }
+
+.depart-plane-amenities-container {
+    padding-bottom: 8px;
+    color: var(--auro-color-text-secondary-on-light);
+    font-size: 14px;
+}
+
+.total-flight-duration-container {
+   font-size: 16px;
+   color: var(--auro-color-text-secondary-on-light);
+}
+.column .bg-alt{
+  display: none;
+
+  @include auro_breakpoint--sm {
+    display: block;
+    
+  }
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+
+  @include auro_breakpoint--sm {
+    padding-top: 8px;
+  }
+}
+
+.full-screen-only {
+  display: none;
+
+  @include auro_breakpoint--sm {
+    display: block;
+    padding-top: 29px;;
+  }
+}
+#mobile-only {
+  display: block;
+  padding-left: 40px;
+  padding-top: 8px;
+
+  @include auro_breakpoint--sm {
+    display: none;
+  }
+}
+.airline-name {
+  display: flex;	
+  padding-bottom: 8px;	
+  padding-top:32px;
+  @include auro_breakpoint--sm {
+    padding-top: 20px;
+  }
+  & .carrierLogo {	
+    margin-top: -24px;	
+  }
+
+}
+.airline-logo {
+  padding-bottom: 16px;
+}
+
+  .segment-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--auro-font-family-default);
+    font-size: 16px;
+    padding-bottom: 12px;
+  }
+  
+  .segment-container.primary {
+    color: var(--auro-color-text-primary-on-light);
+  }
+
+  .segment-container.primary.mdSpacer {
+    padding-bottom: 16px;
+  }
+
+  .layover-container {
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    height: 24px;
+    margin-bottom: 20px;
+
+    @include auro_breakpoint--sm {
+      padding: 16px 16px 24px 12px;
+    }
+  }
+
+  .layover-location-container {
+    font-size: 18px; 
+  }
+  .layover-time-container {
+    font-size: 16px;
+    color: var(--auro-color-text-secondary-on-light);
+    padding-top: 4px;
+  }
+
+  .nextDay {
+    color: var(--auro-color-brand-canyon-500);
+    font-style: italic;
+  }
+
+  .layover-separator {
+    border-top: 2px solid rgb(203, 216, 226);
+    width: 400px;
+  }
+
+  .change-planes-list-title {
+    padding-bottom: 24px;
+    min-width: 95%;
+    margin-top: 6px;
+    border-top: 1px solid rgb(203, 216, 226);
+    border-bottom: 1px solid rgb(203, 216, 226);
+
+    @include auro_breakpoint--sm {
+      min-width: 696px;
+      padding-bottom: 0px;
+    }
+  }
+
+  .horizontal-line {
+       border-top: 1px solid #cbd8e2;
+       width: 180px;
+       margin-top: 16px;
+       padding-top: 16px;
+  }
+
+  .flex-container {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    display: -webkit-block; /* Safari */     
+
+    @include auro_breakpoint--sm {
+        display: -webkit-flex; /* Safari */     
+        display: flex; /* Standard syntax */
+
+    }
+  }
+
+.flex-container .column{
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+
+.list-wrapper-stops{
+  display: flex;
+
+  @include auro_breakpoint--sm {
+    min-height: 120px;
+    padding-top: 8px;
+  }
+}
+
+.list-wrapper-stop {
+  margin-top:30px;
+  margin-bottom:30px;
+  position: relative;
+}
+
+.list-wrapper {
+    position:relative;
+}
+.list-wrapper-change-planes-container {
+  position:relative;
+  margin-bottom: 12px;
+}
+
+.list-wrapper-change-planes {
+  padding-left: 40px;
+
+  @include auro_breakpoint--sm {
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    margin-bottom: -8px;
+  }
+}
+
+.list-bullet {
+  margin-top: 36px;
+  margin-left: -47px;
+  float: left;
+  background: var(--auro-color-brand-atlas-500);
+  height: 16px;
+  width: 16px;
+  border-radius: 50px/50px;
+
+  @include auro_breakpoint--sm {
+    margin-left: -15px;
+  }
+}
+
+.list-bullet-hollow {
+  margin: 19px 12px 0 -10px;
+  float:left;
+  height:14px;
+  width:14px;
+  border-radius:50px/50px;
+  background: white;
+  border: 2px solid var(--auro-color-brand-atlas-500);
+  @include auro_breakpoint--sm {
+    margin: 12px 12px 0 -10px;
+  }
+}
+
+.equipment-spacer {
+  padding-bottom: 8px;
+  color: var(--auro-color-text-secondary-on-light);
+}
+
+.goverment-approval-container {
+  padding-bottom: 8px;
+  color: var(--auro-color-text-secondary-on-light);
+  display: flex;
+}
+
+.goverment-approval-text-container {
+  margin-top: 3px;
+  display: contents;
+}
+
+.goverment-approval-icon {
+  padding-right: 3px;
+  color: var(--auro-color-state-warning-500);
+}
+
+.change-planes-icon {
+  padding-right: 8px;
+
+  @include auro_breakpoint--sm{
+    padding-right: 16px;
+  }
+}
+
+.list-item {
+  margin-left: 12px;
+  display: table-row;
+  vertical-align: middle;
+}
+
+.list-title {
+  font-size: 12px;
+  color: var(--auro-color-text-secondary-on-light);
+  padding-left: 12px;
+}
+
+.segment-airport-container {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.blue-line {
+  background: var(--auro-color-brand-atlas-500);
+  z-index: -1;
+  width: 2px;
+  position: absolute;
+  bottom: 0px; 
+
+    @include auro_breakpoint--sm {
+      bottom: -9; 
+      height: 100%;
+    }
+}
+
+.blue-line-hollow {
+  background: var(--auro-color-brand-atlas-500);
+  z-index: -1;
+  width: 2px;
+  min-height: 65px;
+
+    @include auro_breakpoint--sm {
+      height: 100%;
+    }
+
+}
+
+.flight-stop-over-container {
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+.flight-amenities-icon-container {
+    color: var(--auro-color-icon-primary-on-light);
+}
+
+.flight-satistics-airport-code {
+  padding-top: 16px;
+  padding-bottom: 4px;
+  font-size: 18px;
+}
+
+.flight-satistics-percent-container {
+  padding-left: 24px;
+  float: left;
+}
+
+.flight-satistics-percent-container flight-satistics-percent-label-container{
+  display: inline-block;
+  font-size: 14px;
+}
+
+.flight-satistics-percent-label-container{
+  width: 113px;
+}
+
+.flight-statistics-container {
+  font-size: 14px;
+  display: flex;
+}
+
+.disclaimer-container {
+  text-align: center;
+  display: in;
+  padding-top: 16px;
+  font-size: 12px;
+}
+
+.info-icon-container {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding-right: 8px;
+}
+
+.disclaimer-text-container {
+  display: inline-block;
+}
+
+slot[name=collapsed-content] {
+ display: block;
+}
+
+.arrive-origin-container {
+  color: var(--auro-color-text-secondary-on-light);
+  font-size: 12px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+slot[name=accordion-icon] svg {
+  margin-top: -4px;
+  padding-left: 3px;
+  transition: transform 0.3s;
+  position: absolute;
+}
+
+slot[name=accordion-icon].open svg {
+  transition: transform 0.3s;
+  transform: rotate(-180deg);
+}
+
+slot[name=title] {
+ font-family: var(--auro-font-family-default);
+ transition: transform 0.3s;
+}
+
+.collapsed-content-container {
+  display: flex;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  color: var(--auro-color-text-secondary-on-light);
+}
+
+.collapsed-content-container.closed {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+  display: none;
+}
+
+slot[name=link-section] {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.flight-satistics-drop-down-line {
+  padding-top: 32px;
+
+}

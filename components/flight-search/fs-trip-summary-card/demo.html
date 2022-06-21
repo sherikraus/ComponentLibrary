@@ -1,0 +1,526 @@
+
+The fs-trip-summary-card is used to display the a summary of a flight selection from the results page.
+Dependencies:
+<pre style="color: var(--auro-color-brand-flamingo-500);">
+    <code>
+        └── auro-avatar
+        └── auro-badge
+        └── airport-helper (component hangar)
+        └── fs-matrix-flight-result (component hangar)
+    </code>
+</pre>
+<div style="padding: 150px">
+    <auro-dialog></auro-dialog>
+    <auro-drawer></auro-drawer>
+    <fs-trip-summary-card badge="Departing" origin="SEA" destination="LAX" index="0" upgradenfo="[]" option='{
+        "id": 0,
+        "type": "matrix",
+        "Duration": 170,
+        "daysChanged": 0,
+        "Footnotes": [],
+        "UpgradeInfo": [],
+        "Segments": [
+            {
+                "Carrier": "AS",
+                "OperatingCarrier": "AS",
+                "FlightNumber": "404",
+                "OperatingFlightNumber": "404",
+                "DepartureStation": "SEA",
+                "ArrivalStation": "LAX",
+                "Duration": "2h 50m",
+                "DepartureTime": "6:00 am",
+                "ArrivalTime": "8:50 am",
+                "DepartureDayFormatted": "Mon, Aug 30",
+                "ArrivalDayFormatted": "Mon, Aug 30",
+                "DepartureDay": "2021-08-30",
+                "ArrivalDay": "2021-08-30",
+                "NextDayArrival": false,
+                "NextDayDeparture": false,
+                "Performance": [],
+                "StopoverInformation": "0m",
+                "StopoverDuration": 0,
+                "OperationalDisclosures": [],
+                "SubjectToGovernmentApproval": false,
+                "Equipment": "73J",
+                "FirstClassUpgradeAvailable": false,
+                "FirstClassUpgradeUnavailable": false,
+                "Amenities": [
+                    "Entertainment on demand",
+                    "In-seat power source",
+                    "Wi-Fi"
+                ],
+                "FirstAmenities": []
+            }
+        ],
+        "Fares": {
+            "MainCabinFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": false,
+                "Discount": false
+            },
+            "SpecialFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "FirstClassUpgradeFare": {
+                "GrandTotal": 298.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null,
+                "details": [
+                    {
+                        "Code": "MH4OASMN",
+                        "FareSegs": [
+                            {
+                                "BookingCode": "M",
+                                "CabinCode": "C",
+                                "SegRef": {
+                                    "SegIdx": 0,
+                                    "SliceIdx": 0
+                                },
+                                "Upgrades": {
+                                    "Applicable": true,
+                                    "Available": "",
+                                    "Eligible": "Gold75k,Gold75kPc"
+                                }
+                            }
+                        ],
+                        "R1FareType": "",
+                        "RulesKey": ""
+                    }
+                ]
+            },
+            "FirstClassUpgradeRefundableFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "PremiumClassUpgradeRefundableFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "PremiumClassUpgradeFare": {
+                "GrandTotal": 98.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "MainCabinSelectFare": {
+                "GrandTotal": 98.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "MainCabinSelectRefundableFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "FullFlexFare": {
+                "GrandTotal": 337.41,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "FirstClassDealsFare": {
+                "GrandTotal": 249,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "FirstClassFare": {
+                "GrandTotal": 489,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "GuestPassFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "SaverFare": {
+                "GrandTotal": 68.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "undefined": {
+                "GrandTotal": 599,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            }
+        },
+        "SeatMapURL": "https://www.alaskaair.com/shopping/viewseats/seatmap?u=f&segs=AS,AS,404,404,SEA,2021-08-30 06:00,LAX,2021-08-30 08:50,73J,170,False,|",
+        "key": "AS404:SEA:LAX:2021-08-30:2021-08-30"
+    }'>
+        <span slot="price">338</span>
+        <span slot="class-of-service">MAIN</span>
+    </fs-trip-summary-card>
+
+    <fs-trip-summary-card badge="Returning" origin="SEA" destination="SJO" upgradeinfo="[]" index="1" option='{
+        "id": 0,
+        "type": "matrix",
+        "Duration": 170,
+        "daysChanged": 0,
+        "Footnotes": [],
+        "UpgradeInfo": [],
+        "Segments": [
+            {
+                "Carrier": "AS",
+                "OperatingCarrier": "AS",
+                "FlightNumber": "404",
+                "OperatingFlightNumber": "404",
+                "DepartureStation": "SEA",
+                "ArrivalStation": "LAX",
+                "Duration": "2h 50m",
+                "DepartureTime": "6:00 am",
+                "ArrivalTime": "8:50 am",
+                "DepartureDayFormatted": "Mon, Aug 30",
+                "ArrivalDayFormatted": "Mon, Aug 30",
+                "DepartureDay": "2021-08-30",
+                "ArrivalDay": "2021-08-30",
+                "NextDayArrival": false,
+                "NextDayDeparture": false,
+                "Performance": [],
+                "StopoverInformation": "0m",
+                "StopoverDuration": 0,
+                "OperationalDisclosures": [],
+                "SubjectToGovernmentApproval": false,
+                "Equipment": "73J",
+                "FirstClassUpgradeAvailable": false,
+                "FirstClassUpgradeUnavailable": false,
+                "Amenities": [
+                    "Entertainment on demand",
+                    "In-seat power source",
+                    "Wi-Fi"
+                ],
+                "FirstAmenities": []
+            }
+        ],
+        "Fares": {
+            "MainCabinFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": false,
+                "Discount": false
+            },
+            "SpecialFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "FirstClassUpgradeFare": {
+                "GrandTotal": 298.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null,
+                "details": [
+                    {
+                        "Code": "MH4OASMN",
+                        "FareSegs": [
+                            {
+                                "BookingCode": "M",
+                                "CabinCode": "C",
+                                "SegRef": {
+                                    "SegIdx": 0,
+                                    "SliceIdx": 0
+                                },
+                                "Upgrades": {
+                                    "Applicable": true,
+                                    "Available": "",
+                                    "Eligible": "Gold75k,Gold75kPc"
+                                }
+                            }
+                        ],
+                        "R1FareType": "",
+                        "RulesKey": ""
+                    }
+                ]
+            },
+            "FirstClassUpgradeRefundableFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "PremiumClassUpgradeRefundableFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "PremiumClassUpgradeFare": {
+                "GrandTotal": 98.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "MainCabinSelectFare": {
+                "GrandTotal": 98.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "MainCabinSelectRefundableFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "FullFlexFare": {
+                "GrandTotal": 337.41,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "FirstClassDealsFare": {
+                "GrandTotal": 249,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "FirstClassFare": {
+                "GrandTotal": 489,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "GuestPassFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "SaverFare": {
+                "GrandTotal": 68.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "undefined": {
+                "GrandTotal": 599,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            }
+        },
+        "SeatMapURL": "https://www.alaskaair.com/shopping/viewseats/seatmap?u=f&segs=AS,AS,404,404,SEA,2021-08-30 06:00,LAX,2021-08-30 08:50,73J,170,False,|",
+        "key": "AS404:SEA:LAX:2021-08-30:2021-08-30"
+    }'>
+        <span slot="price">426</span>
+        <span slot="class-of-service">MAIN</span>
+    </fs-trip-summary-card>
+
+    <br>
+    <hr>
+    <br>
+    <h1>No badge provided</h1>
+    <br>
+    <fs-trip-summary-card badge="" origin="SEA" destination="SJO" upgradeinfo="[]" index="1" option='{
+        "id": 0,
+        "type": "matrix",
+        "Duration": 170,
+        "daysChanged": 0,
+        "Footnotes": [],
+        "UpgradeInfo": [],
+        "Segments": [
+            {
+                "Carrier": "AS",
+                "OperatingCarrier": "AS",
+                "FlightNumber": "404",
+                "OperatingFlightNumber": "404",
+                "DepartureStation": "SEA",
+                "ArrivalStation": "LAX",
+                "Duration": "2h 50m",
+                "DepartureTime": "6:00 am",
+                "ArrivalTime": "8:50 am",
+                "DepartureDayFormatted": "Mon, Aug 30",
+                "ArrivalDayFormatted": "Mon, Aug 30",
+                "DepartureDay": "2021-08-30",
+                "ArrivalDay": "2021-08-30",
+                "NextDayArrival": false,
+                "NextDayDeparture": false,
+                "Performance": [],
+                "StopoverInformation": "0m",
+                "StopoverDuration": 0,
+                "OperationalDisclosures": [],
+                "SubjectToGovernmentApproval": false,
+                "Equipment": "73J",
+                "FirstClassUpgradeAvailable": false,
+                "FirstClassUpgradeUnavailable": false,
+                "Amenities": [
+                    "Entertainment on demand",
+                    "In-seat power source",
+                    "Wi-Fi"
+                ],
+                "FirstAmenities": []
+            }
+        ],
+        "Fares": {
+            "MainCabinFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": false,
+                "Discount": false
+            },
+            "SpecialFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "FirstClassUpgradeFare": {
+                "GrandTotal": 298.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null,
+                "details": [
+                    {
+                        "Code": "MH4OASMN",
+                        "FareSegs": [
+                            {
+                                "BookingCode": "M",
+                                "CabinCode": "C",
+                                "SegRef": {
+                                    "SegIdx": 0,
+                                    "SliceIdx": 0
+                                },
+                                "Upgrades": {
+                                    "Applicable": true,
+                                    "Available": "",
+                                    "Eligible": "Gold75k,Gold75kPc"
+                                }
+                            }
+                        ],
+                        "R1FareType": "",
+                        "RulesKey": ""
+                    }
+                ]
+            },
+            "FirstClassUpgradeRefundableFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "PremiumClassUpgradeRefundableFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "PremiumClassUpgradeFare": {
+                "GrandTotal": 98.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "MainCabinSelectFare": {
+                "GrandTotal": 98.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "MainCabinSelectRefundableFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "FullFlexFare": {
+                "GrandTotal": 337.41,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "FirstClassDealsFare": {
+                "GrandTotal": 249,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "FirstClassFare": {
+                "GrandTotal": 489,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "GuestPassFare": {
+                "SeatsRemaining": 0,
+                "GrandTotal": 0,
+                "OnClick": null,
+                "MixedCabin": null,
+                "Discount": false
+            },
+            "SaverFare": {
+                "GrandTotal": 68.4,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            },
+            "undefined": {
+                "GrandTotal": 599,
+                "SeatsRemaining": "",
+                "Discount": false,
+                "MixedCabin": null,
+                "Cabins": null
+            }
+        },
+        "SeatMapURL": "https://www.alaskaair.com/shopping/viewseats/seatmap?u=f&segs=AS,AS,404,404,SEA,2021-08-30 06:00,LAX,2021-08-30 08:50,73J,170,False,|",
+        "key": "AS404:SEA:LAX:2021-08-30:2021-08-30"
+    }'>
+        <span slot="price">426</span>
+        <span slot="class-of-service">MAIN</span>
+    </fs-trip-summary-card>
+</div>

@@ -1,0 +1,171 @@
+:host {
+  font-family: var(--auro-font-family-default);
+}
+
+.upsell-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1px 1fr;
+  border: 1px solid var(--auro-color-border-disabled-on-light);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.26), 0px 2px 4px 1px rgba(0, 0, 0, 0.12);
+  // Clip content that apears at the border's rounded corners
+  overflow: hidden; 
+  border-radius: 0.5rem;
+}
+
+.image-column {
+  background-size: cover;
+  background-position: center;
+}
+
+.perks-section {
+
+  .header {
+    padding: 1.5rem 0 1rem 1rem;
+    
+    .subtitle {
+        padding-top: 1rem 0 0 0;
+    }
+  }
+
+  .title {
+    display: block;
+    color: var(--auro-color-text-primary-on-light);
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .subtitle {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    color: var(--auro-color-text-secondary-on-light);
+  }
+
+  .perks-list {
+    margin: 0;
+    padding: 0 1rem;
+    padding-bottom: 0.5rem;
+
+    li {
+      color: var(--auro-color-text-secondary-on-light);
+      margin-bottom: 1rem;
+      font-size: 16px;
+    }
+    
+    .icon {
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+
+      p { 
+        padding-left: 2.5rem;
+        margin: 0;
+      }
+    }
+    
+    .icon-container {
+      width: 2rem;
+      position: absolute;
+    }
+  }
+}
+
+.divider {
+  border-right: 1px solid var(--auro-color-border-disabled-on-light);
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.price-section {
+  display: flex;
+  align-items: center;
+  place-content: center;
+  flex-direction: column;
+  padding: 2.25rem;
+  padding-top: 4.75rem;
+
+  .text--secondary {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--auro-color-text-secondary-on-light);
+  }
+
+  .price-container {
+    padding-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .price-subtotal {
+    font-size: 1.625rem;
+    line-height: 1.75rem;
+    color: #0074C8;
+  }
+  
+  .price-total {
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+    img, slot[name=image] {
+        display: none;
+    }
+
+    .upsell-container {
+      grid-template-columns: unset;
+        
+      .perks-section {
+        .header {
+          padding: 1rem 0 1rem 1.25rem;
+        }
+
+        .perks-list {
+          padding-bottom: unset;
+          
+          li {
+            margin-bottom: 0.5rem;
+          }
+          
+          .icon {
+            p {
+              padding-left: 2rem;
+            }
+          }
+
+          .icon-container {
+            width: 24px;
+          }
+        }
+      }
+
+      .divider {
+        margin: 16px 22px 14px 22px;
+        border-top: 1px solid var(--auro-color-border-disabled-on-light);
+      }
+
+      .price-section {
+        display: block;
+        padding: 1.5rem;
+
+        .price-container {
+          padding-bottom: 0;
+
+          .price-subtotal {
+            display: inline-block;
+          }
+        }
+
+        .text--secondary {
+            display: inline-block;
+        }
+      }
+
+      auro-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+}

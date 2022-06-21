@@ -1,0 +1,150 @@
+@import "../../shared/auro.scss";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
+
+:host {
+    font-family: var(--auro-font-family-default);
+}
+
+.trip-summary-card{
+    width: calc(100% - 44px);
+    margin-left: auto;
+    margin-right: 0;
+    font-family: AS Circular;
+}
+
+.summary-card-row {
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--auro-color-border-disabled-on-light);
+    box-shadow: 0px 0px 4px var(--auro-color-border-disabled-on-light);
+    margin-bottom: var(--auro-size-md);
+    border-radius: var(--auro-border-radius);
+    position: relative;
+}
+
+.station-cell{
+    width: 100%;
+    padding-top: var(--auro-size-xxl);
+    padding-left: var(--auro-size-xxxl);
+    padding-right: var(--auro-size-xxl);
+    padding-bottom: var(--auro-size-xxl);
+    vertical-align:middle;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+    auro-badge{
+        position: absolute;
+        top: -14px;
+        color: var(--auro-color-text-primary-on-light);
+        background-color: rgba($auro-color-brand-tropical-300, 1);
+        border-color: rgba($auro-color-brand-tropical-300, 1);
+    }
+    
+    .avatar-container{
+        position: absolute;
+        left: -47px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .stations-container {
+        min-width: 250px;
+    }
+    
+    .stations-text{
+        font-size: var(--auro-text-heading-500-px-breakpoint-lg);
+        line-height: var(--auro-text-heading-500-height-breakpoint-px-lg);
+        color: var(--auro-color-text-primary-on-light);
+    }
+
+    .departure-date {
+        color: var(--auro-color-text-secondary-on-light);
+        font-style: normal;
+        font-size: var(--auro-text-heading-300-px);
+        line-height: var(--auro-text-heading-400-height-px);
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    @media screen and(min-width: $auro-breakpoint-sm){
+        border-right: 1px solid var(--auro-color-border-disabled-on-light);
+    }
+}
+
+.flight-info-cell {
+    border-style: none;
+    padding-top: var(--auro-size-lg);
+    padding-left: var(--auro-size-lg);
+    padding-right: var(--auro-size-lg);
+    width: 100%;
+    flex: 200%;
+
+    @media screen and(min-width: $auro-breakpoint-sm){
+        border-right: 1px solid var(--auro-color-border-disabled-on-light);
+    }
+}
+
+.price-info-cell{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--auro-size-xxl) var(--auro-size-lg);
+    flex: 1 1 55%;
+
+    .class-of-service-container {
+        padding-left: var(--auro-size-lg); //check with erika for word wrapping during pixel push used to make class of svc collapse
+        padding-right: var(--auro-size-lg); //check with erika for word wrapping during pixel push
+        color: var(--auro-color-text-secondary-on-light);
+        font-style: normal;
+        font-weight: normal;
+        font-size: var(--auro-text-body-size-large);
+        line-height: var(--auro-text-heading-400-height-px)	;
+        text-align: center;
+        /* identical to box height, or 144% */
+        font-feature-settings: 'liga' off;
+    }
+    
+    .award-mile-content{
+        display: inline-block;
+        text-align: center;
+        letter-spacing: var(--auro-text-heading-default-spacing);
+        font-size: var(--auro-text-heading-600-px-breakpoint-md);
+        font-weight: var(--auro-text-heading-600-px-breakpoint-md); 
+        line-height: var(--auro-text-heading-600-height-breakpoint-px-lg);
+    }
+
+    .award-price-content {
+        text-align: center;
+        letter-spacing: var(--auro-text-heading-default-spacing);
+        font-size: var(--auro-text-heading-600-px-breakpoint-md);
+        font-weight: var(--auro-text-heading-600-px-breakpoint-md); 
+        line-height: var(--auro-text-heading-600-height-breakpoint-px-lg);
+    }
+    
+    .currency-sign{
+        color: var(--auro-color-text-primary-on-light);
+        font-weight: var(--auro-text-heading-500-weight);
+        font-size: var(--auro-text-heading-500-px-breakpoint-md);
+        line-height: var(--auro-text-heading-500-height-breakpoint-px-lg);
+        align-self: center;
+    }
+    
+    .price-container {
+        display: flex;
+        font-size: var(--auro-text-body-height-default);
+        font-weight: var(--auro-text-heading-500-px-breakpoint-md);
+    }
+    
+    .price-amount {
+        font-size: var(--auro-text-heading-display-px-breakpoint-sm);
+        line-height: var(--auro-text-heading-display-height-breakpoint-px-sm);
+        padding: var(--auro-size-sm) var(--auro-size-xs);
+        font-weight: var(--auro-text-heading-display-weight);
+        color: var(--auro-color-text-primary-on-light);
+    }
+}

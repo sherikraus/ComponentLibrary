@@ -1,0 +1,125 @@
+:host {
+  font-family: var(--auro-font-family-default);
+  font-size: var(--auro-text-body-size-default);
+  display: block;
+}
+
+.container {
+  display: grid;
+  overflow: hidden; 
+  grid-template-columns: auto 30%;
+  border: 1px solid var(--auro-color-brand-gray-200);
+  border-radius: var(--auro-border-radius);
+}
+
+.text-section {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-direction: column;
+  color: var(--auro-color-text-secondary-on-light);
+  
+  .header {
+    padding-top: var(--auro-size-lg);
+    padding-left: var(--auro-size-xl);
+  }
+
+  .content {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    flex-direction: row;
+    padding: 0 var(--auro-size-xl);
+
+    .content-items {
+      padding-top: var(--auro-size-sm);
+      padding-left: var(--auro-size-lg);
+
+      .content-details {
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: -webkit-flex;
+        font-size: var(--auro-text-body-size-sm);
+        margin-bottom: var(--auro-size-lg);
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.icon {
+  margin-right: var(--auro-size-sm);
+  height: var(--auro-size-lg);
+}
+
+.check-icon {
+  color: var(--auro-color-brand-tropical-500);
+}
+
+.green-icon {
+  color: var(--auro-color-brand-tropical-400);
+} 
+
+.refundable {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  align-items: center;
+  place-content: center;
+  flex-direction: column;
+  padding: var(--auro-size-lg);
+  background-color: var(--auro-color-brand-atlas-100);
+  
+  .price-container {
+    padding-bottom: var(--auro-size-xs);
+    min-height: var(--auro-size-xxxl);
+    text-align: center;
+
+    .total-price {
+      font-size: var(--auro-text-heading-500-height-breakpoint-sm);
+      line-height: var(--auro-text-heading-500-height-breakpoint-lg);
+      color: var(--auro-color-brand-atlas-500);
+    }
+
+    .text-secondary {
+      font-size: var(--auro-text-body-size-sm);
+      line-height: var(--auro-text-body-height-sm);
+      color: var(--auro-color-brand-atlas-500);
+    }
+  }
+}
+
+.no-break {
+  white-space: nowrap;
+}
+
+slot[name=title] {
+  display: block;
+  padding-bottom: var(--auro-size-xs);
+  font-size: var(--auro-text-heading-500-size-breakpoint-lg);
+  min-height: var(--auro-text-heading-500-height-breakpoint-lg);
+  line-height: var(--auro-text-heading-500-height-breakpoint-lg);
+  font-weight: var(--auro-text-heading-700-weight);
+  color: var(--auro-color-text-primary-on-light);
+  letter-spacing: -0.2px;
+}
+
+slot[name=sub-title] {
+  display: block;
+  padding-top: var(--auro-size-sm);
+  font-size: var(--auro-text-heading-300-size);
+  min-height: var(--auro-text-heading-300-height);
+  line-height: var(--auro-text-heading-300-height);
+  font-weight: 400;
+  color: var(--auro-color-text-secondary-on-light);
+}
+
+@media only screen and (max-width: 660px) {
+  .container {
+    grid-template-columns: unset;
+  }
+}

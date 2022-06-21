@@ -1,0 +1,148 @@
+@import "../../shared/auro.scss";
+
+:host {
+    color: green;
+    font-family: var(--auro-font-family-default);
+}
+.tab {
+  flex: 1;
+}
+.firstClassContainer {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  object-fit: cover;
+  max-height: 590px;
+  max-width: 50%;
+  padding-left:8px;
+  padding-right:32px;
+  display: none;
+  @include auro_breakpoint--md {
+    display: unset;
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  @include auro_breakpoint--sm {
+    max-width: 50%;
+  }
+}
+
+.contentContainer h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 8px;
+  margin-block-end: unset;
+  margin-block-start: unset;
+  color: #222;
+}
+
+.contentContainer h5 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-block-end: unset;
+  margin-block-start: unset;
+  padding-bottom: 8px;
+  padding-top: 32px;
+  color: #222;
+}
+.contentContainer span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #626b79;
+}
+
+.contentContainer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 16px;
+  color: #626b79;
+  margin-block-end: unset;
+  margin-block-start: unset;
+}
+
+.mainCabinContainer h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #222;
+  margin-block-end: unset;
+  margin-block-start: unset;
+  padding-bottom: 8px;
+}
+
+.mainCabinContainer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 16px;
+  margin-block-end: unset;
+  margin-block-start: unset;
+  color: #626b79;
+}
+
+.contentContainer p.disclaimer-container {
+  font-size: 12px;
+}
+
+.coachMealsContainer {
+  display: flex;
+  padding-top: 32px;
+
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  @include auro_breakpoint--md {
+    flex-direction: row;
+    text-align: left;
+    align-items: left;
+  }
+}
+
+.coachMealContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 16px;
+  @include auro_breakpoint--md {
+    max-width: 29%;
+  }
+}
+.coachMealContainer auro-avatar {
+  align-items:center;
+  text-align:left;
+}
+
+.coachMealTitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #222;
+  padding-bottom: 16px;
+  padding-top: 8px;
+}
+
+.coachMealDescription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #626b79;
+}
+
+.avatarContainer {
+  display:flex;
+  justify-content:center;
+}
+
+.tabsContainer {
+  display:flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}

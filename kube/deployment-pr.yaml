@@ -1,0 +1,44 @@
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: componentlibrary-deployment-#{SYSTEM_PULLREQUEST_PULLREQUESTID}#
+spec:
+  selector:
+    matchLabels:
+      app: componentlibrary-#{SYSTEM_PULLREQUEST_PULLREQUESTID}#
+  replicas: 1
+  template:
+    metadata:
+      annotations:
+        run_id: "#{RUN_ID}#"
+      labels:
+        app: componentlibrary-#{SYSTEM_PULLREQUEST_PULLREQUESTID}#
+    spec:
+      containers:
+      - name: componentlibrary-#{SYSTEM_PULLREQUEST_PULLREQUESTID}#
+        image: aagacrsandbox.azurecr.io/p2p/componentlibrary:latest #This is replaced with buildid in pipeline
+        imagePullPolicy: Always
+        ports:
+        - name: admin
+          containerPort: 3000
+        resources:
+          limits:
+            cpu: 200m
+            memory: 800Mi
+          requests:
+            cpu: 100m
+            memory: 400Mi
+        
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: componentlibrary-services-#{SYSTEM_PULLREQUEST_PULLREQUESTID}#
+spec:  
+  selector:
+    app: componentlibrary-#{SYSTEM_PULLREQUEST_PULLREQUESTID}#
+  ports:
+    - name: api
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

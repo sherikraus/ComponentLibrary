@@ -1,0 +1,22 @@
+[
+    {
+        "AssociatedMatrixIndex": 0,
+        "Text": "In order to view available flights, please select a different Returning flight date or try shopping for one-way flights. \u003cspan class=\u0027global-error-name\u0027 style=\u0027display:none\u0027 data-error-name=\u0027eNoFlightsOneTripRT\u0027\u003e\u003c/span\u003e\u003cbr\u003e\u003cbr\u003eError Code: -1230",
+        "CSSClass": null,
+        "Visible": true,
+        "ReissueOnly": false,
+        "ErrorCodes": [],
+        "SeverityCode": 3,
+        "PlainText": []
+    },
+    {
+        "AssociatedMatrixIndex": 1,
+        "Text": "We are unable to complete your search request. There may not be flights available for those city pairs or for the time or day of week requested.\u003cbr\u003e\u003cbr\u003ePlease check our \u003ca href=\"https://www.alaskaair.com/schedule?O=SEA\u0026D=JFK\u0026OD=12/03/2020\u0026DD=\u0026OT=\u0026DT=\u0026A=1\u0026C=0\u0026F=\u0026RT=false\" class=\"inlinelink\"\u003eschedule\u003c/a\u003e or \u003ca href=\"javascript: if (typeof ChangeAvailSearch == \u0027function\u0027) { ChangeAvailSearch(); }\" class=\"inlinelink\"\u003echange your search\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003e\u003cp\u003eIf you continue to receive this message call Reservations at \u003cnobr\u003e1-800-252-7522\u003c/p\u003e\u003c/nobr\u003e. \u003cspan class=\u0027global-error-name\u0027 style=\u0027display:none\u0027 data-error-name=\u0027eNoItinsPriced\u0027\u003e\u003c/span\u003e\u003cbr\u003e\u003cbr\u003eError Code: -1580",
+        "CSSClass": null,
+        "Visible": true,
+        "ReissueOnly": false,
+        "ErrorCodes": [],
+        "SeverityCode": 3,
+        "PlainText": []
+    }
+]

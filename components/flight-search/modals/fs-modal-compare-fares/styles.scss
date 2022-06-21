@@ -1,0 +1,95 @@
+@import '../../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables';
+@import "../../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
+
+#compare-fares-modal{
+}
+
+.content-table{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: var(--auro-size-none) var(--auro-size-xxs);
+}
+
+.fare-comparison-details{
+  width: 826px;
+  height: 40px;
+  background: #f9fbfc;
+  border-radius: 0px;
+  margin:  var(--auro-size-xs) 0px;
+}
+
+td{
+  font-size: 12px;
+  color: var(--auro-color-text-secondary-on-light);
+  font-family: var(--auro-font-family-default);
+  text-align: left;
+
+  &.center{
+    text-align: center;
+    &.icon {
+      padding-left: 12px;
+      padding-right: 12px;
+      
+    }
+  }
+  @include auro_breakpoint--md {
+    font-size: 16px;
+  }
+}
+
+.fine-print {
+  color: var(--auro-color-text-secondary-on-light);
+  font-size: 12px;
+  font-family: var(--auro-font-family-default);
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.primary-heading{
+  width: 20%;
+  height: 72px;
+  font-family: var(--auro-font-family-default);
+  font-size: 18px;
+  color: var(--auro-color-text-primary-on-dark);
+  text-align: center;
+
+  &.saver{
+    background-color: rgb(61, 160, 188);
+  }
+
+  &.main{
+    background-color: rgb(39, 116, 174);
+  }
+  
+  &.first{
+    background-color: rgb(1, 66, 106);
+  }
+
+  @include auro_breakpoint--md {
+    font-size: var(--auro-text-heading-600-px-breakpoint-lg);
+  }
+}
+
+.secondary-heading{
+  width: 126px;
+  font-family: var(--auro-font-family-default);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: var(--auro-color-text-primary-on-light);
+  padding: var(--auro-size-sm) var(--auro-size-sm); 
+
+  &.saver{
+    background-color: rgb(248, 252, 253);
+  }
+
+  &.main{
+    background-color: rgb(237, 244, 246);
+  }
+  
+  &.first{
+    background: rgb(236, 240, 243);
+  }
+}
+

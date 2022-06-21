@@ -1,0 +1,15 @@
+name: PRCleanup
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  cleanup:
+    runs-on: 'ubuntu-latest'
+    steps:
+    - uses: Azure/aks-set-context@v1
+      with:
+        creds: '${{ secrets.ECOMMERCEKUBERNETES_TEST_GROUP_SPN }}'
+        cluster-name: ecomm-test-aks-westus2
+        resource-group: ecommercekubernetes-test-group
+    - run: kubectl delete -n componentlibrary service/componentlibrary-services-${{ github.event.pull_request.number }} ingress/componentlibrary-ingress-${{ github.event.pull_request.number }} deployment/componentlibrary-deployment-${{ github.event.pull_request.number }}

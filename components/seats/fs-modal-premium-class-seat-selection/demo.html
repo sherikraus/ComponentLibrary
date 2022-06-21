@@ -1,0 +1,39 @@
+<button id="control" onclick="control()">Control</button>
+<button id="B" onclick="B()">B</button>
+<button id="variant" onclick="variant()">Variant</button>
+
+<div class="upsellContainer">
+    <fs-modal-premium-class-seat-selection heading="Premium Class, $39 USD"></fs-modal-premium-class-seat-selection>
+</div>
+
+<script>
+    function clearUpsell() {
+        var adapter = document.querySelector("fs-modal-premium-class-seat-selection")
+        adapter.remove()
+    }
+
+    function control() {
+        clearUpsell();
+        var container = document.querySelector('.upsellContainer');
+        var el = document.createElement('fs-modal-premium-class-seat-selection');
+        el.setAttribute('heading', 'Premium Class, $39 USD');
+        el.setAttribute('perGuest', true);
+        container.appendChild(el);
+    }
+    function B() {
+        clearUpsell();
+        var container = document.querySelector('.upsellContainer');
+        var el = document.createElement('fs-modal-premium-class-seat-selection');
+        el.setAttribute('heading', 'Premium Class, 6C Aisle');
+        container.appendChild(el);
+    }
+    function variant() {
+        clearUpsell();
+        var container = document.querySelector('.upsellContainer');
+        var el = document.createElement('fs-modal-premium-class-seat-selection');
+        el.setAttribute('heading', 'Premium Class, $39 USD');
+        el.setAttribute('perGuest', true);
+        el.setAttribute('beta', true);
+        container.appendChild(el);
+    }
+</script>

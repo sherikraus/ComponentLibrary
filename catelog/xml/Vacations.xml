@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vacations>
+	<DepartureCities>
+		<City Code="ADK" DisplayName="Adak Island (ADK)" />
+		<City Code="ABQ" DisplayName="Albuquerque (ABQ)" />
+		<City Code="ANC" DisplayName="Anchorage (ANC)" />
+		<City Code="ATL" DisplayName="Atlanta (ATL)" />
+		<City Code="AUS" DisplayName="Austin (AUS)" />
+		<City Code="BWI" DisplayName="Baltimore (BWI)" />
+		<City Code="BRW" DisplayName="Barrow (BRW)" />
+		<City Code="BLI" DisplayName="Bellingham (BLI)" />
+		<City Code="RDM" DisplayName="Bend/Redmond, OR (RDM)" />
+		<City Code="BET" DisplayName="Bethel (BET)" />
+		<City Code="KOA" DisplayName="Big Island (Kona)" />
+		<City Code="BIL" DisplayName="Billings (BIL)" />
+		<City Code="BOI" DisplayName="Boise (BOI)" />
+		<City Code="BOS" DisplayName="Boston (BOS)" />
+		<City Code="BZN" DisplayName="Bozeman (BZN)" />
+		<City Code="BUR" DisplayName="Burbank (BUR)" />
+		<City Code="SJD" DisplayName="Cabo San Lucas (SJD)" />
+		<City Code="YYC" DisplayName="Calgary (YYC)" />
+		<City Code="CUN" DisplayName="Cancun (CUN)" />
+		<City Code="CHS" DisplayName="Charleston (CHS)" />
+		<City Code="ORD" DisplayName="Chicago-O'Hare (ORD)" />
+		<City Code="COS" DisplayName="Colorado Springs (COS)" />
+		<City Code="CDV" DisplayName="Cordova (CDV)" />
+    	<City Code="GUC" DisplayName="Crested Butte/Gunnison (GUC)" />
+		<City Code="DFW" DisplayName="Dallas-Ft. Worth (DFW)" />
+		<City Code="DEN" DisplayName="Denver (DEN)" />
+		<City Code="DTW" DisplayName="Detroit (DTW)" />
+		<City Code="DLG" DisplayName="Dillingham (DLG)" />
+		<City Code="DUT" DisplayName="Dutch Harbor (DUT)" />
+		<City Code="YEG" DisplayName="Edmonton (YEG)" />
+		<City Code="EUG" DisplayName="Eugene (EUG)" />
+		<City Code="FAI" DisplayName="Fairbanks (FAI)" />
+		<City Code="FLL" DisplayName="Fort Lauderdale (FLL)" />
+		<City Code="FAT" DisplayName="Fresno/Yosemite (FAT)" />
+		<City Code="GST" DisplayName="Glacier Bay/Gustavus (GST)" />
+		<City Code="GTF" DisplayName="Great Falls (GTF)" />
+		<City Code="GDL" DisplayName="Guadalajara (GDL)" />
+		<City Code="HLN" DisplayName="Helena (HLN)" />
+		<City Code="HNL" DisplayName="Honolulu (HNL)" />
+		<City Code="IAH" DisplayName="Houston, TX (IAH)" />
+		<City Code="IND" DisplayName="Indianapolis (IND)" />
+		<City Code="ZIH" DisplayName="Ixtapa/Zihuatanejo (ZIH)" />
+		<City Code="JNU" DisplayName="Juneau (JNU)" />
+		<City Code="OGG" DisplayName="Kahului (OGG)" />
+		<City Code="FCA" DisplayName="Kalispell (FCA)" />
+		<City Code="MCI" DisplayName="Kansas City (MCI)" />
+		<City Code="YLW" DisplayName="Kelowna (YLW)" />
+		<City Code="PSC" DisplayName="Kennewick/Pasco (PSC)" />
+		<City Code="KTN" DisplayName="Ketchikan (KTN)" />
+		<City Code="AKN" DisplayName="King Salmon (AKN)" />
+		<City Code="ADQ" DisplayName="Kodiak (ADQ)" />
+		<City Code="OTZ" DisplayName="Kotzebue (OTZ)" />
+		<City Code="LAS" DisplayName="Las Vegas (LAS)" />
+		<City Code="LWS" DisplayName="Lewiston (LWS)" />
+		<City Code="LIH" DisplayName="Lihue (LIH)" />
+    	<City Code="LIR" DisplayName="Liberia, Costa Rica (LIR)" />
+		<City Code="LTO" DisplayName="Loreto (LTO)" />
+		<City Code="LAX" DisplayName="Los Angeles (LAX)" />
+		<City Code="SJD2" DisplayName="Los Cabos (SJD)" />
+		<City Code="MMH" DisplayName="Mammoth Lakes/Yosemite (MMH)" />
+		<City Code="ZLO" DisplayName="Manzanillo (ZLO)" />
+		<City Code="MZT" DisplayName="Mazatlan (MZT)" />
+		<City Code="MFR" DisplayName="Medford (MFR)" />
+		<City Code="MEX" DisplayName="Mexico City (MEX)" />
+		<City Code="MKE" DisplayName="Milwaukee (MKE)" />
+		<City Code="MSP" DisplayName="Minneapolis (MSP)" />
+		<City Code="MSO" DisplayName="Missoula (MSO)" />
+		<City Code="MRY" DisplayName="Monterey, CA (MRY)" />
+		<City Code="PUW" DisplayName="Moscow, ID/Pullman, WA (PUW)" />
+		<City Code="BNA" DisplayName="Nashville (BNA)" />
+		<City Code="EWR" DisplayName="Newark-Newark Intl. (EWR)" />
+		<City Code="MSY" DisplayName="New Orleans (MSY)" />
+		<City Code="JFK" DisplayName="New York City (JFK)" />
+		<City Code="OME" DisplayName="Nome (OME)" />
+		<City Code="OAK" DisplayName="Oakland (OAK)" />
+		<City Code="OKC" DisplayName="Oklahoma City (OKC)" />
+		<City Code="OMA" DisplayName="Omaha (OMA)" />
+		<City Code="ONT" DisplayName="Ontario, CA, US (ONT)" />
+		<City Code="SNA" DisplayName="Orange County/Santa Ana (SNA)" />
+		<City Code="MCO" DisplayName="Orlando (MCO)" />
+		<City Code="PSP" DisplayName="Palm Springs (PSP)" />
+		<City Code="PSC2" DisplayName="Pasco/Kennewick (PSC)" />
+		<City Code="PSG" DisplayName="Petersburg (PSG)" />
+		<City Code="PHL" DisplayName="Philadelphia (PHL)" />
+		<City Code="PHX" DisplayName="Phoenix (PHX)" />
+		<City Code="PDX" DisplayName="Portland, OR (PDX)" />
+		<City Code="SCC" DisplayName="Prudhoe Bay (SCC)" />
+		<City Code="PVR" DisplayName="Puerto Vallarta (PVR)" />
+		<City Code="PUW2" DisplayName="Pullman, WA/Moscow, ID (PUW)" />
+		<City Code="RDU" DisplayName="Raleigh (RDU)" />
+		<City Code="RDM2" DisplayName="Redmond/Bend, OR (RDM)" />
+		<City Code="RNO" DisplayName="Reno (RNO)" />
+		<City Code="PVR2" DisplayName="Riviera Nayarit (PVR)" />
+		<City Code="SMF" DisplayName="Sacramento (SMF)" />
+		<City Code="SLC" DisplayName="Salt Lake City (SLC)" />
+		<City Code="SAT" DisplayName="San Antonio (SAT)" />
+		<City Code="SAN" DisplayName="San Diego, CA (SAN)" />
+		<City Code="SFO" DisplayName="San Francisco (SFO)" />
+		<City Code="SJC" DisplayName="San Jose, CA (SJC)" />
+    	<City Code="SJO" DisplayName="San Jose, Costa Rica (SJO)" />
+		<City Code="SNA2" DisplayName="Santa Ana/Orange County (SNA)" />
+		<City Code="SBA" DisplayName="Santa Barbara (SBA)" />
+		<City Code="STS" DisplayName="Santa Rosa/Sonoma County (STS)" />
+		<City Code="SEA" DisplayName="Seattle, WA (SEA)" />
+		<City Code="SIT" DisplayName="Sitka (SIT)" />
+		<City Code="STS2" DisplayName="Sonoma County/Santa Rosa (STS)" />
+		<City Code="GEG" DisplayName="Spokane (GEG)" />
+		<City Code="STL" DisplayName="St. Louis (STL)" />
+		<City Code="HDN" DisplayName="Steamboat Springs (HDN)" />
+		<City Code="SUN" DisplayName="Sun Valley (SUN)" />
+		<City Code="TPA" DisplayName="Tampa (TPA)" />
+		<City Code="TUS" DisplayName="Tucson (TUS)" />
+		<City Code="YVR" DisplayName="Vancouver, BC (YVR)" />
+		<City Code="YYJ" DisplayName="Victoria, BC (YYJ)" />
+		<City Code="ALW" DisplayName="Walla Walla (ALW)" />
+		<City Code="DCA" DisplayName="Washington, DC-Reagan National (DCA)" />
+		<City Code="IAD" DisplayName="Washington, DC-Dulles (IAD)" />
+		<City Code="EAT" DisplayName="Wenatchee (EAT)" />
+		<City Code="ICT" DisplayName="Witchita (ICT)" />
+		<City Code="WRG" DisplayName="Wrangell (WRG)" />
+		<City Code="YKM" DisplayName="Yakima (YKM)" />
+		<City Code="YAK" DisplayName="Yakutat (YAK)" />
+		<City Code="ZIH2" DisplayName="Zihuatanejo/Ixtapa (ZIH)" />
+	</DepartureCities>
+	<DestinationCities>
+		<CompletePackages>
+			<City Code="ABQ" DisplayName="Albuquerque" />
+			<City Code="ANC" DisplayName="Anchorage" />
+			<City Code="ATL" DisplayName="Atlanta" />
+			<City Code="AUS" DisplayName="Austin" />
+			<City Code="BWI" DisplayName="Baltimore" />
+			<City Code="YB1" DisplayName="Banff/Lake Louise via Calgary" />
+			<City Code="ZB9" DisplayName="Beaver Creek via Denver" />
+			<City Code="BLI" DisplayName="Bellingham" />
+			<City Code="KOA" DisplayName="Big Island (Kona)" />
+			<City Code="BIL" DisplayName="Billings" />
+			<City Code="BOI" DisplayName="Boise" />
+			<City Code="BOS" DisplayName="Boston" />
+			<City Code="BZN" DisplayName="Bozeman" />
+			<City Code="BR6" DisplayName="Breckenridge via Denver" />
+			<City Code="BU2" DisplayName="Burbank" />
+			<City Code="YYC" DisplayName="Calgary" />
+			<City Code="CUN" DisplayName="Cancun" />
+			<City Code="CHS" DisplayName="Charleston" />
+			<City Code="ORD" DisplayName="Chicago - O'Hare" />
+			<City Code="COS" DisplayName="Colorado Springs" />
+      		<City Code="CS1" DisplayName="Crested Butte via Gunnison" />
+			<City Code="DFW" DisplayName="Dallas-Ft. Worth" />
+			<City Code="SC8" DisplayName="Deer Valley via Salt Lake City" />
+			<City Code="DEN" DisplayName="Denver" />
+			<City Code="DTW" DisplayName="Detroit" />
+			<City Code="BU3" DisplayName="Disneyland® (Burbank)" />
+			<City Code="L1D" DisplayName="Disneyland® (Los Angeles)" />
+			<City Code="DIT" DisplayName="Disneyland® (Ontario)" />
+			<City Code="DI4" DisplayName="Disneyland® (Orange County)" />
+			<City Code="YEG" DisplayName="Edmonton" />
+			<City Code="EUG" DisplayName="Eugene" />
+			<City Code="FAI" DisplayName="Fairbanks" />
+			<City Code="FLL" DisplayName="Fort Lauderdale" />
+			<City Code="FAT" DisplayName="Fresno/Yosemite" />
+			<City Code="GTF" DisplayName="Great Falls" />
+			<City Code="GDL" DisplayName="Guadalajara" />
+			<City Code="HLN" DisplayName="Helena " />
+			<City Code="IAH" DisplayName="Houston - Intercontinental" />
+			<City Code="IND" DisplayName="Indianapolis" />
+			<City Code="ZIH" DisplayName="Ixtapa/Zihuatanejo" />
+			<City Code="JNU" DisplayName="Juneau" />
+			<City Code="FCA" DisplayName="Kalispell" />
+			<City Code="MCI" DisplayName="Kansas City - International" />
+			<City Code="LIH" DisplayName="Kauai (Lihue)" />
+			<City Code="YLW" DisplayName="Kelowna" />
+			<City Code="KY1" DisplayName="Keystone via Denver" />
+			<City Code="LTE" DisplayName="Lake Tahoe/Heavenly via Reno" />
+			<City Code="LAS" DisplayName="Las Vegas" />
+			<City Code="LWS" DisplayName="Lewiston" />
+      		<City Code="LIR" DisplayName="Liberia, Costa Rica" />
+			<City Code="LTO" DisplayName="Loreto" />
+			<City Code="L1X" DisplayName="Los Angeles" />
+			<City Code="SJD" DisplayName="Los Cabos" />
+			<City Code="MMH" DisplayName="Mammoth Lakes/Yosemite" />
+			<City Code="ZLO" DisplayName="Manzanillo" />
+			<City Code="OGG" DisplayName="Maui" />
+			<City Code="MZT" DisplayName="Mazatlan" />
+			<City Code="MEX" DisplayName="Mexico City" />
+			<City Code="MKE" DisplayName="Milwaukee" />
+			<City Code="MSP" DisplayName="Minneapolis" />
+			<City Code="MSO" DisplayName="Missoula" />
+			<City Code="MRY" DisplayName="Monterey/Carmel" />
+			<City Code="BNA" DisplayName="Nashville" />
+			<City Code="MSY" DisplayName="New Orleans" />
+			<City Code="JFK" DisplayName="New York (JFK airport)" />
+			<City Code="EW3" DisplayName="New York (Newark airport)" />
+			<City Code="HNL" DisplayName="Oahu (Honolulu)" />
+			<City Code="OAK" DisplayName="Oakland" />
+			<City Code="OKC" DisplayName="Oklahoma City" />
+			<City Code="OMA" DisplayName="Omaha" />
+			<City Code="ONT" DisplayName="Ontario" />
+			<City Code="AH5" DisplayName="Orange County " />
+			<City Code="MCO" DisplayName="Orlando" />
+			<City Code="PSP" DisplayName="Palm Springs " />
+			<City Code="PC3" DisplayName="Park City via Salt Lake City" />
+			<City Code="PSC" DisplayName="Pasco" />
+			<City Code="PHL" DisplayName="Philadelphia" />
+			<City Code="PHX" DisplayName="Phoenix/Scottsdale" />
+			<City Code="PDX" DisplayName="Portland" />
+			<City Code="PVR" DisplayName="Puerto Vallarta/Riviera Nayarit" />
+			<City Code="RDU" DisplayName="Raleigh" />
+			<City Code="RDM" DisplayName="Redmond/Bend" />
+			<City Code="RNO" DisplayName="Reno" />
+			<City Code="SMF" DisplayName="Sacramento " />
+			<City Code="SLC" DisplayName="Salt Lake City" />
+			<City Code="SAT" DisplayName="San Antonio" />
+			<City Code="SAN" DisplayName="San Diego" />
+			<City Code="SFO" DisplayName="San Francisco" />
+			<City Code="SJC" DisplayName="San Jose, CA" />
+      		<City Code="SJO" DisplayName="San Jose, Costa Rica" />
+			<City Code="SBA" DisplayName="Santa Barbara" />
+			<City Code="STS" DisplayName="Santa Rosa" />
+			<City Code="SEA" DisplayName="Seattle" />
+			<City Code="GEG" DisplayName="Spokane" />
+			<City Code="STL" DisplayName="St. Louis" />
+			<City Code="SB1" DisplayName="Steamboat via Denver" />
+			<City Code="HDN" DisplayName="Steamboat/Hayden" />
+			<City Code="SUN" DisplayName="Sun Valley" />
+			<City Code="TPA" DisplayName="Tampa" />
+			<City Code="DE8" DisplayName="Telluride via Denver" />
+			<City Code="SC6" DisplayName="The Canyons  via Salt Lake City" />
+			<City Code="TUS" DisplayName="Tucson" />
+			<City Code="EG2" DisplayName="Vail via Denver" />
+			<City Code="YVR" DisplayName="Vancouver" />
+			<City Code="YYJ" DisplayName="Victoria" />
+			<City Code="ALW" DisplayName="Walla Walla" />
+			<City Code="DCA" DisplayName="Washington DC - Reagan National" />
+			<City Code="IAD" DisplayName="Washington DC - Dulles" />
+			<City Code="EAT" DisplayName="Wenatchee" />
+			<City Code="YW1" DisplayName="Whistler/Blackcomb via Vancouver" />
+			<City Code="WI4" DisplayName="Winter Park via Denver" />
+			<City Code="ICT" DisplayName="Witchita" />
+			<City Code="YKM" DisplayName="Yakima" />
+		</CompletePackages>
+		<AirCarPackages>
+			<City Code="ABQ" DisplayName="Albuquerque" />
+			<City Code="ANC" DisplayName="Anchorage " />
+			<City Code="ATL" DisplayName="Atlanta" />
+			<City Code="AUS" DisplayName="Austin" />
+			<City Code="BWI" DisplayName="Baltimore" />
+			<City Code="YB1" DisplayName="Banff/Lake Louise via Calgary" />
+			<City Code="ZB9" DisplayName="Beaver Creek via Denver" />
+			<City Code="BLI" DisplayName="Bellingham" />
+			<City Code="KOA" DisplayName="Big Island (Kona)" />
+			<City Code="BIL" DisplayName="Billings" />
+			<City Code="BOI" DisplayName="Boise" />
+			<City Code="BOS" DisplayName="Boston" />
+			<City Code="BZN" DisplayName="Bozeman" />
+			<City Code="BR6" DisplayName="Breckenridge via Denver" />
+			<City Code="BU2" DisplayName="Burbank" />
+			<City Code="YYC" DisplayName="Calgary" />
+			<City Code="CUN" DisplayName="Cancun" />
+			<City Code="CHS" DisplayName="Charleston" />
+			<City Code="ORD" DisplayName="Chicago - O'Hare" />
+			<City Code="COS" DisplayName="Colorado Springs" />
+      		<City Code="CS1" DisplayName="Crested Butte via Gunnison" />
+			<City Code="DFW" DisplayName="Dallas/Forth Worth" />
+			<City Code="SC8" DisplayName="Deer Valley via Salt Lake City" />
+			<City Code="DEN" DisplayName="Denver" />
+			<City Code="DTW" DisplayName="Detroit" />
+			<City Code="BU3" DisplayName="Disneyland® (Burbank)" />
+			<City Code="L1D" DisplayName="Disneyland® (Los Angeles)" />
+			<City Code="DIT" DisplayName="Disneyland® (Ontario)" />
+			<City Code="DI4" DisplayName="Disneyland® (Orange County)" />
+			<City Code="YEG" DisplayName="Edmonton" />
+			<City Code="EUG" DisplayName="Eugene" />
+			<City Code="FAI" DisplayName="Fairbanks" />
+			<City Code="FLL" DisplayName="Fort Lauderdale" />
+			<City Code="FAT" DisplayName="Fresno" />
+			<City Code="GTF" DisplayName="Great Falls" />
+			<City Code="GDL" DisplayName="Guadalajara" />
+      		<City Code="GUC" DisplayName="Gunnison" />
+			<City Code="HLN" DisplayName="Helena" />
+			<City Code="IAH" DisplayName="Houston - Intercontinental" />
+			<City Code="IND" DisplayName="Indianapolis" />
+			<City Code="ZIH" DisplayName="Ixtapa/Zihuatanejo" />
+			<City Code="JNU" DisplayName="Juneau" />
+			<City Code="FCA" DisplayName="Kalispell" />
+			<City Code="MCI" DisplayName="Kansas City -Intl" />
+			<City Code="LIH" DisplayName="Kauai (Lihue)" />
+			<City Code="KY1" DisplayName="Keystone via Denver" />
+			<City Code="LTE" DisplayName="Lake Tahoe/Heavenly via Reno" />
+			<City Code="LAS" DisplayName="Las Vegas" />
+			<City Code="LWS" DisplayName="Lewiston" />
+      		<City Code="LIR" DisplayName="Liberia, Costa Rica" />
+			<City Code="LTO" DisplayName="Loreto" />
+			<City Code="L1X" DisplayName="Los Angeles" />
+			<City Code="SJD" DisplayName="Los Cabos" />
+			<City Code="MMH" DisplayName="Mammoth Lakes/Yosemite" />
+			<City Code="ZLO" DisplayName="Manzanillo" />
+			<City Code="OGG" DisplayName="Maui" />
+			<City Code="MZT" DisplayName="Mazatlan" />
+			<City Code="MEX" DisplayName="Mexico City" />
+			<City Code="MKE" DisplayName="Milwaukee" />
+			<City Code="MSP" DisplayName="Minneapolis" />
+			<City Code="MSO" DisplayName="Missoula" />
+			<City Code="MRY" DisplayName="Monterey/Carmel" />
+			<City Code="BNA" DisplayName="Nashville" />
+			<City Code="MSY" DisplayName="New Orleans" />
+			<City Code="JFK" DisplayName="New York (JFK airport)" />
+			<City Code="EW3" DisplayName="New York (Newark airport)" />
+			<City Code="HNL" DisplayName="Oahu (Honolulu)" />
+			<City Code="OAK" DisplayName="Oakland" />
+			<City Code="OKC" DisplayName="Oklahoma City" />
+			<City Code="OMA" DisplayName="Omaha" />
+			<City Code="ONT" DisplayName="Ontario" />
+			<City Code="AH5" DisplayName="Orange County " />
+			<City Code="MCO" DisplayName="Orlando" />
+			<City Code="PSP" DisplayName="Palm Springs" />
+			<City Code="PC3" DisplayName="Park City via Salt Lake City" />
+			<City Code="PSC" DisplayName="Pasco" />
+			<City Code="PHL" DisplayName="Philadelphia" />
+			<City Code="PHX" DisplayName="Phoenix/Scottsdale" />
+			<City Code="PDX" DisplayName="Portland" />
+			<City Code="PVR" DisplayName="Puerto Vallarta/Riviera Nayarit" />
+			<City Code="RDU" DisplayName="Raleigh" />
+			<City Code="RDM" DisplayName="Redmond/Bend" />
+			<City Code="RNO" DisplayName="Reno" />
+			<City Code="SMF" DisplayName="Sacramento" />
+			<City Code="SLC" DisplayName="Salt Lake City" />
+			<City Code="SAT" DisplayName="San Antonio" />
+			<City Code="SAN" DisplayName="San Diego" />
+			<City Code="SFO" DisplayName="San Francisco" />
+			<City Code="SJC" DisplayName="San Jose, CA" />
+      		<City Code="SJO" DisplayName="San Jose, Costa Rica" />
+			<City Code="SBA" DisplayName="Santa Barbara" />
+			<City Code="STS" DisplayName="Santa Rosa" />
+			<City Code="SEA" DisplayName="Seattle" />
+			<City Code="GEG" DisplayName="Spokane" />
+			<City Code="STL" DisplayName="St. Louis" />
+			<City Code="SB1" DisplayName="Steamboat via Denver" />
+			<City Code="HDN" DisplayName="Steamboat/Hayden" />
+			<City Code="SUN" DisplayName="Sun Valley" />
+			<City Code="TPA" DisplayName="Tampa" />
+			<City Code="DE8" DisplayName="Telluride via Denver" />
+			<City Code="SC6" DisplayName="The Canyons  via Salt Lake City" />
+			<City Code="TUS" DisplayName="Tucson" />
+			<City Code="EG2" DisplayName="Vail via Denver" />
+			<City Code="YVR" DisplayName="Vancouver" />
+			<City Code="YYJ" DisplayName="Victoria" />
+			<City Code="DCA" DisplayName="Washington DC - Reagan National " />
+			<City Code="YW1" DisplayName="Whistler/Blackcomb via Vancouver" />
+			<City Code="WI4" DisplayName="Winter Park via Denver" />
+			<City Code="ICT" DisplayName="Witchita" />
+			<City Code="YKM" DisplayName="Yakima" />
+		</AirCarPackages>
+		<HotelOnlyPackages>
+			<City Code="ABQ" DisplayName="Albuquerque" />
+			<City Code="ANA" DisplayName="Anaheim" />
+			<City Code="ANC" DisplayName="Anchorage" />
+			<City Code="ATL" DisplayName="Atlanta" />
+			<City Code="AUS" DisplayName="Austin" />
+			<City Code="BWI" DisplayName="Baltimore" />
+			<City Code="YBA" DisplayName="Banff/Lake Louise   " />
+			<City Code="ZBV" DisplayName="Beaver Creek" />
+			<City Code="BLI" DisplayName="Bellingham" />
+			<City Code="KOA" DisplayName="Big Island (Kona)" />
+			<City Code="BIL" DisplayName="Billings" />
+			<City Code="BOI" DisplayName="Boise" />
+			<City Code="BOS" DisplayName="Boston" />
+			<City Code="BZN" DisplayName="Bozeman" />
+			<City Code="QKB" DisplayName="Breckenridge   " />
+			<City Code="BU2" DisplayName="Burbank" />
+			<City Code="YYC" DisplayName="Calgary" />
+			<City Code="CUN" DisplayName="Cancun" />
+			<City Code="CHS" DisplayName="Charleston" />
+			<City Code="ORD" DisplayName="Chicago - O'Hare" />
+			<City Code="COS" DisplayName="Colorado Springs" />
+      		<City Code="CSE" DisplayName="Crested Butte" />
+			<City Code="DFW" DisplayName="Dallas-Ft. Worth" />
+			<City Code="ZDV" DisplayName="Deer Valley   " />
+			<City Code="DEN" DisplayName="Denver" />
+			<City Code="DTW" DisplayName="Detroit" />
+			<City Code="YEG" DisplayName="Edmonton" />
+			<City Code="EUG" DisplayName="Eugene" />
+			<City Code="FAI" DisplayName="Fairbanks" />
+			<City Code="FLL" DisplayName="Fort Lauderdale" />
+			<City Code="FAT" DisplayName="Fresno/Yosemite" />
+			<City Code="GTF" DisplayName="Great Falls" />
+			<City Code="GDL" DisplayName="Guadalajara" />
+      		<City Code="GUC" DisplayName="Gunnison" />
+			<City Code="ZHS" DisplayName="Heavenly/Squaw Valley/Tahoe" />
+			<City Code="HLN" DisplayName="Helena" />
+			<City Code="IAH" DisplayName="Houston - Intercontinental" />
+			<City Code="IND" DisplayName="Indianapolis" />
+			<City Code="ZIH" DisplayName="Ixtapa/Zihuatanejo" />
+			<City Code="JNU" DisplayName="Juneau" />
+			<City Code="FCA" DisplayName="Kalispell" />
+			<City Code="MCI" DisplayName="Kansas City - International" />
+			<City Code="LIH" DisplayName="Kauai (Lihue)" />
+			<City Code="YLW" DisplayName="Kelowna" />
+			<City Code="QKS" DisplayName="Keystone" />
+			<City Code="LAS" DisplayName="Las Vegas" />
+			<City Code="LWS" DisplayName="Lewiston" />
+      		<City Code="LIR" DisplayName="Liberia, Costa Rica" />
+			<City Code="LTO" DisplayName="Loreto" />
+			<City Code="L1X" DisplayName="Los Angeles" />
+			<City Code="SJD" DisplayName="Los Cabos" />
+			<City Code="MMH" DisplayName="Mammoth Lakes/Yosemite" />
+			<City Code="ZLO" DisplayName="Manzanillo" />
+			<City Code="OGG" DisplayName="Maui" />
+			<City Code="MZT" DisplayName="Mazatlan" />
+			<City Code="MEX" DisplayName="Mexico City" />
+			<City Code="MKE" DisplayName="Milwaukee" />
+			<City Code="MSP" DisplayName="Minneapolis" />
+			<City Code="MSO" DisplayName="Missoula" />
+			<City Code="MRY" DisplayName="Monterey/Carmel" />
+			<City Code="BNA" DisplayName="Nashville" />
+			<City Code="MSY" DisplayName="New Orleans" />
+			<City Code="JFK" DisplayName="New York (JFK airport)" />
+			<City Code="EW3" DisplayName="New York (Newark airport)" />
+			<City Code="HNL" DisplayName="Oahu (Honolulu)" />
+			<City Code="OAK" DisplayName="Oakland" />
+			<City Code="OKC" DisplayName="Oklahoma City" />
+			<City Code="OMA" DisplayName="Omaha" />
+			<City Code="ONT" DisplayName="Ontario" />
+			<City Code="MCO" DisplayName="Orlando" />
+			<City Code="PSP" DisplayName="Palm Springs " />
+			<City Code="ZPK" DisplayName="Park City  " />
+			<City Code="PSC" DisplayName="Pasco" />
+			<City Code="PHL" DisplayName="Philadelphia" />
+			<City Code="PHX" DisplayName="Phoenix/Scottsdale" />
+			<City Code="PDX" DisplayName="Portland" />
+			<City Code="PVR" DisplayName="Puerto Vallarta/Riviera Nayarit" />
+			<City Code="RDU" DisplayName="Raleigh" />
+			<City Code="RDM" DisplayName="Redmond/Bend" />
+			<City Code="RNO" DisplayName="Reno" />
+			<City Code="SMF" DisplayName="Sacramento " />
+			<City Code="SLC" DisplayName="Salt Lake City" />
+			<City Code="SAT" DisplayName="San Antonio" />
+			<City Code="SAN" DisplayName="San Diego" />
+			<City Code="SFO" DisplayName="San Francisco" />
+			<City Code="SJC" DisplayName="San Jose, CA" />
+      		<City Code="SJO" DisplayName="San Jose, Costa Rica" />
+			<City Code="SBA" DisplayName="Santa Barbara" />
+			<City Code="STS" DisplayName="Santa Rosa" />
+			<City Code="SEA" DisplayName="Seattle" />
+			<City Code="GEG" DisplayName="Spokane" />
+			<City Code="STL" DisplayName="St. Louis" />
+			<City Code="HDN" DisplayName="Steamboat/Hayden" />
+			<City Code="SUN" DisplayName="Sun Valley" />
+			<City Code="TPA" DisplayName="Tampa" />
+			<City Code="TEX" DisplayName="Telluride" />
+			<City Code="ZCY" DisplayName="The Canyons   " />
+			<City Code="TUS" DisplayName="Tucson" />
+			<City Code="EGE" DisplayName="Vail/Eagle" />
+			<City Code="YVR" DisplayName="Vancouver" />
+			<City Code="YYJ" DisplayName="Victoria" />
+			<City Code="ALW" DisplayName="Walla Walla" />
+			<City Code="DCA" DisplayName="Washington DC - Reagan National" />
+			<City Code="IAD" DisplayName="Washington DC - Dulles" />
+			<City Code="EAT" DisplayName="Wenatchee" />
+			<City Code="YWS" DisplayName="Whistler/Blackcomb" />
+			<City Code="QWP" DisplayName="Winter Park   " />
+			<City Code="ICT" DisplayName="Witchita" />
+			<City Code="YKM" DisplayName="Yakima" />
+		</HotelOnlyPackages>
+	</DestinationCities>
+	<IncompatibleCities>
+		<CityPair Origin="BUR" Destination="LAS" />
+		<CityPair Origin="LGB" Destination="LAS" />
+		<CityPair Origin="MMH" Destination="LAS" />
+		<CityPair Origin="ONT" Destination="LAS" />
+		<CityPair Origin="PHX" Destination="LAS" />
+		<CityPair Origin="PSP" Destination="LAS" />
+		<CityPair Origin="SNA" Destination="LAS" />
+		<CityPair Origin="SNA2" Destination="LAS" />
+		<CityPair Origin="TUS" Destination="LAS" />
+	</IncompatibleCities>
+</Vacations>

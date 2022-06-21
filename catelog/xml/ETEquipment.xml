@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ETEquipment>
+  <Equip Code="100" Name="Fokker 100" ShortName="" Link=""/>
+  <Equip Code="141" Name="British Aerospace 146-100" ShortName="BAe 146-100" Link=""/>
+  <Equip Code="142" Name="British Aerospace 146-200" ShortName="BAe 146-200" Link=""/>
+  <Equip Code="143" Name="British Aerospace 146-300" ShortName="BAe 146-300" Link=""/>
+  <Equip Code="146" Name="British Aerospace 146" ShortName="BAe 146" Link=""/>
+  <Equip Code="14F" Name="British Aerospace 146" ShortName="BAe 146" Link=""/>
+  <Equip Code="310" Name="Airbus A310" ShortName="" Link="airbus"/>
+  <Equip Code="312" Name="Airbus A310-200" ShortName="" Link="airbus"/>
+  <Equip Code="313" Name="Airbus A310-300" ShortName="" Link="airbus"/>
+  <Equip Code="318" Name="Airbus A318" ShortName="" Link="airbus"/>
+  <Equip Code="319" Name="Airbus A319" ShortName="" Link="airbus"/>
+  <Equip Code="320" Name="Airbus A320" ShortName="" Link="airbus"/>
+  <Equip Code="321" Name="Airbus A321" ShortName="" Link="airbus"/>
+  <Equip Code="32D" Name="Airbus A319" ShortName="" Link="airbus"/>
+  <Equip Code="32P" Name="Airbus A320" ShortName="" Link="airbus"/>
+  <Equip Code="32S" Name="Airbus A318/A319/320/321" ShortName="Airbus" Link="airbus"/>
+  <Equip Code="330" Name="Airbus A330" ShortName="" Link="airbus"/>
+  <Equip Code="332" Name="Airbus A330-200" ShortName="" Link="airbus"/>
+  <Equip Code="333" Name="Airbus A330-300" ShortName="" Link="airbus"/>
+  <Equip Code="340" Name="Airbus A340" ShortName="" Link="airbus"/>
+  <Equip Code="342" Name="Airbus A340-200" ShortName="" Link="airbus"/>
+  <Equip Code="343" Name="Airbus A340-300" ShortName="" Link="airbus"/>
+  <Equip Code="345" Name="Airbus A340-500" ShortName="" Link="airbus"/>
+  <Equip Code="346" Name="Airbus A340-600" ShortName="" Link="airbus"/>
+  <Equip Code="34C" Name="Airbus A340" ShortName="" Link="airbus"/>
+  <Equip Code="380" Name="Airbus A380" ShortName="" Link="airbus"/>
+  <Equip Code="388" Name="Airbus A380-800" ShortName="" Link="airbus"/>
+  <Equip Code="38F" Name="Airbus A380" ShortName="" Link="airbus"/>
+  <Equip Code="703" Name="Boeing 707" ShortName="" Link=""/>
+  <Equip Code="707" Name="Boeing 707/720B" ShortName="" Link=""/>
+  <Equip Code="70F" Name="Boeing 707" ShortName="" Link=""/>
+  <Equip Code="70M" Name="Boeing 707" ShortName="" Link=""/>
+  <Equip Code="717" Name="Boeing 717" ShortName="" Link=""/>
+  <Equip Code="721" Name="Boeing 727-100" ShortName="" Link=""/>
+  <Equip Code="722" Name="Boeing 727-200" ShortName="" Link=""/>
+  <Equip Code="727" Name="Boeing 727" ShortName="" Link=""/>
+  <Equip Code="72A" Name="Boeing 727-200" ShortName="" Link=""/>
+  <Equip Code="72B" Name="Boeing 727-100" ShortName="" Link=""/>
+  <Equip Code="72F" Name="Boeing 727" ShortName="" Link=""/>
+  <Equip Code="72M" Name="Boeing 727-100" ShortName="" Link=""/>
+  <Equip Code="72S" Name="Boeing 727-200" ShortName="" Link=""/>
+  <Equip Code="731" Name="Boeing 737-100" ShortName="" Link="737-100"/>
+  <Equip Code="732" Name="Boeing 737-200" ShortName="" Link="737-200"/>
+  <Equip Code="733" Name="Boeing 737-300" ShortName="" Link="737-300"/>
+  <Equip Code="734" Name="Boeing 737-400" ShortName="" Link="737-400"/>
+  <Equip Code="735" Name="Boeing 737-500" ShortName="" Link="737-500"/>
+  <Equip Code="736" Name="Boeing 737-600" ShortName="" Link="737-600"/>
+  <Equip Code="737" Name="Boeing 737" ShortName="" Link=""/>
+  <Equip Code="738" Name="Boeing 737-800" ShortName="" Link="737-800"/>
+  <Equip Code="739" Name="Boeing 737-900" ShortName="" Link="737-900"/>
+  <Equip Code="73A" Name="Boeing 737-200" ShortName="" Link="737-200"/>
+  <Equip Code="73B" Name="Boeing 737-700" ShortName="" Link="737-700"/>
+  <Equip Code="73C" Name="Boeing 737-300" ShortName="" Link="737-300"/>
+  <Equip Code="73F" Name="Boeing 737" ShortName="" Link=""/>
+  <Equip Code="73G" Name="Boeing 737-700" ShortName="" Link="737-700"/>
+  <Equip Code="73H" Name="Boeing 737-800" ShortName="" Link="737-800"/>
+  <Equip Code="73I" Name="Boeing 737-800" ShortName="" Link="737-800"/>
+  <Equip Code="73J" Name="Boeing 737-900" ShortName="" Link="737-900-er"/>
+  <Equip Code="73M" Name="Boeing 737-200" ShortName="" Link="737-200"/>
+  <Equip Code="73P" Name="Boeing 737-400" ShortName="" Link="737-400"/>
+  <Equip Code="73Q" Name="Boeing 737-400 Combi" ShortName="" Link="737-400"/>
+  <Equip Code="73R" Name="Boeing 737-700" ShortName="" Link="737-700"/>
+  <Equip Code="73S" Name="Boeing 737-200" ShortName="" Link="737-200"/>
+  <Equip Code="73W" Name="Boeing 737-700" ShortName="" Link="737-700"/>
+  <Equip Code="73X" Name="Boeing 737-200" ShortName="" Link="737-200"/>
+  <Equip Code="73Y" Name="Boeing 737-300" ShortName="" Link="737-300"/>
+  <Equip Code="7M9" Name="Boeing 737 MAX 9" ShortName="" Link="737-max-9"/>
+  <Equip Code="741" Name="Boeing 747-100" ShortName="" Link=""/>
+  <Equip Code="742" Name="Boeing 747-200" ShortName="" Link=""/>
+  <Equip Code="743" Name="Boeing 747-300" ShortName="" Link=""/>
+  <Equip Code="744" Name="Boeing 747-400" ShortName="" Link=""/>
+  <Equip Code="747" Name="Boeing 747" ShortName="" Link=""/>
+  <Equip Code="74C" Name="Boeing 747-200" ShortName="" Link=""/>
+  <Equip Code="74D" Name="Boeing 747-300" ShortName="" Link=""/>
+  <Equip Code="74E" Name="Boeing 747-400" ShortName="" Link=""/>
+  <Equip Code="74F" Name="Boeing 747" ShortName="" Link=""/>
+  <Equip Code="74H" Name="Boeing 747-800" ShortName="" Link=""/>
+  <Equip Code="74J" Name="Boeing 747-400" ShortName="" Link=""/>
+  <Equip Code="74L" Name="Boeing 747SP" ShortName="" Link=""/>
+  <Equip Code="74M" Name="Boeing 747" ShortName="" Link=""/>
+  <Equip Code="74P" Name="Boeing 747" ShortName="" Link=""/>
+  <Equip Code="74R" Name="Boeing 747SR" ShortName="" Link=""/>
+  <Equip Code="74S" Name="Boeing 747" ShortName="" Link=""/>
+  <Equip Code="74X" Name="Boeing 747-100/200-747SR" ShortName="Boeing 747" Link=""/>
+  <Equip Code="74Y" Name="Boeing 747-400" ShortName="" Link=""/>
+  <Equip Code="752" Name="Boeing 757-200" ShortName="" Link=""/>
+  <Equip Code="753" Name="Boeing 757-300" ShortName="" Link=""/>
+  <Equip Code="757" Name="Boeing 757" ShortName="" Link=""/>
+  <Equip Code="75F" Name="Boeing 757" ShortName="" Link=""/>
+  <Equip Code="75M" Name="Boeing 757" ShortName="" Link=""/>
+  <Equip Code="75T" Name="Boeing 757-300" ShortName="" Link=""/>
+  <Equip Code="75W" Name="Boeing 757-200" ShortName="" Link=""/>
+  <Equip Code="762" Name="Boeing 767-200" ShortName="" Link=""/>
+  <Equip Code="763" Name="Boeing 767-300" ShortName="" Link=""/>
+  <Equip Code="764" Name="Boeing 767-400" ShortName="" Link=""/>
+  <Equip Code="767" Name="Boeing 767" ShortName="" Link=""/>
+  <Equip Code="76F" Name="Boeing 767" ShortName="" Link=""/>
+  <Equip Code="76K" Name="Boeing 767" ShortName="" Link=""/>
+  <Equip Code="76P" Name="Boeing 767" ShortName="" Link=""/>
+  <Equip Code="76W" Name="Boeing 767-300" ShortName="" Link=""/>
+  <Equip Code="772" Name="Boeing 777-200" ShortName="" Link=""/>
+  <Equip Code="77L" Name="Boeing 777-200LR" ShortName="" Link=""/>
+  <Equip Code="773" Name="Boeing 777-300" ShortName="" Link=""/>
+  <Equip Code="777" Name="Boeing 777" ShortName="" Link=""/>
+  <Equip Code="77X" Name="Boeing 777" ShortName="" Link=""/>
+  <Equip Code="77W" Name="Boeing 777-300ER" ShortName="" Link=""/>
+  <Equip Code="787" Name="Boeing 787" ShortName="" Link=""/>
+  <Equip Code="783" Name="Boeing 787-3" ShortName="" Link=""/>
+  <Equip Code="788" Name="Boeing 787-8" ShortName="" Link=""/>
+  <Equip Code="789" Name="Boeing 787-9" ShortName="" Link=""/>
+  <Equip Code="8ET" Name="Boeing 737-800" ShortName="" Link="737-800"/>
+  <Equip Code="8EX" Name="Boeing 737-800" ShortName="" Link="737-800"/>
+  <Equip Code="8WX" Name="Boeing 737-800" ShortName="" Link="737-800"/>
+  <Equip Code="9WX" Name="Boeing 737-900" ShortName="" Link="737-900"/>
+  <Equip Code="A28" Name="Antonov 28" ShortName="" Link=""/>
+  <Equip Code="A40" Name="Antonov 140" ShortName="" Link=""/>
+  <Equip Code="A4F" Name="Antonov 124 Ruslan" ShortName="Antonov 124" Link=""/>
+  <Equip Code="AB3" Name="Airbus A300" ShortName="" Link=""/>
+  <Equip Code="AB4" Name="Airbus A300B2/B4/C4" ShortName="Airbus A300" Link=""/>
+  <Equip Code="AB6" Name="Airbus A300-600" ShortName="" Link=""/>
+  <Equip Code="ABB" Name="Airbus A300-600 ST Beluga" ShortName="Airbus A300" Link=""/>
+  <Equip Code="ABF" Name="Airbus A300" ShortName="" Link=""/>
+  <Equip Code="ABX" Name="Airbus A300B4/C4/F4" ShortName="Airbus A300" Link=""/>
+  <Equip Code="ABY" Name="Airbus A300-600" ShortName="" Link=""/>
+  <Equip Code="ACD" Name="ACD" ShortName="" Link=""/>
+  <Equip Code="ACP" Name="ACP" ShortName="" Link=""/>
+  <Equip Code="ACT" Name="ACT" ShortName="" Link=""/>
+  <Equip Code="ALM" Name="Ayres LM-200" ShortName="" Link=""/>
+  <Equip Code="AN4" Name="Antonov 24" ShortName="" Link=""/>
+  <Equip Code="AN6" Name="Antonov 26/30/32" ShortName="" Link=""/>
+  <Equip Code="AN7" Name="Antonov 72/74" ShortName="" Link=""/>
+  <Equip Code="ANF" Name="Antonov 12" ShortName="" Link=""/>
+  <Equip Code="APH" Name="Eurocopter Aerospatiale AS332 Super Puma" ShortName="Eurocopter" Link=""/>
+  <Equip Code="AR1" Name="Avro RJ100" ShortName="" Link=""/>
+  <Equip Code="AR7" Name="Avro RJ70" ShortName="" Link=""/>
+  <Equip Code="AR8" Name="Avro RJ85" ShortName="" Link=""/>
+  <Equip Code="ARJ" Name="Avro RJ" ShortName="" Link=""/>
+  <Equip Code="ARX" Name="Avro RJX" ShortName="" Link=""/>
+  <Equip Code="AT3" Name="Aerospatiale/Alenia ATR42-300-400" ShortName="ATR42-300-400" Link=""/>
+  <Equip Code="AT4" Name="ATR42...  Aerospatiale/Alenia ATR42" ShortName="" Link=""/>
+  <Equip Code="AT5" Name="Aerospatiale/Alenia ATR42-500" ShortName="ATR42-500" Link=""/>
+  <Equip Code="AT7" Name="Aerospatiale/Alenia ATR72" ShortName="ATR72" Link=""/>
+  <Equip Code="ATP" Name="British Aerospace ATP" ShortName="BAe ATP" Link=""/>
+  <Equip Code="ATR" Name="Aerospatiale/Alenia ATR42/72" ShortName="ATR42/72" Link=""/>
+  <Equip Code="AX1" Name="Avro RJX100" ShortName="" Link=""/>
+  <Equip Code="AX8" Name="Avro RJX80" ShortName="" Link=""/>
+  <Equip Code="B11" Name="British Aerospace One-Eleven/RomBac One-Eleven" ShortName="BAe One-Eleven" Link=""/>
+  <Equip Code="B12" Name="British Aerospace One-Eleven 200" ShortName="BAe One-Eleven" Link=""/>
+  <Equip Code="B13" Name="British Aerospace One-Eleven 300" ShortName="BAe One-Eleven" Link=""/>
+  <Equip Code="B14" Name="British Aerospace One-Eleven 400/475" ShortName="BAe One-Eleven" Link=""/>
+  <Equip Code="B15" Name="British Aerospace One-Eleven 500/RomBac One-Eleven 560" ShortName="BAe One-Eleven" Link=""/>
+  <Equip Code="B72" Name="Boeing 720B" ShortName="" Link=""/>
+  <Equip Code="BE1" Name="Beechcraft 1900/1900C/1900D Airliner (Turbo Prop)" ShortName="Beechcraft" Link=""/>
+  <Equip Code="BE2" Name="Beechcraft (twin piston engines)" ShortName="Beechcraft" Link=""/>
+  <Equip Code="BEC" Name="Beechcraft" ShortName="" Link=""/>
+  <Equip Code="BEH" Name="Beechcraft 1900D (Turbo Prop)" ShortName="Beech 1900D" Link=""/>
+  <Equip Code="BEP" Name="Beechcraft (single piston engine)" ShortName="Beechcraft" Link=""/>
+  <Equip Code="BES" Name="Beechcraft 1900/1900C (Turbo Prop)" ShortName="Beechcraft" Link=""/>
+  <Equip Code="BET" Name="Beechcraft (twin engine Turbo Prop+C229)" ShortName="Beechcraft" Link=""/>
+  <Equip Code="BH2" Name="Bell Helicopters" ShortName="Bell" Link=""/>
+  <Equip Code="BNI" Name="Britten-Norman BN-2A/B Islander (Prop)" ShortName="BN-2A/B" Link=""/>
+  <Equip Code="BNT" Name="Britten-Norman BN-2A Mk III Trislander (Prop)" ShortName="BN-2A" Link=""/>
+  <Equip Code="BUS" Name="Bus" ShortName="" Link=""/>
+  <Equip Code="C3S" Name="Boeing 737" ShortName="" Link=""/>
+  <Equip Code="CCJ" Name="Canadair Challenger" ShortName="Canadair" Link=""/>
+  <Equip Code="CCX" Name="Canadair Global Express" ShortName="Canadair" Link=""/>
+  <Equip Code="CD2" Name="Government Aircraft Factories Nomad N22B/N24A" ShortName="N22B/N24A" Link=""/>
+  <Equip Code="CHG" Name="Equipment Change" ShortName="" Link=""/>
+  <Equip Code="CL4" Name="Canadair CL-44" ShortName="" Link=""/>
+  <Equip Code="CN1" Name="Cessna (single piston engine)" ShortName="Cessna" Link=""/>
+  <Equip Code="CN2" Name="Cessna (twin piston engine)" ShortName="Cessna" Link=""/>
+  <Equip Code="CNA" Name="Cessna" ShortName="" Link=""/>
+  <Equip Code="CNC" Name="Cessna (single engine (Turbo Prop))" ShortName="Cessna" Link=""/>
+  <Equip Code="CNJ" Name="Cessna Citation" ShortName="Cessna" Link=""/>
+  <Equip Code="CNT" Name="Cessna (twin engine (Turbo Prop))" ShortName="Cessna" Link=""/>
+  <Equip Code="CR1" Name="Canadair 100/200" ShortName="" Link=""/>
+  <Equip Code="CR7" Name="Bombardier CRJ-700" ShortName="Bombardier CRJ-700" Link=""/>
+  <Equip Code="CR9" Name="Canadair 900" ShortName="" Link=""/>
+  <Equip Code="CRJ" Name="Bombardier CRJ" ShortName="Bombardier CRJ" Link=""/>
+  <Equip Code="CRV" Name="Caravelle Aerospatiale (Sud) SE210 Caravelle" ShortName="" Link=""/>
+  <Equip Code="CS2" Name="CASA/IPTN 212 Aviocar" ShortName="212 Aviocar" Link=""/>
+  <Equip Code="CS5" Name="CN-235 CASA/IPTN CN-235" ShortName="" Link=""/>
+  <Equip Code="CV4" Name="Convair 440 Prop" ShortName="Convair 440" Link=""/>
+  <Equip Code="CV5" Name="Convair 580 Turboprop" ShortName="Convair 580" Link=""/>
+  <Equip Code="CVF" Name="Convair 440/580/600/640 Prop" ShortName="Convair" Link=""/>
+  <Equip Code="CVR" Name="Convair 440/580 Prop/Turboprop" ShortName="Convair" Link=""/>
+  <Equip Code="CVX" Name="Convair 440 Convair 440 Prop" ShortName="" Link=""/>
+  <Equip Code="CVY" Name="Convair 580/600/640 Turboprop" ShortName="Convair" Link=""/>
+  <Equip Code="CWC" Name="Curtiss C-46 Commando Prop" ShortName="Curtiss C-46" Link=""/>
+  <Equip Code="D09" Name="McDonnell Douglas MD-83" ShortName="MD-83" Link=""/>
+  <Equip Code="D10" Name="McDonnell Douglas DC-10" ShortName="DC-10" Link=""/>
+  <Equip Code="D11" Name="McDonnell Douglas DC-10-10/15" ShortName="DC-10-10/15" Link=""/>
+  <Equip Code="D1C" Name="McDonnell Douglas DC-10-30/40" ShortName="DC-10-30/40" Link=""/>
+  <Equip Code="D1F" Name="McDonnell Douglas DC-10" ShortName="DC-10" Link=""/>
+  <Equip Code="D1M" Name="McDonnell Douglas DC-10" ShortName="DC-10" Link=""/>
+  <Equip Code="D28" Name="Fairchild Dornier 228" ShortName="Fairchild Dornier" Link=""/>
+  <Equip Code="D38" Name="Fairchild Dornier 328" ShortName="Fairchild Dornier" Link=""/>
+  <Equip Code="D3F" Name="Douglas DC-3" ShortName="DC-3" Link=""/>
+  <Equip Code="D6F" Name="Douglas DC-6A/B/C" ShortName="DC-6A/B/C" Link=""/>
+  <Equip Code="D68" Name="McDonnell Douglas DC-8" ShortName="DC-8" Link=""/>
+  <Equip Code="D8L" Name="McDonnell Douglas DC-8-62" ShortName="DC-8-62" Link=""/>
+  <Equip Code="D8M" Name="McDonnell Douglas DC-8" ShortName="DC-8" Link=""/>
+  <Equip Code="D8Q" Name="McDonnell Douglas DC-8-72" ShortName="DC-8-72" Link=""/>
+  <Equip Code="D8X" Name="McDonnell Douglas DC-8-50/61/62/63" ShortName="DC-8-50/61/62/63" Link=""/>
+  <Equip Code="D8Y" Name="McDonnell Douglas DC-8-71/72/73" ShortName="DC-8-71/72/73" Link=""/>
+  <Equip Code="D91" Name="McDonnell Douglas DC-9-10" ShortName="DC-9-10" Link=""/>
+  <Equip Code="D92" Name="McDonnell Douglas DC-9-20" ShortName="DC-9-20" Link=""/>
+  <Equip Code="D93" Name="McDonnell Douglas DC-9-30" ShortName="DC-9-30" Link=""/>
+  <Equip Code="D94" Name="McDonnell Douglas DC-9-40" ShortName="DC-9-40" Link=""/>
+  <Equip Code="D95" Name="McDonnell Douglas DC-9-50" ShortName="DC-9-50" Link=""/>
+  <Equip Code="D9F" Name="McDonnell Douglas DC-9" ShortName="DC-9" Link=""/>
+  <Equip Code="D9S" Name="McDonnell Douglas DC-9-30/40/50" ShortName="DC-9-30/40/50" Link=""/>
+  <Equip Code="DC3" Name="MDC Douglas DC-3 (Prop)" ShortName="DC-3" Link=""/>
+  <Equip Code="DC6" Name="MDC Douglas DC-6A/B (Prop)" ShortName="DC-6A/B" Link=""/>
+  <Equip Code="DC8" Name="McDonnell Douglas DC-8" ShortName="DC-8" Link=""/>
+  <Equip Code="DC9" Name="McDonnell Douglas DC-9" ShortName="DC-9" Link=""/>
+  <Equip Code="DF2" Name="Dassault (Breguet Mystere) Falcon 10/20/100/200/2000" ShortName="Falcon" Link=""/>
+  <Equip Code="DF3" Name="Falcon 50/900.. Dassault (Breguet Mystere) Falcon 50/900" ShortName="" Link=""/>
+  <Equip Code="DFL" Name="Dassault (Breguet Mystere) Falcon" ShortName="Falcon" Link=""/>
+  <Equip Code="DH1" Name="De Havilland DHC-8 Dash 8-100 (Turbo Prop)" ShortName="Dash 8-100" Link=""/>
+  <Equip Code="DH2" Name="De Havilland DHC-8 Dash 8-200 (Turbo Prop)" ShortName="Dash 8-200" Link=""/>
+  <Equip Code="DH3" Name="De Havilland DHC-8 Dash 8-300 (Turbo Prop)" ShortName="Dash 8-300" Link=""/>
+  <Equip Code="DH4" Name="Bombardier Q400 (Turbo Prop)" ShortName="Bombardier Q400" Link="q400"/>
+  <Equip Code="DH7" Name="De Havilland DHC-7 Dash 7 (Turbo Prop)" ShortName="Dash 7" Link=""/>
+  <Equip Code="DH8" Name="Bombardier Q200 (Turbo Prop)" ShortName="Bombardier Q200" Link=""/>
+  <Equip Code="DHB" Name="De Havilland DHC-2 Beaver/Turbo-Beaver (Prop / Turbo Prop)" ShortName="DHC-2 Beaver" Link=""/>
+  <Equip Code="DHC" Name="De Havilland DHC-4 Caribou (Prop)" ShortName="DHC-4 Caribou" Link=""/>
+  <Equip Code="DHD" Name="British Aerospace (De Havilland) Dove" ShortName="BAe Dove" Link=""/>
+  <Equip Code="DHH" Name="British Aerospace (De Havilland) Heron" ShortName="BAe Heron" Link=""/>
+  <Equip Code="DHL" Name="De Havilland DHC-3 Turbo Otter (Turbo Prop)" ShortName="DHC-3 Otter" Link=""/>
+  <Equip Code="DHO" Name="De Havilland DHC-3 Otter/Turbo Otter (Prop / Turbo Prop)" ShortName="DHC-3 Otter" Link=""/>
+  <Equip Code="DHP" Name="De Havilland DHC-2 Beaver (Prop)" ShortName="DHC-2 Beaver" Link=""/>
+  <Equip Code="DHD" Name="De Havilland DHC-2 Turbo-Beaver (Turbo Prop)" ShortName="DHC-2 Beaver" Link=""/>
+  <Equip Code="DHS" Name="De Havilland DHC-3 Otter (Prop)" ShortName="DHC-3 Otter" Link=""/>
+  <Equip Code="DHT" Name="De Havilland DHC-6 Twin Otter (Turbo Prop)" ShortName="DHC-3 Otter" Link=""/>
+  <Equip Code="EM2" Name="Embraer 120 Brasilia (Turbo Prop)" ShortName="EMB 120" Link=""/>
+  <Equip Code="EM7" Name="Embraer RJ170" ShortName="RJ170" Link=""/>
+  <Equip Code="E75" Name="Embraer E175" ShortName="" Link="e175"/>
+  <Equip Code="EM9" Name="Embraer RJ190" ShortName="RJ190" Link=""/>
+  <Equip Code="EMB" Name="Embraer 110 Bandeirante (Turbo Prop)" ShortName="EMB 110" Link=""/>
+  <Equip Code="EMJ" Name="Embraer RJ170/190" ShortName="RJ170/190" Link=""/>
+  <Equip Code="ER3" Name="Embraer RJ135" ShortName="RJ135" Link=""/>
+  <Equip Code="ER4" Name="Embraer RJ145" ShortName="RJ145" Link=""/>
+  <Equip Code="ERD" Name="Embraer RJ140" ShortName="RJ140" Link=""/>
+  <Equip Code="ERJ" Name="Embraer RJ135/145" ShortName="RJ135/145" Link=""/>
+  <Equip Code="F21" Name="Fokker F28 Fellowship 1000" ShortName="Fokker F28" Link=""/>
+  <Equip Code="F22" Name="Fokker F28 Fellowship 2000" ShortName="Fokker F28" Link=""/>
+  <Equip Code="F23" Name="Fokker F28 Fellowship 3000" ShortName="Fokker F28" Link=""/>
+  <Equip Code="F24" Name="Fokker F28 Fellowship 4000" ShortName="Fokker F28" Link=""/>
+  <Equip Code="F27" Name="Fokker F27 Friendship/Fairchild Industries F-27" ShortName="Fokker F27" Link=""/>
+  <Equip Code="F28" Name="Fokker F28-4000" ShortName="Fokker F28" Link=""/>
+  <Equip Code="F50" Name="Fokker 50 (Turbo Prop)" ShortName="Fokker 50" Link=""/>
+  <Equip Code="F70" Name="Fokker 70" ShortName="" Link=""/>
+  <Equip Code="FA7" Name="Fairchild Dornier 728JET" ShortName="Fairchild Dornier" Link=""/>
+  <Equip Code="FK7" Name="Fairchild Industries FH-227" ShortName="Fairchild" Link=""/>
+  <Equip Code="FRJ" Name="Fairchild Dornier 328JET" ShortName="Fairchild Dornier" Link=""/>
+  <Equip Code="GRG" Name="Grumman G-21 Goose" ShortName="G-21 Goose" Link=""/>
+  <Equip Code="GRJ" Name="Gulfstream Aerospace (Grumman) G-1159 Gulfstream II/III/IV/V" ShortName="G-1159" Link=""/>
+  <Equip Code="GRM" Name="Grumman G-73 Turbo Mallard" ShortName="G-73 Mallard" Link=""/>
+  <Equip Code="GRS" Name="Gulfstream Aerospace (Grumman) G-159 Gulfstream I" ShortName="G-159" Link=""/>
+  <Equip Code="H25" Name="British Aerospace (Hawker Siddeley) 125" ShortName="BAe 125" Link=""/>
+  <Equip Code="HEC" Name="Helio Courier" ShortName="" Link=""/>
+  <Equip Code="HOV" Name="Hovercraft" ShortName="" Link=""/>
+  <Equip Code="HS7" Name="British Aerospace (Hawker Siddeley) 748" ShortName="BAe 748" Link=""/>
+  <Equip Code="ICE" Name="Train (Inter-City Express)" ShortName="Train" Link=""/>
+  <Equip Code="I14" Name="Ilyushin 114" ShortName="" Link=""/>
+  <Equip Code="I93" Name="Ilyushin 96-300" ShortName="" Link=""/>
+  <Equip Code="I9F" Name="Ilyushin 96T" ShortName="" Link=""/>
+  <Equip Code="I9M" Name="Ilyushin 96M" ShortName="" Link=""/>
+  <Equip Code="IL6" Name="Ilyushin 62" ShortName="" Link=""/>
+  <Equip Code="IL7" Name="Ilyushin 76" ShortName="" Link=""/>
+  <Equip Code="IL8" Name="Ilyushin 18" ShortName="" Link=""/>
+  <Equip Code="IL9" Name="Ilyushin 96" ShortName="" Link=""/>
+  <Equip Code="ILW" Name="Ilyushin 86" ShortName="" Link=""/>
+  <Equip Code="J31" Name="British Aerospace Jetstream 31" ShortName="Jetstream 31" Link=""/>
+  <Equip Code="J32" Name="British Aerospace Jetstream 32" ShortName="Jetstream 32" Link=""/>
+  <Equip Code="J41" Name="British Aerospace Jetstream 41" ShortName="Jetstream 41" Link=""/>
+  <Equip Code="JST" Name="British Aerospace Jetstream 31/32/41" ShortName="Jetstream" Link=""/>
+  <Equip Code="JUS" Name="Junkers Ju52/3m" ShortName="Ju52/3m" Link=""/>
+  <Equip Code="K4A" Name="Boeing 747" ShortName="" Link=""/>
+  <Equip Code="L10" Name="Lockheed L-1011 TriStar" ShortName="L-1011" Link=""/>
+  <Equip Code="L11" Name="Lockheed L-1011-1/50/100/150/200/250 TriStar" ShortName="L-1011" Link=""/>
+  <Equip Code="L15" Name="Lockheed L-1011-500 TriStar" ShortName="L-1011" Link=""/>
+  <Equip Code="L1F" Name="Lockheed L-1011 TriStar" ShortName="L-1011" Link=""/>
+  <Equip Code="L49" Name="Lockheed L-1049 Super Constellation" ShortName="L-1049" Link=""/>
+  <Equip Code="L4T" Name="Let 410" ShortName="" Link=""/>
+  <Equip Code="LCH" Name="Launch/Boat" ShortName="" Link=""/>
+  <Equip Code="LMO" Name="Limousine" ShortName="" Link=""/>
+  <Equip Code="LOE" Name="Lockheed L-188 Electra (Turbo Prop)" ShortName="L-188 Electra" Link=""/>
+  <Equip Code="LOF" Name="Lockheed L-188 Electra (Turbo Prop)" ShortName="L-188 Electra" Link=""/>
+  <Equip Code="LOH" Name="Lockheed L-382 (L-100) Hercules" ShortName="L-382 Hercules" Link=""/>
+  <Equip Code="LOM" Name="Lockheed L-188 Electra (Turbo Prop)" ShortName="L-188 Electra" Link=""/>
+  <Equip Code="LRJ" Name="Learjet" ShortName="" Link=""/>
+  <Equip Code="M11" Name="McDonnell Douglas MD-11" ShortName="MD-11" Link=""/>
+  <Equip Code="M1F" Name="McDonnell Douglas MD-11" ShortName="MD-11" Link=""/>
+  <Equip Code="M1M" Name="McDonnell Douglas MD-11" ShortName="MD-11" Link=""/>
+  <Equip Code="M80" Name="Boeing MD-80" ShortName="" Link=""/>
+  <Equip Code="M81" Name="McDonnell Douglas MD-81" ShortName="MD-81" Link=""/>
+  <Equip Code="M82" Name="McDonnell Douglas MD-82" ShortName="MD-82" Link=""/>
+  <Equip Code="M83" Name="McDonnell Douglas MD-83" ShortName="MD-83" Link=""/>
+  <Equip Code="M87" Name="McDonnell Douglas MD-84" ShortName="MD-87" Link=""/>
+  <Equip Code="M88" Name="McDonnell Douglas MD-88" ShortName="MD-88" Link=""/>
+  <Equip Code="M90" Name="McDonnell Douglas MD-90" ShortName="MD-90" Link=""/>
+  <Equip Code="MBH" Name="Eurocopter (MBB) BO105" ShortName="Eurocopter" Link=""/>
+  <Equip Code="MD9" Name="MD Helicopters MD 900 Explorer" ShortName="MD 900 Explorer" Link=""/>
+  <Equip Code="MIH" Name="Mil Mi-8" ShortName="" Link=""/>
+  <Equip Code="MTL" Name="Train (Metroliner)" ShortName="Train" Link=""/>
+  <Equip Code="MU2" Name="Mitsubishi MU-2" ShortName="" Link=""/>
+  <Equip Code="ND2" Name="Aerospatiale (Nord) 262/Mohawk 298" ShortName="262/Mohawk 298" Link=""/>
+  <Equip Code="NDC" Name="Aerospatiale SN601 Corvette" ShortName="SN601" Link=""/>
+  <Equip Code="NDE" Name="Eurocopter (Aerospatiale) AS350 Ecureuil/AS355 Ecureuil 2" ShortName="AS350" Link=""/>
+  <Equip Code="NDH" Name="Eurocopter (Aerospatiale) SA365 Dauphin 2" ShortName="SA365" Link=""/>
+  <Equip Code="PA1" Name="Piper (single piston engine)" ShortName="Piper" Link=""/>
+  <Equip Code="PA2" Name="Piper (twin piston engines)" ShortName="Piper" Link=""/>
+  <Equip Code="PAG" Name="Piper" ShortName="" Link=""/>
+  <Equip Code="PAT" Name="Piper (twin turboprop engines)" ShortName="Piper" Link=""/>
+  <Equip Code="PL2" Name="Pilatus PC-12" ShortName="" Link=""/>
+  <Equip Code="PL6" Name="Pilatus PC-6 Turbo Porter" ShortName="Pilatus PC-6" Link=""/>
+  <Equip Code="PN6" Name="Partenavia P.68" ShortName="" Link=""/>
+  <Equip Code="RFS" Name="Road Feeder Service (Truck)" ShortName="Truck" Link=""/>
+  <Equip Code="S20" Name="Saab 2000" ShortName="" Link=""/>
+  <Equip Code="S58" Name="Sikorsky S-58T" ShortName="" Link=""/>
+  <Equip Code="S61" Name="Sikorsky S-61" ShortName="" Link=""/>
+  <Equip Code="S76" Name="Sikorsky S-76" ShortName="" Link=""/>
+  <Equip Code="S80" Name="Boeing MD-80" ShortName="" Link=""/>
+  <Equip Code="SF3" Name="Saab SF340A/340B" ShortName="" Link=""/>
+  <Equip Code="SH3" Name="Shorts 330" ShortName="" Link=""/>
+  <Equip Code="SH6" Name="Shorts 360" ShortName="" Link=""/>
+  <Equip Code="SHB" Name="Shorts SC-5 Belfast" ShortName="Shorts SC-5" Link=""/>
+  <Equip Code="SHS" Name="Shorts Skyvan" ShortName="" Link=""/>
+  <Equip Code="SSC" Name="Aerospatiale/British Aerospace Concorde" ShortName="Concorde" Link=""/>
+  <Equip Code="SWM" Name="Fairchild (Swearingen) Metro/Merlin/Expediter" ShortName="Fairchild" Link=""/>
+  <Equip Code="T20" Name="Tupolev 204" ShortName="" Link=""/>
+  <Equip Code="TAT" Name="Train (Auto Train)" ShortName="Train" Link=""/>
+  <Equip Code="TCM" Name="Train (Commuter Train)" ShortName="Train" Link=""/>
+  <Equip Code="TEE" Name="Train (Trans-Europe Express)" ShortName="Train" Link=""/>
+  <Equip Code="TGV" Name="Train (Train a Grand Vitesse)" ShortName="Train" Link=""/>
+  <Equip Code="THS" Name="Train (High Speed Train)" ShortName="Train" Link=""/>
+  <Equip Code="THT" Name="Train (Hotel Train)" ShortName="Train" Link=""/>
+  <Equip Code="TIC" Name="Train (Inter-City Train)" ShortName="Train" Link=""/>
+  <Equip Code="TRN" Name="Train" ShortName="" Link=""/>
+  <Equip Code="TSL" Name="Train (Sleeper Train)" ShortName="Train" Link=""/>
+  <Equip Code="TU3" Name="Tupolev 134" ShortName="" Link=""/>
+  <Equip Code="TU5" Name="Tupolev 154" ShortName="" Link=""/>
+  <Equip Code="VCV" Name="British Aerospace (Vickers) Viscount" ShortName="BAe Viscount" Link=""/>
+  <Equip Code="WWP" Name="Israel Aircraft Industries 1124 Westwind" ShortName="1124 Westwind" Link=""/>
+  <Equip Code="YK2" Name="Yakovlev 42" ShortName="" Link=""/>
+  <Equip Code="YK4" Name="Yakovlev 40" ShortName="" Link=""/>
+  <Equip Code="YN2" Name="Harbin Yunshuji Y12" ShortName="Yunshuji Y12" Link=""/>
+  <Equip Code="YN7" Name="Xian Yunshuji Y7" ShortName="Yunshuji Y7" Link=""/>
+  <Equip Code="YS1" Name="NAMC YS-11" ShortName="" Link=""/>
+  <AltCodes>
+    <AltCode Code="73M" Alt="737"/>
+    <AltCode Code="734" Alt="737"/>
+    <AltCode Code="73G" Alt="737"/>
+    <AltCode Code="739" Alt="737"/>
+    <AltCode Code="M80" Alt="MD80"/>
+    <AltCode Code="S80" Alt="MD80"/>
+  </AltCodes>
+  <PremiumSeats PCSellDate="2016-11-09">
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="734">      <!--Boeing 737-400-->
+      <SpecificSeats PremiumType="PREFERREDPLUS">6D,6E,6F,16A,16B,16C,16D,16E,16F,17A,17B,17C,17D,17E,17F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="73Q">      <!--Boeing 737-400 Combi-->
+      <SpecificSeats PremiumType="PREFERREDPLUS">17A,17B,17C,17D,17E,17F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="73B">      <!--Boeing 737-700-->
+      <SpecificSeats PremiumType="PREFERREDPLUS">6A,6B,6C,6D,6E,6F,17A,17F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="73G">      <!--Boeing 737-700-->
+      <SpecificSeats PremiumType="PREFERREDPLUS">6A,6B,6C,6D,6E,6F,17A,17F</SpecificSeats>
+      <SpecificSeats PremiumType="PREMIUMCLASS" StartTravelDate="2019-01-01" StartSellDate="2018-10-01">6A,6B,6C,6D,6E,6F,7A,7B,7C,7D,7E,7F,8A,8B,8C,8D,8E,8F,9A,9B,9C,9D,9E,9F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="738,739">      <!--Boeing 737-800 (738), Boeing 737-900 (739)-->
+      <SpecificSeats PremiumType="PREFERREDPLUS">6A,6B,6C,6D,6E,6F,16A,16B,16C,16D,16E,16F,17A,17B,17C,17D,17E,17F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="OO" AircraftCodes="E75" PremiumClassFlightDate="2017-01-05">      <!--Embraer RJ175 SkyWest operates as AS -->
+      <SpecificSeats PremiumType="PREFERREDPLUS">6A,6B,6C,6D,6E,6F,7A,7B,7C,7D,7E,7F,8A,8B,8C,8D,8E,8F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="QX" AircraftCodes="E75">      <!--Embraer RJ175 operated by QX -->
+      <SpecificSeats PremiumType="PREMIUMCLASS">6A,6B,6C,6D,6E,6F,7A,7B,7C,7D,7E,7F,8A,8B,8C,8D,8E,8F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="73H">      <!--Boeing 737-800 (73H)-->
+      <SpecificSeats PremiumType="PREMIUMCLASS">6A,6B,6C,6D,6E,6F,7A,7B,7C,7D,7E,7F,8A,8B,8C,8D,8E,8F,9A,9B,9C,9D,9E,9F,10A,10B,10C,10D,10E,10F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="73J">      <!--Boeing 737-900 (73J)-->
+      <SpecificSeats PremiumType="PREMIUMCLASS">6A,6B,6C,6D,6E,6F,7A,7B,7C,7D,7E,7F,8A,8B,8C,8D,8E,8F,9A,9B,9C,9D,9E,9F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="319">
+      <!--Airbus 319-->
+      <SpecificSeats PremiumType="PREMIUMCLASS">6A,6B,6C,6D,6E,6F,17A,17B,17C,17D,17E,17F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="320">
+      <!--Airbus 320-->
+      <SpecificSeats PremiumType="PREMIUMCLASS">6A,6B,6C,6D,6E,6F,16A,16B,16C,16D,16E,16F,17A,17B,17C,17D,17E,17F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="321">
+      <!--Airbus 321-->
+      <SpecificSeats PremiumType="PREMIUMCLASS">6A,6B,6C,6D,6E,6F,7A,7B,7C,7D,7E,7F,8A,8B,8C,8D,8E,8F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="AS" AircraftCodes="32S"><!--Airbus 319/320/321 pre-reconfigure -->
+      <SpecificSeats PremiumType="PREMIUMCLASS">6A,6B,6C,6D,6E,6F,16A,16B,16C,16D,16E,16F,17A,17B,17C,17D,17E,17F</SpecificSeats>
+    </Aircraft>
+
+    <!-- BEGIN: VX MCS Seats -->
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="VX" AircraftCodes="319">      <!--Airbus 319-->
+      <SpecificSeats PremiumType="MAINCABINSELECT">3A,3B,3C,3D,3E,3F,8A,8B,8C,8D,8E,8F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="VX" AircraftCodes="320">      <!--Airbus 320-->
+      <SpecificSeats PremiumType="PREMIUMCLASS">3A,3B,3C,3D,3E,3F,9A,9B,9C,9D,9E,9F,10A,10B,10C,10D,10E,10F</SpecificSeats>
+    </Aircraft>
+    <Aircraft MarketingCarrier="AS" OperatingCarrier="VX" AircraftCodes="321">      <!--Airbus 321-->
+      <SpecificSeats PremiumType="MAINCABINSELECT">3A,3B,3C,3D,3E,3F,4A,4B,4C,4D,4E,4F,5A,5B,5C,5D,5E,5F</SpecificSeats>
+    </Aircraft>
+    <!-- END: VX MCS Seats -->
+  </PremiumSeats>
+</ETEquipment>

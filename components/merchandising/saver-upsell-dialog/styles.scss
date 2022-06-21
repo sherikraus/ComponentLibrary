@@ -1,0 +1,233 @@
+@import '../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables';
+@import '../../../node_modules/@alaskaairux/webcorestylesheets/dist/essentials';
+@import '../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints';
+@import '../../../node_modules/@alaskaairux/webcorestylesheets/dist/componentSupport/table';
+
+:host {
+  font-family: var(--auro-font-family-default);
+}
+
+.header {
+  background-color: var(--auro-color-brand-atlas-400);
+  color: var(--auro-color-background-lightest);
+  padding: 2.625rem 19rem 2.625rem 2.625rem;
+  height: 180px;
+  box-sizing: border-box;
+  font-weight: normal;
+
+  .header-subtext {
+    padding: 0.5rem 0 0 0;
+    margin: 0;
+  }
+}
+
+.main-content {
+  padding: 1rem 18rem 1.5rem 2.625rem;
+}
+
+.auro_table {
+  margin-bottom: 0;
+
+  auro-icon {
+    height: 1.5rem;
+  }
+
+  thead {
+    border-bottom: unset;
+  }
+
+  th {
+    font-size: 1rem;
+    color: var(--auro-color-text-primary-on-dark);
+    text-align: center;
+    padding: 0;
+ 
+    &.fare {
+      padding: 0 0.5rem;
+      width: 20%;
+      min-width: 100px;
+      font-weight: bold;
+    }
+
+    &.saver {
+      color: #3596B4;
+    }
+    
+    &.main {
+      color: #2369A4;
+    }
+
+    .flex {
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: -webkit-flex;
+      height: 50px;
+      flex-direction: column;
+      justify-content: flex-end;
+    } 
+
+    .saver-border {
+      border-bottom: 2px solid #3596B4;
+      border-radius: 2px;
+    }
+  
+    .main-border {
+      border-bottom: 2px solid #2369A4;
+      border-radius: 2px;
+    }
+
+    .youSelected {
+      color: var(--auro-color-text-secondary-on-light);
+      white-space: nowrap;
+      font-size: 0.75rem;
+      line-height: 1rem;
+      font-weight: 400;
+      padding-bottom: 3px;
+    }
+  }
+
+  td {
+    padding: 1.125rem 0;
+
+    &.icon {
+      width: 2.5rem;
+      text-align: center;
+    }
+
+    &.key {
+      white-space: nowrap;
+      color: var(--auro-color-text-secondary-on-light);
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1rem;
+    }
+
+    &.value {
+      white-space: nowrap;
+      text-align: center;
+      color: var(--auro-color-text-secondary-on-light);
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1rem;
+    }
+  }
+}
+
+.cta-container {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  column-gap: 0.625rem;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+
+  .price-text {
+    color: var(--auro-color-text-link-on-light);
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 28px;
+    white-space: nowrap;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    
+    .price-subtext {
+      font-weight: normal;
+      line-height: 1.25rem;
+      font-size: 0.875rem;
+      
+      &.color--secondary {
+        color: var(--auro-color-text-secondary-on-light);
+      }
+    }
+  }
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--auro-color-border-disabled-on-light);
+  margin: 0 2.625rem;
+}
+
+.rules-container {
+  padding: 0.5rem 2.625rem;
+
+  .text-blue {
+    color: var(--auro-color-text-link-on-light);
+    font-weight: 400;
+  }
+  
+  .fine-print {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    color: var(--auro-color-text-secondary-on-light);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+  }
+}
+
+.img-container {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  position: absolute;
+  justify-content: flex-end;
+  overflow: hidden;
+  width: 100%;
+  top: 5rem;
+
+  .clipped {
+    width: 303px;
+    height: 404px;
+    border-radius: 202px;
+    position: relative;
+    object-fit: cover;
+    object-position: 40%;
+    right: -3rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    padding: 2.625rem;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .main-content {
+    padding-right: 2.625rem;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .header {
+    height: unset;
+  }
+  
+  .main-content {
+    padding: 0.5rem;
+  }
+
+  .auro_table {
+    overflow: hidden;
+  }
+  
+  .cta-container {
+    margin: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+
+    auro-button {
+      width: 100%;
+    }
+  }
+}

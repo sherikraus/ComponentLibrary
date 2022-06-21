@@ -1,0 +1,6 @@
+* @Alaska-Ecommerce/component-hanger
+/components/**
+/hooks/**
+/tests/**
+/icons/**
+/components/shared/** @Alaska-Ecommerce/component-hanger

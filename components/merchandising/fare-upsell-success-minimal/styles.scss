@@ -1,0 +1,37 @@
+:host {
+  font-family: var(--auro-font-family-default);
+  font-weight: 400;
+}
+
+.success-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--auro-color-border-disabled-on-light);
+  border-radius: 8px;
+  padding: var(--auro-size-lg);
+}
+
+.title {
+  vertical-align: bottom;
+  color: var(--auro-color-alert-notification-on-light);
+  font-size: var(--auro-text-heading-500-size-breakpoint-lg);
+  line-height: var(--auro-text-heading-500-height-breakpoint-lg);
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.subtitle {
+  vertical-align: bottom;
+  color: var(--auro-color-text-secondary-on-light);
+  font-size: var(--auro-text-heading-300-size);
+  line-height: var(--auro-text-heading-300-height);
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.success-icon {
+  color: var(--auro-color-alert-success-on-dark);
+  text-align: right;
+}

@@ -1,0 +1,48 @@
+<style>
+  h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+</style>
+
+<h1>Generic</h1>
+<fare-upsell-success></fare-upsell-success>
+
+<br/>
+
+<fare-upsell-success slim></fare-upsell-success>
+
+
+<h1>Saver to Main</h1>
+Custom Perks
+<fare-upsell-success>
+  <span slot="header">Your itinerary has been upgraded from Saver to Main.</span>
+  <li slot="perk">Earlier boarding and overhead bin access</li>
+  <li slot="perk">Flight changes and cancellations</li>
+  <li slot="perk">Elite Mileage Plan™ benefits</li>
+</fare-upsell-success>
+
+<br/>
+
+<fare-upsell-success slim>
+  <span slot="header">Your itinerary has been upgraded from Saver to Main.</span>
+</fare-upsell-success>
+
+
+<h1>Main to First</h1>
+Custom Perks and Custom Icons:
+<fare-upsell-success>
+  <span slot="header">Your itinerary has been upgraded from Main to First Class.</span>
+  <auro-icon slot="iconA" category="in-flight" name="boarding" customSize></auro-icon>
+  <auro-icon slot="iconB" category="in-flight" name="wine-and-spirits" customSize></auro-icon>
+  <auro-icon slot="iconC" category="in-flight" name="first-class-legroom" customSize></auro-icon>
+  <li slot="perk">Perk A</li>
+  <li slot="perk">Perk B</li>
+  <li slot="perk">Perk C</li>
+</fare-upsell-success>
+
+<br/>
+
+<fare-upsell-success slim>
+  <span slot="header">Your itinerary has been upgraded from Main to First Class.</span>
+</fare-upsell-success>

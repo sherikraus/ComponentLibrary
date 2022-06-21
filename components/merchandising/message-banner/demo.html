@@ -1,0 +1,41 @@
+<message-banner></message-banner>
+
+<message-banner>
+    <img slot="image" src="https://resource.alaskaair.net/-/media/Images/pathtopurchase/AS_Employee_Luggage" width="174"/>
+    <div slot="title">Updated title</div>
+    <p slot="message">We're waiving change and cancellation fees&mdash;including for our Saver fare&mdash;for all tickets purchased between now and June 30, 2020. </p>
+    <p slot="message">This allows flexible changes to your travel through February 28, 2021, and is valid for all destinations served by Alaska and Horizon. </p>                  
+    <p slot="message">
+        <auro-hyperlink href="https://www.alaskaair.com/content/advisories/travel-advisories?int=AS_HOMEADVISORY_-prodID:Awareness" target="_blank">See full terms for details.</auro-hyperlink>
+    </p>
+</message-banner>
+
+<message-banner>
+    <style>
+        message-banner > .message-item {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            margin: 12px 0px;
+        }
+
+        message-banner > .message-item.first {
+            margin-top: 4px;
+        }
+
+        message-banner > .message-item.last {
+            margin-bottom: 0px;
+        }
+    </style>
+    <div class="message-item first" slot="message">We're waiving change and cancellation fees&mdash;including for our
+        Saver fare&mdash;for all tickets purchased between now and June 30, 2020. </div>
+    <div class="message-item" slot="message">This allows flexible changes to your travel through February 28, 2021,
+        and is valid for all destinations served by Alaska and Horizon. </div>
+    <div class="message-item last" slot="message">
+        <auro-hyperlink
+            href="https://www.alaskaair.com/content/advisories/travel-advisories?int=AS_HOMEADVISORY_-prodID:Awareness"
+            target="_blank">See full terms for details.</auro-hyperlink>
+    </div>
+</message-banner>

@@ -1,0 +1,60 @@
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: componentlibrary-deployment
+spec:
+  selector:
+    matchLabels:
+      app: componentlibrary
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: componentlibrary
+    spec:
+      containers:
+      - name: componentlibrary        
+        image: aagacr.azurecr.io/p2p/componentlibrary:latest #This is replaced with buildid in pipeline
+        ports:
+        - name: admin
+          containerPort: 3000
+        resources:
+          limits:
+            cpu: 200m
+            memory: 800Mi
+          requests:
+            cpu: 100m
+            memory: 400Mi
+        
+---
+apiVersion: v1
+kind: Service
+metadata:  
+  name: componentlibrary-services
+spec:  
+  selector:
+    app: componentlibrary
+  ports:
+    - name: api
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
+---
+apiVersion: autoscaling/v2beta2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: componentlibrary-autoscaler
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: componentlibrary-deployment
+  minReplicas: 1
+  maxReplicas: 3
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50

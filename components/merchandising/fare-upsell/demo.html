@@ -1,0 +1,39 @@
+<style>
+  .container {
+    display: grid;
+    max-width: 934px;
+    row-gap: 1rem;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+</style>
+
+<div class="container">
+
+  <h1>Main to First</h1>
+
+  <fare-upsell first price="180" totalPrice="180" upgradeLink="#"></fare-upsell>
+  
+  <fare-upsell first price="280" totalPrice="560" upgradeLink="#" roundTrip luggage meal></fare-upsell>
+  
+  <fare-upsell first departures="IAH|LAX|LAX|IAH" loungeAd price="280" totalPrice="560" upgradeLink="#" roundTrip boarding ></fare-upsell>
+
+  <fare-upsell first departures="LAX|IAH|IAH|DFW" price="280" totalPrice="560" upgradeLink="#" roundTrip luggage></fare-upsell>
+  
+  <fare-upsell first departures="LAX|IAH|IAH|DFW" price="400" totalPrice="800" upgradeLink="#" luggage boarding meal>
+    <span slot="upsell-title">Unparalleled relaxation</span>
+    <span slot="sub-title">First class seats and service.</span>
+    <span slot="upgrade-cta">Upgrade to First Class</span>
+  </fare-upsell>
+  
+  <h1>Saver to Main</h1>
+  
+  <fare-upsell main price="20" totalPrice="20" upgradeLink="#"></fare-upsell>
+  
+  <fare-upsell main price="60" totalPrice="120" upgradeLink="#" roundTrip>
+    <span slot="upgrade-cta">Upgrade to Main</span>
+  </fare-upsell>
+
+</div>

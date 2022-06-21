@@ -1,0 +1,128 @@
+:host {
+  font-family: 'ASCircular-Medium', Helvetica Neue, Arial, sans-serif;
+  display: block;
+  clear: both;
+  font-size: 0.75rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 225px;
+  border: 1px solid var(--auro-color-brand-gray-200);
+  overflow: hidden; 
+  border-radius: 0.5rem;
+}
+
+.text-section {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-direction: column;
+  color: var(--auro-color-text-secondary-on-light);
+  
+  .header {
+    padding: 1.7rem 1.4rem 0 1.4rem;
+  }
+
+  .content {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    flex-direction: row;
+    padding: 0 1.4rem;
+
+    .content-items {
+      padding-left: 1.5rem;
+
+      .content-details{
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: -webkit-flex;
+        align-content: space-between;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+    }
+  }
+}
+
+.icon {
+  margin-right: 0.75rem;
+  height: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.check-icon {
+  color: var(--auro-color-brand-tropical-500);
+}
+
+.green-icon {
+  color: var(--auro-color-brand-tropical-400);
+} 
+
+.refundable {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  align-items: center;
+  place-content: center;
+  flex-direction: column;
+  padding: 2.25rem;
+  background-color: var(--auro-color-brand-atlas-100);
+  .price-container {
+    padding-bottom: 0.5rem;
+    text-align: center;
+    min-height: 4rem;
+
+    .total-price {
+      font-size: 1.625rem;
+      line-height: 1.75rem;
+      color: var(--auro-color-brand-atlas-500);
+    }
+
+    .text-secondary {
+      font-size: 0.75rem;
+      line-height: 1rem;
+      color: var(--auro-color-brand-atlas-500);
+    }
+  }
+}
+
+.no-break {
+  white-space: nowrap;
+}
+
+slot[name=title] {
+  color: var(--auro-color-text-primary-on-light);
+  font-size: 1.5rem;
+  font-weight: 500;
+  min-height: 1.75rem;
+  letter-spacing: -0.2px;
+  line-height: 1.75rem;
+  display: block;
+  padding-bottom: 0.5rem;
+}
+
+slot[name=sub-title] {
+  color: var(--auro-color-text-secondary-on-light);
+  font-size: 1rem;
+  font-weight: 400;
+  min-height: 1.25rem;
+  line-height: 1.25rem;
+  display: block;
+  padding-top: 0.75rem;
+
+  p{
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border: 1px solid var(--auro-color-brand-gray-200);
+    overflow: hidden; 
+    border-radius: 0.5rem;
+  }
+}

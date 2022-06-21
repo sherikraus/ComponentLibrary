@@ -1,0 +1,27 @@
+.tooltip{
+    width: 348px;
+    height: 235px;
+    padding: var(--auro-size-lg);
+    box-shadow: -2px 0px 5px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 5px 1px #00000014;
+
+    header{
+        margin-bottom: var(--auro-size-xs);
+        font-size: var(--auro-text-heading-400-px);
+        font-weight: 500;
+    }
+
+    main{
+        margin-bottom: var(--auro-size-xs);
+    }
+
+    hr{
+        border: 1px solid var(--auro-color-border-disabled-on-light);
+        margin-top: var(--auro-size-md);
+        margin-bottom: var(--auro-size-md);
+    }
+
+    footer{
+        float: right;
+    }
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ETRegions Version="1.0" Date="2002-12-10T08:19:30.447">
+	<Country Code="CA" Name="Canada">
+		<Region Code="AB" Name="Alberta" Type="R"/>
+		<Region Code="BC" Name="British Columbia" Type="R"/>
+		<Region Code="MB" Name="Manitoba" Type="R"/>
+		<Region Code="NB" Name="New Brunswick" Type="R"/>
+		<Region Code="NF" Name="Newfoundland" Type="R"/>
+		<Region Code="NT" Name="Northwest Territories" Type="T"/>
+		<Region Code="NS" Name="Nova Scotia" Type="R"/>
+		<Region Code="NU" Name="Nunavut" Type="T"/>
+		<Region Code="ON" Name="Ontario" Type="R"/>
+		<Region Code="PE" Name="Prince Edward Island" Type="R"/>
+		<Region Code="QC" Name="Quebec" Type="R"/>
+		<Region Code="SK" Name="Saskatchewan" Type="R"/>
+		<Region Code="YT" Name="Yukon Territory" Type="T"/>
+	</Country>
+	<Country Code="MX" Name="Mexico">
+		<Region Code="AGS" Name="Aguascalientes" Type="R"/>
+		<Region Code="BCN" Name="Baja California" Type="R"/>
+		<Region Code="BCS" Name="Baja California Sur" Type="R"/>
+		<Region Code="CAM" Name="Campeche" Type="R"/>
+		<Region Code="CHIS" Name="Chiapas" Type="R"/>
+		<Region Code="CHIH" Name="Chihuahua" Type="R"/>
+		<Region Code="COAH" Name="Coahuila" Type="R"/>
+		<Region Code="COL" Name="Colima" Type="R"/>
+		<Region Code="DF" Name="Distrito Federal" Type="R"/>
+		<Region Code="DGO" Name="Durango" Type="R"/>
+		<Region Code="GTO" Name="Guanajuato" Type="R"/>
+		<Region Code="GRO" Name="Guerrero" Type="R"/>
+		<Region Code="HGO" Name="Hidalgo" Type="R"/>
+		<Region Code="JAL" Name="Jalisco" Type="R"/>
+		<Region Code="MEX" Name="Mexico" Type="R"/>
+		<Region Code="MICH" Name="Michoacan" Type="R"/>
+		<Region Code="MOR" Name="Morelos" Type="R"/>
+		<Region Code="NAY" Name="Nayarit" Type="R"/>
+		<Region Code="NL" Name="Nuevo Leon" Type="R"/>
+		<Region Code="OAX" Name="Oaxaca" Type="R"/>
+		<Region Code="PUE" Name="Puebla" Type="R"/>
+		<Region Code="QRO" Name="Queretaro" Type="R"/>
+		<Region Code="QROO" Name="Quintana Roo" Type="R"/>
+		<Region Code="SLP" Name="San Luis Potosi" Type="R"/>
+		<Region Code="SIN" Name="Sinaloa" Type="R"/>
+		<Region Code="SON" Name="Sonora" Type="R"/>
+		<Region Code="TAB" Name="Tabasco" Type="R"/>
+		<Region Code="TAMPS" Name="Tamaulipas" Type="R"/>
+		<Region Code="TLAX" Name="Tlaxcala" Type="R"/>
+		<Region Code="VER" Name="Veracruz" Type="R"/>
+		<Region Code="YUC" Name="Yucatan" Type="R"/>
+		<Region Code="ZAC" Name="Zacatecas" Type="R"/>
+	</Country>
+	<Country Code="US" Name="United States">
+		<Region Code="AA" Name="AA - Armed Forces America" Type="M"/>
+		<Region Code="AE" Name="AE - Armed Forces Europe" Type="M"/>
+		<Region Code="AP" Name="AP - Armed Forces Pacific" Type="M"/>
+		<Region Code="AL" Name="Alabama" Type="R"/>
+		<Region Code="AK" Name="Alaska" Type="R"/>
+		<Region Code="AS" Name="American Samoa" Type="T"/>
+		<Region Code="AZ" Name="Arizona" Type="R"/>
+		<Region Code="AR" Name="Arkansas" Type="R"/>
+		<Region Code="CA" Name="California" Type="R"/>
+		<Region Code="CO" Name="Colorado" Type="R"/>
+		<Region Code="CT" Name="Connecticut" Type="R"/>
+		<Region Code="DE" Name="Delaware" Type="R"/>
+		<Region Code="DC" Name="District Of Columbia" Type="T"/>
+		<Region Code="FM" Name="Federated States Of Micronesia" Type="T"/>
+		<Region Code="FL" Name="Florida" Type="R"/>
+		<Region Code="GA" Name="Georgia" Type="R"/>
+		<Region Code="GU" Name="Guam" Type="T"/>
+		<Region Code="HI" Name="Hawaii" Type="R"/>
+		<Region Code="ID" Name="Idaho" Type="R"/>
+		<Region Code="IL" Name="Illinois" Type="R"/>
+		<Region Code="IN" Name="Indiana" Type="R"/>
+		<Region Code="IA" Name="Iowa" Type="R"/>
+		<Region Code="KS" Name="Kansas" Type="R"/>
+		<Region Code="KY" Name="Kentucky" Type="R"/>
+		<Region Code="LA" Name="Louisiana" Type="R"/>
+		<Region Code="ME" Name="Maine" Type="R"/>
+		<Region Code="MH" Name="Marshall Islands" Type="T"/>
+		<Region Code="MD" Name="Maryland" Type="R"/>
+		<Region Code="MA" Name="Massachusetts" Type="R"/>
+		<Region Code="MI" Name="Michigan" Type="R"/>
+		<Region Code="MN" Name="Minnesota" Type="R"/>
+		<Region Code="MS" Name="Mississippi" Type="R"/>
+		<Region Code="MO" Name="Missouri" Type="R"/>
+		<Region Code="MT" Name="Montana" Type="R"/>
+		<Region Code="NE" Name="Nebraska" Type="R"/>
+		<Region Code="NV" Name="Nevada" Type="R"/>
+		<Region Code="NH" Name="New Hampshire" Type="R"/>
+		<Region Code="NJ" Name="New Jersey" Type="R"/>
+		<Region Code="NM" Name="New Mexico" Type="R"/>
+		<Region Code="NY" Name="New York" Type="R"/>
+		<Region Code="NC" Name="North Carolina" Type="R"/>
+		<Region Code="ND" Name="North Dakota" Type="R"/>
+		<Region Code="MP" Name="Northern Mariana Islands" Type="T"/>
+		<Region Code="OH" Name="Ohio" Type="R"/>
+		<Region Code="OK" Name="Oklahoma" Type="R"/>
+		<Region Code="OR" Name="Oregon" Type="R"/>
+		<Region Code="PW" Name="Palau" Type="T"/>
+		<Region Code="PA" Name="Pennsylvania" Type="R"/>
+		<Region Code="PR" Name="Puerto Rico" Type="T"/>
+		<Region Code="RI" Name="Rhode Island" Type="R"/>
+		<Region Code="SC" Name="South Carolina" Type="R"/>
+		<Region Code="SD" Name="South Dakota" Type="R"/>
+		<Region Code="TN" Name="Tennessee" Type="R"/>
+		<Region Code="TX" Name="Texas" Type="R"/>
+		<Region Code="UT" Name="Utah" Type="R"/>
+		<Region Code="VT" Name="Vermont" Type="R"/>
+		<Region Code="VI" Name="Virgin Islands" Type="T"/>
+		<Region Code="VA" Name="Virginia" Type="R"/>
+		<Region Code="WA" Name="Washington" Type="R"/>
+		<Region Code="WV" Name="West Virginia" Type="R"/>
+		<Region Code="WI" Name="Wisconsin" Type="R"/>
+		<Region Code="WY" Name="Wyoming" Type="R"/>
+	</Country>
+</ETRegions>

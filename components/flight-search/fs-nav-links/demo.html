@@ -1,0 +1,46 @@
+<script>
+    function ClearAllSelections(){
+        var radio = document.getElementsByName("flight");
+        for(var i = 0; i < radio.length; i++){
+            radio[i].checked = false;
+        }
+    }
+    function ChangeAvailSearch(){
+        var search = document.getElementById("search");
+        if (search.style.display === "none") {
+            search.style.display = "inline";
+        }
+         else {
+            search.style.display = "none";
+        }
+    }
+</script>
+
+<div style="width: 25%; border-color: rgb(15, 15, 15); border-width: 1px; border-style: dashed; padding: 5px">
+    <div id="search" style="display: none">
+        <input type="text" placeholder="Flight Search..">
+    </div>
+<fs-nav-links></fs-nav-links>
+  <p>Please select your flight:</p>
+  <input type="radio" id="flight1" name="flight" value="30">
+  <label for="flight1">Seattle (SEA) to Walla Walla (ALW)</label><br>
+  <input type="radio" id="flight2" name="flight" value="60">
+  <label for="flight2">Seattle (SEA) to Los Angelas (LAX)</label><br>  
+  <input type="radio" id="flight3" name="flight" value="100">
+  <label for="flight3">Seattle (SEA) to Salt Lake City (SLC)</label>
+</div>
+
+<br />
+
+<script>
+    function OverrideClearAllSelections(){
+        console.log("ClearAllSelections prop overridden");
+        }
+    function OverrideChangeAvailSearch(){
+        console.log("ChangeAvailSearch prop overridden");
+    }
+</script>
+
+<div style="width: 25%; border-color: rgb(15, 15, 15); border-width: 1px; border-style: dashed; padding: 5px">
+    <fs-nav-links ChangeAvailSearch="javascript:OverrideChangeAvailSearch()" ClearAllSelections="javascript:OverrideClearAllSelections()" />
+</div>

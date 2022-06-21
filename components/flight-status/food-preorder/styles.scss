@@ -1,0 +1,58 @@
+@import "../../shared/auro.scss";
+
+:host{
+    font-family: var(--auro-font-family-default);
+  }
+    .upsellContainer {
+        background-color: #F9FBFC;
+        border-radius: 36px;
+        max-width: unset;
+        max-height: unset;
+
+        display: flex;
+        justify-content: space-evenly;
+        @include auro_breakpoint--md {
+            max-height: 355px;
+            max-width: 991px;
+            min-width: unset;
+            min-height: unset;
+          }
+    }
+    h3 {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      color: #222;
+      padding-bottom: 24px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      color: #626b79;
+      padding-bottom: 24px;
+    }
+    .imageContainer {
+      display: none;
+
+      @include auro_breakpoint--md {
+        max-width: 50%;
+        display: unset;
+      }
+    }
+    img {
+      position: relative;
+      top: -50px;
+      right: 17px;
+    }
+    .contentContainer {
+      max-width: unset;
+      padding: 16px;
+      @include auro_breakpoint--md {
+        max-width: 50%;
+        padding: unset;
+      }
+    }
+    auro-button {
+      padding-right: 24px;
+    }

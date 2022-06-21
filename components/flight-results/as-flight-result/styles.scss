@@ -1,0 +1,45 @@
+:host {
+    display: block;
+    font-size: 16px;
+    font-family: var(--auro-font-family-default);
+  }
+  .cell-container {
+    display: inline-block;
+    border: 1px solid var(--auro-color-border-disabled-on-light);
+    border-style: none none solid none;
+    text-align: left;
+    min-height: 110px;
+    width: 100%;
+  }
+  .segment-container {
+    vertical-align: top;
+  }
+  .result-bottom-row {
+    font-weight: var(--auro-text-body-default-weight);
+    font-size: 14px;
+    line-height: var(--auro-text-body-height-sm);
+    padding-top: var(--auro-size-xxs);
+    padding-bottom: var(--auro-size-xxs);
+    vertical-align: bottom;
+  }
+  .duration {
+    border: 1px solid var(--auro-color-border-disabled-on-light);
+    color: var(--auro-color-text-primary-on-light);
+    border-style: none solid none none;
+    padding-left: var(--auro-size-xxs);
+    padding-right: var(--auro-size-xs);
+  }
+  .details {
+    border: 1px solid var(--auro-color-border-disabled-on-light);
+    color: var(--auro-color-text-primary-on-light);
+    border-style: none solid none none;
+    padding-left: var(--auro-size-xxs);
+    padding-right: var(--auro-size-xxs);
+  }
+  .seat-preview {
+    padding-left: var(--auro-size-xs);
+  }
+  .footnote {
+    margin: 0;
+    color: var(--auro-color-text-secondary-on-light);
+  }

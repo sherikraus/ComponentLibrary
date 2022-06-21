@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralTravelerAdvisories>
+   <!-- DATA INSTRUCTIONS - question email Mike Weber at michael.weber@alaskaair.com
+        - <DisplayOrder> REQUIRED ... provides a way to sort multiple advisories displayed on the same page, integer.  leaving empty will set to 1000
+		- <Heading> ... provides a geo context for the advisory 
+		- <Links> REQUIRED if there are LINK elements
+		- <Link> ... provides a reference id and defines the properties used in HTML anchor tag 
+		- <Id> REQUIRED is there is a Link element
+		- <Url> REQUIRED is there is a Link element
+		- <Display> REQUIRED is there is a Link element
+        - <Start|EndDate> REQUIRED ... 
+            // ************* date expressions combinations supported ***********************
+            // reference start_date end_date   interpretation
+            // ********* ********** ********** *********************************************
+            //                                 - wildcard cases
+            // 1         *          1/20/2010     send out advisory until 1/20/2010
+            // 2         1/20/2010  *             send out advisory starting 1/20/2010
+            // 3         *          *             send out advisory always
+            //                                 - standard case
+            // 4         1/2/2010   1/20/2010     send out advisory if target date is 1/2/2010 or after until 1/20/2010
+            //                                 - annual repeating cases 
+            // 5         1/2/*      1/20/2010     send out advisory if target date is 1/2/(<=2010) or after until 1/20/2010
+            // 6         1/2/2012   1/20/*        send out advisory if target date is 1/2/2012 up to 1/20/(>=2012)
+            // 7         1/2/*      1/20/*        send out advisory if target date is from 1/2 up to 1/20 each year
+            //                                 - invalid cases
+            // 8         5/8/2012   4/20/2012     end date come before the start date
+            // 9         15/8/2012  4/35/2012     invalid end date or start date
+            // 10        1/*/2012   */3/2012      invalid month and/or day 
+            // 11        //2012     /             incomplete date
+		- <OperatingCarrierCodes> REQUIRED ... may be a single carrier code or comma delimited list or *
+        - <Origin|DestinationStations> REQUIRED ... may be a single station or comma delimited list or *
+        -   if * origin_station means all outbound flights
+        -   if * destination_station means all inbound flights
+        -   examples:
+        -      <origin_stations>  <destination_stations>   meaning
+        -      SUN                *                        all flights out of SUN
+        -      *                  SUN                      all flights into SUN
+        -      SUN                SUN                      special case: all flights in or out of SUN, only single station permitted - station list is invalid
+        -      GDL                MEX                      flights from GDL to MEX
+        -      GDL,MEX            GDL,MEX                  flights between GDL and MEX
+        -      *                  *                        all flights
+        - <Pages> REQUIRED ... limits the advisory to be displayed only on specific pages.  pass in one or a comma delimited string of values 
+		-   from the set of DISPLAY_ON_XXXX constants.  For developers, these string constants are defined in in the AlaskaAir.Data.ETInfo 
+		-   assembly, GeneralTravelerAdvisory class.
+        -	public static readonly string DISPLAY_ON_PAYMENT_PAGE = "PAYMENT";
+        -	public static readonly string DISPLAY_ON_CONFIRMATION_PAGE = "CONFIRMATION";
+        -	public static readonly string DISPLAY_ON_CONFIRMATION_LETTER = "CONFIRMATION_LETTER";
+        -	public static readonly string DISPLAY_ON_PRETRIP_LETTER = "PRETRIP_LETTER";
+        -	public static readonly string DISPLAY_ON_AIRPORT_GUIDE = "AIRPORT_GUIDE";
+        -   * pages value means no display restrictions
+        -   "PAYMENT" page means display the message only on the payment page.
+		-	"CONFIRMATION"
+		-	"CONFIRMATION_LETTER"
+		-	"PRETRIP_LETTER"
+		-	"AIRPORT_GUIDE"
+        - <Active> REQUIRED ... provides a way to turn the advisory on or off, valid values are t or f.  no value is treated as f.
+        - <Message> REQUIRED ... the advisory test.  Note embedded HTML has not been tested, ie., don't do it.  To embed a link placeholder use the 
+		-   syntax ##LINK_1##, where the number refers to the advisory Link Id value.  See the TestAdvisory message below for an example.
+		- Message text supports no-break attributes (usually used around phone numbers).
+		-   Use ##NOBR## for <nobr> (no-break start).
+		-   Use ##/NOBR## for </nobr> (no-break end).
+   -->
+   <!-- Developer Notes:
+   M39593, M46456, M46522
+   / start -->
+   <Advisories>
+   <GeneralTravelerAdvisory>
+      <DisplayOrder>1</DisplayOrder>
+      <Heading>TestAdvisory</Heading>
+	  <Links>
+		  <Link>
+			 <Id>1</Id>
+			 <Url>http://www.alaskaair.com/nolink1.aspx</Url>
+			 <Display>LINKDISPLAY1</Display>
+		  </Link>
+		  <Link>
+			 <Id>2</Id>
+			 <Url>http://www.alaskaair.com/nolink2.aspx</Url>
+			 <Display>LINKDISPLAY2</Display>
+		  </Link>
+	  </Links>
+      <StartDate>12/1/*</StartDate>
+      <EndDate>4/1/*</EndDate>
+	  <OperatingCarrierCodes>AS,QX,DL</OperatingCarrierCodes>
+      <OriginStations>SEA</OriginStations>
+      <DestinationStations>*</DestinationStations>
+      <Message>Test advisory message, for more info go to ##LINK_1## or you can go to ##LINK_2##.</Message>
+      <Pages>CONFIRMATION,CONFIRMATION_LETTER,AIRPORT_GUIDE</Pages>
+      <Active>f</Active>
+   </GeneralTravelerAdvisory>
+   
+   <GeneralTravelerAdvisory>
+      <DisplayOrder>1</DisplayOrder>
+      <Heading>Sun Valley</Heading>
+	  <Links>
+		  <Link>
+			 <Id></Id>
+			 <Url></Url>
+			 <Display></Display>
+		  </Link>
+	  </Links>
+      <StartDate>11/1/*</StartDate>
+      <EndDate>4/1/*</EndDate>
+	  <OperatingCarrierCodes>AS,QX</OperatingCarrierCodes>
+      <OriginStations>SUN</OriginStations>
+      <DestinationStations>SUN</DestinationStations>
+      <Message>At times severe weather does not permit us to fly into or out of Sun Valley. Please make sure to include a local Sun Valley contact number when you make your reservation so that we may better communicate with you during adverse weather.</Message>
+      <Pages>PAYMENT</Pages>
+      <Active>t</Active>
+   </GeneralTravelerAdvisory>
+   
+   <GeneralTravelerAdvisory>
+      <DisplayOrder>2</DisplayOrder>
+      <Heading>Sun Valley</Heading>
+	  <Links>
+		  <Link>
+			 <Id>1</Id>
+			 <Url>http://www.alaskaair.com/content/travel-info/before-your-trip/travel-tips/sun-valley-travel-advisory.aspx</Url>
+			 <Display>severe weather</Display>
+		  </Link>
+	  </Links>
+      <StartDate>11/1/*</StartDate>
+      <EndDate>4/1/*</EndDate>
+	  <OperatingCarrierCodes>AS,QX</OperatingCarrierCodes>
+      <OriginStations>SUN</OriginStations>
+      <DestinationStations>SUN</DestinationStations>
+      <Message>At times ##LINK_1## does not permit us to fly into or out of Sun Valley.  Call the Sun Valley Weather Hot Line six hours prior to your scheduled flight departure at ##NOBR##208-788-1281 (prompt 4)##/NOBR## for a recorded message regarding your flight.</Message>
+      <Pages>CONFIRMATION,CONFIRMATION_LETTER,PRETRIP_LETTER,AIRPORT_GUIDE</Pages>
+      <Active>t</Active>
+   </GeneralTravelerAdvisory>
+   <GeneralTravelerAdvisory>
+      <DisplayOrder>3</DisplayOrder>
+      <Heading>Guadalajara and Mexico City</Heading>
+	  <Links>
+		  <Link>
+			 <Id></Id>
+			 <Url></Url>
+			 <Display></Display>
+		  </Link>
+	  </Links>
+	  <StartDate>11/15/*</StartDate>
+      <EndDate>1/15/*</EndDate>
+	  <OperatingCarrierCodes>AS,QX</OperatingCarrierCodes>
+      <OriginStations>GDL,MEX</OriginStations>
+      <DestinationStations>GDL,MEX</DestinationStations>
+      <Message>Customers traveling to/from Guadalajara and Mexico City between November 15 and January 15, may check a maximum of two bags (up to 50lbs each) per passenger. Oversize, overweight, or additional bags will not be accepted.</Message>
+      <Pages>PAYMENT,CONFIRMATION,CONFIRMATION_LETTER,PRETRIP_LETTER,AIRPORT_GUIDE</Pages>
+      <Active>t</Active>
+   </GeneralTravelerAdvisory>
+   
+   <GeneralTravelerAdvisory>
+      <DisplayOrder>5</DisplayOrder>
+      <Heading>Santa Rosa</Heading>
+	  <Links>
+		  <Link>
+			 <Id></Id>
+			 <Url></Url>
+			 <Display></Display>
+		  </Link>
+	  </Links>
+      <StartDate>*</StartDate>
+      <EndDate>*</EndDate>
+	  <OperatingCarrierCodes>AS,QX</OperatingCarrierCodes>
+      <OriginStations>STS</OriginStations>
+      <DestinationStations>*</DestinationStations>
+      <Message>Traveling out of Santa Rosa, customers are allowed to check one box of wine (if properly packaged) for no additional fees.</Message>
+      <Pages>PAYMENT,CONFIRMATION,CONFIRMATION_LETTER,PRETRIP_LETTER</Pages>
+      <Active>t</Active>
+   </GeneralTravelerAdvisory>
+   
+   <GeneralTravelerAdvisory>
+      <DisplayOrder>6</DisplayOrder>
+      <Heading>Pasco</Heading>
+	  <Links>
+		  <Link>
+			 <Id></Id>
+			 <Url></Url>
+			 <Display></Display>
+		  </Link>
+	  </Links>
+      <StartDate>*</StartDate>
+      <EndDate>*</EndDate>
+	  <OperatingCarrierCodes>AS,QX</OperatingCarrierCodes>
+      <OriginStations>PSC</OriginStations>
+      <DestinationStations>*</DestinationStations>
+      <Message>Traveling out of Pasco, customers are allowed to check one box of wine (if properly packaged) for no additional fees.</Message>
+      <Pages>PAYMENT,CONFIRMATION,CONFIRMATION_LETTER,PRETRIP_LETTER</Pages>
+      <Active>t</Active>
+   </GeneralTravelerAdvisory>
+   
+   <GeneralTravelerAdvisory>
+      <DisplayOrder>7</DisplayOrder>
+      <Heading>Walla Walla</Heading>
+	  <Links>
+		  <Link>
+			 <Id></Id>
+			 <Url></Url>
+			 <Display></Display>
+		  </Link>
+	  </Links>
+      <StartDate>*</StartDate>
+      <EndDate>*</EndDate>
+	  <OperatingCarrierCodes>AS,QX</OperatingCarrierCodes>
+      <OriginStations>ALW</OriginStations>
+      <DestinationStations>*</DestinationStations>
+      <Message>Traveling out of Walla Walla, customers are allowed to check one box of wine (if properly packaged) for no additional fees.</Message>
+      <Pages>PAYMENT,CONFIRMATION,CONFIRMATION_LETTER,PRETRIP_LETTER</Pages>
+      <Active>t</Active>
+   </GeneralTravelerAdvisory>
+   
+   <GeneralTravelerAdvisory>
+      <DisplayOrder>8</DisplayOrder>
+      <Heading>Yakima</Heading>
+	  <Links>
+		  <Link>
+			 <Id></Id>
+			 <Url></Url>
+			 <Display></Display>
+		  </Link>
+	  </Links>
+      <StartDate>*</StartDate>
+      <EndDate>*</EndDate>
+	  <OperatingCarrierCodes>AS,QX</OperatingCarrierCodes>
+      <OriginStations>YKM</OriginStations>
+      <DestinationStations>*</DestinationStations>
+      <Message>Traveling out of Yakima, customers are allowed to check one box of wine (if properly packaged) for no additional fees.</Message>
+      <Pages>PAYMENT,CONFIRMATION,CONFIRMATION_LETTER,PRETRIP_LETTER</Pages>
+      <Active>t</Active>
+   </GeneralTravelerAdvisory>
+   
+      <GeneralTravelerAdvisory>
+      <DisplayOrder>9</DisplayOrder>
+      <Heading>Denver</Heading>
+	  <Links>
+		  <Link>
+			 <Id></Id>
+			 <Url></Url>
+			 <Display></Display>
+		  </Link>
+	  </Links>
+      <StartDate>5/30/2012</StartDate>
+      <EndDate>5/30/2013</EndDate>
+	  <OperatingCarrierCodes>*</OperatingCarrierCodes>
+      <OriginStations>DEN</OriginStations>
+      <DestinationStations>DEN</DestinationStations>
+      <Message>Due to construction, the Denver International Airport has temporary detours in and around the airport. Please allow extra travel time for your trip.</Message>
+      <Pages>PAYMENT,CONFIRMATION,CONFIRMATION_LETTER,PRETRIP_LETTER,AIRPORT_GUIDE</Pages>
+      <Active>t</Active>
+   </GeneralTravelerAdvisory> 
+   
+   </Advisories>
+</GeneralTravelerAdvisories>

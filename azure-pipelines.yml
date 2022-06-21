@@ -1,0 +1,394 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+name: 1.0$(Rev:.r)
+
+trigger:
+- main
+
+resources:
+  repositories:
+    - repository: self
+    - repository: devops-templates
+      type: git
+      name: SoftwareTransformation/DevOps
+      ref: refs/heads/master
+    - repository: constellate-templates
+      type: git
+      name: InnerSource/Constellate
+      ref: refs/heads/master
+  
+variables:
+- group: PipelineVariables
+- name: version
+  value: $(Build.BuildNumber)
+- name: SonarQubeProjectKeyAndName
+  value: 'ecomm_pathtopurchase-ComponentLibrary'
+- name: SonarQubeExtraProps
+  value: |  
+    sonar.verbose=true
+    sonar.log.level=debug               
+    sonar.sources=.
+    sonar.exclusions=**/tests/**,**/kube/**,**/*.conf.js
+    sonar.tests=.
+    sonar.test.inclusions=**/tests/**
+    sonar.test.exclusions=**/kube/**
+    sonar.javascript.lcov.reportPaths=coverage/lcov.info
+
+stages:
+- stage: Build
+  displayName: Build and Push
+  jobs:
+  - job: integrate
+    pool:
+      vmImage: 'ubuntu-latest'
+    displayName: Run tests and coverage
+    
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '12.x'
+        displayName: 'Install Node.js'
+    
+     # Add this SonarQube Template Before the Build 
+    - template: YAML/Builds/Security/SonarQubePrepareCLI.yml@devops-templates  # Template reference
+      parameters:
+        ProjectKey: '$(SonarQubeProjectKeyAndName)' 
+        ProjectName: '$(SonarQubeProjectKeyAndName)' 
+        Scannedsources: '.' 
+        ExtraProperties: '$(SonarQubeExtraProps)' 
+
+    - script: |
+        npm ci
+      displayName: 'npm ci'
+  
+    - script: |
+        npm run lint
+      displayName: 'npm lint check'
+
+    - script: |
+        npm run scssRender
+      displayName: 'npm lint scssRender'
+  
+    - script: |
+        npm run build
+      displayName: 'npm build'
+  
+    - script: |
+        npm run test
+      displayName: 'npm run test'
+      continueOnError: false
+  
+    - task: PublishTestResults@2
+      inputs:
+        testResultsFormat: 'JUnit'
+        testResultsFiles: 'tests/results/**/*.xml'
+        failTaskOnFailedTests: true
+      condition: always()
+
+    - publish: dist/
+      artifact: components
+    
+    # - template: YAML/Builds/PublishMarkdownToAzureBlob.yml@constellate-templates #Template reference
+
+
+    # Add this SonarQube Template After Build & Test
+    - template: YAML/Builds/Security/SonarQubeAnalyzeAndPublish.yml@devops-templates 
+      parameters:
+        ProjectKey: '$(SonarQubeProjectKeyAndName)'  
+        ProjectName: '$(SonarQubeProjectKeyAndName)'  
+  - job: publishTestNpm
+    displayName: 'publish alpha version $(version)-alpha'
+    dependsOn: integrate
+    condition: and(succeeded(), ne(variables['Build.SourceBranch'], 'refs/heads/main'))
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+      - task: NodeTool@0
+        inputs:
+          versionSpec: '12.x'
+        displayName: 'Install Node.js'
+      - script: |
+          npm i
+        displayName: 'npm install'
+      - script: |
+          npm run publish:prep
+        displayName: prepare publish
+      - task: Npm@1
+        inputs:
+          command: 'custom'
+          customCommand: 'version --commit-hooks false --git-tag-version false $(build.BuildNumber)-alpha'
+      - task: Npm@1
+        displayName: publish
+        inputs:
+          command: 'publish'
+          publishRegistry: 'useFeed'
+          publishFeed: 'a1bfb123-4b2a-4ecd-870a-206c496c1b33'
+  - job: publishNpm
+    displayName: 'publish version $(version)'
+    dependsOn: integrate
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+      - task: NodeTool@0
+        inputs:
+          versionSpec: '12.x'
+        displayName: 'Install Node.js'
+      - script: |
+          npm i
+        displayName: 'npm install'
+      - script: |
+          npm run publish:prep
+        displayName: prepare publish
+      - task: Npm@1
+        inputs:
+          command: 'custom'
+          customCommand: 'version --commit-hooks false --git-tag-version false $(build.BuildNumber)'
+      - task: Npm@1
+        displayName: publish
+        inputs:
+          command: 'publish'
+          publishRegistry: 'useFeed'
+          publishFeed: 'a1bfb123-4b2a-4ecd-870a-206c496c1b33'
+  - job: buildAndRelease
+    dependsOn: integrate
+    displayName: Build and publish Docker image
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+      - publish: .
+        artifact: Prepped
+      - template: YAML/Builds/Docker/DockerBuildAndPublish.yml@devops-templates  # Template reference
+        parameters:    
+          Name: "p2p/componentlibrary"
+          dockerimagename: 'p2p/componentlibrary'
+          dockerapppath: '$(System.DefaultWorkingDirectory)/'
+          dockerfile: '$(System.DefaultWorkingDirectory)/Dockerfile' 
+          dockerimagetag: '$(Build.BuildId)'
+      - publish: kube
+        artifact: releaseScript
+- stage: DeployTest
+  displayName: Deploy Test CH
+  condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
+  dependsOn: Build
+  jobs:
+  - deployment: Deploy
+    displayName: Deploy job
+    pool:
+      vmImage: 'ubuntu-latest'
+    environment: 'ecomm-test-aks-westus2.componentlibrary'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: KubernetesManifest@0
+            displayName: Deploy to Kubernetes cluster
+            inputs:
+              action: deploy
+              manifests: '$(Pipeline.Workspace)/releaseScript/deployment.yaml'
+              containers: 'aagacr.azurecr.io/p2p/componentlibrary:$(Build.BuildId)'
+          - task: KubernetesManifest@0
+            displayName: Deploy Ingress
+            inputs:
+              action: deploy
+              manifests: '$(Pipeline.Workspace)/releaseScript/ingress-test.yaml'              
+          - powershell: |
+              docker login -u "$(AagacrUser)" -p "$(AagacrKey)" aagacr.azurecr.io
+              docker pull aagacr.azurecr.io/p2p/componentlibrary:$(Build.BuildId) 
+              docker tag aagacr.azurecr.io/p2p/componentlibrary:$(Build.BuildId) aagacr.azurecr.io/p2p/componentlibrary:latest-test
+              docker push aagacr.azurecr.io/p2p/componentlibrary:latest-test
+            displayName: 'Docker tag latest-test'      
+- stage: DeployTestCDN
+  displayName: Deploy Test CDN
+  dependsOn: DeployTest
+  jobs:
+  - deployment: Deploy
+    displayName: Deploy job
+    pool:
+      vmImage: 'ubuntu-latest'
+    environment: 'pathtopurchase-test-aks.componentlibrary-test'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: AzureCLI@1
+            displayName: 'Deploy CDN'
+            inputs:
+              azureSubscription: 'pathtopurchasecontent-test-group-SPN'
+              scriptLocation: inlineScript
+              inlineScript: |
+                az storage blob upload-batch --account-name p2pcontentstortest -d components -s $(Pipeline.Workspace)/components --content-cache-control public,max-age=1800 --overwrite
+          - task: AzureCLI@1
+            displayName: 'Purge CDN Cache'
+            inputs:
+              azureSubscription: 'pathtopurchasecontent-test-group-SPN'
+              scriptLocation: inlineScript
+              inlineScript: |
+                az extension add --name front-door
+                az network front-door purge-endpoint --content-paths "/components/*" --name "p2pcontent-fd-test" --resource-group "pathtopurchasecontent-test-group"
+- stage: DeployQA
+  displayName: Deploy QA CH
+  dependsOn: Build
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - deployment: Deploy
+    displayName: Deploy job
+    pool:
+      vmImage: 'ubuntu-latest'
+    environment: 'ecomm-qa-aks-westus2.componentlibrary'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: KubernetesManifest@0
+            displayName: Deploy to Kubernetes cluster
+            inputs:
+              action: deploy
+              manifests: '$(Pipeline.Workspace)/releaseScript/deployment.yaml'
+              containers: 'aagacr.azurecr.io/p2p/componentlibrary:$(Build.BuildId)'
+          - task: KubernetesManifest@0
+            displayName: Deploy Ingress
+            inputs:
+              action: deploy
+              manifests: '$(Pipeline.Workspace)/releaseScript/ingress-qa.yaml'
+          - powershell: |
+              docker login -u "$(AagacrUser)" -p "$(AagacrKey)" aagacr.azurecr.io
+              docker pull aagacr.azurecr.io/p2p/componentlibrary:$(Build.BuildId) 
+              docker tag aagacr.azurecr.io/p2p/componentlibrary:$(Build.BuildId) aagacr.azurecr.io/p2p/componentlibrary:latest-qa
+              docker push aagacr.azurecr.io/p2p/componentlibrary:latest-qa
+            displayName: 'Docker tag latest-qa'
+          - task: AzureCLI@1
+            displayName: 'Deploy CDN'
+            inputs:
+              azureSubscription: 'pathtopurchasecontent-qa-group-SPN'
+              scriptLocation: inlineScript
+              inlineScript: |
+                az storage blob upload-batch --account-name p2pcontentstorqa -d components -s $(Pipeline.Workspace)/components --content-cache-control public,max-age=1800 --overwrite
+          - task: AzureCLI@1
+            displayName: 'Purge CDN Cache'
+            inputs:
+              azureSubscription: 'pathtopurchasecontent-qa-group-SPN'
+              scriptLocation: inlineScript
+              inlineScript: |
+                az extension add --name front-door
+                az network front-door purge-endpoint --content-paths "/components/*" --name "p2pcontent-fd-qa" --resource-group "pathtopurchasecontent-qa-group"
+- stage: DeployQACDN
+  displayName: Deploy QA CDN
+  dependsOn: DeployQA
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - deployment: Deploy
+    displayName: Deploy job
+    pool:
+      vmImage: 'ubuntu-latest'
+    environment: 'pathtopurchase-test-aks.componentlibrary-qa'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: AzureCLI@1
+            displayName: 'Deploy CDN'
+            inputs:
+              azureSubscription: 'pathtopurchasecontent-qa-group-SPN'
+              scriptLocation: inlineScript
+              inlineScript: |
+                az storage blob upload-batch --account-name p2pcontentstorqa -d components -s $(Pipeline.Workspace)/components --content-cache-control public,max-age=1800 --overwrite
+          - task: AzureCLI@1
+            displayName: 'Purge CDN Cache'
+            inputs:
+              azureSubscription: 'pathtopurchasecontent-qa-group-SPN'
+              scriptLocation: inlineScript
+              inlineScript: |
+                az extension add --name front-door
+                az network front-door purge-endpoint --content-paths "/components/*" --name "p2pcontent-fd-qa" --resource-group "pathtopurchasecontent-qa-group"
+- stage: DeployPROD
+  displayName: Deploy PROD CH
+  dependsOn: DeployQACDN
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - deployment: Deploy
+    displayName: Deploy job
+    pool:
+      vmImage: 'ubuntu-latest'
+    environment: 'ecomm-prod-aks-westus2.componentlibrary'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: KubernetesManifest@0
+            displayName: Deploy to Kubernetes cluster
+            inputs:
+              action: deploy
+              manifests: '$(Pipeline.Workspace)/releaseScript/deployment.yaml'
+              containers: 'aagacr.azurecr.io/p2p/componentlibrary:$(Build.BuildId)'
+          - task: KubernetesManifest@0
+            displayName: Deploy Ingress
+            inputs:
+              action: deploy
+              manifests: '$(Pipeline.Workspace)/releaseScript/ingress-prod.yaml'
+          - powershell: |
+              docker login -u "$(AagacrUser)" -p "$(AagacrKey)" aagacr.azurecr.io
+              docker pull aagacr.azurecr.io/p2p/componentlibrary:$(Build.BuildId) 
+              docker tag aagacr.azurecr.io/p2p/componentlibrary:$(Build.BuildId) aagacr.azurecr.io/p2p/componentlibrary:latest-prod
+              docker push aagacr.azurecr.io/p2p/componentlibrary:latest-prod
+            displayName: 'Docker tag latest-prod'
+- stage: DeployPRODCDN
+  displayName: Deploy PROD CDN
+  dependsOn: DeployPROD
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - deployment: Deploy
+    displayName: Deploy job
+    pool:
+      vmImage: 'ubuntu-latest'
+    environment: 'pathtopurchase-prod-aks.componentlibrary-prod'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: CherwellChangeRequest@1
+            displayName: 'Create Cherwell Change Request'
+            inputs:
+              SubscriptionKey: '$(APIMKey)'
+              Project: P2PContentServiceProdRelease
+              ExternalSystemId: 'P2PContentServiceProdRelease-$(Build.BuildId)'
+              StandardChangeTemplateRecId: 94598b2bf5c8acea3f28124022b5fe7b0f4460b921
+              DeployedBy: mtaleb
+              ReleaseNotes: |
+               ==========================
+               Standard Path to Purchase Content production release
+               ==========================
+               Build Definition Name: $(Build.DefinitionName)
+               Release ID: $(Build.BuildId)
+               Build Number: $(Build.BuildId)
+               Build Source Branch: $(Build.SourceBranchName)
+               
+               https://itsals.visualstudio.com/E_Sell_PathtoPurchase/_build/results?buildId=$(Build.BuildId)
+              RequesterFullName: 'Mustafa Taleb'
+              Email: 'mustafa.taleb@alaskaair.com'
+            continueOnError: true            
+          - task: AzureCLI@1
+            displayName: 'Deploy CDN'
+            inputs:
+              azureSubscription: 'pathtopurchasecontent-prod-group-SPN'
+              scriptLocation: inlineScript
+              inlineScript: |
+                az storage blob upload-batch --account-name p2pcontentstorprod -d components -s $(Pipeline.Workspace)/components --content-cache-control public,max-age=1800 --overwrite
+          - task: AzureCLI@1
+            displayName: 'Purge CDN Cache'
+            inputs:
+              azureSubscription: 'pathtopurchasecontent-prod-group-SPN'
+              scriptLocation: inlineScript
+              inlineScript: |
+                az extension add --name front-door
+                az network front-door purge-endpoint --content-paths "/components/*" --name "p2pcontent-fd-prod" --resource-group "pathtopurchasecontent-prod-group"
+          - task: CherwellChangeRequest@1
+            displayName: 'Complete Cherwell Change Request'
+            inputs:
+              action: 'Complete Change Request'
+              SubscriptionKey: '$(APIMKey)'
+              Project: P2PContentServiceProdRelease
+              ExternalSystemId: 'P2PContentServiceProdRelease-$(Build.BuildId)'
+            continueOnError: true

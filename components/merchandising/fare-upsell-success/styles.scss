@@ -1,0 +1,75 @@
+:host {
+  font-family: var(--auro-font-family-default);
+  font-weight: 400;
+}
+
+.main {
+  border-radius: var(--auro-border-radius);
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.26), 0px 2px 4px 1px rgba(0, 0, 0, 0.12);
+}
+
+.header {
+  text-align: center;
+  font-size: 20px; // var(--auro-text-heading-400-size);
+  line-height: 30px; // var(--auro-text-heading-400-height); // designed at 1.75rem;
+  color: var(--auro-color-text-primary-on-light);
+  margin: 0;
+  padding: 1.75rem;
+
+  // Background Confetti
+
+  .stronger {
+    font-size: 26px;
+  }
+}
+
+.content-container {
+  padding: 2px 0 3.75rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-evenly;
+  align-items: center;
+
+  @media (min-width: 720px) {
+    justify-content: center;
+    grid-column-gap: 3rem;
+  }
+}
+
+.icon-container {
+  border: 2px solid #0074CA;
+  border-radius: 45px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  @media (max-width: 480px) {
+    display: none;
+  }
+
+  auro-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  ::slotted(*) {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.details-container {
+  p {
+    margin: 0;
+    line-height: 1.625rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+    margin: 0;
+  }
+}
+

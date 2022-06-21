@@ -1,0 +1,55 @@
+<style>
+  h1 { 
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 18px;
+    border-top: 1px solid #f5f5f5;
+    margin-top: 1rem;
+  }
+</style>
+
+<h1>Revenue Flights</h1>
+
+<h3>Revenue Due</h3>
+<bundled-price-cell index="0" priceDifference="199.99"></bundled-price-cell>
+
+<h3>Revenue Credit</h3>
+<bundled-price-cell index="1" priceDifference="-30"></bundled-price-cell>
+
+<h3>Revenue Refund</h3>
+<bundled-price-cell index="1" priceDifference="-30" formOfPayment="Refund"></bundled-price-cell>
+
+<h3>Companion Fare (RC201) Due</h3>
+<bundled-price-cell index="4" priceDifference="250" companionFare></bundled-price-cell>
+
+<h3>Companion Fare (RC201) Credit</h3>
+<bundled-price-cell index="4" priceDifference="-99" companionFare></bundled-price-cell>
+
+<h3>Guest Pass >90 Days</h3>
+<bundled-price-cell index="5" priceDifference="24.95" disabled></bundled-price-cell>
+
+<h1>Award Flights</h1>
+
+<h3>Miles Due / Cash Due</h3>
+<bundled-price-cell index="2" priceDifference="5.60" milesDifference="12500">
+  <div slot="fareImages">[IMAGE]</div>
+</bundled-price-cell>
+
+<h3>Miles Due / Cash Credit</h3>
+<bundled-price-cell index="3" priceDifference="-5.00" milesDifference="5000"></bundled-price-cell>
+
+<h3>Miles Credit / Cash Due</h3>
+<bundled-price-cell index="3" priceDifference="3.50" milesDifference="-12500"></bundled-price-cell>
+
+<h3>Miles Credit / Cash Credit</h3>
+<bundled-price-cell index="3" priceDifference="-3.50" milesDifference="-12500"></bundled-price-cell>
+
+<h3>No Miles / No Cash Chanes</h3>
+<bundled-price-cell index="3" priceDifference="0" milesDifference="0"></bundled-price-cell>
+
+<h3>Miles Credit / No Cash Change</h3>
+<bundled-price-cell index="3" priceDifference="0" milesDifference="-5000"></bundled-price-cell>
+
+<h3>Miles Due / No Cash Change</h3>
+<bundled-price-cell index="3" priceDifference="0" milesDifference="5000"></bundled-price-cell>

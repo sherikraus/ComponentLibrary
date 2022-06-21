@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ETAirlines>
+    <Airlines>
+		<Airline Code="AA" ID="0" OperatedBy="AMERICAN AIRLINES" DisplayName="American" OperatedByName="American Airlines" ImageName="AA" Url="www.aa.com" />
+		<Airline Code="AC" ID="0" OperatedBy="AIR CANADA" DisplayName="Air Canada" OperatedByName="Air Canada" ImageName="" Url="www.aircanada.com" />
+		<Airline Code="AM" ID="0" OperatedBy="AEROMEXICO" DisplayName="Aeromexico" OperatedByName="Aeromexico" ImageName="AM" Url="www.aeromexico.com" />
+		<Airline Code="AN" ID="0" OperatedBy="HOP AIRLINAIR" DisplayName="HOP Airlinair" OperatedByName="HOP Airlinair" ImageName="" Url="" />
+		<Airline Code="AS" ID="0" OperatedBy="ALASKA AIRLINES" DisplayName="Alaska" OperatedByName="Alaska Airlines" ImageName="AS" Url="www.alaskaair.com" />
+		<Airline Code="AX" ID="0" OperatedBy="AMERICAN CONNECTION/TRANS STATES" DisplayName="Trans States" OperatedByName="American Connection/Trans States" ImageName="" Url="www.transstates.net" />
+		<Airline Code="AY" ID="0" OperatedBy="FINNAIR" DisplayName="Finnair" OperatedByName="Finnair" ImageName="AY" Url="www.finnair.com" />
+		<Airline Code="BA" ID="0" OperatedBy="BRITISH AIRWAYS" DisplayName="British Airways" OperatedByName="British Airways" ImageName="BA" Url="www.britishairways.com" />
+		<Airline Code="BA" ID="1" OperatedBy="BRITISH AIRWAYS BA LIMITED" DisplayName="British Airways" OperatedByName="British Airways" ImageName="BA" Url="www.britishairways.com" />
+		<Airline Code="BT" ID="0" OperatedBy="AIR BALTIC" DisplayName="airBaltic" OperatedByName="airBaltic" ImageName="" Url="" />
+		<Airline Code="CN" ID="0" OperatedBy="GRAND CHINA AIR" DisplayName="Grand China Air" OperatedByName="Grand China Air" ImageName="CN" Url="www.hainanairlines.com"/>
+		<Airline Code="CJ" ID="0" OperatedBy="CITY FLYER EXPRESS" DisplayName="City Flyer Express" OperatedByName="City Flyer Express" ImageName="" Url=""/>
+		<Airline Code="CO" ID="0" OperatedBy="CONTINENTAL AIRLINES" DisplayName="Continental" OperatedByName="Continental Airlines" ImageName="CO" Url="www.continental.com"/>
+		<Airline Code="CP" ID="0" OperatedBy="COMPASS AIRLINES" DisplayName="Compass Airlines" OperatedByName="Compass Airlines" ImageName="" Url="www.compassairline.com" />
+		<Airline Code="CP" ID="1" OperatedBy="COMPASS DBA DELTA CONNECTION" DisplayName="Compass Airlines" OperatedByName="Compass DBA Delta Connection" ImageName="" Url="www.compassairline.com" />
+		<Airline Code="CX" ID="0" OperatedBy="CATHAY PACIFIC AIRWAYS" DisplayName="Cathay" OperatedByName="Cathay Pacific" ImageName="CX" Url="www.cathaypacific.com" />
+		<Airline Code="DE" ID="0" OperatedBy="CONDOR" DisplayName="Condor" OperatedByName="Condor" ImageName="DE" Url="" />
+		<Airline Code="DB" ID="0" OperatedBy="HOP BRIT AIR" DisplayName="HOP Brit Air" OperatedByName="HOP Brit Air" ImageName="" Url="" />
+		<Airline Code="DH" ID="0" OperatedBy="ATLANTIC COAST" DisplayName="Atlantic Coast" OperatedByName="Atlantic Coast" ImageName=""/>
+		<Airline Code="DH" ID="1" OperatedBy="UNITED EXPRESS/ATLANTIC COAST" DisplayName="Atlantic Coast" OperatedByName="United Exp/Atlantic Coast" ImageName="" Url="" />
+		<Airline Code="DL" ID="0" OperatedBy="DELTA AIR LINES" DisplayName="Delta" OperatedByName="Delta Air Lines" ImageName="DL" Url="www.delta.com" />
+		<Airline Code="DL" ID="1" OperatedBy="DELTA AIR LINES INC" DisplayName="Delta" OperatedByName="Delta Air Lines" ImageName="DL" Url="www.delta.com" />
+		<Airline Code="DL" ID="2" OperatedBy="DELTA AS SONG" DisplayName="Delta" OperatedByName="Delta Air Lines as Song" ImageName="DL" Url="www.delta.com" />
+		<Airline Code="EC" ID="0" OperatedBy="OPENSKIES" DisplayName="Openskies" OperatedByName="Openskies" ImageName="" Url="" />
+		<Airline Code="EI" ID="0" OperatedBy="AER LINGUS" DisplayName="Aer Lingus" OperatedByName="Aer Lingus" ImageName="EI" Url="www.aerlingus.com" />
+		<Airline Code="EK" ID="0" OperatedBy="EMIRATES AIRLINES" DisplayName="Emirates" OperatedByName="Emirates" ImageName="EK" Url="www.emirates.com" />
+		<Airline Code="EV" ID="0" OperatedBy="ATLANTIC SOUTHEAST" DisplayName="Atlantic Southeast" OperatedByName="Atlantic Southeast" ImageName="EV" Url="www.expressjet.com" />
+		<Airline Code="EV" ID="1" OperatedBy="ASA DBA DELTA CONNECTION" DisplayName="Atlantic Southeast" OperatedByName="ExpressJet" ImageName="EV" Url="www.expressjet.com" />
+		<Airline Code="EV" ID="2" OperatedBy="EXPRESSJET AS AMERICAN EAGLE" DisplayName="Atlantic Southeast" OperatedByName="ExpressJet" ImageName="EV" Url="www.expressjet.com" />
+		<Airline Code="EZ" ID="0" OperatedBy="SUN AIR OF SCANDINAVIA" DisplayName="Sun Air of Scandanavia" OperatedByName="Sun Air of Scandanavia" ImageName="" Url="" />
+		<Airline Code="FI" ID="0" OperatedBy="ICELANDAIR" DisplayName="Icelandair" OperatedByName="Icelandair" ImageName="FI" Url="www.icelandair.com" />
+		<Airline Code="FJ" ID="0" OperatedBy="FIJI AIRWAYS" DisplayName="Fiji Airways" OperatedByName="Fiji Airways" ImageName="FJ" Url="www.fijiairways.com" />
+		<Airline Code="FJ" ID="1" OperatedBy="PACIFIC SUN" DisplayName="Fiji Airways" OperatedByName="Pacific Sun" ImageName="FJ" Url="www.fijiairways.com" />
+		<Airline Code="F8" ID="0" OperatedBy="FREEDOM AIRLINES" DisplayName="Freedom Airlines" OperatedByName="Freedom Airlines" ImageName="" Url="www.freedomairguam.com" />
+		<Airline Code="F8" ID="1" OperatedBy="FREEDOM DBA DELTA CONNECTION" DisplayName="Freedom Airlines" OperatedByName="Freedom DBA Delta Connection" ImageName="" Url="www.freedomairguam.com" />
+		<Airline Code="F9" ID="0" OperatedBy="FRONTIER AIRLINES" DisplayName="Frontier Airlines" OperatedByName="Frontier Airlines" ImageName="" Url="www.frontierairlines.com" />
+		<Airline Code="GQ" ID="0" OperatedBy="BIG SKY AIRLINES" DisplayName="Big Sky" OperatedByName="Big Sky Airlines" ImageName="" Url="" />
+		<Airline Code="G7" ID="0" OperatedBy="GOJET AIRLINES" DisplayName="GoJet Airlines" OperatedByName="GoJet Airlines" ImageName="" Url="" />
+		<Airline Code="G7" ID="1" OperatedBy="GOJET AIRLINES DBA DELTA CONNECTION" DisplayName="GoJet Airlines" OperatedByName="GoJet Airlines" ImageName="" Url="" />
+		<Airline Code="HA" ID="0" OperatedBy="HAWAIIAN AIRLINES" DisplayName="Hawaiian" OperatedByName="Hawaiian Airlines" ImageName="HA" Url="www.hawaiianairlines.com" />
+		<Airline Code="H6" ID="0" OperatedBy="HAGELAND AVIATION" DisplayName="HAGELAND AVIATION" OperatedByName="HAGELAND AVIATION" ImageName="" Url="www.flyera.com" />
+		<Airline Code="HU" ID="0" OperatedBy="HAINAN AIRLINES" DisplayName="Hainan Airlines" OperatedByName="Hainan Airlines" ImageName="HU" Url="www.hainanairlines.com" />		
+		<Airline Code="JQ" ID="0" OperatedBy="JETSTAR AIRWAYS" DisplayName="Jetstar Airways" OperatedByName="Jetstar Airways" ImageName="" Url="" />
+		<Airline Code="KE" ID="0" OperatedBy="KOREAN AIR" DisplayName="Korean" OperatedByName="Korean Air" ImageName="KE" Url="www.koreanair.com" />
+		<Airline Code="KS" ID="0" OperatedBy="PENAIR" DisplayName="PenAir" OperatedByName="PenAir" ImageName="KS" Url="www.penair.com" />
+		<Airline Code="LA" ID="0" OperatedBy="LAN AIRLINES" DisplayName="LAN" OperatedByName="LAN" ImageName="LA" Url="www.lan.com" />
+		<Airline Code="LH" ID="0" OperatedBy="LUFTHANSA" DisplayName="Lufthansa" OperatedByName="Lufthansa" ImageName="" Url="www.lufthansa.com" />
+		<Airline Code="LP" ID="0" OperatedBy="LAN PERU" DisplayName="LAN Peru" OperatedByName="LAN Peru" ImageName="LP" Url="www.lan.com" />
+		<Airline Code="MN" ID="0" OperatedBy="COMAIR SOUTH AFRICA" DisplayName="Comair (South Africa)" OperatedByName="Comair (South Africa)" ImageName="" Url="" />
+		<Airline Code="MQ" ID="0" OperatedBy="AMERICAN EAGLE" DisplayName="American Eagle" OperatedByName="American Eagle" ImageName="AA-Eagle" Url="www.aa.com" />
+		<Airline Code="MQ" ID="0" OperatedBy="ENVOY AIR AS AMERICAN EAGLE" DisplayName="Envoy Air" OperatedByName="Envoy Air as American Eagle" ImageName="AA-Eagle" Url="www.aa.com" />
+		<Airline Code="MT" ID="0" OperatedBy="THOMAS COOK AIRLINES" DisplayName="Thomas Cook Airlines" OperatedByName="Thomas Cook Airlines" ImageName="" Url="" />
+		<Airline Code="MX" ID="0" OperatedBy="MEXICANA DE AVIACION" DisplayName="Mexicana" OperatedByName="Mexicana de Aviacion"  ImageName="" Url="" />
+		<Airline Code="MW" ID="0" OperatedBy="MOKULELE AIRLINES" DisplayName="Mokulele Airlines" OperatedByName="Mokulele Airlines" ImageName="MW" Url="www.mokuleleairlines.com" />
+		<Airline Code="NC" ID="0" OperatedBy="QANTASLINK - NATIONAL JET SYSTEMS" DisplayName="Qantaslink - National Jet Systems" OperatedByName="Qantaslink - National Jet Systems" ImageName="" Url="" />
+		<Airline Code="NZ" ID="0" OperatedBy="AIR NEW ZEALAND" DisplayName="Air New Zealand" OperatedByName="Air New Zealand" ImageName="" Url="www.airnewzealand.com" />
+		<Airline Code="OH" ID="0" OperatedBy="COMAIR INC" DisplayName="Comair" OperatedByName="Comair" ImageName="" Url="www.comair.com/comair" />
+		<Airline Code="OH" ID="1" OperatedBy="COMAIR DBA DELTA CONNECTION" DisplayName="Comair" OperatedByName="Comair DBA Delta Connection" ImageName="" Url="www.comair.com/comair" />
+		<Airline Code="OO" ID="0" OperatedBy="SKYWEST AIRLINES" DisplayName="SkyWest" OperatedByName="SkyWest" ImageName="OO" Url="www.skywest.com" />
+		<Airline Code="OO" ID="1" OperatedBy="UNITED EXPRESS/SKYWEST" DisplayName="SkyWest" OperatedByName="United Exp/SkyWest" ImageName="OO" Url="www.skywest.com" />
+		<Airline Code="OO" ID="2" OperatedBy="SKYWEST DBA CONTINENTAL CONNECTION" DisplayName="SkyWest" OperatedByName="SkyWest/Continental Connection" ImageName="OO" Url="www.skywest.com" />
+		<Airline Code="OO" ID="3" OperatedBy="SKYWEST DBA DELTA CONNECTION" DisplayName="SkyWest" OperatedByName="SkyWest DBA Delta Connection" ImageName="OO" Url="www.skywest.com" />
+		<Airline Code="OO" ID="4" OperatedBy="SKYWEST DBA ALASKA" DisplayName="SkyWest" OperatedByName="SkyWest" ImageName="OO" Url="www.skywest.com" />
+		<Airline Code="OO" ID="5" OperatedBy="SKYWEST AIRLINES AS AMERICAN EAGLE" DisplayName="SkyWest" OperatedByName="SkyWest" ImageName="OO" Url="www.skywest.com" />
+		<Airline Code="OO" ID="6" OperatedBy="SKYWEST DBA UNITED EXPRESS" DisplayName="SkyWest" OperatedByName="SkyWest" ImageName="OO" Url="www.skywest.com" />
+		<Airline Code="OW" ID="0" OperatedBy="EXECUTIVE AIRLINES" DisplayName="Executive" OperatedByName="Executive Airlines" ImageName="" Url="www.executive-airlines.com" />
+		<Airline Code="OW" ID="1" OperatedBy="EXECUTIVE AS AMERICAN EAGLE" DisplayName="Executive" OperatedByName="Executive Airlines" ImageName="" Url="www.executive-airlines.com" />
+		<Airline Code="QF" ID="0" OperatedBy="QANTAS AIRWAYS" DisplayName="Qantas" OperatedByName="Qantas" ImageName="QF" Url="www.qantas.com"  />
+		<Airline Code="QF" ID="1" OperatedBy="JETCONNECT FOR QANTAS" DisplayName="JetConnect for Qantas" OperatedByName="JetConnect for Qantas" ImageName="QF" Url="www.qantas.com"  />
+		<Airline Code="QF" ID="2" OperatedBy="QANTASLINK - EASTERN AUSTRALIA" DisplayName="QantasLink - Eastern Australia" OperatedByName="QantasLink - Eastern Australia" ImageName="QF" Url="www.qantas.com"  />
+		<Airline Code="QX" ID="0" OperatedBy="HORIZON AIR" DisplayName="Horizon Air" OperatedByName="Horizon Air" ImageName="QX" Url="www.alaskaair.com" />
+		<Airline Code="QX" ID="1" OperatedBy="HORIZON AIRLINES" DisplayName="Horizon Air" OperatedByName="Horizon Air" ImageName="QX" Url="www.alaskaair.com" />
+		<Airline Code="RP" ID="0" OperatedBy="CHAUTAUQUA AIRLINES" DisplayName="Chautauqua" OperatedByName="Chautauqua Airlines" ImageName="" Url="www.rjet.com" />
+		<Airline Code="RP" ID="1" OperatedBy="AMERICAN CONNECTION/CHAUTAUQUA" DisplayName="Chautauqua" OperatedByName="American Connection/Chautauqua" ImageName="" Url="www.aa.com" />
+		<Airline Code="RP" ID="2" OperatedBy="CHAUTAUQUA AS AMERICAN CONN" DisplayName="Chautauqua" OperatedByName="Chautauqua As American Connection" ImageName="" Url="www.aa.com"/>
+		<Airline Code="RP" ID="3" OperatedBy="CHAUTAUQUA AS AMERICAN CONNECTION" DisplayName="Chautauqua" OperatedByName="Chautauqua As American Connection" ImageName="" Url="www.aa.com" />
+		<Airline Code="RP" ID="4" OperatedBy="CHAUTAUQUA DBA DELTA CONNECTION" DisplayName="Chautauqua" OperatedByName="Chautauqua DBA Delta Connection" ImageName="" Url="www.delta.com" />
+		<Airline Code="SK" ID="0" OperatedBy="SCANDINAVIAN AIRLINES" DisplayName="Scandinavian Airlines" OperatedByName="Scandinavian Airlines" ImageName="" Url="www.flysas.com" />
+		<Airline Code="SQ" ID="0" OperatedBy="SINGAPORE AIRLINES" DisplayName="Singapore Airlines" OperatedByName="Singapore Airlines" ImageName="SQ" Url="www.singaporeair.com" />
+		<Airline Code="S5" ID="0" OperatedBy="SHUTTLE AMERICA" DisplayName="Shuttle America" OperatedByName="Shuttle America" ImageName="" Url="www.rjet.com" />
+		<Airline Code="TZ" ID="0" OperatedBy="AMERICAN TRANS AIR" DisplayName="ATA" OperatedByName="American Trans Air"  ImageName="" Url="www.airtran.com" />
+		<Airline Code="UA" ID="0" OperatedBy="UNITED AIRLINES" DisplayName="United" OperatedByName="United Airlines" ImageName="" Url="www.united.com" />
+		<Airline Code="UA" ID="1" OperatedBy="UNITED FOR TED" DisplayName="United for Ted" OperatedByName="United for Ted" ImageName="" Url="www.united.com" />
+		<Airline Code="US" ID="0" OperatedBy="US AIRWAYS" DisplayName="US Airways" OperatedByName="US Airways" ImageName="" Url="www.usairways.com" />
+		<Airline Code="WA" ID="0" OperatedBy="KLM CITYHOPPER" DisplayName="KLM Cityhopper" OperatedByName="KLM Cityhopper" ImageName="" Url="" />
+		<Airline Code="WP" ID="0" OperatedBy="ISLAND AIR" DisplayName="Island Air" OperatedByName="Island Air" ImageName="" Url="www.islandair.com" />
+		<Airline Code="WS" ID="0" OperatedBy="WestJet" DisplayName="WestJet" OperatedByName="WestJet" ImageName="50x20_westjet_logo" Url="www.westjet.com" />
+		<Airline Code="WX" ID="0" OperatedBy="CITY JET" DisplayName="City Jet" OperatedByName="City Jet" ImageName="" Url="" />
+		<Airline Code="XE" ID="0" OperatedBy="EXPRESSJET DBA DELTA CONNECTION" DisplayName="ExpressJet" OperatedByName="ExpressJet" ImageName="" Url="www.expressjet.com" />		
+		<Airline Code="XJ" ID="0" OperatedBy="MESABA" DisplayName="Mesaba" OperatedByName="Mesaba Aviation" ImageName="" Url="www.mesaba.com" />
+		<Airline Code="XL" ID="0" OperatedBy="LANECUADOR" DisplayName="LAN Ecuador" OperatedByName="LAN Ecuador" ImageName="" Url="" />
+		<Airline Code="XY" ID="0" OperatedBy="REPUBLIC AIRLINES" DisplayName="Republic Airlines" OperatedByName="Republic Airlines" ImageName="" Url="" />
+		<Airline Code="XY" ID="1" OperatedBy="REPUBLIC AIRLINES AS AMERICAN EAGLE" DisplayName="Republic Airlines" OperatedByName="Republic Airlines" ImageName="" Url="" />
+		<Airline Code="YS" ID="0" OperatedBy="HOP REGIONAL" DisplayName="HOP Regional" OperatedByName="HOP Regional" ImageName="" Url="" />
+		<Airline Code="YV" ID="0" OperatedBy="UNKNOWN" DisplayName="Mesa Airlines" OperatedByName="Mesa Airlines" ImageName="" Url="www.united.com" />
+		<Airline Code="YV" ID="1" OperatedBy="UNITED EXPRESS/MESA" DisplayName="Mesa" OperatedByName="United Exp/Mesa" ImageName="" Url="www.united.com" />
+		<Airline Code="YV" ID="2" OperatedBy="MESA AIRLINES DBA GO MOKULELE" DisplayName="Mesa" OperatedByName="Mesa Airlines DBA GO Mokulele" ImageName="" Url="www.mesa-air.com" />
+		<Airline Code="ZW" ID="0" OperatedBy="UNITED EXPRESS/AWAC" DisplayName="Air Wisconsin" OperatedByName="United Exp/AWAC" ImageName="" Url="www.airwis.com" />
+		<Airline Code="ZV" ID="0" OperatedBy="AIR MIDWEST" DisplayName="Air Midwest" OperatedByName="Air Midwest" ImageName="" Url="" />
+		<Airline Code="0A" ID="0" OperatedBy="EXPRESSJET AIRLINES" DisplayName="Continental Express" OperatedByName="ExpressJet Airlines DBA Co Express" ImageName="" Url="www.united.com" />
+		<Airline Code="0A" ID="1" OperatedBy="EXPRESSJET FOR CONTINENTAL AIRLINES" DisplayName="Continental Express" OperatedByName="ExpressJet Airlines DBA Co Express" ImageName="" Url="www.united.com" />
+		<Airline Code="0A" ID="2" OperatedBy="/EXPRESSJET AIRLINES/CO EXPRESS" DisplayName="Continental Express" OperatedByName="ExpressJet Airlines DBA Co Express" ImageName="" Url="www.united.com" />
+		<Airline Code="0B" ID="0" OperatedBy="COMMUTAIR" DisplayName="Continental Connection" OperatedByName="CommutAir DBA Continental Connection" ImageName="" Url="www.commutair.com" />
+		<Airline Code="0C" ID="0" OperatedBy="MOKULELE AIRLINES DBA GO!EXPRESS" DisplayName="GO!Express" OperatedByName="Mokulele Airlines DBA GO!Express" ImageName="go_express" Url="www.mesa-air.com" />
+		<Airline Code="0D" ID="0" OperatedBy="MESA AIRLINES DBA GO!" DisplayName="GO!" OperatedByName="Mesa Airlines DBA GO!" ImageName="mesa_go" Url="www.mesa-air.com" />
+		<Airline Code="0D" ID="1" OperatedBy="MESA AIRLINES FOR GO!" DisplayName="GO!" OperatedByName="Mesa Airlines DBA GO!" ImageName="mesa_go" Url="www.mesa-air.com" />
+		<Airline Code="2F" ID="0" OperatedBy="FRONTIER FLYING SERVICE" DisplayName="FRONTIER FLYING SERVICE" OperatedByName="FRONTIER FLYING SERVICE" ImageName="" Url="www.flyera.com" />
+		<Airline Code="3C" ID="0" OperatedBy="AMERICAN CONNECTION/CORPORATE" DisplayName="American Connection" OperatedByName="American Connection/Corporate" ImageName="" Url="" />
+		<Airline Code="3M" ID="0" OperatedBy="GULFSTREAM" DisplayName="Gulfstream" OperatedByName="Gulfstream DBA Continental Connection" ImageName="" Url="/www.gulfstreamair.com" />
+		<Airline Code="4M" ID="0" OperatedBy="LANARGENTINA" DisplayName="LAN Argentina" OperatedByName="LAN Argentina" ImageName="" Url="" />
+		<Airline Code="5D" ID="0" OperatedBy="AEROLITORAL" DisplayName="Aerolitoral" OperatedByName="Aerolitoral" ImageName="" Url="" />
+		<Airline Code="5D" ID="1" OperatedBy="AEROLITORAL AEROMEXICO CONNECT" DisplayName="Aerolitoral" OperatedByName="Aerolitoral" ImageName="" Url="" />
+		<Airline Code="7H" ID="0" OperatedBy="RAVN ALASKA" DisplayName="Ravn Alaska" OperatedByName="Ravn Alaska" ImageName="7H" Url="www.flyera.com" />
+		<Airline Code="7H" ID="1" OperatedBy="ERA AVIATION" DisplayName="Era Aviation" OperatedByName="Era Aviation" ImageName="7H" Url="www.flyera.com" />
+		<Airline Code="9E" ID="0" OperatedBy="PINNACLE AIRLINES" DisplayName="Pinnacle" OperatedByName="Pinnacle Airlines" ImageName="" Url="http://www.flypinnacle.com" />
+		<Airline Code="9E" ID="1" OperatedBy="NORTHWEST AIRLINK" DisplayName="Pinnacle" OperatedByName="Pinnacle Airlines Jet/NW Airlink" ImageName="" Url="www.delta.com" />
+		<Airline Code="9E" ID="2" OperatedBy="PINNACLE DBA NW AIRLINK" DisplayName="Pinnacle" OperatedByName="Pinnacle Airlines Jet/NW Airlink" ImageName="" Url="www.delta.com" />
+		<Airline Code="9E" ID="3" OperatedBy="PINNACLE DBA DELTA AIR LINES" DisplayName="Pinnacle" OperatedByName="Pinnacle Airlines DBA Delta Air Lines" ImageName="" Url="www.delta.com" />
+		<Airline Code="9E" ID="4" OperatedBy="PINNACLE DBA NORTHWEST AIRLINK" DisplayName="Pinnacle" OperatedByName="Pinnacle Airlines Jet/NW Airlink" ImageName="" Url="www.delta.com" />
+		<Airline Code="9E" ID="5" OperatedBy="PINNACLE DBA DELTA CONNECTION" DisplayName="Pinnacle" OperatedByName="Pinnacle DBA Delta Connection" ImageName="" Url="www.delta.com" />
+		<Airline Code="9K" ID="0" OperatedBy="CAPE AIR DBA CONTINENTAL CONNECTION" DisplayName="Cape Air" OperatedByName="Cape Air DBA Continental Connection" ImageName="" Url="www.united.com" />
+		<Airline Code="VX" ID="0" OperatedBy="VIRGIN AMERICA" DisplayName="Virgin America" OperatedByName="Virgin America" ImageName="VX" Url="" />
+		<Airline Code="JL" ID="0" OperatedBy="JAPAN AIRLINES" DisplayName="Japan Airlines" OperatedByName="Japan Airlines" ImageName="JL" Url="" />
+    <Airline Code="LY" ID="0" OperatedBy="EL AL" DisplayName="El Al" OperatedByName="El Al" ImageName="LY" Url="www.elal.com" />
+    </Airlines>
+	<RequiredMarketingAirlines>
+		<Airline Code = "AS"/>
+	</RequiredMarketingAirlines>
+	<MarketingAirlineData>
+		<!-- OLA carriers should be in alphabetical order (based on display name - see above) of the carrier's OperatedByName property, with AS always first.
+			This is how they are displayed on the availability page. -->
+		<MarketingAirline Code="AS" Revenue="true" OLA="true" OLABookingDays="331">
+			<SubContractors>
+				<SubContractor Code="AA"/>
+				<SubContractor Code="AX"/>
+				<SubContractor Code="CO"/>
+				<SubContractor Code="CP"/>
+				<SubContractor Code="DH"/>
+				<SubContractor Code="DL"/>
+				<SubContractor Code="EV"/>
+				<SubContractor Code="F8"/>
+				<SubContractor Code="GQ"/>
+				<SubContractor Code="KS" OLA="true"/>
+				<SubContractor Code="MQ"/>
+				<SubContractor Code="OO" OLA="true"/>
+				<SubContractor Code="OH"/>
+				<SubContractor Code="OW"/>
+				<SubContractor Code="QF"/>
+				<SubContractor Code="QX" OLA="true"/>
+				<SubContractor Code="RP"/>
+				<SubContractor Code="S5"/>
+				<SubContractor Code="VX" OLA="true"/>
+				<SubContractor Code="XE"/>
+				<SubContractor Code="XJ"/>
+				<SubContractor Code="XY"/>
+				<SubContractor Code="YV"/>
+				<SubContractor Code="ZW"/>
+				<SubContractor Code="0A"/>
+				<SubContractor Code="0B"/>
+				<SubContractor Code="3C"/>
+				<SubContractor Code="3M"/>
+				<SubContractor Code="7H" OLA="true"/>
+				<SubContractor Code="9E"/>
+				<SubContractor Code="9K"/>
+			</SubContractors>
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="A"/>
+				<ClassOfService Class="F"/>
+				<ClassOfService Class="U"/>
+				<ClassOfService Class="D"/>
+				<ClassOfService Class="P"/>
+				<ClassOfService Class="I"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="AM" Revenue="false" OLA="false" OLABookingDays="331">
+			<SubContractors>
+				<SubContractor Code="5D" OLA="true"/>
+			</SubContractors>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="C"/>
+				<ClassOfService Class="O"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="AA" Revenue="true" OLA="true" OLABookingDays="331">
+			<SubContractors>
+				<SubContractor Code="AX"/>
+				<SubContractor Code="CO"/>
+				<SubContractor Code="DH"/>
+				<SubContractor Code="DL"/>
+				<SubContractor Code="EV"/>
+				<SubContractor Code="GQ"/>
+				<SubContractor Code="HA"/>
+				<SubContractor Code="MQ" OLA="true"/>
+				<SubContractor Code="OH"/>
+				<SubContractor Code="OO"/>
+				<SubContractor Code="OW" OLA="true"/>
+				<SubContractor Code="RP"/>
+				<SubContractor Code="XE"/>
+				<SubContractor Code="XJ"/>
+				<SubContractor Code="XY"/>
+				<SubContractor Code="YV"/>
+				<SubContractor Code="ZW"/>
+				<SubContractor Code="0A"/>
+				<SubContractor Code="0B"/>
+				<SubContractor Code="3C"/>
+				<SubContractor Code="3M"/>
+				<SubContractor Code="9E"/>
+				<SubContractor Code="9K"/>
+			</SubContractors>
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="A"/>
+				<ClassOfService Class="F"/>
+				<ClassOfService Class="P"/>
+				<ClassOfService Class="Z"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="D"/>
+				<ClassOfService Class="I"/>
+				<ClassOfService Class="J"/>
+				<ClassOfService Class="U"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="BA" Revenue="false" OLA="true" OLABookingDays="331">
+			<SubContractors>
+				<SubContractor Code="CJ" OLA="true"/>
+				<SubContractor Code="EZ" OLA="true"/>
+				<SubContractor Code="MN" OLA="true"/>
+				<SubContractor Code="EC" OLA="true"/>
+			</SubContractors>
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="Z"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="U"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Premium Economy">
+				<ClassOfService Class="P"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="CX" Revenue="false" OLA="false" OLAPricing="true" OLABookingDays="331">
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="Z"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="U"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Premium Economy">
+				<ClassOfService Class="T"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="DE" Revenue="false" OLA="true" OLABookingDays="331">
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="I"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Premium Economy">
+				<ClassOfService Class="A"/>
+			</ClassesOfService>
+		</MarketingAirline>		
+		<MarketingAirline Code="DL" Revenue="true" OLA="false" OLABookingDays="331">
+			<SubContractors>
+				<SubContractor Code="AA"/>
+				<SubContractor Code="AX"/>
+				<SubContractor Code="CO"/>
+				<SubContractor Code="CP" OLA="true"/>
+				<SubContractor Code="DH"/>
+				<SubContractor Code="DL"/>
+				<SubContractor Code="EV" OLA="true"/>
+				<SubContractor Code="F8"/>
+				<SubContractor Code="GQ"/>
+				<SubContractor Code="G7" OLA="true"/>
+				<SubContractor Code="HA"/>
+				<SubContractor Code="MQ"/>
+				<SubContractor Code="OH"/>
+				<SubContractor Code="OO" OLA="true"/>
+				<SubContractor Code="OW"/>
+				<SubContractor Code="RP" OLA="true"/>
+				<SubContractor Code="S5" OLA="true"/>
+				<SubContractor Code="XE"/>
+				<SubContractor Code="XJ"/>
+				<SubContractor Code="XY"/>
+				<SubContractor Code="YV"/>
+				<SubContractor Code="ZW"/>
+				<SubContractor Code="0A"/>
+				<SubContractor Code="0B"/>
+				<SubContractor Code="3C"/>
+				<SubContractor Code="3M"/>
+				<SubContractor Code="9E" OLA="true"/>
+				<SubContractor Code="9K"/>
+			</SubContractors>
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="A"/>
+				<ClassOfService Class="F"/>
+				<ClassOfService Class="G"/>
+				<ClassOfService Class="R"/>
+				<ClassOfService Class="P"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="C"/>
+				<ClassOfService Class="D"/>
+				<ClassOfService Class="I"/>
+				<ClassOfService Class="J"/>
+				<ClassOfService Class="O"/>
+				<ClassOfService Class="X"/>
+				<ClassOfService Class="Z"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="EI" Revenue="false" OLA="true" OLABookingDays="331">
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="U"/>
+				<ClassOfService Class="I"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="EK" Revenue="false" OLA="true" OLABookingDays="331" MarriedSegReissueRules="true">
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="Z"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="D"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="FJ" Revenue="false" OLA="true" OLABookingDays="331">
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="U"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="AY" Revenue="false" OLA="true" OLABookingDays="331">
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="U"/>
+			</ClassesOfService>
+		</MarketingAirline> 		
+		<MarketingAirline Code="HU" Revenue="false" OLA="true" OLABookingDays="331">
+			<SubContractors>				
+				<SubContractor Code="CN" OLA="true"/>	
+			</SubContractors>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="J"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="P"/>				
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="FI" Revenue="false" OLA="true" OLABookingDays="331">
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="Z"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="JL" Revenue="false" OLA="true" OLABookingDays="325">
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="Z"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="U"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Premium Economy">
+				<ClassOfService Class="P"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="KE" Revenue="false" OLA="true" OLABookingDays="331">
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="O"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="HA" Revenue="true" OLA="false">
+			<SubContractors>
+				<SubContractor Code="MQ"/>
+			</SubContractors>
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="A"/>
+				<ClassOfService Class="D"/>
+				<ClassOfService Class="F"/>
+				<ClassOfService Class="J"/>
+				<ClassOfService Class="P"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="LA" Revenue="false" OLA="true" OLAPricing="true" OLABookingDays="331">
+			<SubContractors>
+				<SubContractor Code="LP" OLA="true"/>
+				<SubContractor Code="XL" OLA="true"/>
+				<SubContractor Code="4M" OLA="true"/>
+			</SubContractors>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="U"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="KS" Revenue="false" OLA="true" OLABookingDays="331"/>
+		<MarketingAirline Code="QF" Revenue="true" OLA="true" OLABookingDays="331">
+			<SubContractors>
+				<SubContractor Code="NC" OLA="true"/>
+			</SubContractors>
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="P"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="U"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Premium Economy">
+				<ClassOfService Class="Z"/>
+			</ClassesOfService>
+		</MarketingAirline>
+		<MarketingAirline Code="7H" Revenue="true" OLA="true" OLABookingDays="331">
+		</MarketingAirline> 		
+		<MarketingAirline Code="SQ" Revenue="false" OLA="true" OLABookingDays="331">
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="O"/>
+			</ClassesOfService>
+			<ClassesOfService Cabin="Business">
+				<ClassOfService Class="I"/>
+			</ClassesOfService>
+		</MarketingAirline> 
+		<MarketingAirline Code="VX" Revenue="true" OLA="true" OLABookingDays="330">
+			<ClassesOfService Cabin="First">
+				<ClassOfService Class="J"/>
+				<ClassOfService Class="K"/>
+			</ClassesOfService>
+		</MarketingAirline>
+	</MarketingAirlineData>
+  <OperationalDisclosureReplacements>
+    <Replacement replace="Dba" with="as" />
+    <Replacement replace="As" with="as" />
+    <Replacement replace="Penair" with="PenAir" />
+    <Replacement replace="Expressjet" with="ExpressJet" />
+    <Replacement replace="horizon" with="Horizon" />
+    <Replacement replace="skywest" with="SkyWest" />
+    <Replacement replace="Skywest" with="SkyWest" />
+    <Replacement replace="Klm" with="KLM" />
+    <Replacement replace="Psa" with="PSA" />
+    <Replacement replace="asl" with="ASL" />
+  </OperationalDisclosureReplacements>
+</ETAirlines>

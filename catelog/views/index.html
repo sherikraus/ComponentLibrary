@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="js-focus-visible">
+
+<head>
+  <meta charset="utf-8">
+  <title>Alaska Air ✈️ Component Hangar</title>
+  <base href="{{{baseUrl}}}/">
+  <meta name="description" content="Component Library">
+  <meta name="author" content="Dominic & Mustafa">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <style>
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    aside,
+    .columns {
+      height: 100%;
+    }
+
+    aside {
+      position: fixed;
+      overflow: auto;
+    }
+
+    code .tag:not(body) {
+      align-items: initial;
+      background-color: initial;
+      border-radius: initial;
+      color: initial;
+      display: initial;
+      font-size: initial;
+      height: initial;
+      justify-content: initial;
+      line-height: initial;
+      padding-left: initial;
+      padding-right: initial;
+      white-space: initial;
+    }
+
+    pre.closed {
+      height: 65px;
+      padding: 0px !important;
+    }
+
+    pre.closed #show-code {
+      display: block;
+    }
+
+    #show-code {
+      display: none;
+      text-align: center;
+      cursor: pointer;
+      transition: ease all 0.2s;
+    }
+
+    #show-code:hover {
+      opacity: 0.7;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css"
+    integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous">
+  <script src="./assets/font-awesome.all.min.js"></script>
+  <script src="https://unpkg.com/whatwg-fetch@3.0.1/dist/fetch.umd.js"></script>
+</head>
+
+<body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top has-shadow" style="z-index:1;" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item is-size-4 has-text-weight-bold" href="./">
+        Alaska Air ✈️ Component Hangar
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  </nav>
+  <style>
+    a.is-folder svg {
+      float: right;
+      transition: transform 0.3s;
+      display: table;
+    }
+
+    a.is-folder.is-open svg {
+      transition: transform 0.3s;
+      transform: rotate(180deg);
+    }
+  </style>
+  <div class="columns is-marginless">
+    <aside class="menu column is-one-quarter has-background-light is-narrow-mobile is-hidden-mobile">
+      <p class="menu-label">
+        <i class="far fa-home"></i> General
+      </p>
+      <ul class="menu-list">
+        <li><a {{#isHome}}class="is-active" {{/isHome}} href="./">Home</a></li>
+      </ul>
+      <p class="menu-label">
+        Components
+      </p>
+      <ul class="menu-list">
+        {{{menu}}}
+      </ul>
+    </aside>
+    <div class="column is-one-quarter is-hidden-mobile"></div>
+    <main class="column is-three-quarters">
+      {{#isDemo}}
+      <div id="contribSection">
+        <h3 class="title is-4 is-spaced bd-anchor-title" style="display:inline; margin-bottom: 0px">
+          <i class="fad fa-bring-front" color="rgb(255, 152, 0)"></i>
+          <span class="bd-anchor-name">
+            {{componentPath}}
+          </span>
+        </h3>
+        <div id="contributors" class="tags are-medium" style="display:inline;"></div>
+      </div>
+      <hr class="hr" />
+      {{/isDemo}}
+      <script src="./components/shared/component-base.js"></script>
+      <script src="./components/{{componentObject.name}}/main.js"></script>
+      <link rel="stylesheet" href="./components/shared/component-base.css" />
+      {{{mainContent}}}
+
+      {{#isDemo}}
+
+      <hr class="hr" />
+      <h3 class="title is-4 is-spaced bd-anchor-title">
+        <a class="bd-anchor-link" href="#modifiers">
+          #
+        </a>
+        <span class="bd-anchor-name">
+          🏠 Properties
+        </span>
+      </h3>
+      <div id="prop-table" class="table-container">
+        <table class="table is-bordered is-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="title is-4 is-spaced bd-anchor-title">
+        <a class="bd-anchor-link" href="#modifiers">
+          #
+        </a>
+        <span class="bd-anchor-name">
+          🎰 Slots
+        </span>
+      </h3>
+      <div id="slot-table" class="table-container">
+        <table class="table is-bordered is-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Default value</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+      <pre class="closed">
+            <div id="show-code" class="has-text-danger">Show <i class="fas fa-code has-text-info"></i> Code</div>
+            <code class=" language-markup">
+&lt;script src=&quot;/components/shared/component-base.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/components/{{componentObject.name}}/main.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/components/shared/component-base.css&quot; /&gt;
+{{mainContent}}</code></pre>
+      {{/isDemo}}
+    </main>
+  </div>
+  {{#isDemo}}
+  <link rel="stylesheet" href="./assets/prism.css">
+  <link rel="stylesheet" href="./assets/component-demo.css">
+  <script src="./assets/prism.js"></script>
+  <script src="./assets/component-demo.js"></script>
+  <script src="./assets/git.js"></script>
+  {{/isDemo}}
+
+  <script src="/assets/menu.js"></script>
+
+</body>
+
+</html>

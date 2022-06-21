@@ -1,0 +1,258 @@
+@import "../../shared/auro.scss";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
+
+:host {
+  font-size: 16px;
+}
+.resultsTable {
+  width: 100%;
+}
+.stickyRight {
+  width: 126px;
+  padding: 0px;
+}
+.firstHead {
+  text-align: left;
+}
+.fareCellContainer {
+  display: flex;
+}
+
+.fareCellContainer > * {
+  min-width:144px;
+}
+
+.matrixRow {
+  min-height: 100px;
+  border: 1px solid var(--auro-color-border-disabled-on-light);
+  box-shadow: 0px 0px 4px var(--auro-color-border-disabled-on-light);
+  margin-bottom: var(--auro-size-md);
+  border-radius: var(--auro-border-radius);
+  position: relative;
+  display: flex;
+
+  @media screen and(max-width: $auro-breakpoint-sm){    
+    .divider {
+      content: "";
+      margin: auto;
+      height: 0.75px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+.flightInfoCell{
+  width: 100%;
+  padding: 0;
+  
+  @include auro_breakpoint--lg{
+    display: flex;
+  }
+
+  @media screen and(max-width: $auro-breakpoint-sm){
+    padding-top: var(--auro-size-lg);
+    padding-left: var(--auro-size-lg);
+    padding-right: var(--auro-size-lg);
+  }
+}
+
+.hidden {
+  display: none;
+  visibility:collapse;
+}
+
+.results-collapsed{
+  display: none;
+}
+
+.results-expanded{
+  display: initial;
+}
+
+.mobile-trigger-container{
+  @media screen and(min-width: $auro-breakpoint-sm){
+    display: none;
+  }
+
+  button{	
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    padding-left: unset;
+    padding-right: unset;
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    min-width: 150px;
+    height: 100%;
+    width: 100%;
+    // align-items: center;
+    justify-content: center;
+  }
+
+  height: var(--auro-size-lg);
+  line-height: var(--auro-text-body-height-default);
+  font-family: var(--auro-font-family-default);
+  font-size: var(--auro-size-md);
+  font-weight: var(--auro-text-heading-display-weight);
+  color: var(--auro-color-text-primary-on-light);
+  padding: var(--auro-size-sm) 0;
+
+  .mobile-trigger-label{
+    display: flex;
+    flex-basis: inherit;
+  }
+
+  .price-container,
+  .icon-container{
+    font-weight: var(--auro-text-body-default-weight);
+    color: var(--auro-color-ui-default-on-light);
+    font-size: var(--auro-text-heading-300-px);
+    line-height: var(--auro-text-heading-300-height-px);
+  }
+}
+
+.tablet-trigger-container{
+  @include auro_breakpoint--lg {
+    display: none;
+  }
+
+  @media screen and (max-width: $auro-breakpoint-sm) {
+    display: none;
+  }
+  
+  @include auro_breakpoint($polar: $auro-breakpoint-sm $auro-breakpoint-lg) {
+    button{	
+      background: none;
+      color: inherit;
+      border: none;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      padding-left: unset;
+      padding-right: unset;
+      display: flex;
+      flex-direction: column;
+      flex: 100%;
+      min-width: 150px;
+      height: 100%;
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  & .no-price{
+    min-height: 54px;
+    padding-top: var(--auro-size-sm);
+    color: var(--auro-color-text-disabled-on-light);
+  }
+
+  & .award-mile-content,
+  & .award-price-content {
+    text-align: center;
+    letter-spacing: var(--text-heading-default-spacing);
+    font-size: var(--auro-text-heading-600-px-breakpoint-md);
+    font-weight: var(--auro-text-heading-600-px-breakpoint-md); 
+    line-height: var(--auro-text-heading-600-height-breakpoint-px-lg);
+  }
+
+  & .currency-sign{
+    font-weight: var(--auro-text-heading-500-weight);
+    font-size: var(--auro-text-heading-500-px-breakpoint-md);
+    align-self: center;
+  }
+
+  & .price-container {
+    display: flex;
+    font-family: var(--auro-font-family-default);
+    font-weight: var(--auro-text-heading-display-weight);
+    font-size: var(--auro-text-heading-display-px-breakpoint-sm);
+    line-height: var(--auro-text-heading-display-height-breakpoint-px-sm);
+    color: var(--auro-color-ui-default-on-light);
+  }
+
+  & .icon-container{    
+    display: flex;
+    color: var(--auro-color-ui-default-on-light);
+  }
+}
+
+tr[expanded=true]{
+  .icon-container{
+    transform: rotate(-180deg);
+    transition: 0.3s;
+  }
+}
+
+tr[expanded=false]{
+  .icon-container{
+    transform: rotate(0deg);
+    transition: 0.3s;
+  }
+}
+
+.flight-info-table{
+  display: flex;
+  border-style: none;
+  flex: 450%;
+}
+
+.flight-summary-table{
+  width: 100%;
+  
+  @media screen and(min-width: $auro-breakpoint-sm){
+    padding-top: var(--auro-size-lg);
+    padding-left: var(--auro-size-lg);
+    padding-right: var(--auro-size-lg);
+    border-right: 1px solid var(--auro-color-border-disabled-on-light);
+  }
+}
+
+.valuetile-container{
+  @include auro_breakpoint($polar: $auro-breakpoint-sm $auro-breakpoint-lg) {
+    display: flex;
+    box-shadow: 0px 0px 4px var(--auro-color-border-disabled-on-light);
+    border-top: 1px solid var(--auro-color-border-disabled-on-light);
+    border-bottom-left-radius: var(--auro-border-radius);
+    border-bottom-right-radius: var(--auro-border-radius);
+    overflow: hidden;
+    padding: 0;
+    height: 0px;
+  }
+
+  @include auro_breakpoint($polar: 0px $auro-breakpoint-sm) {
+    height: 0px;
+    overflow: hidden;
+    auro-valuetile{
+      overflow: hidden;
+    }
+    auro-valuetile:first-of-type{
+      margin-top: var(--auro-size-md);
+    }
+
+    auro-valuetile:not(:last-of-type){
+      margin-bottom: var(--auro-size-xs);
+    }
+    
+    auro-valuetile:last-of-type{
+      margin-bottom: var(--auro-size-lg);
+    }
+  }
+
+  //desktop styles
+  @include auro_breakpoint--lg {
+    display: flex;
+    flex: 1 1 400%;
+    overflow: visible;
+    height: unset !important;
+  }
+
+  transition: all 0.5s ease-in-out;
+  transition-property: opacity, height, visibility;
+}

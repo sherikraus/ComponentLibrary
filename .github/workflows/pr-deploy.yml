@@ -1,0 +1,54 @@
+name: PRDeploy
+on:
+  pull_request:
+
+jobs:
+  buildAndDeploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cschleiden/replace-tokens@v1
+      with:
+        tokenPrefix: '#{'
+        tokenSuffix: '}#'
+        files: '["**/*-pr.yaml"]'
+      env:
+        SYSTEM_PULLREQUEST_PULLREQUESTID: ${{ github.event.pull_request.number }}
+        RUN_ID: ${{ github.run_id }}
+    
+    - uses: Azure/docker-login@v1
+      with:
+        login-server: aagacrsandbox.azurecr.io
+        username: ${{ secrets.AAGACRSANDBOX_USER }}
+        password: ${{ secrets.AAGACRSANDBOX_KEY }}
+    
+    - run: |
+        docker build . -t aagacrsandbox.azurecr.io/p2p/componentlibrary:${{ github.event.pull_request.number }}
+        docker push aagacrsandbox.azurecr.io/p2p/componentlibrary:${{ github.event.pull_request.number }}
+    
+    # Set the target AKS cluster.
+    - uses: Azure/aks-set-context@v1
+      with:
+        creds: '${{ secrets.ECOMMERCEKUBERNETES_TEST_GROUP_SPN }}'
+        cluster-name: ecomm-test-aks-westus2
+        resource-group: ecommercekubernetes-test-group
+
+    - uses: Azure/k8s-deploy@v1.4
+      with:
+        namespace: 'componentlibrary'
+        manifests: |
+          ./kube/deployment-pr.yaml
+          ./kube/ingress-pr.yaml
+        images: |
+          aagacrsandbox.azurecr.io/p2p/componentlibrary:${{ github.event.pull_request.number }}
+    - name: PR Comment
+      uses: actions/github-script@v2
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          github.issues.createComment({
+            issue_number: ${{ github.event.pull_request.number }},
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: "Your Component Hangar PR url is [https://componentlibrary-${{ github.event.pull_request.number }}.w2.ecomm-test-aks.alaskaair.com](https://componentlibrary-${{ github.event.pull_request.number }}.w2.ecomm-test-aks.alaskaair.com)"
+          })

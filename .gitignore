@@ -1,0 +1,16 @@
+.vscode/
+node_modules
+.DS_Store
+components/*/dist/
+/dist
+/coverage
+/__snapshots__
+/tests/results
+components/shared/auro-css.js
+*-css.js
+build/config.gypi
+/.vs/ComponentLibrary/config/applicationhost.config
+/.vs/ComponentLibrary/v16/.suo
+/.vs
+hooks/*.json
+hooks/*-data.js

@@ -1,0 +1,39 @@
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+:host {
+    --sm: 3.75rem;
+    --md: 6rem;
+    --lg: 8.375rem;
+
+    display: inline-block;
+    width: var(--md);
+    height: var(--md);
+
+    img {
+        border-radius: 50%;
+    }
+    auro-skeleton {
+        width: var(--md);
+        height: var(--md);
+    }
+}
+
+:host([lg]) {
+    width: var(--lg);
+    height: var(--lg);
+    auro-skeleton {
+        width: var(--lg);
+        height: var(--lg);
+    }
+}
+
+:host([loaded]){
+    auro-skeleton {
+        display: none;
+    }
+}

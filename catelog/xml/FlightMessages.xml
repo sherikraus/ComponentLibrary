@@ -1,0 +1,20 @@
+<FlightMessaging>
+<!-- flight messages for Kenmore Airlines, processed by AlaskaAir.Data.ETInfo.FlightMessages.cs -->
+<!-- + combi aircraft advisory for AS flights -->
+<Messages>
+	<Message SortOrder="-1" Id="33">
+		<Long><![CDATA[This flight uses a Boeing 737-400 <a href="javascript:void $.showLB($(this), 'www.alaskaair.com/content/travel-info/our-aircraft/737-400-combi/combi-info.aspx', 635, 340);">Combi aircraft</a>. When boarding this type of aircraft, customers will use two sets of stairs, board from the rear of the aircraft, and be exposed to the weather.]]></Long>
+		<Short><![CDATA[This flight uses a Boeing 737-400 <a href="javascript:void $.showLB($(this), 'www.alaskaair.com/content/travel-info/our-aircraft/737-400-combi/combi-info.aspx', 635, 340);">Combi aircraft</a>. When boarding this type of aircraft, customers will use two sets of stairs, board from the rear of the aircraft, and be exposed to the weather.]]></Short>
+	</Message>
+</Messages>
+
+	<FlightInfo>
+		<Airline Code="AS">
+			<Flight Equipment="73Q">
+				<Messages>
+					<Message Id="33" />
+				</Messages>
+			</Flight>
+		</Airline>
+	</FlightInfo>
+</FlightMessaging>

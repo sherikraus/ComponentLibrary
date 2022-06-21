@@ -1,0 +1,267 @@
+@import '../../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SassCustomProperties';
+@import '../../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/fonts';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/normalize';
+
+$paragraph: true;
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/essentials';
+@import '../../../../node_modules/@alaskaairux/icons/dist/icons';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/headings';
+@import "../../../../node_modules/@alaskaairux/webcorestylesheets/dist/componentSupport/table";
+
+$layout-properties: margin padding;
+$layout-extensions: Bottom, Top;
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityMixins/layoutPropertiesGenerator';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityClasses/displayProperties';
+@import '../../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityMixins/anchor-roleButton';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityMixins/focusVisible';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints';
+@import "../../../../node_modules/@alaskaairux/webcorestylesheets/dist/animation";
+// baseline design tokens as Sass variables
+@import "../../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables";
+.header-slot-text{
+  height: 50px;
+}
+
+.header-description{
+  font-size: 18px;
+  color: var(--auro-color-text-secondary-on-light);
+}
+
+.content-table{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: var(--auro-size-none) var(--auro-size-xxs);
+}
+
+.upsell-content {
+  font-family: 'ASCircular-Medium', 'Circular';
+  color: rgb(0, 116, 200);
+  line-height: 24px;
+  margin: var(--auro-size-xl) var(--auro-size-none) var(--auro-size-md);
+  text-align: right;
+
+  .price {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+  }
+  
+  .subtext {
+    font-size: 14px;
+    font-weight: 300;
+    height: 24px;
+    line-height: 24px;
+
+    &.color--secondary {
+      color: rgb(98, 107, 121);
+    }
+  }
+}
+  
+.buttons{
+  float: right;
+  display: contents;
+  font-size: 16px;
+  margin-bottom: var(--auro-size-md);
+  
+  & .top{
+    margin-bottom: var(--auro-size-md);
+  }
+
+  & .spacer {
+    padding-bottom: var(--auro-size-md);
+    width: 100%;
+  }
+
+  & .bottom{
+    margin-bottom: var(--auro-size-xl);
+  }
+  
+  @include auro_breakpoint--sm{
+    display: flex;
+    justify-content: flex-end;
+    & .top{
+      margin: unset;
+      margin-right: var(--auro-size-md);
+      order: 0;
+    }
+
+    & .spacer {
+      padding-bottom: unset;
+    }
+  
+    & .bottom{
+      margin: unset;
+      margin-bottom: var(--auro-size-lg);
+      order: 1;
+    }
+    margin-bottom:unset;
+  }
+}
+
+.button-content {
+  font-size:16px;
+}
+
+
+
+.button{
+  auro-button{
+    margin-bottom: var(--auro-size-md);
+  }
+  .secondary{
+    margin-bottom: var(--auro-size-xl);
+  }
+}
+
+.primary-button{
+  margin-right: var(--auro-size-md);
+}
+
+td{
+  font-size: 12px;
+  color: var(--auro-color-text-secondary-on-light);
+  font-family: var(--auro-font-family-default);
+  text-align: left;
+
+  &.center{
+    text-align: center;
+    &.icon {
+      padding-left: 12px;
+      padding-right: 12px;
+      
+    }
+  }
+  
+  @include auro_breakpoint--sm {
+    font-size: 16px;
+  }
+}
+
+.fine-print {
+  display: inline-block;
+  color: var(--auro-color-text-secondary-on-light);
+  font-size: 12px;
+  font-family: var(--auro-font-family-default);
+  font-weight: 400;
+  line-height: 16px;
+  @include auro_breakpoint--sm {
+    padding-top: 24px;
+  }
+}
+
+.primary-heading{
+  width: 20%;
+  height: 30px;
+  font-family: var(--auro-font-family-default);
+  font-size: 16px;
+  color: var(--auro-color-text-primary-on-dark);
+  text-align: center;
+  margin-right: 6px;
+  margin-left: 6px;
+
+  padding: 0;
+
+  &.saver{
+    color: rgb(61, 160, 188);
+    text-align:center;
+    padding-bottom: unset;
+
+    div {
+      text-align:center;
+      width:95%;
+      font-size: 28px;
+      line-height:34px;
+      font-weight: 400;
+      padding-bottom:0px!important;
+    }
+  }
+
+  &.main{
+    padding-top: 58px;
+    padding-bottom: unset;
+
+    color: rgb(39, 116, 174);
+    text-align:center;
+
+    div {
+      text-align:center;
+      width:95%;
+      font-size: 28px;
+      line-height:34px;
+      font-weight: 400;
+      padding-bottom:0px!important;    }
+  }
+  
+  &.first{
+    color: rgb(1, 66, 106);
+    text-align:center;
+    div {
+      text-align:center;
+      width:95%;
+      font-size: 28px;
+      line-height:34px;
+      font-weight: 400;
+      padding-bottom:0px!important;
+    }
+  }
+
+  @include auro_breakpoint--md {
+    font-size: var(--auro-text-heading-600-px-breakpoint-lg);
+  }
+}
+
+.nopadding {
+  padding: unset!important;
+}
+
+.youSelected {
+  color: var(--auro-color-text-primary-on-light);
+  font-size: 16px;
+  line-height:24px;
+  font-weight: 400;
+}
+
+.secondary-heading{
+    width: 126px;
+    font-family: var(--auro-font-family-default);
+    font-weight: 500;
+    text-align: center;
+    color: var(--auro-color-text-primary-on-light);
+    padding-left :var(--auro-size-xs) !important; 
+    padding-right :var(--auro-size-xs) !important;   
+    padding-top: 0;
+    padding-right: 0;
+
+  &.saver div {
+    height: 6px;
+    background-color: rgb(61, 160, 188);
+    border-radius:4px;
+    text-align: center;
+
+  }
+
+  &.main div{
+    height: 6px;
+
+    background-color:  rgb(39, 116, 174);
+    border-radius:4px;
+    text-align: center;
+
+  }
+  
+  &.first div{
+    height: 6px;
+
+    background: rgb(1, 66, 106);
+    border-radius:4px;
+    text-align: center;
+
+  }
+}
+.auro_table thead {
+  border-bottom: unset;
+}

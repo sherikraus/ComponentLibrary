@@ -1,0 +1,54 @@
+
+
+<button onclick="fireDemo('demo1')">Upsell 1</button>
+<button onclick="fireDemo('demo2')">Upsell 2</button>
+<button onclick="fireDemo('demo3')">Upsell 3</button>
+
+
+<saver-to-main-upsell-bottom id="demo1" price="60" upgradeLink="https://www.google.com" ></saver-to-main-upsell-bottom>
+
+<br/>
+
+<saver-to-main-upsell-bottom roundtrip id="demo2" firstIcon='boarding-pass-filled' secondIcon='chat' thirdIcon='plane-diag-fill'></saver-to-main-upsell-bottom>
+
+<saver-to-main-upsell-bottom id="demo3" roundtrip price="1337" cancelLink="#" upgradeLink="#">
+    <span slot="upsell-title">Earn Miles in Main</span>
+    <p slot="upsell-message-secondary">Enjoy the perks of flying Main: </p>
+    <ul slot="upsell-message-content">
+        <li class="upsell-message-list-item">
+          <span>No middle seat</span>
+        </li>
+        <li class="upsell-message-list-item">
+          <span>Overhead Bins</span>
+        </li>
+        <li class="upsell-message-list-item">
+          <span>Personal Item</span>
+        </li>
+      </ul>
+
+      <div slot="upsell-price-content">
+        <span class="upsell-price">+$1337 USD</span>
+          per pax
+      </div>
+
+      <span slot="upgrade-action">
+        BE MAIN
+      </span>
+
+      <span slot="decline-action">
+        BE LAME
+      </span>
+</saver-to-main-upsell-bottom>
+<script>
+  function fireDemo(elName) {
+      var upsell = document.getElementById(elName);
+      upsell.removeAttribute("open");
+      upsell.setAttribute("open", '');
+  }
+
+    var upsell = document.getElementById('demo1');
+    upsell.addEventListener('declineUpgrade', (data) => {
+      console.log('received declineUpgrade');
+    })
+
+</script>

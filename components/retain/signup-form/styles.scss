@@ -1,0 +1,59 @@
+@import "../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables";
+
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/fonts";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/normalize";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/essentials";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityClasses";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/headings";
+
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/fonts";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/normalize";
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/essentials";
+
+@import "../../../node_modules/@alaskaairux/webcorestylesheets/dist/componentSupport/containedButtons";
+
+@import "../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SassCustomProperties";
+
+:host {
+  .container {
+    .signupInput {
+      padding: $auro-size-sm 0;
+    }
+    &__basicInfo {
+      .signupSelect {
+        width: 50%;
+        min-width: 200px;
+      }
+    }
+    &__contact {
+      .PhoneNumber__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+
+        .signupInput {
+          grid-row: 1;
+          grid-column: 2/4;
+          width: 100%;
+        }
+        .signupSelect {
+          min-width: 250px;
+          grid-row: 1;
+          grid-column: 1;
+        }
+      }
+    }
+
+    &___address {
+    }
+    &__travelPreference {
+      div#popover {
+        overflow-y: scroll;
+        height: 25vh;
+      }
+    }
+  }
+
+}

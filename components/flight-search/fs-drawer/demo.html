@@ -1,0 +1,99 @@
+
+
+<button onclick="fireDemo('demo1')">Upsell 1</button>
+
+
+<fs-drawer id="demo1" price="60" upgradeLink="https://www.google.com" ></fs-drawer>
+
+<br/>
+
+<script>
+  function fireDemo(elName) {
+      var upsell = document.getElementById(elName);
+      upsell.removeAttribute("open");
+      upsell.setAttribute("open", '');
+  }
+
+    var upsell = document.getElementById('demo1');
+    upsell.addEventListener('declineUpgrade', (data) => {
+      console.log('received declineUpgrade');
+    })
+
+</script>
+
+<script seatsui-version="2">
+try {
+              e.preventDefault();
+
+              var seatMapTitle = $("#seatMapPreviewTitleForMexico").html();
+
+              if (!seatMapTitle || seatMapTitle.length === 0)
+                  seatMapTitle = "Seat map preview";
+
+              var drawer = new SideDrawer(seatMapTitle, 'preview seat map');
+              drawer.Show();
+
+              var url = $(this).data('seatmap');
+
+              const showSaver = url.toLowerCase().indexOf('showsaver') != -1;
+
+              const queriesRegex = /^.*\?u=(\w)&segs=((?:[^\|]+\|)+)$/i;
+              const queries = queriesRegex.exec(url);
+              const isUmnr = queries[1] === 't';
+
+              const segmentStrings = queries[2]
+                  .split('|') // segments separated by pipes
+                  .slice(0, -1) // last pipe doesnt have a segment after it
+                  .map(function (segment) {
+                      const segmentAndLegs = segment.split('$'); // segment and legs are split by dollar sign
+                      return segmentAndLegs[0]; // first element is segment, the rest are legs
+                  });
+
+              const segments = segmentStrings
+                  .map(function (segment, i) {
+                      const segmentFields = segment.split(',');
+                      return {
+                          operatingCarrier: segmentFields[0],
+                          marketingCarrier: segmentFields[1],
+                          flightNumber: parseInt(segmentFields[2], 10),
+                          origin: segmentFields[4],
+                          departureDateTime: segmentFields[5],
+                          destination: segmentFields[6],
+                          equipmentCode: segmentFields[8],
+                          travelDurationMinutes: parseInt(segmentFields[9]),
+                          id: '' + i
+                      };
+                  });
+
+              const request = {
+                  isUmnr: isUmnr,
+                  segments: segments,
+                  showSaver: showSaver,
+                  isAlaskaStockTicket: true,
+                  preview: true,
+                  passengers: [],
+                  passengersSegments: []
+              };
+
+              function attachError() {
+                  let template = $('#preview-seat-map-error-template');
+                  $('.drawerContent-dynamic').append($(template.html()));
+              }
+
+              attachError();
+
+              var ascomSeats = document.createElement("div");
+              ascomSeats.setAttribute('id', 'ascom-seats');
+
+              ascomSeats.addEventListener('seats-ui:data-load-error', toggleLoadingOff);
+
+              ascomSeats.addEventListener('seats-ui:on-data-loaded', toggleLoadingOff);
+
+              $('.drawerContent-dynamic').append($(ascomSeats));
+
+              SeatsUI.initializeSeatMap('ascom-seats', request);
+
+          } catch (e) {
+              displayError(e);
+          }
+</script>

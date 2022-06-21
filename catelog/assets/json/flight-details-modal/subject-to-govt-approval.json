@@ -1,0 +1,40 @@
+[{
+    "Carrier":"EK",
+    "FlightNumber":772,
+    "DepartureStation":"DXB",
+    "ArrivalStation":"CPT",
+    "Duration":"9h 45m",
+    "Distance":4747,
+    "DepartureTime":"3:50 am",
+    "ArrivalTime":"11:35 am",
+    "DepartureDay":"Sat, Oct 17",
+    "ArrivalDay":"Sat, Oct 17",
+    "NextDayArrival":false,
+    "NextDayDeparture":true,
+    "Performance":[
+       {
+          "CanceledPercentage":0,
+          "ChronicallyDelayed":false,
+          "EquipmentCode":"77W",
+          "EquipmentName":"Boeing 777-300ER",
+          "PercentLate30Plus":0,
+          "PercentOntime":0,
+          "DepartureAirportCode":"DXB",
+          "ArrivalAirportCode":"CPT",
+          "ChangeOfPlane":false
+       }
+    ],
+    "StopoverInformation":[
+       
+    ],
+    "OperationalDisclosures":["Operated by Emirates Air as AlaskaHorizon"],
+    "SubjectToGovernmentApproval":true,
+    "Equipment":"77W",
+    "FirstClassUpgradeAvailable":false,
+    "FirstClassUpgradeUnavailable":false,
+    "Amenities":[
+       "wifi",
+       "power",
+       "ife"
+    ]
+ }]

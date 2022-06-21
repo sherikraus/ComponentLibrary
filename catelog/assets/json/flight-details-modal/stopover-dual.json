@@ -1,0 +1,64 @@
+[
+    {
+        "Carrier":"AS",
+        "FlightNumber":64,
+        "DepartureStation":"CDV",
+        "ArrivalStation":"SEA",
+        "Duration":"3h 12m",
+        "Distance":759,
+        "DepartureTime":"4:30 pm",
+        "ArrivalTime":"8:42 pm",
+        "DepartureDay":"Thu, Jul 9",
+        "ArrivalDay":"Thu, Jul 9",
+        "NextDayArrival":false,
+        "NextDayDeparture":false,
+        "Performance":[
+           {
+              "CanceledPercentage":0,
+              "ChronicallyDelayed":false,
+              "EquipmentCode":"73G",
+              "EquipmentName":"Boeing 737-700",
+              "PercentLate30Plus":0,
+              "PercentOntime":93,
+              "DepartureAirportCode":"CDV",
+              "ArrivalAirportCode":"WRG",
+              "ChangeOfPlane":false
+           },
+           {
+              "CanceledPercentage":0,
+              "ChronicallyDelayed":false,
+              "EquipmentCode":"73G",
+              "EquipmentName":"Boeing 737-700",
+              "PercentLate30Plus":0,
+              "PercentOntime":96,
+              "DepartureAirportCode":"WRG",
+              "ArrivalAirportCode":"KTN",
+              "ChangeOfPlane":false
+           },
+           {
+            "CanceledPercentage":0,
+            "ChronicallyDelayed":false,
+            "EquipmentCode":"73G",
+            "EquipmentName":"Boeing 737-700",
+            "PercentLate30Plus":0,
+            "PercentOntime":96,
+            "DepartureAirportCode":"KTN",
+            "ArrivalAirportCode":"SEA",
+            "ChangeOfPlane":false
+         }
+        ],
+        "StopoverInformation":[
+           "11h",
+           "33m"
+        ],
+        "SubjectToGovernmentApproval":false,
+        "Equipment":"73G",
+        "FirstClassUpgradeAvailable":false,
+        "FirstClassUpgradeUnavailable":false,
+        "Amenities":[
+           "wifi",
+           "power",
+           "ife"
+        ]
+     }
+]

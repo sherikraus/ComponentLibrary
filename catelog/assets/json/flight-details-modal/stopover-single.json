@@ -1,0 +1,50 @@
+[{
+    "Carrier":"AS",
+    "FlightNumber":184,
+    "DepartureStation":"ANC",
+    "ArrivalStation":"ADK",
+    "Duration":"3h 45m",
+    "Distance":1232,
+    "DepartureTime":"10:00 am",
+    "ArrivalTime":"12:45 pm",
+    "DepartureDay":"Wed, Jul 8",
+    "ArrivalDay":"Wed, Jul 8",
+    "NextDayArrival":false,
+    "NextDayDeparture":true,
+    "Performance":[
+       {
+          "CanceledPercentage":0,
+          "ChronicallyDelayed":false,
+          "EquipmentCode":"73G",
+          "EquipmentName":"Boeing 737-700",
+          "PercentLate30Plus":20,
+          "PercentOntime":80,
+          "DepartureAirportCode":"ANC",
+          "ArrivalAirportCode":"CDB",
+          "ChangeOfPlane":false
+       },
+       {
+          "CanceledPercentage":0,
+          "ChronicallyDelayed":false,
+          "EquipmentCode":"73G",
+          "EquipmentName":"Boeing 737-700",
+          "PercentLate30Plus":20,
+          "PercentOntime":60,
+          "DepartureAirportCode":"CDB",
+          "ArrivalAirportCode":"ADK",
+          "ChangeOfPlane":false
+       }
+    ],
+    "StopoverInformation":[
+       
+    ],
+    "SubjectToGovernmentApproval":false,
+    "Equipment":"73G",
+    "FirstClassUpgradeAvailable":false,
+    "FirstClassUpgradeUnavailable":false,
+    "Amenities":[
+       "wifi",
+       "power",
+       "ife"
+    ]
+ }]

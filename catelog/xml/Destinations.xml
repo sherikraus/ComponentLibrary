@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDestinationGroup xmlns:xsi="http://www.w3.org/2001/Xmlschema-instance" xmlns:xsd="http://www.w3.org/2001/Xmlschema">
+  <DestinationGroup Name="alaska" LinkName="alaska">
+    <Destination Code="adk" TravelName="adak" Name="adak" LinkName="adak"/>
+    <Destination Code="anc" TravelName="anchorage" Name="anchorage" LinkName="ted-stevens"/>
+    <Destination Code="brw" TravelName="barrow" Name="barrow" LinkName="wiley-post-will-rogers"/>
+    <Destination Code="bet" TravelName="bethel" Name="bethel" LinkName="bethel"/>
+    <Destination Code="cdv" TravelName="cordova" Name="cordova" LinkName="merle-mudhole-smith"/>
+    <Destination Code="dlg" TravelName="dillingham" Name="dillingham" LinkName="dillingham"/>
+    <Destination Code="dut" TravelName="dutchharbor" Name="dutch-harbor" LinkName="unalaska"/>
+    <Destination Code="fai" TravelName="fairbanks" Name="fairbanks" LinkName="fairbanks-international"/>
+    <Destination Code="gst" TravelName="gustavus" Name="gustavus" LinkName="gustavus"/>
+    <Destination Code="jnu" TravelName="juneau" Name="juneau" LinkName="juneau-international"/>
+    <Destination Code="ktn" TravelName="ketchikan" Name="ketchikan" LinkName="ketchikan-international"/>
+    <Destination Code="akn" TravelName="kingsalmon" Name="king-salmon" LinkName="king-salmon"/>
+    <Destination Code="adq" TravelName="kodiak" Name="kodiak" LinkName="kodiak"/>
+    <Destination Code="otz" TravelName="kotzebue" Name="kotzebue" LinkName="ralph-wien-memorial"/>
+    <Destination Code="ome" TravelName="nome" Name="nome" LinkName="nome"/>
+    <Destination Code="psg" TravelName="petersburg" Name="petersburg" LinkName="james-a-johnson"/>
+    <Destination Code="scc" TravelName="prudhoebay" Name="prudhoe-bay" LinkName="deadhorse"/>
+    <Destination Code="sit" TravelName="sitka" Name="sitka" LinkName="rocky-gutierrez"/>
+    <Destination Code="wrg" TravelName="wrangell" Name="wrangell" LinkName="wrangell"/>
+    <Destination Code="yak" TravelName="yakutat" Name="yakutat" LinkName="yakutat"/>
+  </DestinationGroup>
+  <DestinationGroup Name="arizona" LinkName="arizona">
+    <Destination Code="phx" TravelName="phoenix" Name="phoenix" LinkName="sky-harbor-international"/>
+    <Destination Code="tus" TravelName="tucson" Name="tucson" LinkName="tucson-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="california" LinkName="california">
+    <Destination Code="bur" TravelName="burbank" Name="burbank" LinkName="hollywood-burbank"/>
+    <Destination Code="fat" TravelName="fresno" Name="fresno" LinkName="fresno-yosemite-international"/>
+    <Destination Code="lax" TravelName="losangeles" Name="los-angeles" LinkName="los-angeles-international"/>
+    <Destination Code="mmh" TravelName="mammothlakes" Name="mammoth-lakes" LinkName="mammoth-yosemite"/>
+    <Destination Code="mry" TravelName="monterey" Name="monterey" LinkName="monterey-regional"/>
+    <Destination Code="oak" TravelName="oakland" Name="oakland" LinkName="oakland-international"/>
+    <Destination Code="ont" TravelName="ontario" Name="ontario" LinkName="ontario-international"/>
+    <Destination Code="sna" TravelName="orangecounty" Name="orange-county" LinkName="john-wayne"/>
+    <Destination Code="psp" TravelName="palmsprings" Name="palm-springs" LinkName="palm-springs-international"/>
+    <Destination Code="smf" TravelName="sacramento" Name="sacramento" LinkName="sacramento-international"/>
+    <Destination Code="san" TravelName="sandiego" Name="san-diego" LinkName="san-diego-international"/>
+    <Destination Code="sfo" TravelName="sanfrancisco" Name="san-francisco" LinkName="san-francisco-international"/>
+    <Destination Code="sbp" TravelName="sanluisobispo" Name="san-luis-obispo" LinkName="san-luis-obispo-regional"/>
+    <Destination Code="sjc" TravelName="sanjose" Name="san-jose" LinkName="san-jose-international"/>
+    <Destination Code="sba" TravelName="santabarbara" Name="santa-barbara" LinkName="santa-barbara-municipal"/>
+    <Destination Code="sts" TravelName="sonoma" Name="sonoma" LinkName="charles-m-schulz"/>
+  </DestinationGroup>
+  <DestinationGroup Name="colorado" LinkName="colorado">
+    <Destination Code="cos" TravelName="coloradosprings" Name="colorado-springs" LinkName="colorado-springs-municipal"/>
+    <Destination Code="guc" TravelName="crestedbutte" Name="crested-butte" LinkName="gunnison-crested-butte-regional"/>
+    <Destination Code="den" TravelName="denver" Name="denver" LinkName="denver-international"/>
+    <Destination Code="hdn" TravelName="steamboatsprings" Name="steamboat-springs" LinkName="yampa-valley-regional"/>
+  </DestinationGroup>
+  <DestinationGroup Name="florida" LinkName="florida">
+    <Destination Code="fll" TravelName="fortlauderdale" Name="fort-lauderdale" LinkName="fort-lauderdale-hollywood-international"/>
+    <Destination Code="mco" TravelName="orlando" Name="orlando" LinkName="orlando-international"/>
+    <Destination Code="tpa" TravelName="tampa" Name="tampa" LinkName="tampa-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="georgia" LinkName="georgia">
+    <Destination Code="atl" TravelName="atlanta" Name="atlanta" LinkName="hartsfield-jackson-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="hawaii" LinkName="hawaii">
+    <Destination Code="lih" TravelName="kauai" Name="kauai" LinkName="lihue-international"/>
+    <Destination Code="koa" TravelName="kona" Name="kona" LinkName="kona-international"/>
+    <Destination Code="ogg" TravelName="maui" Name="maui" LinkName="kahului-international"/>
+    <Destination Code="hnl" TravelName="oahu" Name="oahu" LinkName="honolulu-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="idaho" LinkName="idaho">
+    <Destination Code="boi" TravelName="boise" Name="boise" LinkName="gowen-field"/>
+    <Destination Code="lws" TravelName="lewiston" Name="lewiston" LinkName="lewiston-nez-perce-county-regional"/>
+    <Destination Code="sun" TravelName="sunvalley" Name="sun-valley" LinkName="friedman-memorial"/>
+  </DestinationGroup>
+  <DestinationGroup Name="illinois" LinkName="illinois">
+    <Destination Code="ord" TravelName="chicago" Name="chicago" LinkName="ohare-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="indiana" LinkName="indiana">
+    <Destination Code="ind" TravelName="indianapolis" Name="indianapolis" LinkName="indianapolis-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="kansas" LinkName="kansas">
+    <Destination Code="ict" TravelName="wichita" Name="wichita" LinkName="dwight-d-eisenhower-national"/>
+  </DestinationGroup>
+  <DestinationGroup Name="louisiana" LinkName="louisiana">
+    <Destination Code="msy" TravelName="neworleans" Name="new-orleans" LinkName="louis-armstrong-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="maryland" LinkName="maryland">
+    <Destination Code="bwi" TravelName="baltimore" Name="baltimore" LinkName="thurgood-marshall-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="massachusetts" LinkName="massachusetts">
+    <Destination Code="bos" TravelName="boston" Name="boston" LinkName="logan-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="michigan" LinkName="michigan">
+    <Destination Code="dtw" TravelName="detroit" Name="detroit" LinkName="detroit-metropolitan"/>
+  </DestinationGroup>
+  <DestinationGroup Name="minnesota" LinkName="minnesota">
+    <Destination Code="msp" TravelName="minneapolis" Name="minneapolis" LinkName="minneapolis-st-paul-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="missouri" LinkName="missouri">
+    <Destination Code="mci" TravelName="kansascity" Name="kansas-city" LinkName="kansas-city-international"/>
+    <Destination Code="stl" TravelName="stlouis" Name="st-louis" LinkName="lambert-st-louis-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="montana" LinkName="montana">
+    <Destination Code="bil" TravelName="billings" Name="billings" LinkName="billings-logan-international"/>
+    <Destination Code="bzn" TravelName="bozeman" Name="bozeman" LinkName="bozeman-yellowstone-international 	"/>
+    <Destination Code="gtf" TravelName="greatfalls" Name="great-falls" LinkName="great-falls-international"/>
+    <Destination Code="hln" TravelName="helena" Name="helena" LinkName="helena-regional"/>
+    <Destination Code="fca" TravelName="kalispell" Name="kalispell" LinkName="glacier-park-international"/>
+    <Destination Code="mso" TravelName="missoula" Name="missoula" LinkName="missoula-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="nebraska" LinkName="nebraska">
+    <Destination Code="oma" TravelName="omaha" Name="omaha" LinkName="eppley-airfield"/>
+  </DestinationGroup>
+  <DestinationGroup Name="nevada" LinkName="nevada">
+    <Destination Code="las" TravelName="lasvegas" Name="las-vegas" LinkName="mccarran-international"/>
+    <Destination Code="rno" TravelName="reno" Name="reno" LinkName="reno-tahoe-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="newmexico" LinkName="new-mexico">
+    <Destination Code="abq" TravelName="albuquerque" Name="albuquerque" LinkName="albuquerque-international-sunport"/>
+  </DestinationGroup>
+  <DestinationGroup Name="newyork" LinkName="new-jersey">
+    <Destination Code="ewr" TravelName="newark" Name="newark" LinkName="newark-liberty-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="newyork" LinkName="new-york">
+    <Destination Code="jfk" TravelName="newyork" Name="new-york" LinkName="john-f-kennedy-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="northcarolina" LinkName="north-carolina">
+    <Destination Code="rdu" TravelName="raleigh" Name="raleigh" LinkName="raleigh-durham-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="oklahoma" LinkName="oklahoma">
+    <Destination Code="okc" TravelName="oklahomacity" Name="oklahoma-city" LinkName="will-rogers-world"/>
+  </DestinationGroup>
+  <DestinationGroup Name="oregon" LinkName="oregon">
+    <Destination Code="eug" TravelName="eugene" Name="eugene" LinkName="mahlon-sweet-field"/>
+    <Destination Code="mfr" TravelName="medford" Name="medford" LinkName="rogue-valley-international"/>
+    <Destination Code="pdx" TravelName="portland" Name="portland" LinkName="portland-international"/>
+    <Destination Code="rdm" TravelName="bend" Name="redmond" LinkName="roberts-field"/>
+  </DestinationGroup>
+  <DestinationGroup Name="pennsylvania" LinkName="pennsylvania">
+    <Destination Code="phl" TravelName="philadelphia" Name="philadelphia" LinkName="philadelphia-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="southcarolina" LinkName="south-carolina">
+    <Destination Code="chs" TravelName="charleston" Name="charleston" LinkName="charleston-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="tennessee" LinkName="tennessee">
+    <Destination Code="bna" TravelName="nashville" Name="nashville" LinkName="nashville-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="texas" LinkName="texas">
+    <Destination Code="aus" TravelName="austin" Name="austin" LinkName="austin-bergstrom-international"/>
+    <Destination Code="dfw" TravelName="dallas" Name="dallas" LinkName="dallas-fort-worth-international"/>
+    <Destination Code="iah" TravelName="houston" Name="houston" LinkName="george-bush-intercontinental"/>
+    <Destination Code="sat" TravelName="sanantonio" Name="san-antonio" LinkName="san-antonio-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="utah" LinkName="utah">
+    <Destination Code="slc" TravelName="saltlake" Name="salt-lake-city" LinkName="salt-lake-city-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="virginia" LinkName="virginia">
+    <Destination Code="iad" TravelName="dulles" Name="dulles" LinkName="washington-dulles-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="washington" LinkName="washington">
+    <Destination Code="bli" TravelName="bellingham" Name="bellingham" LinkName="bellingham-international"/>
+    <Destination Code="psc" TravelName="pasco" Name="pasco" LinkName="tri-cities"/>
+    <Destination Code="puw" TravelName="pullman" Name="pullman" LinkName="pullman-moscow-regional"/>
+    <Destination Code="sea" TravelName="seattle" Name="seattle" LinkName="seattle-tacoma-international"/>
+    <Destination Code="geg" TravelName="spokane" Name="spokane" LinkName="spokane-international"/>
+    <Destination Code="alw" TravelName="wallawalla" Name="walla-walla" LinkName="walla-walla-regional"/>
+    <Destination Code="eat" TravelName="wenatchee" Name="wenatchee" LinkName="pangborn-memorial"/>
+    <Destination Code="ykm" TravelName="yakima" Name="yakima" LinkName="yakima-air-terminal"/>
+  </DestinationGroup>
+  <DestinationGroup Name="wisconsin" LinkName="wisconsin">
+    <Destination Code="mke" TravelName="milwaukee" Name="milwaukee" LinkName="general-mitchell-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="dc" LinkName="district-of-columbia">
+    <Destination Code="dca" TravelName="washington" Name="washington" LinkName="ronald-reagan-national"/>
+  </DestinationGroup>
+  <DestinationGroup Name="canada" LinkName="canada">
+    <Destination Code="yyc" TravelName="calgary" Name="calgary" LinkName="calgary-international"/>
+    <Destination Code="yeg" TravelName="edmonton" Name="edmonton" LinkName="edmonton-international"/>
+    <Destination Code="ylw" TravelName="kelowna" Name="kelowna" LinkName="kelowna-international"/>
+    <Destination Code="yvr" TravelName="vancouver" Name="vancouver" LinkName="vancouver-international"/>
+    <Destination Code="yyj" TravelName="victoria" Name="victoria" LinkName="victoria-international"/>
+    <Destination Code="yvr" TravelName="whistler" Name="vancouver" LinkName="vancouver-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="costarica" LinkName="costa-rica">
+    <Destination Code="lir" TravelName="liberia" Name="liberia" LinkName="daniel-oduber-quiros-international"/>
+    <Destination Code="sjo" TravelName="sanjose" Name="san-jose" LinkName="juan-santamaria-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="cuba" LinkName="cuba">
+    <Destination Code="hav" TravelName="havana" Name="havana" LinkName="jose-marti-international"/>
+  </DestinationGroup>
+  <DestinationGroup Name="mexico" LinkName="mexico">
+    <Destination Code="cun" TravelName="cancun" Name="cancun" LinkName="cancun-international"/>
+    <Destination Code="gdl" TravelName="guadalajara" Name="guadalajara" LinkName="guadalajara-international"/>
+    <Destination Code="zih" TravelName="zihuatanejo" Name="zihuatanejo" LinkName="ixtapa-zihuatanejo-international"/>
+    <Destination Code="lto" TravelName="loreto" Name="loreto" LinkName="loreto-international"/>
+    <Destination Code="sjd" TravelName="loscabos" Name="los-cabos" LinkName="los-cabos-international"/>
+    <Destination Code="zlo" TravelName="manzanillo" Name="manzanillo" LinkName="playa-de-oro-international"/>
+    <Destination Code="mzt" TravelName="mazatlan" Name="mazatlan" LinkName="general-rafael-buelna-international"/>
+    <Destination Code="pvr" TravelName="puertovallarta" Name="puerto-vallarta" LinkName="licenciado-gustavo-diaz-ordaz-international"/>
+  </DestinationGroup>
+</ArrayOfDestinationGroup>

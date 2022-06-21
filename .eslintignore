@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+components/*/dist/
+catelog/assets/
+dist/
+components/shared/p2p-webcomponents-bundle.js
+components/shared/p2p-webcomponents-ce.js
+scripts/component-template.js
+*-css.js
+hooks/*-data.js

@@ -1,0 +1,23 @@
+<auro-button onClick="toggleInterruption('demo1')">Open Dialog</auro-button>
+
+<saver-upsell-dialog data-modal-id="demo1" price="30" roundtrip="true"
+accepthandler="console.log('Upgrade to Main');document.querySelector('saver-upsell-dialog').hideModalBasic()"
+cancelhandler="console.log('Continue with Saver');document.querySelector('saver-upsell-dialog').hideModalBasic()"></saver-upsell-dialog>
+
+<hr/>
+
+<auro-button onClick="toggleInterruption('demo2')">Open Dialog</auro-button>
+
+<saver-upsell-dialog data-modal-id="demo2" price="30"></saver-upsell-dialog>
+
+
+<script>
+  toggleInterruption = (id) => {
+    let component = document.querySelector(`[data-modal-id="${id}"]`);
+    let interruption = component.shadowRoot.querySelector('auro-dialog');
+    
+    interruption.hasAttribute('open')
+      ? interruption.removeAttribute("open")
+      : interruption.setAttribute("open", true);
+  }
+</script>

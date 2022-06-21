@@ -1,0 +1,44 @@
+<link rel="stylesheet"
+  href="https://unpkg.com/@alaskaairux/orion-design-tokens@2.12.1/dist/tokens/CSSTokenProperties.css" />
+<link rel="stylesheet"
+  href="https://unpkg.com/@alaskaairux/orion-web-core-style-sheets@2.12.1/dist/bundled/baseline.css" />
+<script src="https://unpkg.com/@alaskaairux/auro-dialog@1.0.1/dist/polyfills.js"></script>
+
+<script src="https://unpkg.com/@alaskaairux/auro-dialog@1.0.1/dist/auro-dialog__bundled.js"></script>
+
+<auro-dialog id="demoContainer">
+  <span slot="header">Details for flight</span>
+  <fs-matrix-flight-details slot="content"
+  Segments='[{"Carrier":"AS","FlightNumber":187,"DepartureStation":"ADK","ArrivalStation":"ANC","Duration":"4h 15m","Distance":1232,"DepartureTime":"1:45 pm","ArrivalTime":"7:00 pm","DepartureDay":"Wed, Jul 8","ArrivalDay":"Wed, Jul 8","NextDayArrival":false,"NextDayDeparture":true,"Performance":[{"CanceledPercentage":0,"ChronicallyDelayed":false,"EquipmentCode":"73G","EquipmentName":"Boeing 737-700","PercentLate30Plus":20,"PercentOntime":80,"DepartureAirportCode":"ADK","ArrivalAirportCode":"CDB","ChangeOfPlane":false},{"CanceledPercentage":0,"ChronicallyDelayed":true,"EquipmentCode":"73G","EquipmentName":"Boeing 737-700","PercentLate30Plus":40,"PercentOntime":40,"DepartureAirportCode":"CDB","ArrivalAirportCode":"ANC","ChangeOfPlane":false}],"StopoverInformation":["6h","55m"],"Equipment":"73G","FirstClassUpgradeAvailable":false,"FirstClassUpgradeUnavailable":false,"Amenities":["wifi","power","ife"]},{"Carrier":"AS","FlightNumber":172,"DepartureStation":"ANC","ArrivalStation":"PDX","Duration":"3h 20m","Distance":1538,"DepartureTime":"1:55 am","ArrivalTime":"6:15 am","DepartureDay":"Thu, Jul 9","ArrivalDay":"Thu, Jul 9","NextDayArrival":false,"NextDayDeparture":true,"Performance":[{"CanceledPercentage":0,"ChronicallyDelayed":false,"EquipmentCode":"73J","EquipmentName":"Boeing 737-900","PercentLate30Plus":0,"PercentOntime":0,"DepartureAirportCode":"ANC","ArrivalAirportCode":"PDX","ChangeOfPlane":false}],"StopoverInformation":["4h","40m"],"Equipment":"73J","FirstClassUpgradeAvailable":false,"FirstClassUpgradeUnavailable":false,"Amenities":["wifi","power","ife"]},{"Carrier":"AS","FlightNumber":696,"DepartureStation":"PDX","ArrivalStation":"ORD","Duration":"3h 55m","Distance":1733,"DepartureTime":"10:55 am","ArrivalTime":"4:50 pm","DepartureDay":"Thu, Jul 9","ArrivalDay":"Thu, Jul 9","NextDayArrival":false,"NextDayDeparture":false,"Performance":[{"CanceledPercentage":0,"ChronicallyDelayed":false,"EquipmentCode":"320","EquipmentName":"Airbus A320","PercentLate30Plus":0,"PercentOntime":0,"DepartureAirportCode":"PDX","ArrivalAirportCode":"ORD","ChangeOfPlane":false}],"StopoverInformation":["1h","40m"],"Equipment":"320","FirstClassUpgradeAvailable":false,"FirstClassUpgradeUnavailable":false,"Amenities":["wifi","power","ife"]},{"Carrier":"AA","FlightNumber":774,"DepartureStation":"ORD","ArrivalStation":"LGA","Duration":"2h 10m","Distance":731,"DepartureTime":"6:30 pm","ArrivalTime":"9:40 pm","DepartureDay":"Thu, Jul 9","ArrivalDay":"Thu, Jul 9","NextDayArrival":false,"NextDayDeparture":false,"Performance":[{"CanceledPercentage":0,"ChronicallyDelayed":false,"EquipmentCode":"319","EquipmentName":"Airbus A319","PercentLate30Plus":0,"PercentOntime":0,"DepartureAirportCode":"ORD","ArrivalAirportCode":"LGA","ChangeOfPlane":false}],"StopoverInformation":[],"Equipment":"319","FirstClassUpgradeAvailable":false,"FirstClassUpgradeUnavailable":false,"Amenities":["wifi","power","ife"]}]'
+  Duration="12h 49m"></fs-matrix-flight-details>
+</auro-dialog>
+
+<button onclick="fireDemo('nonstop-single-leg.json');">Nonstop 1 Leg</button>
+<button onclick="fireDemo('nonstop-connection.json');">Nonstop 2 Leg</button>
+<button onclick="fireDemo('stopover-single.json');">Stopover Single</button>
+<button onclick="fireDemo('stopover-dual.json');">Stopover Dual</button>
+<button onclick="fireDemo('change-of-gauge.json');">Change of Gauge</button>
+<button onclick="fireDemo('oal-flight.json');">OAL Flight</button>
+<button onclick="fireDemo('operator-disclosure.json');">Operator Disclosure</button>
+<button onclick="fireDemo('subject-to-govt-approval.json');">Govt Approval</button>
+<button onclick="fireDemo('big-flight.json');">Big Flight</button>
+
+<script>
+  function fireDemo(path) {
+    fetch('/assets/json/flight-details-modal/' + path).then(res => res.json()).then(data => {
+      var adapter = document.querySelector("fs-matrix-flight-details")
+      adapter.remove()
+
+      var container = document.querySelector("#demoContainer")
+
+      var el = document.createElement("fs-matrix-flight-details")
+      el.setAttribute('slot', 'content');
+      el.setAttribute("Segments", JSON.stringify(data));
+      el.setAttribute('Duration', 'Duration: 12h 41m')
+      container.appendChild(el);
+      var modal = document.querySelector('auro-dialog');
+      modal.setAttribute('open', true);
+    })
+  }
+
+</script>

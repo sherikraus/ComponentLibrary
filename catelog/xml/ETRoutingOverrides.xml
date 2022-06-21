@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- 
+	add flight routing information to this file that has international stops that are not apparent. e.g. 105 has a stop (leg) in YVR
+	AS0105/15JUN
+	LAX          700A
+	SFO    823A  910A
+	YVR   1122A 1205P
+	ANC    223P
+	when a pnr is booked, Sabre does not store the legs. e.g. flt 105 contains 2 leg stops, SFO & YVR but when this is booked in Sabre
+	the trip looks as LAX-ANC with 2 unknown stops. this fileand, ETRoutingsOverridesDM.cs are intended to contain the inapparent international 
+	routings - LAX-ANC and	SFO-ANC - and functionality.
+-->
+<ETRoutingOverrides>
+	<ETRoutingOverride BeginDate="2007-06-03" EndDate="2007-09-08">
+		<Flight Carrier="AS" Number="105">
+			<Segment DepAirport="LAX" ArrAirport="ANC">
+				<Leg  DepAirport="LAX" ArrAirport="SFO"/>
+				<Leg DepAirport="SFO" ArrAirport="YVR"/>
+				<Leg DepAirport="YVR" ArrAirport="ANC"/>
+			</Segment>
+			<Segment DepAirport="SFO" ArrAirport="ANC">
+				<Leg DepAirport="SFO" ArrAirport="YVR"/>
+				<Leg DepAirport="YVR" ArrAirport="ANC"/>
+			</Segment>
+		</Flight>
+	</ETRoutingOverride>
+	<ETRoutingOverride BeginDate="2007-06-03" EndDate="2007-09-08">
+		<Flight Carrier="AS" Number="102">
+			<Segment DepAirport="FAI" ArrAirport="SFO">
+				<Leg DepAirport="FAI" ArrAirport="ANC"/>
+				<Leg DepAirport="ANC" ArrAirport="YVR"/>
+				<Leg DepAirport="YVR" ArrAirport="SFO"/>
+			</Segment>
+			<Segment DepAirport="FAI" ArrAirport="LAX">
+				<Leg DepAirport="FAI" ArrAirport="ANC"/>
+				<Leg DepAirport="ANC" ArrAirport="YVR"/>
+				<Leg DepAirport="YVR" ArrAirport="SFO"/>
+				<Leg DepAirport="SFO" ArrAirport="LAX"/>
+			</Segment>
+			<Segment DepAirport="ANC" ArrAirport="SFO">
+				<Leg DepAirport="ANC" ArrAirport="YVR"/>
+				<Leg DepAirport="YVR" ArrAirport="SFO"/>
+			</Segment>
+			<Segment DepAirport="ANC" ArrAirport="LAX">
+				<Leg DepAirport="ANC" ArrAirport="YVR"/>
+				<Leg DepAirport="YVR" ArrAirport="SFO"/>
+				<Leg DepAirport="SFO" ArrAirport="LAX"/>
+			</Segment>
+		</Flight>
+	</ETRoutingOverride>
+</ETRoutingOverrides>

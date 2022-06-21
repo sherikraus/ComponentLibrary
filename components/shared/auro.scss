@@ -1,0 +1,33 @@
+$scope: true;
+$prefix: true;
+@import '../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables';
+@import "../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
+@import '../../node_modules/@alaskaairux/webcorestylesheets/dist/fonts';
+@import "../../node_modules/@alaskaairux/webcorestylesheets/dist/normalize";
+@import "../../node_modules/@alaskaairux/webcorestylesheets/dist/essentials";
+@import "../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityClasses";
+@import '../../node_modules/@alaskaairux/design-tokens/dist/tokens/SassCustomProperties';
+@import "../../node_modules/@alaskaairux/webcorestylesheets/dist/headings";
+saver-to-main-single-upsell, 
+saver-to-main-dual-upsell, 
+saver-to-main-upsell-bottom, 
+mobile-message-banner, 
+message-banner, 
+fs-availability-header,
+login-form,
+fs-nav-links,
+fs-matrix-header, 
+fs-matrix-flight-result,
+fs-matrix-flight-result-detail-row {
+  --size-border-radius-default: 0.375em;
+  --size-scale-micro: 0.25em;
+  --size-scale-sml: 0.5em;
+  --size-scale-med: 1em;
+  --size-scale-lg: 1.5em;
+  --size-scale-xl: 2em;
+  --size-scale-xxl: 3em;
+  --size-scale-max: 3.5em;
+  --size-scale-classic: 0.875em;
+  --size-font-root: 1em;
+  --auro-text-body-size-default: 1em;
+}

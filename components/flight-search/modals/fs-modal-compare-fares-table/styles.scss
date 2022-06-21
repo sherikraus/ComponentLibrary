@@ -1,0 +1,236 @@
+@import '../../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SassCustomProperties';
+@import '../../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/fonts';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/normalize';
+
+$paragraph: true;
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/essentials';
+@import '../../../../node_modules/@alaskaairux/icons/dist/icons';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/headings';
+@import "../../../../node_modules/@alaskaairux/webcorestylesheets/dist/componentSupport/table";
+
+$layout-properties: margin padding;
+$layout-extensions: Bottom, Top;
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityMixins/layoutPropertiesGenerator';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityClasses/displayProperties';
+@import '../../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityMixins/anchor-roleButton';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/utilityMixins/focusVisible';
+@import '../../../../node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints';
+@import "../../../../node_modules/@alaskaairux/webcorestylesheets/dist/animation";
+// baseline design tokens as Sass variables
+@import "../../../../node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables";
+#compare-fares-modal{
+}
+
+.footnotes-container {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+slot[name=title] {
+  color: #0074C8;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  padding-bottom: 8px;
+  display: block;
+}
+
+slot[name=content], slot[name=collapsed-content] {
+  color: rgb(98, 107, 121);
+  font-family: 'ASCircular-Book';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  display: block;
+}
+
+.collapsed-content {
+  color: rgb(98, 107, 121);
+  font-family: 'ASCircular-Book';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  display: block;
+}
+
+slot[name=accordion-icon] svg {
+  margin-bottom: -5px;
+  transition: transform 0.3s;
+  display: inline;
+}
+slot[name=accordion-icon] svg path {
+  fill: #0074C8;
+}
+
+slot[name=accordion-icon].open svg {
+  transition: transform 0.3s;
+  transform: rotate(-180deg);
+}
+
+.collapsed-content-container {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.collapsed-content-container.closed {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+}
+
+.content-table{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: var(--auro-size-none) var(--auro-size-xxs);
+}
+
+.fare-comparison-details{
+  width: 826px;
+  height: 40px;
+  border: 1px solid #DCE4EC;
+  margin:  var(--auro-size-xs) 0px;
+}
+
+td{
+  font-size: 12px;
+  color: var(--auro-color-text-primary-on-light);
+  font-family: var(--auro-font-family-default);
+  text-align: left;
+
+  &.center{
+    text-align: center;
+    &.icon {
+      padding-left: 12px;
+      padding-right: 12px;
+      
+    }
+  }
+  @include auro_breakpoint--md {
+    font-size: 16px;
+  }
+}
+
+.fine-print {
+  color: var(--auro-color-text-secondary-on-light);
+  font-size: 12px;
+  font-family: var(--auro-font-family-default);
+  font-weight: 400;
+  line-height: 16px;
+}
+
+
+
+.primary-heading{
+  width: 20%;
+  height: 30px;
+  font-family: var(--auro-font-family-default);
+  font-size: 16px;
+  color: var(--auro-color-text-primary-on-dark);
+  text-align: center;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding-top: 16px;
+
+  &.saver{
+    color: rgb(61, 160, 188);
+    text-align:center;
+    padding-bottom:0px!important;
+    padding-top: 16px;
+    padding-bottom: 0;
+    div {
+      width:95%;
+      font-size: 20px;
+      line-height:28px;
+      font-weight: 400;
+
+    }
+  }
+
+  &.main{
+    color: rgb(39, 116, 174);
+    text-align:center;
+    padding-bottom:0px!important;
+    padding-top: 16px;
+    padding-bottom: 0;
+    div {
+      width:95%;
+      font-size: 20px;
+      line-height:28px;
+      font-weight: 400;
+      padding-bottom:0px!important;
+    }
+  }
+  
+  &.first{
+    color: rgb(1, 66, 106);
+    text-align:center;
+    padding-bottom:0px!important;
+    padding-top: 16px;
+    padding-bottom: 0;
+    div {
+      width:95%;
+      font-size: 20px;
+      line-height:28px;
+      font-weight: 400;
+      padding-bottom:0px!important;
+    }
+  }
+
+  @include auro_breakpoint--md {
+    font-size: var(--auro-text-heading-600-px-breakpoint-lg);
+  }
+}
+
+.secondary-heading{
+    width: 126px;
+    font-family: var(--auro-font-family-default);
+    font-weight: 500;
+    text-align: center;
+    color: var(--auro-color-text-primary-on-light);
+    padding-left :var(--auro-size-xs) !important; 
+    padding-right :var(--auro-size-xs) !important; 
+
+
+
+  &.saver {
+    padding-top:8px;
+    div {
+      height: 6px;
+      background-color: rgb(61, 160, 188);
+      border-radius:4px;
+  
+    }
+  }
+  
+
+
+  &.main {
+    padding-top: 8px;
+    div{
+    height: 6px;
+
+    background-color:  rgb(39, 116, 174);
+    border-radius:4px;
+
+  }
+}
+  &.first {
+    padding-top: 8px;
+    div{
+    height: 6px;
+
+    background: rgb(1, 66, 106);
+    border-radius:4px;
+
+  }
+}
+}
+
+.auro_table thead {
+  border-bottom: unset;
+}

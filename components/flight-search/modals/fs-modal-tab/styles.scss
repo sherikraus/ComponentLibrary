@@ -1,0 +1,44 @@
+@import '../../../shared/auro.scss';
+
+:host([onlight]) button {
+    flex: 1;
+    color: #626b79;
+    border-bottom: 2px solid #dbdbdb;
+    &.selected {
+        border-bottom: 2px solid #0074C8;
+        color: #0074C8;
+    }
+    &.large {
+        width: 100%;
+    }
+}
+
+button {
+    background-color: unset;
+    font-family: var(--auro-font-family-default);
+    display: inline-block;
+    flex: 1;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 4px;
+    margin-right: 16px;
+    margin-left: 16px;
+    text-align: center;
+    color: white;
+    border: none;
+    &.selected {
+        border-bottom: 2px solid #00C7E6;
+        font-weight: 600;
+        outline: none;
+    }
+    &.active {
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
+    &.large {
+        margin:unset;
+        padding:unset;
+    }
+}
